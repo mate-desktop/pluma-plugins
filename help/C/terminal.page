@@ -1,0 +1,66 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-terminal">
+
+  <info>
+    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+    <link type="seealso" xref="pluma-plugins-pyconsole"/>
+    <revision pkgversion="3.8" date="2013-02-24" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+    </credit>
+
+    <include href="legal-plugins.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Add a terminal console to the bottom pane.</desc>
+  </info>
+
+  <title>Embedded Terminal</title>
+
+  <p><app>pluma</app> makes it possible to include an embedded version of
+  <app>MATE Terminal</app>, the MATE command-line application, in the bottom
+  pane of the <app>pluma</app> window. This will let you run scripts, install
+  needed software, or test your program without leaving <app>pluma</app>.</p>
+
+<section id="enable-embedded-terminal">
+  <title>Enable Embedded Terminal</title>
+
+  <steps>
+    <title>To enable the <app>Embedded Terminal</app> plugin:</title>
+    <item>
+      <p>Select <guiseq><gui style="menu">pluma</gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Embedded Terminal</gui> to enable the
+      plugin.</p>
+    </item>
+  </steps>
+
+</section>
+
+<section id="using-embedded-terminal">
+  <title>Using Embedded Terminal</title>
+
+  <p>Once you have enabled the plugin, to add a terminal to the bottom
+  pane:</p>
+
+  <steps>
+    <item>
+      <p>Select <guiseq><gui style="menu">View</gui>
+      <gui style="menuitem">Bottom Pane</gui></guiseq>. Alternatively, you
+      can press <keyseq><key>Ctrl</key><key>F9</key></keyseq>.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

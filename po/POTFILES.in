@@ -1,0 +1,5 @@
+plugins/codecomment/codecomment.plugin.desktop.in.in
+plugins/codecomment/codecomment.py
+plugins/git/git.plugin.desktop.in.in
+plugins/synctex/synctex.plugin.desktop.in.in
+plugins/synctex/synctex/synctex.py

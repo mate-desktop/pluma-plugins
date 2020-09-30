@@ -1,0 +1,23 @@
+General Information
+===================
+
+This is version 1.24.0 of pluma-plugins. pluma-plugins are a set of plugins
+for pluma. pluma-plugins started as a fork of gnome-plugins.
+
+Installation
+============
+
+For the moment, you have to ./configure with --prefix=same prefix as you
+configured pluma with.
+
+How to choose which plugins to build:
+
+./configure --with-plugins=pl1,pl2,...
+
+where pl1, pl2 ... are one of the following:
+
+codecomment    Comment and uncomment blocks of code.
+git            Shows document changes related to git's HEAD.
+synctex        SyncTeX synchronization of TeX files and PDF output.
+
+all            All of the above plugins

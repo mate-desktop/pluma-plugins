@@ -1,0 +1,661 @@
+# Indonesia translation of gedit-plugins.
+# Copyright (C) 2004 THE gedit-plugins' COPYRIGHT HOLDER
+# This file is distributed under the same license as the gedit-plugins package.
+#
+# Mohammad DAMT <mdamt@bisnisweb.com>
+# Ahmad Riza H Nst <ari@160c.afraid.org>, 20040508.
+# Imam Musthaqim, 2010.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010.
+# Andika Triwidada <andika@gmail.com>, 2010, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-plugins master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gedit&keywords=I18N+L10N&component=Plugins\n"
+"POT-Creation-Date: 2013-09-26 08:49+0000\n"
+"PO-Revision-Date: 2013-09-27 18:19+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <gnome@i15n.org>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Tanda taut"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Navigasi dokumen yang mudah dengan tanda taut"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+msgid "Toggle Bookmark"
+msgstr "Jungkitkan Tanda Taut"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+msgid "Toggle bookmark status of the current line"
+msgstr "Jungkitkan tanda taut pada posisi baris kini"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
+msgid "Goto Next Bookmark"
+msgstr "Ke Tanda Taut Berikutnya"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
+msgid "Goto the next bookmark"
+msgstr "Ke tanda taut selanjutnya"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
+msgid "Goto Previous Bookmark"
+msgstr "Ke Tanda Taut Sebelumnya"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
+msgid "Goto the previous bookmark"
+msgstr "Ke tanda taut sebelumnya"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+msgid "Bracket Completion"
+msgstr "Penyelesaian Tanda Kurung"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+msgid "Automatically adds closing brackets."
+msgstr "Otomatis menambah kurung tutup."
+
+#. ex:et:ts=4:
+#: ../plugins/charmap/charmap/__init__.py:51
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+msgid "Character Map"
+msgstr "Tabel Karakter"
+
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Sisipkan karakter khusus hanya dengan mengkliknya."
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+msgid "Code Comment"
+msgstr "Komentar Kode"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Jadikan komentar atau jangan jadikan komentar blok kode yang dipilih."
+
+#: ../plugins/codecomment/codecomment.py:88
+msgid "Co_mment Code"
+msgstr "Ko_mentarkan Kode"
+
+#: ../plugins/codecomment/codecomment.py:90
+msgid "Comment the selected code"
+msgstr "Ubah blok teks yang dipilih menjadi komentar"
+
+#: ../plugins/codecomment/codecomment.py:94
+msgid "U_ncomment Code"
+msgstr "Kode Jangan_beri Komentar"
+
+#: ../plugins/codecomment/codecomment.py:96
+msgid "Uncomment the selected code"
+msgstr "Kode yang dipilih dijadikan bukan komentar"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Pemilih Warna"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Memilih warna dari dialog dan menyisipkan representasi heksadesimalnya."
+
+#: ../plugins/colorpicker/colorpicker.py:161
+msgid "Pick _Color..."
+msgstr "Pilih _Warna..."
+
+#: ../plugins/colorpicker/colorpicker.py:162
+msgid "Pick a color from a dialog"
+msgstr "Pilih warna dari dialog"
+
+#: ../plugins/colorpicker/colorpicker.py:178
+msgid "Pick Color"
+msgstr "Pilih Warna"
+
+#. ex:ts=4:et:
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
+#: ../plugins/colorschemer/schemer/schemer.ui.h:1
+msgid "Color Scheme Editor"
+msgstr "Penyunting Skema Warna"
+
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+msgid "Source code color scheme editor"
+msgstr "Penyunting skema warna kode sumber"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:2
+msgid "Bold"
+msgstr "Tebal"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:3
+msgid "Italic"
+msgstr "Miring"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:4
+msgid "Underline"
+msgstr "Garis Bawah"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:5
+msgid "Strikethrough"
+msgstr "Dicoret"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:6
+msgid "Pick the background color"
+msgstr "Pilih warna latar belakang"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:7
+msgid "Pick the foreground color"
+msgstr "Pilih warna latar depan"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:8
+msgid "_Background"
+msgstr "Latar _Belakang"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:9
+msgid "_Foreground"
+msgstr "Latar _Depan"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:10
+msgid "_Clear "
+msgstr "_Bersihkan"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:11
+msgid "Name"
+msgstr "Nama"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:12
+msgid "ID"
+msgstr "ID"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:13
+msgid "Description"
+msgstr "Deskripsi"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:14
+msgid "Author"
+msgstr "Penulis"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:15
+msgid "Sample"
+msgstr "Contoh"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+msgid "Commander"
+msgstr "Komandan"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+msgid "Command line interface for advanced editing"
+msgstr "Antar muka baris perintah bagi penyuntingan tingkat lanjut"
+
+#: ../plugins/commander/commander/windowactivatable.py:70
+msgid "Commander Mode"
+msgstr "Moda Komandan"
+
+#: ../plugins/commander/commander/windowactivatable.py:71
+msgid "Start commander mode"
+msgstr "Mulai pada moda komandan"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:117
+msgid "Empty Document"
+msgstr "Dokumen Kosong"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:158
+msgid "Type here to search..."
+msgstr "Ketik di sini untuk mencari..."
+
+#. ex:ts=4:et:
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
+msgid "A Dashboard for new tabs"
+msgstr "Dashboard bagi tab baru"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+msgid "Draw Spaces"
+msgstr "Gambar Spasi"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+msgid "Draw spaces and tabs"
+msgstr "Gambar spasi dan tab"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
+msgid "Show _White Space"
+msgstr "Tampilkan _White Space"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
+msgid "Show spaces and tabs"
+msgstr "Tunjukkan spasi dan tab"
+
+#. ex:set ts=8 noet:
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
+msgid "Draw spaces"
+msgstr "Gambar spasi"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
+msgid "Draw tabs"
+msgstr "Menggambar tab"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
+msgid "Draw new lines"
+msgstr "Menggambar garis baru"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
+msgid "Draw non-breaking spaces"
+msgstr "Gambar spasi tak-pecah"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
+msgid "Draw leading spaces"
+msgstr "Gambar spasi awal"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+msgid "Draw spaces in text"
+msgstr "Menggambar spasi dalam teks"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Gambar spasi di ekor baris"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Enabled"
+msgstr "Difungsikan"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
+msgid "If TRUE drawing will be enabled."
+msgstr "Bila TRUE maka menggambar akan difungsikan."
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+msgid "The type of spaces to be drawn."
+msgstr "Tipe spasi yang akan digambar."
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+msgid "Git"
+msgstr "Git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Git differences"
+msgstr "Perbedaan git"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
+msgid "Join/Split Lines"
+msgstr "Gabungkan/Putuskan Garis"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+msgid "Join several lines or split long ones"
+msgstr "Menggabungkan beberapa garis atau memutuskan garis yang panjang"
+
+#: ../plugins/joinlines/joinlines.py:74
+msgid "_Join Lines"
+msgstr "_Gabungkan Baris"
+
+#: ../plugins/joinlines/joinlines.py:75
+msgid "Join the selected lines"
+msgstr "Menggabung baris terpilih"
+
+#: ../plugins/joinlines/joinlines.py:77
+msgid "_Split Lines"
+msgstr "_Putuskan Garis"
+
+#: ../plugins/joinlines/joinlines.py:78
+msgid "Split the selected lines"
+msgstr "Memecah baris terpilih"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:301
+msgid "Added edit point..."
+msgstr "Titik sunting ditambahkan..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:643
+msgid "Column Mode..."
+msgstr "Moda Kolom..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:757
+msgid "Removed edit point..."
+msgstr "Titik sunting dihapus..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:920
+msgid "Cancelled column mode..."
+msgstr "Membatalkan moda kolom..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1293
+msgid "Enter column edit mode using selection"
+msgstr "Masuk moda sunting kolom memakai piliah"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1294
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "Masuk moda sunting kolom <b>cerdas</b> memakai pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1295
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Mode perataan kolom <b>cerdas</b> memakai pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1296
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Mode perataan kolom <b>cerdas</b> dengan spasi tambahan memakai pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1298
+msgid "Toggle edit point"
+msgstr "Jungkit titik sunting"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1299
+msgid "Add edit point at beginning of line/selection"
+msgstr "Tambah titik sunting di awal baris/pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1300
+msgid "Add edit point at end of line/selection"
+msgstr "Tambah titik sunting di akhir baris/pilihan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1301
+msgid "Align edit points"
+msgstr "Ratakan titik sunting"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1302
+msgid "Align edit points with additional space"
+msgstr "Ratakan titik sunting dengan spasi tambahan"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1333
+#: ../plugins/multiedit/multiedit/__init__.py:79
+msgid "Multi Edit Mode"
+msgstr "Moda Sunting Ganda"
+
+#: ../plugins/multiedit/multiedit/__init__.py:81
+msgid "Start multi edit mode"
+msgstr "Mulai moda sunting ganda"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+msgid "Multi Edit"
+msgstr "Sunting Ganda"
+
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+msgid "Edit document in multiple places at once"
+msgstr "Sunting dokumen di beberapa tempat sekaligus"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+msgid "Smart Spaces"
+msgstr "Spasi Cerdas"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+msgid "Forget you're not using tabulations."
+msgstr "Lupa bahwa Anda tidak menggunakan tabulasi."
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Selaraskan antara LaTeX dan PDF dengan gedit dan evince."
+
+#: ../plugins/synctex/synctex/synctex.py:310
+#: ../plugins/synctex/synctex/synctex.py:311
+msgid "Forward Search"
+msgstr "Cari Maju"
+
+#. ex:ts=4:et:
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+msgid "Whether to silence terminal bell"
+msgstr "Apakah membisukan bel terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+msgid ""
+"If true, don't make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Bila true, jangan bunyikan suara saat aplikasi mengirim urutan escape untuk "
+"bel terminal."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+msgid "Number of lines to keep in scrollback"
+msgstr "Cacah baris yang disimpan pada singgahan gulung layar"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"Cacah baris yang disimpan pada saat menggulung layar ke belakang. Anda dapat "
+"menggulung layar terminal ke belakang sebanyak cacah baris ini; baris yang "
+"tidak dapat dimuat di dalam singgahan akan dibuang. Bila "
+"scrollback_unlimited berisi true, nilai ini diabaikan."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Apakah sejumlah tak terbatas baris gulung mundur mesti dipertahankan"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Bila bernilai true, baris gulung mundur tidak akan pernah dibuang. Riwayat "
+"gulung mundur disimpan sementara di cakram, sehingga ini bisa menyebabkan "
+"sistem kehabisan ruang cakram bila ada banyak keluaran ke terminal."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Apakah menggulung layar hingga ke bawah saat tombol ditekan"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+"Bila berisi true, bilah penggulung akan dikembalikan ke bawah bila ada "
+"tombol ditekan."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
+msgid "Whether to scroll to the bottom when there's new output"
+msgstr "Apakah menggulung layar ke bawah saat ada keluaran baru"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+msgid ""
+"If true, whenever there's new output the terminal will scroll to the bottom."
+msgstr ""
+"Bila berisi true, ketika ada keluaran baru tampilan terminal akan digulung "
+"ke bawah."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+msgid "Whether to allow bold text"
+msgstr "Apakah memperbolehkan teks tebal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr ""
+"Bila berisi true, aplikasi dalam terminal diperbolehkan mencetak huruf tebal "
+"dalam teksnya."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+msgid "Characters that are considered \"part of a word\""
+msgstr "Karakter yang dianggap sebagai \"bagian dari kata\""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+msgid ""
+"When selecting text by word, sequences of these characters are considered "
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
+msgstr ""
+"Saat memilih teks berdasarkan kata, urutan karakter-karakter ini akan "
+"dianggap sebagai satu kesatuan pada kata. Jangkauan karakter dapat ditulis "
+"dalam bentuk \"A-Z\". Tanda minus (yang bukan melambangkan jangkauan) bila "
+"ingin dipakai maka harus ditulis pertama kali."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+msgid "Default color of text in the terminal"
+msgstr "Warna teks bawaan dalam terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"Warna teks bawaan terminal, yang ditulis dalam bentuk spesifikasi warna "
+"(boleh berupa kode heksa HTML, atau nama warna misalnya \"red\")."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+msgid "Default color of terminal background"
+msgstr "Warna utama latar terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"Warna latar bawaan terminal, yang ditulis dalam bentuk spesifikasi warna "
+"(boleh berupa kode heksa HTML, atau nama warna misalnya \"red\")."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+msgid "Palette for terminal applications"
+msgstr "Palet untuk aplikasi terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+"Terminal memiliki palet 16-warna yang dapat digunakan oleh aplikasi yang "
+"jalan dalam terminal. Palet ini ditulis dalam bentuk daftar warna yang "
+"dibatasi dengan karakter titik dua. Nama warna harus dalam bentuk heksa, "
+"misalnya \"#FF00FF\""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Apakah menggunakan warna dari tema sistem untuk widget terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Jika berisi true, terminal akan menggunakan skema warna tema untuk kotak "
+"isian teks alih-alih warna yang ditentukan oleh pemakai."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+msgid "Whether to blink the cursor"
+msgstr "Apakah kursor harus berkedip"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+msgid ""
+"The possible values are \"system\" to use the global cursor blinking "
+"settings, or \"on\" or \"off\" to set the mode explicitly."
+msgstr ""
+"Nilai yang mungkin adalah \"system\" untuk memakai pengaturan kedipan kursor "
+"global, atau \"on\" atau \"off\" untuk menata mode secara eksplisit."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+msgid "The cursor appearance"
+msgstr "Penampilan kursor"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+msgid ""
+"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
+"vertical line cursor, or \"underline\" to use an underline cursor."
+msgstr ""
+"Nilai yang mungkin adalah \"block\" untuk memakai kursor kotak, \"ibeam\" "
+"untuk memakai kursor garis tegak, atau \"underline\" untuk kursor garis "
+"bawah."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+msgid "Whether to use the system font"
+msgstr "Menentukan memakai fonta sistem"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Jika bernilai true, maka terminal akan memakai fonta yang diterapkan oleh "
+"desktop secara global jika berjenis monospace (dan fonta lainnya yang "
+"sejenis)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+msgid "Font"
+msgstr "Fonta"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr ""
+"Nama fonta Pango. Sebagai contoh \"Sans 12\" atau \"Monospace Bold 14\"."
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+msgid "Embedded Terminal"
+msgstr "Terminal Tertanam"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+msgid "Embed a terminal in the bottom pane."
+msgstr "Tanamkan terminal dalam panel bawah."
+
+#: ../plugins/terminal/terminal.py:316
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:337
+msgid "C_hange Directory"
+msgstr "Uba_h Direktori"
+
+#: ../plugins/textsize/textsize/__init__.py:142
+msgid "_Larger Text"
+msgstr "Teks _Lebih Besar"
+
+#: ../plugins/textsize/textsize/__init__.py:145
+msgid "S_maller Text"
+msgstr "Teks Lebih _Kecil"
+
+#: ../plugins/textsize/textsize/__init__.py:148
+msgid "_Normal size"
+msgstr "Ukuran _normal"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
+msgid "Text Size"
+msgstr "Ukuran Teks"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+msgid "Easily increase and decrease the text size"
+msgstr "Memperbesar dan memperkecil ukuran teks secara mudah"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+msgid "Interactive completion"
+msgstr "Penyelesaian interaktif"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "Ukuran kata minimum:"
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+msgid "Document Words"
+msgstr "Kata Dokumen"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+msgid "Interactive Completion"
+msgstr "Penyelesaian Interaktif"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "Apakah mengaktifkan penyelesaian interaktif."
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "Ukuran Kata Minimum"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "Ukuran kata minimum yang dilengkapkan."
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Penyelesaian Kata"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "Penyelesaian kata memakai kerangka kerja penyelesaian"

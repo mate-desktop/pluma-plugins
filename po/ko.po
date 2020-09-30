@@ -1,0 +1,623 @@
+# gedit ko.po
+# This file is distributed under the same license as the gedit package.
+#
+# Sung-Hyun Nam <namsh@lgic.co.kr>, 1998
+# Chideok Hwang <hwang@mizi.co.kr>, 2000, 2001
+# Young-Ho, Cha <ganadist@chollian.net>, 2000, 2002, 2007
+# Changwoo Ryu <cwryu@debian.org>, 2004, 2007-2009, 2010, 2013.
+#
+# 새로 번역하시는 분은 아래 translator-credits에 추가하세요.
+#
+# 주의:
+# - gedit 번역과 일관성 유지
+# - 이 프로그램의 이름인 gedit는 "지에디트"로 음역
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gedit&keywords=I18N+L10N&component=Plugins\n"
+"POT-Creation-Date: 2013-08-02 13:25+0000\n"
+"PO-Revision-Date: 2013-09-14 20:00+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: Korean\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "책갈피"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "책갈피를 이용해 간편하게 문서를 봅니다"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+msgid "Toggle Bookmark"
+msgstr "책갈피 토글"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+msgid "Toggle bookmark status of the current line"
+msgstr "현재 줄의 책갈피 상태를 토글합니다"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
+msgid "Goto Next Bookmark"
+msgstr "다음 책갈피로 이동"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
+msgid "Goto the next bookmark"
+msgstr "다음 책갈피로 이동합니다"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
+msgid "Goto Previous Bookmark"
+msgstr "이전 책갈피로 이동"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
+msgid "Goto the previous bookmark"
+msgstr "이전 책갈피로 이동합니다"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+msgid "Bracket Completion"
+msgstr "대괄호 일치"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+msgid "Automatically adds closing brackets."
+msgstr "자동으로 닫는 대괄호를 추가합니다."
+
+#. ex:et:ts=4:
+#: ../plugins/charmap/charmap/__init__.py:51
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+msgid "Character Map"
+msgstr "문자표"
+
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "마우스로 눌러 특수 문자를 입력합니다."
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+msgid "Code Comment"
+msgstr "코드 주석"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "지정한 블럭의 코드를 주석으로 만들거나 해제합니다."
+
+#: ../plugins/codecomment/codecomment.py:88
+msgid "Co_mment Code"
+msgstr "코드 주석(_M)"
+
+#: ../plugins/codecomment/codecomment.py:90
+msgid "Comment the selected code"
+msgstr "선택한 코드를 주석으로 만듭니다"
+
+#: ../plugins/codecomment/codecomment.py:94
+msgid "U_ncomment Code"
+msgstr "코드 주석 해제(_N)"
+
+#: ../plugins/codecomment/codecomment.py:96
+msgid "Uncomment the selected code"
+msgstr "선택한 코드의 주석을 해제합니다"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "색 고르기"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "대화 상자에서 색을 골라 그 16진수 표현을 입력합니다."
+
+#: ../plugins/colorpicker/colorpicker.py:161
+msgid "Pick _Color..."
+msgstr "색 고르기(_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:162
+msgid "Pick a color from a dialog"
+msgstr "대화 상자에서 색을 고릅니다"
+
+#: ../plugins/colorpicker/colorpicker.py:178
+msgid "Pick Color"
+msgstr "색 고르기"
+
+#. ex:ts=4:et:
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
+#: ../plugins/colorschemer/schemer/schemer.ui.h:1
+msgid "Color Scheme Editor"
+msgstr "색 편집"
+
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+msgid "Source code color scheme editor"
+msgstr "소스 코드 색 편집"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:2
+msgid "Bold"
+msgstr "굵게"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:3
+msgid "Italic"
+msgstr "기울임"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:4
+msgid "Underline"
+msgstr "밑줄"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:5
+msgid "Strikethrough"
+msgstr "취소선"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:6
+msgid "Pick the background color"
+msgstr "배경색 고르기"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:7
+msgid "Pick the foreground color"
+msgstr "글자색 고르기"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:8
+msgid "_Background"
+msgstr "배경색(_B)"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:9
+msgid "_Foreground"
+msgstr "글자색(_F)"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:10
+msgid "_Clear "
+msgstr "지우기(_C)"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:11
+msgid "Name"
+msgstr "이름"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:12
+msgid "ID"
+msgstr "ID"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:13
+msgid "Description"
+msgstr "설명"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:14
+msgid "Author"
+msgstr "만든이"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:15
+msgid "Sample"
+msgstr "예제"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+msgid "Commander"
+msgstr "명령어"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+msgid "Command line interface for advanced editing"
+msgstr "명령어 인터페이스, 고급 편집에 사용"
+
+#: ../plugins/commander/commander/windowactivatable.py:70
+msgid "Commander Mode"
+msgstr "명령어 모드"
+
+#: ../plugins/commander/commander/windowactivatable.py:71
+msgid "Start commander mode"
+msgstr "명령어 모드 시작"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:117
+msgid "Empty Document"
+msgstr "빈 문서"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:158
+msgid "Type here to search..."
+msgstr "검색하려면 입력하십시오..."
+
+#. ex:ts=4:et:
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
+msgid "A Dashboard for new tabs"
+msgstr "새 탭의 대시보드"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+msgid "Draw Spaces"
+msgstr "공백 보기"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+msgid "Draw spaces and tabs"
+msgstr "공백과 탭 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
+msgid "Show _White Space"
+msgstr "공백 문자 표시(_W)"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
+msgid "Show spaces and tabs"
+msgstr "공백과 탭을 표시합니다"
+
+#. ex:set ts=8 noet:
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
+msgid "Draw spaces"
+msgstr "공백 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
+msgid "Draw tabs"
+msgstr "탭 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
+msgid "Draw new lines"
+msgstr "줄 바꿈 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
+msgid "Draw non-breaking spaces"
+msgstr "끊어지지 않는 공백 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
+msgid "Draw leading spaces"
+msgstr "앞에 붙은 공백 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+msgid "Draw spaces in text"
+msgstr "텍스트 중간의 공백 보기"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "뒤에 붙은 공백 보기"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Enabled"
+msgstr "사용"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
+msgid "If TRUE drawing will be enabled."
+msgstr "참이면 공백을 봅니다."
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+msgid "The type of spaces to be drawn."
+msgstr "볼 공백의 종류."
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+msgid "Git"
+msgstr "git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Git differences"
+msgstr "git 차이점"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
+msgid "Join/Split Lines"
+msgstr "줄 합치기/나누기"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+msgid "Join several lines or split long ones"
+msgstr "여러 줄을 합치거나 긴 줄을 나눕니다"
+
+#: ../plugins/joinlines/joinlines.py:74
+msgid "_Join Lines"
+msgstr "줄 합치기(_J)"
+
+#: ../plugins/joinlines/joinlines.py:75
+msgid "Join the selected lines"
+msgstr "선택한 줄을 합칩니다"
+
+#: ../plugins/joinlines/joinlines.py:77
+msgid "_Split Lines"
+msgstr "줄 나누기(_S)"
+
+#: ../plugins/joinlines/joinlines.py:78
+msgid "Split the selected lines"
+msgstr "선택한 줄을 나눕니다"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:301
+msgid "Added edit point..."
+msgstr "편집 위치 추가..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:643
+msgid "Column Mode..."
+msgstr "열 모드..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:757
+msgid "Removed edit point..."
+msgstr "편집 위치 제거..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:920
+msgid "Cancelled column mode..."
+msgstr "열 모드 취소..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1293
+msgid "Enter column edit mode using selection"
+msgstr "선택한 사항을 이용해 열 편집 모드로 들어갑니다"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1294
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "선택한 사항을 이용해 <b>똑똑한</b> 열 편집 모드로 들어갑니다"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1295
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "선택한 사항을 이용해 <b>똑똑한</b> 열 정렬 모드"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1296
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr "선택한 사항을 이용해 추가 공백으로 <b>똑똑한</b> 열 정렬 모드"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1298
+msgid "Toggle edit point"
+msgstr "편집 위치 토글"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1299
+msgid "Add edit point at beginning of line/selection"
+msgstr "줄이나 선택 처음에 편집 위치를 추가합니다"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1300
+msgid "Add edit point at end of line/selection"
+msgstr "줄이나 선택 끝에 편집 위치를 추가합니다"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1301
+msgid "Align edit points"
+msgstr "편집 위치 정렬"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1302
+msgid "Align edit points with additional space"
+msgstr "편집 위치를 추가 공백으로 정렬"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1333
+#: ../plugins/multiedit/multiedit/__init__.py:79
+msgid "Multi Edit Mode"
+msgstr "다중 편집 모드"
+
+#: ../plugins/multiedit/multiedit/__init__.py:81
+msgid "Start multi edit mode"
+msgstr "다중 편집 모드 시작"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+msgid "Multi Edit"
+msgstr "다중 편집"
+
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+msgid "Edit document in multiple places at once"
+msgstr "여러 위치에서 동시에 문서를 편집합니다"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+msgid "Smart Spaces"
+msgstr "똑똑한 공백"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+msgid "Forget you're not using tabulations."
+msgstr "탭 문자를 알아서 넣습니다."
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "지에디트와 에빈스의 LaTeX과 PDF 문서를 동기화합니다."
+
+#: ../plugins/synctex/synctex/synctex.py:310
+#: ../plugins/synctex/synctex/synctex.py:311
+msgid "Forward Search"
+msgstr "앞으로 검색"
+
+#. ex:ts=4:et:
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+msgid "Whether to silence terminal bell"
+msgstr "터미널 삑 소리를 조용히 할지 여부"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+msgid ""
+"If true, don't make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr "참이면, 프로그램이 터미널 삑소리를 보내도 소리를 내지 않습니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+msgid "Number of lines to keep in scrollback"
+msgstr "뒤로 스크롤할 때 저장할 줄 수"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr "뒤로 스크롤할 때 저장하고 있는 줄 수. 터미널에서 이 줄 수 만큼 뒤로 스크롤할 수 있습니다. 넘어가는 줄은 없어집니다. scrollback-unlimited가 참이면, 이 값을 무시합니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "스크롤할 때 제한 없이 저장할지 여부."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr "참이면 스크롤할 줄을 버리지 않습니다. 스크롤된 줄을  스크에 임시로 저장하므로, 이 기능을 사용하면 터미널에 출력이 많을 때 디스크 공간이 부족해질 수도 있습니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "키를 누를 때 맨 아래로 스크롤할지 여부"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "참이면 키를 누를 때 맨 아래로 스크롤 위치를 옮깁니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
+msgid "Whether to scroll to the bottom when there's new output"
+msgstr "새 출력이 있을 때 맨 아래로 스크롤할지 여부"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+msgid ""
+"If true, whenever there's new output the terminal will scroll to the bottom."
+msgstr "참이면 터미널에 새 출력이 있을 때 맨 아래로 스크롤 위치를 옮깁니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+msgid "Whether to allow bold text"
+msgstr "굵은 글씨를 허용할지 여부"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr "참이면 터미널의 프로그램에서 굵은 글자를 출력할 수 있도록 허용합니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+msgid "Characters that are considered \"part of a word\""
+msgstr "\"단어의 일부\"로 취급할 문자"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+msgid ""
+"When selecting text by word, sequences of these characters are considered "
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
+msgstr "텍스트를 단어 단위로 선택할 때, 여기서 지정한 문자의 연속을 한 단어로 취급합니다. \"A-Z\"와 같은 식으로 범위를 지정할 수도 있습니다. 범위 지정이 아닐 때 빼기 기호를 넣으려면 첫 글자로 넣어야 합니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+msgid "Default color of text in the terminal"
+msgstr "터미널의 기본 글자색"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr "터미널의 글자색, 컬러 지정 형식으로(HTML 방식의 16진수 숫자, 또는 \"red\"같은 식의 색 이름)"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+msgid "Default color of terminal background"
+msgstr "터미널의 기본 배경색"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr "터미널의 배경색, 컬러 지정 형식으로(HTML 방식의 16진수 숫자, 또는 \"red\"같은 식의 색 이름)"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+msgid "Palette for terminal applications"
+msgstr "터미널 프로그램의 팔레트"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr "터미널 안의 프로그램이 사용할 수 있는 16색의 팔레트가 있습니다. 여기서 그 팔레트를 지정합니다. 형식은 색 이름을 쉼표로 구분한 목록입니다. 색 이름은 16진수 형식으로(예: \"#FF00FF\") 써야 합니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "터미널 위젯의 테마에서 색 사용"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr "참이면 텍스트 입력창에서 사용자가 지정한 색 대신 테마 색을 사용합니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+msgid "Whether to blink the cursor"
+msgstr "커서를 깜박일지 여부"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+msgid ""
+"The possible values are \"system\" to use the global cursor blinking "
+"settings, or \"on\" or \"off\" to set the mode explicitly."
+msgstr "\"system\"이면 전체 커서 깜박이기 설정 사용, \"on\"이나 \"off\"면 모드를 직접 지정."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+msgid "The cursor appearance"
+msgstr "커서 모양"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+msgid ""
+"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
+"vertical line cursor, or \"underline\" to use an underline cursor."
+msgstr "\"block\"이면 사각형 커서 사용, \"ibeam\"이면 세로 줄 모양 커서 사용, \"underline\"이면 밑줄 커서 사용."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+msgid "Whether to use the system font"
+msgstr "시스템 글꼴을 사용할지 여부"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr "참이면 터미널에서 고정폭 desktop-global 표준 글꼴(또는 가장 비슷한 글꼴)을 사용합니다."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+msgid "Font"
+msgstr "글꼴"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr "판고 글꼴 이름. 예를 들어 \"Sans 12\" 또는 \"Monospace Bold 14\"."
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+msgid "Embedded Terminal"
+msgstr "내장 터미널"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+msgid "Embed a terminal in the bottom pane."
+msgstr "맨 아래 창에 터미널을 엽니다."
+
+#: ../plugins/terminal/terminal.py:318
+msgid "Terminal"
+msgstr "터미널"
+
+#: ../plugins/terminal/terminal.py:339
+msgid "C_hange Directory"
+msgstr "디렉터리 바꾸기(_H)"
+
+#: ../plugins/textsize/textsize/__init__.py:142
+msgid "_Larger Text"
+msgstr "큰 텍스트(_L)"
+
+#: ../plugins/textsize/textsize/__init__.py:145
+msgid "S_maller Text"
+msgstr "작은 텍스트(_M)"
+
+#: ../plugins/textsize/textsize/__init__.py:148
+msgid "_Normal size"
+msgstr "보통 크기(_N)"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
+msgid "Text Size"
+msgstr "텍스트 크기"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+msgid "Easily increase and decrease the text size"
+msgstr "텍스트 크기를 간단히 키우거나 줄입니다"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+msgid "Interactive completion"
+msgstr "대화형 완성"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "최소 단어 크기:"
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+msgid "Document Words"
+msgstr "문서 단어"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+msgid "Interactive Completion"
+msgstr "대화형 완성"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "대화형 완성을 사용할지 여부."
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "최소 단어 크기"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "자동 완성할 최소 단어 크기."
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "단어 완성"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "자동 완성 프레임워크를 사용한 단어 완성"

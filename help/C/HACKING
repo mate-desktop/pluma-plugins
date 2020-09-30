@@ -1,0 +1,6 @@
+This help is installed into the gedit help when the gedit-plugins is installed.
+Links do not validate because they link to pages in the gedit help (these work
+after installation). Check these before every release.
+
+The dummy index.page is needed for module statistics on
+https://l10n.gnome.org/module/gedit-plugins/

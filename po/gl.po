@@ -1,0 +1,1837 @@
+# translation of gedit-master-po-gl-116402.merged.po to Galician
+# Galician translation of gedit.
+# Copyright (C) 1999-2001, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+# Ruben Lopez Gomez <ryu@mundivia.es>, 1999.
+# Manuel A. FernÃ¡ndez Montecelo <manuel@sindominio.net>, 2001.
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Suso Baleato <suso.baleato@xunta.es>, 2009.
+# Antón Méixome <meixome@mancomun.org>, 2009.
+# Francisco Diéguez <frandieguez@ubuntu.com>, 2010.
+# Antón Méixome <meixome@certima.net>, 2010.
+# Fran Diéguez <frandieguez@gnome.org>, 2010, 2011.
+# Xosé M. Lamas <correo.xmgz@gmail.com>, 2012
+# Fran Dieguez <frandieguez@gnome.org>, 2009, 2010, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-master-po-gl-116402.merged\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-03 02:15+0100\n"
+"PO-Revision-Date: 2014-01-03 02:16+0200\n"
+"Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
+"Language-Team: gnome-l10n-gl@gnome.org\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Navegación do documento sinxela con marcadores"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+msgid "Toggle Bookmark"
+msgstr "Trocar marcador"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+msgid "Toggle bookmark status of the current line"
+msgstr "Trocar o estado do marcador na liña actual"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
+msgid "Goto Next Bookmark"
+msgstr "Ir ao seguinte marcador"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
+msgid "Goto the next bookmark"
+msgstr "Ir ao seguinte marcador"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
+msgid "Goto Previous Bookmark"
+msgstr "Ir ao marcador anterior"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
+msgid "Goto the previous bookmark"
+msgstr "Ir ao marcador anterior"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+msgid "Bracket Completion"
+msgstr "Completar parénteses"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+msgid "Automatically adds closing brackets."
+msgstr "Engadir automaticamente peches de parénteses."
+
+#. ex:et:ts=4:
+#: ../plugins/charmap/charmap/__init__.py:51
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+msgid "Character Map"
+msgstr "Mapa de caracteres"
+
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Insire caracteres especiais só con facer clic neles."
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+msgid "Code Comment"
+msgstr "Comentar código"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Comenta ou descomenta un bloque de código descomentado."
+
+#: ../plugins/codecomment/codecomment.py:88
+msgid "Co_mment Code"
+msgstr "Co_mentar código"
+
+#: ../plugins/codecomment/codecomment.py:90
+msgid "Comment the selected code"
+msgstr "Comentar o código seleccionado"
+
+#: ../plugins/codecomment/codecomment.py:94
+msgid "U_ncomment Code"
+msgstr "_Descomentar o código"
+
+#: ../plugins/codecomment/codecomment.py:96
+msgid "Uncomment the selected code"
+msgstr "Descomentar o código seleccionado"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Selector de cor"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Escolle unha cor dende un diálogo e insire a súa representación hexadecimal."
+
+#: ../plugins/colorpicker/colorpicker.py:161
+msgid "Pick _Color..."
+msgstr "Escoller unha _cor..."
+
+#: ../plugins/colorpicker/colorpicker.py:162
+msgid "Pick a color from a dialog"
+msgstr "Escoller unha cor dende un diálogo"
+
+#: ../plugins/colorpicker/colorpicker.py:178
+msgid "Pick Color"
+msgstr "Seleccionar un cor"
+
+#. ex:ts=4:et:
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
+#: ../plugins/colorschemer/schemer/schemer.ui.h:1
+msgid "Color Scheme Editor"
+msgstr "Editor de esquema de cores"
+
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+msgid "Source code color scheme editor"
+msgstr "Editor de esquema de cores do código fonte"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:2
+msgid "Bold"
+msgstr "Negra"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:3
+msgid "Italic"
+msgstr "Cursiva"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:4
+msgid "Underline"
+msgstr "Subliñado"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:5
+msgid "Strikethrough"
+msgstr "Riscado"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:6
+msgid "Pick the background color"
+msgstr "Escoller a cor do fondo"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:7
+msgid "Pick the foreground color"
+msgstr "Escoller a cor de _primeiro plano"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:8
+msgid "_Background"
+msgstr "_Fondo"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:9
+msgid "_Foreground"
+msgstr "_Primeiro plano"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:10
+msgid "_Clear "
+msgstr "_Limpar"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:11
+msgid "Name"
+msgstr "Nome"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:12
+msgid "ID"
+msgstr "ID"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:13
+msgid "Description"
+msgstr "Descrición"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:14
+msgid "Author"
+msgstr "Autor"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:15
+msgid "Sample"
+msgstr "Exemplo"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+msgid "Command line interface for advanced editing"
+msgstr "Interface de liña de ordes para a edición avanzada"
+
+#: ../plugins/commander/commander/windowactivatable.py:70
+msgid "Commander Mode"
+msgstr "Modo «commander»"
+
+#: ../plugins/commander/commander/windowactivatable.py:71
+msgid "Start commander mode"
+msgstr "Iniciar o modo «commander»"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:117
+msgid "Empty Document"
+msgstr "Documento baleiro"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:158
+msgid "Type here to search..."
+msgstr "Escriba aquí para buscar"
+
+#. ex:ts=4:et:
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+msgid "Dashboard"
+msgstr "Taboleiro"
+
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
+msgid "A Dashboard for new tabs"
+msgstr "Un Taboleiro para novas lapelas"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+msgid "Draw Spaces"
+msgstr "Debuxar espazos"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+msgid "Draw spaces and tabs"
+msgstr "Debuxar espazos e tabulacións"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
+msgid "Show _White Space"
+msgstr "Mostrar espazos en _branco"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
+msgid "Show spaces and tabs"
+msgstr "Mostrar espazos e tabulacións"
+
+#. ex:set ts=8 noet:
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
+msgid "Draw spaces"
+msgstr "Debuxar espazos"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
+msgid "Draw tabs"
+msgstr "Debuxar tabulacións"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
+msgid "Draw new lines"
+msgstr "Debuxar carácter de nova liña"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
+msgid "Draw non-breaking spaces"
+msgstr "Debuxar espazos de non rotura"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
+msgid "Draw leading spaces"
+msgstr "Debuxar espazos iniciais"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+msgid "Draw spaces in text"
+msgstr "Debuxar espazos no texto"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Debuxar espazos adicionais"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Enabled"
+msgstr "Activado"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
+msgid "If TRUE drawing will be enabled."
+msgstr "Se está activada activarase o debuxado"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+msgid "The type of spaces to be drawn."
+msgstr "O tipo de espazos que debuxar."
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+msgid "Git"
+msgstr "Git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Realzar liñas que foron cambiadas desde a última remisión"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
+msgid "Join/Split Lines"
+msgstr "Unir/Separar liñas"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+msgid "Join several lines or split long ones"
+msgstr "Une varias liñas ou separa as longas"
+
+#: ../plugins/joinlines/joinlines.py:74
+msgid "_Join Lines"
+msgstr "_Unir liñas"
+
+#: ../plugins/joinlines/joinlines.py:75
+msgid "Join the selected lines"
+msgstr "Unir as liñas seleccionadas"
+
+#: ../plugins/joinlines/joinlines.py:77
+msgid "_Split Lines"
+msgstr "_Dividir liñas"
+
+#: ../plugins/joinlines/joinlines.py:78
+msgid "Split the selected lines"
+msgstr "Dividir as liñas seleccionadas"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:301
+msgid "Added edit point..."
+msgstr "Punto de edición engadido..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:643
+msgid "Column Mode..."
+msgstr "Modo de columna..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:757
+msgid "Removed edit point..."
+msgstr "Punto de edición eliminado..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:920
+msgid "Cancelled column mode..."
+msgstr "Modo de columna cancelado..."
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1293
+msgid "Enter column edit mode using selection"
+msgstr "Insira o modo de edición de columna usando a selección"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1294
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Entrar no modo de edición de columna <b>intelixente</b> usando a selección"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1295
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Modo de aliñado de columna <b>intelixente</b> usando a selección"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1296
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Modo de aliñado de columna <b>intelixente</b> con espazo adicional usando a "
+"selección"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1298
+msgid "Toggle edit point"
+msgstr "Punto de edición trocado"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1299
+msgid "Add edit point at beginning of line/selection"
+msgstr "Engadir un punto de edición ao principio da liña/selección"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1300
+msgid "Add edit point at end of line/selection"
+msgstr "Engadir un punto de edición ao final da liña/selección"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1301
+msgid "Align edit points"
+msgstr "Aliñar os puntos de edición"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1302
+msgid "Align edit points with additional space"
+msgstr "Aliñar os puntos de edición con espazo adicional"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1333
+#: ../plugins/multiedit/multiedit/__init__.py:79
+msgid "Multi Edit Mode"
+msgstr "Modo de edición múltiple"
+
+#: ../plugins/multiedit/multiedit/__init__.py:81
+msgid "Start multi edit mode"
+msgstr "Iniciar o modo de edición múltiple"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+msgid "Multi Edit"
+msgstr "Edición múltiple"
+
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+msgid "Edit document in multiple places at once"
+msgstr "Editar o documento en múltiples lugares á vez"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+msgid "Smart Spaces"
+msgstr "Espazos intelixentes"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+msgid "Forget you're not using tabulations."
+msgstr "Esqueceu que vostede non está empregando tabulacións."
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Sincronizar entre LaTeX e PDF con gedit e evince"
+
+#: ../plugins/synctex/synctex/synctex.py:310
+#: ../plugins/synctex/synctex/synctex.py:311
+msgid "Forward Search"
+msgstr "Busca cara adiante"
+
+#. ex:ts=4:et:
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+msgid "Whether to silence terminal bell"
+msgstr "Indica se se silencia a campá do terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+msgid ""
+"If true, don't make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Se é true, non emite ningún ruído cando os aplicativos envían a secuencia de "
+"escape para a campá do terminal."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+msgid "Number of lines to keep in scrollback"
+msgstr "Número de liñas que se manteñen no desprazamento"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"O número de liñas de desprazamento que se manteñen na memoria. Pode ir para "
+"atrás no terminal ese número de liñas; as que non caiban no desprazamento "
+"rexéitanse. se scrollback_unlimited é true, o valor ignorarase."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+"Indica se se debe manter un número de liñas non limitado no desprazamento"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Se é true, nunca se rexeitarán as liñas de desprazamento cara atrás. O "
+"historial de desprazamento cara atrás almacénase temporalmente no disco, "
+"polo que isto pode causar ue o seu sistema quede sen espazo de disco se hai "
+"moita saída na terminal."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Indica se se despraza ao final ao premer unha tecla"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+"Se é true, ao premer unha tecla a barra de desprazamento vai ata o final."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
+msgid "Whether to scroll to the bottom when there's new output"
+msgstr "Indica se se despraza ao final cando hai unha saída nova"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+msgid ""
+"If true, whenever there's new output the terminal will scroll to the bottom."
+msgstr ""
+"Se é true, a barra de desprazamento irá ao final cando haxa unha saída nova "
+"no terminal."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+msgid "Whether to allow bold text"
+msgstr "Indica se se permite texto en negriña"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr ""
+"Se é true, permite que os aplicativos no terminal mostren o texto en negra."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+msgid "Characters that are considered \"part of a word\""
+msgstr "Caracteres considerados «parte dunha palabra»"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+msgid ""
+"When selecting text by word, sequences of these characters are considered "
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
+msgstr ""
+"Cando se selecciona un texto por palabras, as secuencias destes caracteres "
+"considéranse palabras únicas. Os intervalos pódense indicar como \"A-Z\". O "
+"guión literal (que non expresa un intervalo) debe ser o primeiro carácter "
+"indicado."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+msgid "Default color of text in the terminal"
+msgstr "Cor predeterminado do texto na terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"Cor predeterminada do texto no terminal como unha especificación de cor "
+"(poden ser díxitos hexadecimais no estilo HTML ou un nome de cor en inglés "
+"como \"red\")."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+msgid "Default color of terminal background"
+msgstr "Cor predeterminado do fondo do terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"Cor predeterminado do fondo da terminal, como unha especificación de cor "
+"(pode ser en estilo hexadecimal de HTML ou o nome de cor en inglés como "
+"«red»)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+msgid "Palette for terminal applications"
+msgstr "Paleta para os aplicativos do terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+"Os terminais teñen unha paleta de 16 cores que poden usar os aplicativos que "
+"se executen dentro del. Esta é esa paleta, na forma dunha lista de cores "
+"separadas por dous puntos. Os nomes de cores deben ter formato hexadecimal, "
+"por exemplo: \"#FF00FF\""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Indica se se usan as cores do tema no widget do terminal"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Se é true, o esquema de cores do tema usado para as caixas de texto será "
+"empregado para o terminal, en vez das cores proporcionadas polo usuario."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+msgid "Whether to blink the cursor"
+msgstr "Indica se o cursor pestanexa"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+msgid ""
+"The possible values are \"system\" to use the global cursor blinking "
+"settings, or \"on\" or \"off\" to set the mode explicitly."
+msgstr ""
+"Os valores posíbeis son \"system\" para utilizar configuracións globais "
+"intermitentes do cursor, ou \"on\" ou \"of\" para definir o modo de maneira "
+"explícita."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+msgid "The cursor appearance"
+msgstr "Aparencia do cursor"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+msgid ""
+"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
+"vertical line cursor, or \"underline\" to use an underline cursor."
+msgstr ""
+"Os valores posíbeis son \"block\" para utilizar un cursor de bloque, \"ibeam"
+"\" para utilizar un cursor de liña vertical, ou \"underline\" para utilizar "
+"un cursor de subliñado."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+msgid "Whether to use the system font"
+msgstr "Indica se se debe usar o tipo de letra do sistema"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Se é certo, o terminal usará o tipo de letra global estándar do escritorio "
+"se este é de ancho fixo (en caso contrario usarase o tipo de letra máis "
+"semellante a este)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+msgid "Font"
+msgstr "Tipo de letra"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr ""
+"Un nome de tipo de letra Pango. Por exemplo «Sans 12» ou «Monospace Bold 14»."
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+msgid "Embedded Terminal"
+msgstr "Terminal empotrado"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+msgid "Embed a terminal in the bottom pane."
+msgstr "Empotre un terminal no panel inferior."
+
+#: ../plugins/terminal/terminal.py:316
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../plugins/terminal/terminal.py:337
+msgid "C_hange Directory"
+msgstr "_Cambiar de cartafol"
+
+#: ../plugins/textsize/textsize/__init__.py:142
+msgid "_Larger Text"
+msgstr "Texto máis _grande"
+
+#: ../plugins/textsize/textsize/__init__.py:145
+msgid "S_maller Text"
+msgstr "Texto máis _pequeno"
+
+#: ../plugins/textsize/textsize/__init__.py:148
+msgid "_Normal size"
+msgstr "Tamaño _normal"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
+msgid "Text Size"
+msgstr "Tamaño do texto"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+msgid "Easily increase and decrease the text size"
+msgstr "Aumentar e reducir facilmente o tamaño do texto"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+msgid "Interactive completion"
+msgstr "Completado interactivo"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "Tamaño mínimo de palabra:"
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+msgid "Document Words"
+msgstr "Palabras do documento"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+msgid "Interactive Completion"
+msgstr "Completado interactivo"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "Indica se se activa o completado interactivo."
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "Tamaño mínimo de palabra"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "O tamaño mínimo de palabra a completar."
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Completado de palabras"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "O completado de palabras usando o marco de traballo de completado"
+
+#~ msgid "Git differences"
+#~ msgstr "Diferenzas Git"
+
+#~ msgid "Most Used"
+#~ msgstr "Os máis utilizados"
+
+#~ msgid "Recently Used"
+#~ msgstr "Utilizados recentemente"
+
+#~ msgid "Session Name"
+#~ msgstr "Nome de sesión"
+
+#~ msgid "Recover '%s' session"
+#~ msgstr "Recuperar a sesión '%s'"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "Versións gar_dadas"
+
+#~ msgid "_Save current session"
+#~ msgstr "_Gardar a sesión actual"
+
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "Gardar a lista do documento actual como unha nova sesión"
+
+#~ msgid "_Manage saved sessions..."
+#~ msgstr "_Xestionar sesións gardadas..."
+
+#~ msgid "Open the saved session manager"
+#~ msgstr "Abrir o xestor de sesións gardadas"
+
+#~ msgid "Session Saver"
+#~ msgstr "Recuperador de sesións"
+
+#~ msgid "Save and restore your working sessions"
+#~ msgstr "Garda e recupera a súa sesión de traballo"
+
+#~ msgid "Save session"
+#~ msgstr "Gardar sesión"
+
+#~ msgid "Session name:"
+#~ msgstr "Nome da sesión:"
+
+#~ msgid "Saved Sessions"
+#~ msgstr "Sesións gardadas"
+
+#~ msgid "Tags"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Seleccione o grupo de etiquetas que quere usar"
+
+#~ msgid "_Preview"
+#~ msgstr "_Previsualización"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "Lista de etiquetas dispoñíbeis"
+
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 — Etiquetas"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Forma abreviada"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Abreviatura"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "Carácter de tecla de accesibilidade"
+
+#~ msgid "Acronym"
+#~ msgstr "Acrónimo"
+
+#~ msgid "Align"
+#~ msgstr "Aliñar"
+
+#~ msgid "Alignment character"
+#~ msgstr "Carácter de aliñamento"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternativa"
+
+#~ msgid "Anchor URI"
+#~ msgstr "URI da áncora"
+
+#~ msgid "Anchor"
+#~ msgstr "Áncora"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Código de ficheiro de clase de miniaplicativo (obsoleto)"
+
+#~ msgid "Associated information"
+#~ msgstr "Información asociada"
+
+#~ msgid "Axis related headers"
+#~ msgstr "Cabeceiras relacionadas co eixe"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Cor de fondo (obsoleto)"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Textura de mosaico de fondo (obsoleto)"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Tipo de letra base (obsoleto)"
+
+#~ msgid "Base URI"
+#~ msgstr "URI base"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Bordo (obsoleto)"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Extensión de filas da cela"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Centro (obsoleto)"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Codificación de caracteres do recurso ligado"
+
+#~ msgid "Checked state"
+#~ msgstr "Estado marcado"
+
+#~ msgid "Citation"
+#~ msgstr "Cita"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Citar a razón do cambio"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "ID de implementación de clase"
+
+#~ msgid "Class list"
+#~ msgstr "Lista de clases"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "Limpar o control de fluxo de texto"
+
+#~ msgid "Code content type"
+#~ msgstr "Tipo de contido do código"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Cor das ligazóns seleccionadas (obsoleto)"
+
+#~ msgid "Column span"
+#~ msgstr "Extensión de columnas"
+
+#~ msgid "Columns"
+#~ msgstr "Columnas"
+
+#~ msgid "Comment"
+#~ msgstr "Comentario"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "Fragmento de código informático"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Tipo de contido (obsoleto)"
+
+#~ msgid "Coordinates"
+#~ msgstr "Coordenadas"
+
+#~ msgid "Date and time of change"
+#~ msgstr "Data e hora do cambio"
+
+#~ msgid "Declare flag"
+#~ msgstr "Parámetro de declaración"
+
+#~ msgid "Defer attribute"
+#~ msgstr "Diferir atributo"
+
+#~ msgid "Definition description"
+#~ msgstr "Descrición de definición"
+
+#~ msgid "Definition list"
+#~ msgstr "Lista de definición"
+
+#~ msgid "Definition term"
+#~ msgstr "Termo de definición"
+
+#~ msgid "Deleted text"
+#~ msgstr "Texto eliminado"
+
+#~ msgid "Directionality"
+#~ msgstr "Direccionalidade"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Direccionalidade (obsoleto)"
+
+#~ msgid "Disabled"
+#~ msgstr "Desactivado"
+
+#~ msgid "DIV container"
+#~ msgstr "Contedor DIV"
+
+#~ msgid "DIV Style container"
+#~ msgstr "Contedor de estilo DIV"
+
+#~ msgid "Document base"
+#~ msgstr "Base do documento"
+
+#~ msgid "Document body"
+#~ msgstr "Corpo do documento"
+
+#~ msgid "Document head"
+#~ msgstr "Cabeceira do documento"
+
+#~ msgid "Element ID"
+#~ msgstr "ID de elemento"
+
+#~ msgid "Document title"
+#~ msgstr "Título do documento"
+
+#~ msgid "Document type"
+#~ msgstr "Tipo de documento"
+
+#~ msgid "Emphasis"
+#~ msgstr "Énfase"
+
+#~ msgid "Encode type"
+#~ msgstr "Tipo codificado"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Tipo de letra (obsoleto)"
+
+#~ msgid "For label"
+#~ msgstr "Para a etiqueta"
+
+#~ msgid "Forced line break"
+#~ msgstr "Quebra forzada de liña"
+
+#~ msgid "Form action handler"
+#~ msgstr "Manipulador de acción do formulario"
+
+#~ msgid "Form control group"
+#~ msgstr "Grupo de control do formulario"
+
+#~ msgid "Form field label text"
+#~ msgstr "Texto da etiqueta do campo do formulario"
+
+#~ msgid "Form input type"
+#~ msgstr "Tipo de entrada de formulario"
+
+#~ msgid "Form input"
+#~ msgstr "Entrada de formulario"
+
+#~ msgid "Form method"
+#~ msgstr "Método do formulario"
+
+#~ msgid "Form"
+#~ msgstr "Formulario"
+
+#~ msgid "Forward link"
+#~ msgstr "Ligazón para avanzar"
+
+#~ msgid "Frame render parts"
+#~ msgstr "Partes de renderización do marco"
+
+#~ msgid "Frame source"
+#~ msgstr "Orixe do marco"
+
+#~ msgid "Frame target"
+#~ msgstr "Destino do marco"
+
+#~ msgid "Frame"
+#~ msgstr "Marco"
+
+#~ msgid "Frame border"
+#~ msgstr "Bordo do marco"
+
+#~ msgid "Frameset columns"
+#~ msgstr "Columnas do conxunto de marcos"
+
+#~ msgid "Frameset rows"
+#~ msgstr "Filas do conxunto de marcos"
+
+#~ msgid "Frameset"
+#~ msgstr "Conxunto de marcos"
+
+#~ msgid "Frame spacing"
+#~ msgstr "Espazamento do marco"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "Obxecto xenérico incorporado"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "Metainformación xenérica"
+
+#~ msgid "Generic span"
+#~ msgstr "Extensión xenérica"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "IDs de cela de cabeceira"
+
+#~ msgid "Heading 1"
+#~ msgstr "Título 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Título 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Título 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Título 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Título 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Título 6"
+
+#~ msgid "Height"
+#~ msgstr "Altura"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Regra horizontal"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Espazo horizontal (obsoleto)"
+
+#~ msgid "HREF URI"
+#~ msgstr "URI HREF"
+
+#~ msgid "HTML root element"
+#~ msgstr "Elemento raíz HTML"
+
+#~ msgid "HTTP header name"
+#~ msgstr "Nome de cabeceira HTTP"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "Sobrescribir BiDi sobre l18n"
+
+#~ msgid "Image map area"
+#~ msgstr "Área do mapa de imaxe"
+
+#~ msgid "Image map name"
+#~ msgstr "Nome do mapa de imaxe"
+
+#~ msgid "Image map"
+#~ msgstr "Mapa de imaxe"
+
+#~ msgid "Image"
+#~ msgstr "Imaxe"
+
+#~ msgid "Inline frame"
+#~ msgstr "Marco en liña"
+
+#~ msgid "Inserted text"
+#~ msgstr "Texto inserido"
+
+#~ msgid "Instance definition"
+#~ msgstr "Definición da instancia"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Miniaplicativo de Java (obsoleto)"
+
+#~ msgid "Label"
+#~ msgstr "Etiqueta"
+
+#~ msgid "Language code"
+#~ msgstr "Código de idioma"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Cor da ligazón (obsoleto)"
+
+#~ msgid "List item"
+#~ msgstr "Elemento de lista"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "Lista de tipos MIME para o envío de ficheiros"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "Lista de conxuntos de caracteres compatíbeis"
+
+#~ msgid "Local change to font"
+#~ msgstr "Cambio local para o tipo de letra"
+
+#~ msgid "Long description link"
+#~ msgstr "Descrición longa da ligazón"
+
+#~ msgid "Long quotation"
+#~ msgstr "Cita longa"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Altura en píxeles da marxe"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Largura en píxeles da marxe"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Lonxitude máxima do campo de texto"
+
+#~ msgid "Output media"
+#~ msgstr "Medio de saída"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Ligazón independente do soporte"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Lista de menú (obsoleto)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Campo de texto multiliña"
+
+#~ msgid "Multiple"
+#~ msgstr "Múltiple"
+
+#~ msgid "Named property value"
+#~ msgstr "Valor de propiedade con nome"
+
+#~ msgid "No frames"
+#~ msgstr "Sen marcos"
+
+#~ msgid "No script"
+#~ msgstr "Sen script"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "Sen sombreado (obsoleto)"
+
+#~ msgid "No URI"
+#~ msgstr "Sen URI"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "Sen axuste de palabra (obsoleto)"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Ficheiro do obxecto do miniaplicativo (obsoleto)"
+
+#~ msgid "Object data reference"
+#~ msgstr "Referencia de obxecto de datos"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "Desprazamento para o carácter de aliñamento"
+
+#~ msgid "OnBlur event"
+#~ msgstr "Evento OnBlur"
+
+#~ msgid "OnChange event"
+#~ msgstr "Evento OnChange"
+
+#~ msgid "OnClick event"
+#~ msgstr "Evento OnClick"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "Evento OnDblClick"
+
+#~ msgid "OnFocus event"
+#~ msgstr "Evento OnFocus"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "Evento OnKeyDown"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "Evento OnKeyPress"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "Evento OnKeyUp"
+
+#~ msgid "OnLoad event"
+#~ msgstr "Evento OnLoad"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "Evento OnMouseDown"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "Evento OnMouseMove"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "Evento OnMouseOut"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "Evento OnMouseOver"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "Evento OnMouseUp"
+
+#~ msgid "OnReset event"
+#~ msgstr "Evento OnReset"
+
+#~ msgid "OnSelect event"
+#~ msgstr "Evento OnSelect"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "Evento OnSubmit"
+
+#~ msgid "OnUnload event"
+#~ msgstr "Evento OnUnload"
+
+#~ msgid "Option group"
+#~ msgstr "Grupo de opcións"
+
+#~ msgid "Option selector"
+#~ msgstr "Selector de opcións"
+
+#~ msgid "Ordered list"
+#~ msgstr "Lista ordenada"
+
+#~ msgid "Paragraph class"
+#~ msgstr "Clase de parágrafo"
+
+#~ msgid "Paragraph style"
+#~ msgstr "Estilo de parágrafo"
+
+#~ msgid "Paragraph"
+#~ msgstr "Parágrafo"
+
+#~ msgid "Preformatted text"
+#~ msgstr "Texto preformatado"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Dicionario de metainformación do perfil"
+
+#~ msgid "Push button"
+#~ msgstr "Botón premíbel"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "Texto e contrasinal só de lectura"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Espazamento reducido (obsoleto)"
+
+#~ msgid "Reverse link"
+#~ msgstr "Ligazón inversa"
+
+#~ msgid "Rows"
+#~ msgstr "Filas"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Intervalo entre as filas e as columnas"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Saída do programa de mostra, scripts"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Ámbito cuberto polas celas de cabeceira"
+
+#~ msgid "Script language name"
+#~ msgstr "Nome da linguaxe de script"
+
+#~ msgid "Script statements"
+#~ msgstr "Instrucións de script"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Barra de desprazamento"
+
+#~ msgid "Selectable option"
+#~ msgstr "Opción seleccionábel"
+
+#~ msgid "Selected"
+#~ msgstr "Seleccionado"
+
+#~ msgid "Server-side image map"
+#~ msgstr "Mapa de imaxe do lado do servidor"
+
+#~ msgid "Shape"
+#~ msgstr "Forma"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "Cita curta en liña"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "Tamaño (obsoleto)"
+
+#~ msgid "Source"
+#~ msgstr "Fonte"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "Lista de ficheiros separada por espazos"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "Espazamento entre celas"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "Espazamento dentro das celas"
+
+#~ msgid "Span"
+#~ msgstr "Extensión"
+
+#~ msgid "Standby load message"
+#~ msgstr "Mensaxe de espera durante a carga"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Número da secuencia de inicio (obsoleto)"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Estilo de texto riscado (obsoleto)"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Estilo de texto riscado (obsoleto)"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "Énfase forte"
+
+#~ msgid "Style info"
+#~ msgstr "Información de estilo"
+
+#~ msgid "Subscript"
+#~ msgstr "Subíndice"
+
+#~ msgid "Superscript"
+#~ msgstr "Superíndice"
+
+#~ msgid "Table body"
+#~ msgstr "Corpo da táboa"
+
+#~ msgid "Table caption"
+#~ msgstr "Título da táboa"
+
+#~ msgid "Table column group properties"
+#~ msgstr "Propiedades do grupo de columnas da táboa"
+
+#~ msgid "Table column properties"
+#~ msgstr "Propiedades das columnas da táboa"
+
+#~ msgid "Table data cell"
+#~ msgstr "Cela de datos da táboa"
+
+#~ msgid "Table footer"
+#~ msgstr "Pé da táboa"
+
+#~ msgid "Table header cell"
+#~ msgstr "Cela de cabeceira da táboa"
+
+#~ msgid "Table header"
+#~ msgstr "Cabeceira da táboa"
+
+#~ msgid "Table row"
+#~ msgstr "Fila da táboa"
+
+#~ msgid "Table summary"
+#~ msgstr "Resumo da táboa"
+
+#~ msgid "Table"
+#~ msgstr "Táboa"
+
+#~ msgid "Target — Blank"
+#~ msgstr "Destino — Branco"
+
+#~ msgid "Target — Parent"
+#~ msgstr "Destino — Pai"
+
+#~ msgid "Target — Self"
+#~ msgstr "Destino — El mesmo"
+
+#~ msgid "Target — Top"
+#~ msgstr "Destino — Superior"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Teletipo ou estilo de texto monoespazado"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Cor do texto (obsoleto)"
+
+#~ msgid "Text entered by user"
+#~ msgstr "Texto introducido polo usuario"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "Unordered list"
+#~ msgstr "Lista non ordenada"
+
+#~ msgid "Use image map"
+#~ msgstr "Usar mapa de imaxe"
+
+#~ msgid "Value interpretation"
+#~ msgstr "Interpretación do valor"
+
+#~ msgid "Value"
+#~ msgstr "Valor"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "Variábel ou argumento de programa"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Aliñamento vertical da cela"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Espazo vertical (obsoleto)"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Cor de ligazón visitada (obsoleto)"
+
+#~ msgid "Width"
+#~ msgstr "Largura"
+
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML — Etiquetas"
+
+#~ msgid "Above"
+#~ msgstr "Encima"
+
+#~ msgid "Applet class file code"
+#~ msgstr "Código de ficheiro de clase do miniaplicativo"
+
+#~ msgid "Array"
+#~ msgstr "Matriz"
+
+#~ msgid "Background texture tile"
+#~ msgstr "Textura de mosaico de fondo"
+
+#~ msgid "Base font"
+#~ msgstr "Tipo de letra base"
+
+#~ msgid "Border color"
+#~ msgstr "Cor do bordo"
+
+#~ msgid "Border"
+#~ msgstr "Bordo"
+
+#~ msgid "Center"
+#~ msgstr "Centro"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Marcado (estado)"
+
+#~ msgid "Color of selected links"
+#~ msgstr "Cor das ligazóns seleccionadas"
+
+#~ msgid "Content scheme"
+#~ msgstr "Esquema do contido"
+
+#~ msgid "Content type"
+#~ msgstr "Tipo de contido"
+
+#~ msgid "Direction"
+#~ msgstr "Enderezo"
+
+#~ msgid "Directory list"
+#~ msgstr "Lista de cartafoles"
+
+#~ msgid "HTML version"
+#~ msgstr "Versión HTML"
+
+#~ msgid "Embedded object"
+#~ msgstr "Obxecto incorporado"
+
+#~ msgid "Figure"
+#~ msgstr "Figura"
+
+#~ msgid "Font face"
+#~ msgstr "Tipo de letra"
+
+#~ msgid "Frameborder"
+#~ msgstr "Bordo do marco"
+
+#~ msgid "Framespacing"
+#~ msgstr "Espazamento dos marcos"
+
+#~ msgid "Heading"
+#~ msgstr "Título"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Espazo horizontal"
+
+#~ msgid "Image source"
+#~ msgstr "Orixe da imaxe"
+
+#~ msgid "Inline layer"
+#~ msgstr "Capa en liña"
+
+#~ msgid "Java applet"
+#~ msgstr "Miniaplicativo de Java"
+
+#~ msgid "Layer"
+#~ msgstr "Capa"
+
+#~ msgid "Link color"
+#~ msgstr "Cor da ligazón"
+
+#~ msgid "Listing"
+#~ msgstr "Lista"
+
+#~ msgid "Mail link"
+#~ msgstr "Ligazón de correo"
+
+#~ msgid "Marquee"
+#~ msgstr "Marquesiña"
+
+#~ msgid "Menu list"
+#~ msgstr "Lista de menú"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Multicolumna"
+
+#~ msgid "Next ID"
+#~ msgstr "ID seguinte"
+
+#~ msgid "No embedded objects"
+#~ msgstr "Sen obxectos incorporados"
+
+#~ msgid "No layers"
+#~ msgstr "Sen capas"
+
+#~ msgid "No line break"
+#~ msgstr "Sen quebra de liña"
+
+#~ msgid "No shade"
+#~ msgstr "Sen sombreado"
+
+#~ msgid "No word wrap"
+#~ msgstr "Sen axuste de palabra"
+
+#~ msgid "Note"
+#~ msgstr "Nota"
+
+#~ msgid "Object applet file"
+#~ msgstr "Ficheiro do obxecto do miniaplicativo"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "Lista preformatada"
+
+#~ msgid "Prompt message"
+#~ msgstr "Mensaxe de aviso"
+
+#~ msgid "Quote"
+#~ msgstr "Cita"
+
+#~ msgid "Range"
+#~ msgstr "Intervalo"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "Espazamento reducido"
+
+#~ msgid "Root"
+#~ msgstr "Raíz"
+
+#~ msgid "Single line prompt"
+#~ msgstr "Aviso dunha soa liña"
+
+#~ msgid "Size"
+#~ msgstr "Tamaño"
+
+#~ msgid "Soft line break"
+#~ msgstr "Quebra de liña suave"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgid "Spacer"
+#~ msgstr "Espazador"
+
+#~ msgid "Square root"
+#~ msgstr "Raíz cadrada"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "Número da secuencia de inicio"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "Estilo de texto riscado"
+
+#~ msgid "Tab order position"
+#~ msgstr "Orde dos separadores"
+
+#~ msgid "Text color"
+#~ msgstr "Cor do texto"
+
+#~ msgid "Text"
+#~ msgstr "Texto"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "Marxe superior en píxeles"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Vertical space"
+#~ msgstr "Espazo vertical"
+
+#~ msgid "Visited link color"
+#~ msgstr "Cor de ligazón visitada"
+
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML — Caracteres especiais"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Espazo sen quebra"
+
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex — Etiquetas"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliografía (cita)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliografía (elemento)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliografía (cita curta)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliografía (thebibliografphy)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "Parénteses ()"
+
+#~ msgid "Brackets []"
+#~ msgstr "Corchetes []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "Chaves {}"
+
+#~ msgid "Brackets <>"
+#~ msgstr "Menor/maior que <>"
+
+#~ msgid "File input"
+#~ msgstr "Ficheiro de entrada"
+
+#~ msgid "Function cosine"
+#~ msgstr "Función coseno"
+
+#~ msgid "Function e^"
+#~ msgstr "Función e^"
+
+#~ msgid "Function exp"
+#~ msgstr "Función exp"
+
+#~ msgid "Function log"
+#~ msgstr "Función log"
+
+#~ msgid "Function log10"
+#~ msgstr "Función log10"
+
+#~ msgid "Function sine"
+#~ msgstr "Función seno"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Alfa grego"
+
+#~ msgid "Greek beta"
+#~ msgstr "Beta grego"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Épsilon grego"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Gamma grego"
+
+#~ msgid "Greek lambda"
+#~ msgstr "Lambda grego"
+
+#~ msgid "Greek rho"
+#~ msgstr "Rho grego"
+
+#~ msgid "Greek tau"
+#~ msgstr "Tau grego"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Cabeceira 0 (capítulo)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Cabeceira 0 (capítulo*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Cabeceira 1 (sección)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Cabeceira 1 (sección*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Cabeceira 2 (subsección)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Cabeceira 2 (subsección*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Cabeceira 3 (subsubsección)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Cabeceira 3 (subsubsección*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Cabeceira 4 (parágrafo)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Apéndice da cabeceira"
+
+#~ msgid "List enumerate"
+#~ msgstr "Lista enumerada"
+
+#~ msgid "List itemize"
+#~ msgstr "Lista de elementos"
+
+#~ msgid "Item with label"
+#~ msgstr "Elemento con etiqueta"
+
+#~ msgid "Item"
+#~ msgstr "Elemento"
+
+#~ msgid "Maths (display)"
+#~ msgstr "Matemáticas (mostrar)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Matemáticas (en liña)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "Operador de fracción"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operador integral (mostrar)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operador integral (en liña)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operador de suma (mostrar)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operador de suma (en liña)"
+
+#~ msgid "Reference label"
+#~ msgstr "Etiqueta de referencia"
+
+#~ msgid "Reference ref"
+#~ msgstr "Referencia de ref"
+
+#~ msgid "Symbol <<"
+#~ msgstr "Símbolo <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "Símbolo <="
+
+#~ msgid "Symbol >="
+#~ msgstr "Símbolo >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Símbolo >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Símbolo and"
+
+#~ msgid "Symbol const"
+#~ msgstr "Símbolo const"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Símbolo d2-by-dt2-parcial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Símbolo daga"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Símbolo d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Símbolo d-by-dt-parcial"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Símbolo equivalencia"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Símbolo guión --"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Símbolo guión ---"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Símbolo infinito"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Símbolo espazo matemático ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Símbolo espazo matemático ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Símbolo espazo matemático _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Símbolo espazo matemático __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Símbolo simeq"
+
+#~ msgid "Symbol star"
+#~ msgstr "Símbolo estrela"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Tipo de letra negra"
+
+#~ msgid "Typeface type"
+#~ msgstr "Tipo de tipo de letra"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Tipo de letra cursiva"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Tipo de letra inclinada"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Texto sen quebra de liña"
+
+#~ msgid "Footnote"
+#~ msgstr "Nota ao pé de páxina"
+
+#~ msgid "Tag list"
+#~ msgstr "Lista de etiquetas"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "Fornece un método sinxelo para inserir nun documento as cadeas ou "
+#~ "etiquetas máis utilizadas sen ter que teclealas."
+
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT — Elementos"
+
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT — Funcións"
+
+#~ msgid "XSLT — Axes"
+#~ msgstr "Eixos — XSLT"
+
+#~ msgid "ancestor"
+#~ msgstr "antecedente"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "antecedente ou el mesmo"
+
+#~ msgid "attribute"
+#~ msgstr "atributo"
+
+#~ msgid "child"
+#~ msgstr "fillo"
+
+#~ msgid "descendant"
+#~ msgstr "descendente"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "descendente ou el mesmo"
+
+#~ msgid "following"
+#~ msgstr "seguinte"
+
+#~ msgid "following-sibling"
+#~ msgstr "seguinte-irmán"
+
+#~ msgid "namespace"
+#~ msgstr "espazo de nome"
+
+#~ msgid "parent"
+#~ msgstr "pai"
+
+#~ msgid "preceding"
+#~ msgstr "precedente"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "precedente-irmán"
+
+#~ msgid "self"
+#~ msgstr "el mesmo"
+
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — Etiquetas"
+
+#~ msgid "_Increase font size"
+#~ msgstr "_Aumentar tamaño de letra"
+
+#~ msgid "_Decrease font size"
+#~ msgstr "_Diminuír tamaño de letra"
+
+#~ msgid "_Reset font size"
+#~ msgstr "_Restaurar tamaño de letra"
+
+#~ msgid "_Insert"
+#~ msgstr "_Inserir"

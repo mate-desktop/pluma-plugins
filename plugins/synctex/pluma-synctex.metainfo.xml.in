@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Igor Gnatenko <i.gnatenko.brain@gmail.com> -->
+<component type="addon">
+  <id>pluma-synctex</id>
+  <extends>org.mate.pluma.desktop</extends>
+  <name>SyncTeX</name>
+  <summary>Synchronize between LaTeX and PDF with pluma and atril</summary>
+  <url type="homepage">https://mate-desktop.org/</url>
+  <url type="bugtracker">https://github.com/mate-desktop/pluma-plugins/issues</url>
+  <suggests>
+    <id>atril.desktop</id>
+  </suggests>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <update_contact>i.gnatenko.brain@gmail.com</update_contact>
+</component>

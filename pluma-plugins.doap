@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+  <name xml:lang="en">pluma-plugins</name>
+  <shortdesc xml:lang="en">Collection of plugins for the pluma Text Editor</shortdesc>
+
+  <homepage rdf:resource="https://mate-desktop.org/" />
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Steve Frécinaux</foaf:name>
+      <foaf:mbox rdf:resource="mailto:steve@istique.net" />
+      <gnome:userid>sfre</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Jesse van den Kieboom</foaf:name>
+      <foaf:mbox rdf:resource="mailto:jessevdk@gnome.org" />
+      <gnome:userid>jessevdk</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Ignacio Casal Quinteiro</foaf:name>
+      <foaf:mbox rdf:resource="mailto:icq@gnome.org" />
+      <gnome:userid>icq</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Jose Aliste</foaf:name>
+      <foaf:mbox rdf:resource="mailto:jaliste@src.gnome.org" />
+      <gnome:userid>jaliste</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+
+</Project>
+

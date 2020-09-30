@@ -1,0 +1,17 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="guide" style="task"
+      id="index">
+
+  <info></info>
+
+  <title>Gedit Plugins</title>
+
+  <comment>
+    <cite href="mailto:kittykat3756@gmail.com">Kat</cite>
+    <p>This is a dummy page for https://l10n.gnome.org/module/gedit-plugins/ to
+    work correctly. See
+    https://mail.gnome.org/archives/gnome-i18n/2013-March/msg00057.html for
+    more details.</p>
+  </comment>
+
+</page>

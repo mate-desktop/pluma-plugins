@@ -1,0 +1,55 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-code-comment">
+
+  <info>
+    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+    <revision version="3.4" date="2013-02-24" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <desc>Comment-out or uncomment a block of code.</desc>
+  </info>
+
+  <title>Code comment</title>
+
+  <p>Code comments are portions of text that make it easier for people to
+  understand a program's code, but they don't affect how a program works.
+  Comments are separated from other parts of a program by special
+  characters.</p>
+
+  <p>The <app>code comment</app> plugin makes it easier to quickly create or
+  remove code comments. To enable the code comment plugin, select
+  <guiseq><gui style="menu">pluma</gui><gui style="menuitem">Preferences</gui>
+  <gui>Plugins</gui><gui>Code comment</gui></guiseq>.</p>
+
+  <steps>
+    <title>To create or remove a comment:</title>
+    <item>
+      <p>Highlight the portion of text where you want to add or remove a
+      comment.</p>
+    </item>
+    <item>
+      <p>To add a comment, click <guiseq><gui style="menu">pluma</gui>
+      <gui>Comment Code</gui></guiseq>, or press <keyseq><key>Ctrl</key>
+      <key>M</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>To remove a comment, click <guiseq><gui style="menu">pluma</gui>
+      <gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key>
+      <key>Ctrl</key><key>M</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p><app>pluma</app> will automatically use the correct style of comment
+    based on the language or syntax of the file. If <app>pluma</app> doesn't
+    identify your language or syntax, you can select it from the language list
+    in the bottom <gui>Status bar</gui>.</p>
+  </note>
+
+</page>

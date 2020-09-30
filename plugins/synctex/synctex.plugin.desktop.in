@@ -1,0 +1,11 @@
+[Plugin]
+Loader=python3
+Module=synctex
+IAge=3
+Name=SyncTeX
+Description=Synchronize between LaTeX and PDF with pluma and atril.
+Icon=gedit-plugin
+Authors=José Aliste <jaliste@src.gnome.org>
+Copyright=Copyright © 2010 José Aliste
+Website=https://mate-desktop.org/
+Version=@VERSION@

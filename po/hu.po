@@ -1,0 +1,1829 @@
+# Hungarian translation of gedit.
+# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
+#
+# Szabolcs Ban <shooby at gnome dot hu>, 2000.
+# Emese Kovacs <emese at gnome dot hu>, 2000, 2001.
+# Peter Doma <zelin at pointernet dot hu>, 2002.
+# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
+# Gabor Sari <saga at gnome dot hu>, 2003.
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Mate Ory <orymate at gmail dot com>, 2006, 2007, 2008.
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gedit&keywords=I18N+L10N&component=Plugins\n"
+"POT-Creation-Date: 2013-08-02 13:25+0000\n"
+"PO-Revision-Date: 2013-08-25 10:46+0200\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
+"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+msgid "Bookmarks"
+msgstr "Könyvjelzők"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "Egyszerű dokumentumnavigáció könyvjelzőkkel"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+msgid "Toggle Bookmark"
+msgstr "Könyvjelző be/ki"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+msgid "Toggle bookmark status of the current line"
+msgstr "Könyvjelző állapotának átváltása a jelenlegi sorban"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
+msgid "Goto Next Bookmark"
+msgstr "Következő könyvjelző"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
+msgid "Goto the next bookmark"
+msgstr "Ugrás a következő könyvjelzőre"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
+msgid "Goto Previous Bookmark"
+msgstr "Előző könyvjelző"
+
+#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
+msgid "Goto the previous bookmark"
+msgstr "Ugrás az előző könyvjelzőre"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+msgid "Bracket Completion"
+msgstr "Zárójel-kiegészítés"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+msgid "Automatically adds closing brackets."
+msgstr "Záró zárójelek automatikus hozzáadása"
+
+#. ex:et:ts=4:
+#: ../plugins/charmap/charmap/__init__.py:51
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+msgid "Character Map"
+msgstr "Karaktertábla"
+
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "Speciális karakterek beszúrása egy kattintással"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+#| msgid "Code comment"
+msgid "Code Comment"
+msgstr "Kód megjegyzésbe"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Kijelölt kódblokk megjegyzésbe tétele vagy kivétele onnan"
+
+#: ../plugins/codecomment/codecomment.py:88
+msgid "Co_mment Code"
+msgstr "Kó_d megjegyzésbe"
+
+#: ../plugins/codecomment/codecomment.py:90
+msgid "Comment the selected code"
+msgstr "A kijelölt kód kerüljön megjegyzésbe"
+
+#: ../plugins/codecomment/codecomment.py:94
+msgid "U_ncomment Code"
+msgstr "A kód _nem megjegyzés"
+
+#: ../plugins/codecomment/codecomment.py:96
+msgid "Uncomment the selected code"
+msgstr "A kijelölt kód kerüljön ki a megjegyzésből"
+
+#. ex:ts=4:et:
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "Színpipetta"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Szín választása párbeszédablakból, és hexadecimális ábrázolásának beszúrása"
+
+#: ../plugins/colorpicker/colorpicker.py:161
+msgid "Pick _Color..."
+msgstr "_Válasszon színt…"
+
+#: ../plugins/colorpicker/colorpicker.py:162
+msgid "Pick a color from a dialog"
+msgstr "Válasszon egy színt egy párbeszédablakból"
+
+#: ../plugins/colorpicker/colorpicker.py:178
+msgid "Pick Color"
+msgstr "Válasszon színt"
+
+#. ex:ts=4:et:
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
+#: ../plugins/colorschemer/schemer/schemer.ui.h:1
+msgid "Color Scheme Editor"
+msgstr "Színséma szerkesztő"
+
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+msgid "Source code color scheme editor"
+msgstr "Forráskód színséma szerkesztő"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:2
+msgid "Bold"
+msgstr "Félkövér"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:3
+msgid "Italic"
+msgstr "Dőlt"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:4
+msgid "Underline"
+msgstr "Aláhúzott"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:5
+msgid "Strikethrough"
+msgstr "Áthúzott"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:6
+msgid "Pick the background color"
+msgstr "A háttérszín kiválasztása"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:7
+msgid "Pick the foreground color"
+msgstr "Az előtérszín kiválasztása"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:8
+msgid "_Background"
+msgstr "_Háttér"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:9
+msgid "_Foreground"
+msgstr "_Előtér"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:10
+msgid "_Clear "
+msgstr "_Törlés "
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:11
+msgid "Name"
+msgstr "Név"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:12
+msgid "ID"
+msgstr "Azonosító"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:13
+msgid "Description"
+msgstr "Leírás"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:14
+msgid "Author"
+msgstr "Szerző"
+
+#: ../plugins/colorschemer/schemer/schemer.ui.h:15
+msgid "Sample"
+msgstr "Minta"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+msgid "Commander"
+msgstr "Parancssor"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+msgid "Command line interface for advanced editing"
+msgstr "Parancssoros felület speciális szerkesztéshez"
+
+#: ../plugins/commander/commander/windowactivatable.py:70
+msgid "Commander Mode"
+msgstr "Parancssor mód"
+
+#: ../plugins/commander/commander/windowactivatable.py:71
+msgid "Start commander mode"
+msgstr "Parancssor mód indítása"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:117
+msgid "Empty Document"
+msgstr "Üres dokumentum"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:158
+msgid "Type here to search..."
+msgstr "Gépeljen a kereséshez…"
+
+#. ex:ts=4:et:
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+msgid "Dashboard"
+msgstr "Kezdőlap"
+
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
+msgid "A Dashboard for new tabs"
+msgstr "Kezdőlap új lapokhoz"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+msgid "Draw Spaces"
+msgstr "Szóközök rajzolása"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+#| msgid "Draw Spaces and Tabs"
+msgid "Draw spaces and tabs"
+msgstr "Szóközök és tabok rajzolása"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
+msgid "Show _White Space"
+msgstr "Üres _helyek megjelenítése"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
+msgid "Show spaces and tabs"
+msgstr "Szóközök és tabulátorok megjelenítése"
+
+#. ex:set ts=8 noet:
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
+msgid "Draw spaces"
+msgstr "Szóközök rajzolása"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
+msgid "Draw tabs"
+msgstr "Tabok rajzolása"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
+msgid "Draw new lines"
+msgstr "Új sorok rajzolása"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
+msgid "Draw non-breaking spaces"
+msgstr "Nem törhető szóközök rajzolása"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
+msgid "Draw leading spaces"
+msgstr "Kezdő szóközök rajzolása"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
+msgid "Draw spaces in text"
+msgstr "Szóközök rajzolása a szövegben"
+
+#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "Befejező szóközök rajzolása"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
+msgid "If TRUE drawing will be enabled."
+msgstr "Ha igazra van állítva, akkor a rajzolás engedélyezve lesz."
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+msgid "The type of spaces to be drawn."
+msgstr "A megrajzolandó szóközök típusa."
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+msgid "Git"
+msgstr "Git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Git differences"
+msgstr "Git eltérések"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
+msgid "Join/Split Lines"
+msgstr "Sorok egyesítése/szétvágása"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+msgid "Join several lines or split long ones"
+msgstr "Több sor egyesítése, vagy hosszúak szétvágása"
+
+#: ../plugins/joinlines/joinlines.py:74
+msgid "_Join Lines"
+msgstr "S_orok egyesítése"
+
+#: ../plugins/joinlines/joinlines.py:75
+msgid "Join the selected lines"
+msgstr "Kijelölt sorok egyesítése"
+
+#: ../plugins/joinlines/joinlines.py:77
+msgid "_Split Lines"
+msgstr "Sorok szét_vágása"
+
+#: ../plugins/joinlines/joinlines.py:78
+msgid "Split the selected lines"
+msgstr "A kijelölt sorok szétvágása"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:301
+msgid "Added edit point..."
+msgstr "Szerkesztési pont hozzáadása…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:643
+msgid "Column Mode..."
+msgstr "Oszlopos mód…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:757
+msgid "Removed edit point..."
+msgstr "Szerkesztési pont eltávolítva…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:920
+msgid "Cancelled column mode..."
+msgstr "Oszlopos mód megszakítva…"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1293
+msgid "Enter column edit mode using selection"
+msgstr "Belépés az oszlopos szerkesztési módba a kijelölés használatával"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1294
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Belépés az <b>intelligens</b> oszlopszerkesztési módba a kijelölés "
+"használatával"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1295
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "<b>Intelligens</b> oszlopigazítási mód a kijelölés használatával"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1296
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"<b>Intelligens</b> oszlopigazítási mód további hellyel a kijelölés "
+"használatával"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1298
+msgid "Toggle edit point"
+msgstr "Szerkesztési pont bekapcsolása"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1299
+msgid "Add edit point at beginning of line/selection"
+msgstr "Szerkesztési pont hozzáadása a sor vagy kijelölés elején"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1300
+msgid "Add edit point at end of line/selection"
+msgstr "Szerkesztési pont hozzáadása a sor vagy kijelölés végén"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1301
+msgid "Align edit points"
+msgstr "Szerkesztési pontok igazítása"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1302
+msgid "Align edit points with additional space"
+msgstr "Szerkesztési pontok igazítása további hellyel"
+
+#: ../plugins/multiedit/multiedit/documenthelper.py:1333
+#: ../plugins/multiedit/multiedit/__init__.py:79
+msgid "Multi Edit Mode"
+msgstr "Párhuzamos szerkesztési mód"
+
+#: ../plugins/multiedit/multiedit/__init__.py:81
+msgid "Start multi edit mode"
+msgstr "Párhuzamos szerkesztési mód indítása"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+msgid "Multi Edit"
+msgstr "Párhuzamos szerkesztés"
+
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+msgid "Edit document in multiple places at once"
+msgstr "Dokumentum szerkesztése egyszerre több helyen"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+msgid "Smart Spaces"
+msgstr "Intelligens szóközök"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+msgid "Forget you're not using tabulations."
+msgstr "Felejtse el, hogy nem használ tabokat"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Szinkronizálás LaTeX és PDF között a gedit és evince használatával."
+
+#: ../plugins/synctex/synctex/synctex.py:310
+#: ../plugins/synctex/synctex/synctex.py:311
+msgid "Forward Search"
+msgstr "Keresés előre"
+
+#. ex:ts=4:et:
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+msgid "Whether to silence terminal bell"
+msgstr "Elnémítsa-e a terminálcsengőt"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+msgid ""
+"If true, don't make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Ha be van állítva, nem szólal meg a terminálcsengő, ha az alkalmazások "
+"megszólaltatnák."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+msgid "Number of lines to keep in scrollback"
+msgstr "A visszagörgetendő sorok száma"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"A visszagörgetéshez megtartandó sorok száma. Ennyi sort görgethet vissza a "
+"terminálban; azon sorok, amik nem férnek bele ebbe, el lesznek dobva. Ha a "
+"scrollback-unlimited kulcs értéke igaz, akkor figyelmen kívül marad."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Végtelen számú sor tárolása a visszagörgetéshez"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Ha igazra van állítva, akkor a visszagörgetési sorok soha nem lesznek "
+"eldobva. A visszagörgetési előzmények ideiglenesen a lemezen lesznek "
+"tárolva, így emiatt a rendszeren elfogyhat a szabad hely, ha túl sok a "
+"kimenet a terminálon."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Billentyűleütésre görgessen-e a terminál aljára"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Ha be van állítva, gombnyomásra a gördítősáv aljára ugrik."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
+msgid "Whether to scroll to the bottom when there's new output"
+msgstr "Görgessen-e a terminál aljára ha új kimenet jelenik meg"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+msgid ""
+"If true, whenever there's new output the terminal will scroll to the bottom."
+msgstr "Ha be van állítva, a terminál új kimenet kiírásakor az aljára gördül."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+msgid "Whether to allow bold text"
+msgstr "Félkövér betűk engedélyezése"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr ""
+"Ha be van állítva, az alkalmazások a terminálban használhatnak félkövér "
+"szöveget."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+msgid "Characters that are considered \"part of a word\""
+msgstr "Karakterek, amelyek részei lehetnek egy szónak"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+msgid ""
+"When selecting text by word, sequences of these characters are considered "
+"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
+"a range) should be the first character given."
+msgstr ""
+"Amikor szavanként jelöli ki a szöveget, akkor a következő karakterek "
+"számítanak egy szónak. Tartományok megadhatók „A-Z” alakban. Ha a kötőjelet "
+"literálként, és nem a tartomány jelölésére szeretné megadni, akkor az legyen "
+"az első megadott karakter."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+msgid "Default color of text in the terminal"
+msgstr "A terminál szövegének alapértelmezett színe"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"A terminál szövegének alapértelmezett színe, színmegadásként (Lehet HTML-"
+"stílusú hexa számjegyekkel vagy színnévvel, például „red” = vörös)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+msgid "Default color of terminal background"
+msgstr "A terminálháttér alapértelmezett színe"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"A terminál hátterének alapértelmezett színe, színmegadásként (Lehet HTML-"
+"stílusú hexa számjegyekkel vagy színnévvel, például „red” = vörös)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+msgid "Palette for terminal applications"
+msgstr "Paletta a terminálalkalmazásokhoz"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+"A terminálnak van egy 16 színű palettája, amit az alkalmazások a terminálon "
+"belül használhatnak. Ez az a paletta, színnevek vesszővel elválasztott "
+"listája formájában. A színnevek hexa alakban kell legyenek, például „#FF00FF”"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Használja-e a terminálelem témájának színeit"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Ha be van állítva, a téma szövegbeviteli dobozokra használt színsémáját "
+"használja a terminálra a felhasználó által megadottak helyett."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+msgid "Whether to blink the cursor"
+msgstr "Villogjon-e a kurzor"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+msgid ""
+"The possible values are \"system\" to use the global cursor blinking "
+"settings, or \"on\" or \"off\" to set the mode explicitly."
+msgstr ""
+"A lehetséges értékek: „system” (globális kurzorvillogási beállítás "
+"használata), illetve „on” (be) vagy „off” (ki) a mód explicit beállításához."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+msgid "The cursor appearance"
+msgstr "A kurzor megjelenése"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+msgid ""
+"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
+"vertical line cursor, or \"underline\" to use an underline cursor."
+msgstr ""
+"A lehetséges értékek: „block” (tömör kurzor), „ibeam” (függőleges vonal "
+"kurzor), „underline” (aláhúzás kurzor)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+msgid "Whether to use the system font"
+msgstr "Használja-e a rendszer betűkészletet"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Ha be van állítva, a terminál az asztal globális szabvány betűkészletét "
+"fogja használni, ha az monospace (és a hozzá leginkább hasonlót egyébként)."
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+msgid "Font"
+msgstr "Betűkészlet"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr "Egy Pango betűkészletnév. Például: „Sans 12” vagy „Monospace Bold 14”."
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+msgid "Embedded Terminal"
+msgstr "Beágyazott terminál"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+msgid "Embed a terminal in the bottom pane."
+msgstr "Terminál beágyazása az alsó ablaktáblába."
+
+#: ../plugins/terminal/terminal.py:318
+msgid "Terminal"
+msgstr "Terminál"
+
+#: ../plugins/terminal/terminal.py:339
+msgid "C_hange Directory"
+msgstr "Könyvtár_váltás"
+
+#: ../plugins/textsize/textsize/__init__.py:142
+msgid "_Larger Text"
+msgstr "_Nagyobb szöveg"
+
+#: ../plugins/textsize/textsize/__init__.py:145
+msgid "S_maller Text"
+msgstr "_Kisebb szöveg"
+
+#: ../plugins/textsize/textsize/__init__.py:148
+msgid "_Normal size"
+msgstr "_Normál méret"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
+msgid "Text Size"
+msgstr "Szöveg mérete"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+msgid "Easily increase and decrease the text size"
+msgstr "Szövegméret növelése és csökkentése egyszerűen"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+#| msgid "Bracket Completion"
+msgid "Interactive completion"
+msgstr "Interaktív kiegészítés"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "Minimális szóhossz:"
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+msgid "Document Words"
+msgstr "Dokumentum szavai"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+#| msgid "Bracket Completion"
+msgid "Interactive Completion"
+msgstr "Interaktív kiegészítés"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "Engedélyezve legyen-e az interaktív kiegészítés."
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "Minimális szóhossz"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "A kiegészítendő minimális szóhossz."
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "Szókiegészítés"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "A szókiegészítés használata a kiegészítő keretrendszer használatával"
+
+#~ msgid "X"
+#~ msgstr "X"
+
+#~ msgid "Most Used"
+#~ msgstr "Legtöbbet használt"
+
+#~ msgid "Recently Used"
+#~ msgstr "Legutóbb használt"
+
+#~ msgid "Session Name"
+#~ msgstr "Munkamenet neve"
+
+#~ msgid "Recover '%s' session"
+#~ msgstr "„%s” munkamenet helyreállítása"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "Mentett m_unkamenetek"
+
+#~ msgid "_Save current session"
+#~ msgstr "_Jelenlegi munkamenet mentése"
+
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "A jelenlegi dokumentumlista mentése új munkamenetként"
+
+#~ msgid "_Manage saved sessions..."
+#~ msgstr "Mentett munkamenetek _kezelése…"
+
+#~ msgid "Open the saved session manager"
+#~ msgstr "A mentett munkamenetek kezelőjének megnyitása"
+
+#~ msgid "Save and restore your working sessions"
+#~ msgstr "Működő munkamenet mentése és visszaállítása"
+
+#~ msgid "Session Saver"
+#~ msgstr "Munkamenetmentő"
+
+#~ msgid "Save session"
+#~ msgstr "Munkamenet mentése"
+
+#~ msgid "Saved Sessions"
+#~ msgstr "Mentett munkamenetek"
+
+#~ msgid "Session name:"
+#~ msgstr "Munkamenetnév:"
+
+#~ msgid "Tags"
+#~ msgstr "Elemek"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Válassza ki az elemcsoportok közül azt, amit használni szeretne"
+
+#~ msgid "_Preview"
+#~ msgstr "_Előnézet"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "Elérhető elemlisták"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Rövidített forma"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Rövidítés"
+
+#~ msgid "Above"
+#~ msgstr "Fölötte"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "Akadálymentesítési billentyű karaktere"
+
+#~ msgid "Acronym"
+#~ msgstr "Mozaikszó"
+
+#~ msgid "Align"
+#~ msgstr "Igazítás"
+
+#~ msgid "Alignment character"
+#~ msgstr "Igazító karakter"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternatív szöveg"
+
+#~ msgid "Anchor"
+#~ msgstr "Horgony"
+
+#~ msgid "Anchor URI"
+#~ msgstr "Horgony URI"
+
+#~ msgid "Applet class file code"
+#~ msgstr "Kisalkalmazás osztályfájl kódja"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Kisalkalmazás osztályfájl kódja (elavult)"
+
+#~ msgid "Array"
+#~ msgstr "Tömb"
+
+#~ msgid "Associated information"
+#~ msgstr "Kapcsolódó információ"
+
+#~ msgid "Axis related headers"
+#~ msgstr "Tengellyel kapcsolatos fejlécek"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Háttérszín (elavult)"
+
+#~ msgid "Background texture tile"
+#~ msgstr "Háttértapéta"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Háttértapéta (elavult)"
+
+#~ msgid "Base URI"
+#~ msgstr "Alap URI"
+
+#~ msgid "Base font"
+#~ msgstr "Alap betűkészlet"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Alap betűkészlet (elavult)"
+
+#~ msgid "Border"
+#~ msgstr "Szegély"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Szegély (elavult)"
+
+#~ msgid "Border color"
+#~ msgstr "Szegélyszín"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Cella magassága sorokban"
+
+#~ msgid "Center"
+#~ msgstr "Középre"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Középre (elavult)"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "A hivatkozott erőforrás karakterkódolása"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Bejelölt (állapot)"
+
+#~ msgid "Checked state"
+#~ msgstr "Bejelölt állapot"
+
+#~ msgid "Citation"
+#~ msgstr "Idézet"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Cite attribútum, változtatás okának jelölésére"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "Osztály implementációs azonosítója"
+
+#~ msgid "Class list"
+#~ msgstr "Osztálylista"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "Egyszerű szöveg körülfolyásának ellenőrzése"
+
+#~ msgid "Code content type"
+#~ msgstr "Kód tartalomtípusa"
+
+#~ msgid "Color of selected links"
+#~ msgstr "Kijelölt hivatkozások színe"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Kijelölt hivatkozások színe (elavult)"
+
+#~ msgid "Column span"
+#~ msgstr "Cella szélessége oszlopokban"
+
+#~ msgid "Columns"
+#~ msgstr "Oszlopok"
+
+#~ msgid "Comment"
+#~ msgstr "Megjegyzés"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "Forráskód-részlet"
+
+#~ msgid "Content scheme"
+#~ msgstr "Tartalomséma"
+
+#~ msgid "Content type"
+#~ msgstr "Tartalom típusa"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Tartalom típusa (elavult)"
+
+#~ msgid "Coordinates"
+#~ msgstr "Koordináták"
+
+#~ msgid "DIV Style container"
+#~ msgstr "DIV stíluskonténer"
+
+#~ msgid "DIV container"
+#~ msgstr "DIV konténer"
+
+#~ msgid "Date and time of change"
+#~ msgstr "A változtatás dátuma és ideje"
+
+#~ msgid "Declare flag"
+#~ msgstr "Declare jelző"
+
+#~ msgid "Defer attribute"
+#~ msgstr "Defer attribútum"
+
+#~ msgid "Definition description"
+#~ msgstr "Definícióleírás"
+
+#~ msgid "Definition list"
+#~ msgstr "Definíciólista"
+
+#~ msgid "Definition term"
+#~ msgstr "Definíciós kifejezés"
+
+#~ msgid "Deleted text"
+#~ msgstr "Törölt szöveg"
+
+#~ msgid "Direction"
+#~ msgstr "Irány"
+
+#~ msgid "Directionality"
+#~ msgstr "Írásirány"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Írásirány (elavult)"
+
+#~ msgid "Directory list"
+#~ msgstr "Könyvtárlista"
+
+#~ msgid "Disabled"
+#~ msgstr "Tiltva"
+
+#~ msgid "Document base"
+#~ msgstr "Dokumentumalap"
+
+#~ msgid "Document body"
+#~ msgstr "Dokumentumtörzs"
+
+#~ msgid "Document head"
+#~ msgstr "Dokumentumfej"
+
+#~ msgid "Document title"
+#~ msgstr "Dokumentumcím"
+
+#~ msgid "Document type"
+#~ msgstr "Dokumentumtípus"
+
+#~ msgid "Element ID"
+#~ msgstr "Elemazonosító"
+
+#~ msgid "Embedded object"
+#~ msgstr "Beágyazott objektum"
+
+#~ msgid "Emphasis"
+#~ msgstr "Kiemelés"
+
+#~ msgid "Encode type"
+#~ msgstr "Kódolás típusa"
+
+#~ msgid "Figure"
+#~ msgstr "Ábra"
+
+#~ msgid "Font face"
+#~ msgstr "Betűkészlet"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Betűkészlet (elavult)"
+
+#~ msgid "For label"
+#~ msgstr "For-címke"
+
+#~ msgid "Forced line break"
+#~ msgstr "Sortörés"
+
+#~ msgid "Form"
+#~ msgstr "Űrlap"
+
+#~ msgid "Form action handler"
+#~ msgstr "Űrlapművelet kezelője"
+
+#~ msgid "Form control group"
+#~ msgstr "Űrlapvezérlő csoport"
+
+#~ msgid "Form field label text"
+#~ msgstr "Űrlapelem címkéjének szövege"
+
+#~ msgid "Form input"
+#~ msgstr "Beviteli mező"
+
+#~ msgid "Form input type"
+#~ msgstr "Beviteli mező típusa"
+
+#~ msgid "Form method"
+#~ msgstr "Űrlapmetódus"
+
+#~ msgid "Forward link"
+#~ msgstr "Átirányítási hivatkozás"
+
+#~ msgid "Frame"
+#~ msgstr "Keret"
+
+#~ msgid "Frame border"
+#~ msgstr "Keret szegélye"
+
+#~ msgid "Frame render parts"
+#~ msgstr "Keret láthatósága"
+
+#~ msgid "Frame source"
+#~ msgstr "Keret forrása"
+
+#~ msgid "Frame spacing"
+#~ msgstr "Keretek közti távolság"
+
+#~ msgid "Frame target"
+#~ msgstr "Keret célja"
+
+#~ msgid "Frameborder"
+#~ msgstr "Keret szegélye"
+
+#~ msgid "Frameset"
+#~ msgstr "Frameset"
+
+#~ msgid "Frameset columns"
+#~ msgstr "Frameset oszlopai"
+
+#~ msgid "Frameset rows"
+#~ msgstr "Frameset sorai"
+
+#~ msgid "Framespacing"
+#~ msgstr "Keretek közti távolság"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "Általános beágyazott objektum"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "Általános metainformáció"
+
+#~ msgid "Generic span"
+#~ msgstr "Általános span attribútum"
+
+#~ msgid "HREF URI"
+#~ msgstr "Hivatkozás URI címe"
+
+#~ msgid "HTML root element"
+#~ msgstr "HTML gyökérelem"
+
+#~ msgid "HTML version"
+#~ msgstr "HTML verzió"
+
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML – Különleges karakterek"
+
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML – Címkék"
+
+#~ msgid "HTTP header name"
+#~ msgstr "HTTP fejléc neve"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "Fejléccella-azonosítók"
+
+#~ msgid "Heading"
+#~ msgstr "Címsor"
+
+#~ msgid "Heading 1"
+#~ msgstr "Címsor 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Címsor 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Címsor 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Címsor 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Címsor 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Címsor 6"
+
+#~ msgid "Height"
+#~ msgstr "Magasság"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Vízszintes szabály"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Vízszintes térköz"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Vízszintes térköz (elavult)"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "Szöveg irányának megváltoztatása"
+
+#~ msgid "Image"
+#~ msgstr "Kép"
+
+#~ msgid "Image map"
+#~ msgstr "Képtérkép"
+
+#~ msgid "Image map area"
+#~ msgstr "Képtérkép-terület"
+
+#~ msgid "Image map name"
+#~ msgstr "Képtérkép neve"
+
+#~ msgid "Image source"
+#~ msgstr "Kép forrása"
+
+#~ msgid "Inline frame"
+#~ msgstr "Beágyazott keret"
+
+#~ msgid "Inline layer"
+#~ msgstr "Beágyazott réteg"
+
+#~ msgid "Inserted text"
+#~ msgstr "Beszúrt szöveg"
+
+#~ msgid "Instance definition"
+#~ msgstr "Példánydefiníció"
+
+#~ msgid "Java applet"
+#~ msgstr "Java kisalkalmazás"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Java kisalkalmazás (elavult)"
+
+#~ msgid "Label"
+#~ msgstr "Címke"
+
+#~ msgid "Language code"
+#~ msgstr "Nyelvkód"
+
+#~ msgid "Layer"
+#~ msgstr "Réteg"
+
+#~ msgid "Link color"
+#~ msgstr "Hivatkozás színe"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Hivatkozás színe (elavult)"
+
+#~ msgid "List item"
+#~ msgstr "Listaelem"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "A feltölteni engedélyezett MIME típusok"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "Támogatott karakterkészletek listája"
+
+#~ msgid "Listing"
+#~ msgstr "Forrásszöveg"
+
+#~ msgid "Local change to font"
+#~ msgstr "Betűkészlet helyi megváltoztatása"
+
+#~ msgid "Long description link"
+#~ msgstr "Hivatkozás hosszú leírása"
+
+#~ msgid "Long quotation"
+#~ msgstr "Hosszú idézet"
+
+#~ msgid "Mail link"
+#~ msgstr "E-mail hivatkozás"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Margó magassága képpontokban"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Margó szélessége képpontokban"
+
+#~ msgid "Marquee"
+#~ msgstr "Futó szöveg"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Szöveges mező legnagyobb hossza"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Médiafüggetlen hivatkozás"
+
+#~ msgid "Menu list"
+#~ msgstr "Menülista"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Menülista (elavult)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Többsoros szöveges mező"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Több oszlop"
+
+#~ msgid "Multiple"
+#~ msgstr "Többszörös bevitel jelölése"
+
+#~ msgid "Named property value"
+#~ msgstr "Nevesített tulajdonságérték"
+
+#~ msgid "Next ID"
+#~ msgstr "Következő azonosító"
+
+#~ msgid "No URI"
+#~ msgstr "Nincs hivatkozás"
+
+#~ msgid "No embedded objects"
+#~ msgstr "Nincsenek beágyazott objektumok"
+
+#~ msgid "No frames"
+#~ msgstr "Nincsenek keretek"
+
+#~ msgid "No layers"
+#~ msgstr "Nincsenek rétegek"
+
+#~ msgid "No line break"
+#~ msgstr "Nincs sortörés"
+
+#~ msgid "No script"
+#~ msgstr "Nincs parancsfájl"
+
+#~ msgid "No shade"
+#~ msgstr "Nincs árnyék"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "Nincs árnyék (elavult)"
+
+#~ msgid "No word wrap"
+#~ msgstr "Szavakat ne tördelje"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "Szavakat ne tördelje (elavult)"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Nem törhető szóköz"
+
+#~ msgid "Note"
+#~ msgstr "Megjegyzés"
+
+#~ msgid "Object applet file"
+#~ msgstr "Kisalkalmazás objektumfájl"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Kisalkalmazás objektumfájl (elavult)"
+
+#~ msgid "Object data reference"
+#~ msgstr "Objektum adathivatkozás"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "Az igazító karakter eltolása"
+
+#~ msgid "OnBlur event"
+#~ msgstr "OnBlur esemény"
+
+#~ msgid "OnChange event"
+#~ msgstr "OnChange esemény"
+
+#~ msgid "OnClick event"
+#~ msgstr "OnClick esemény"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "OnDblClick esemény"
+
+#~ msgid "OnFocus event"
+#~ msgstr "OnFocus esemény"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "OnKeyDown esemény"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "OnKeyPress esemény"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "OnKeyUp esemény"
+
+#~ msgid "OnLoad event"
+#~ msgstr "OnLoad esemény"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "OnMouseDown esemény"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "OnMouseMove esemény"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "OnMouseOut esemény"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "OnMouseOver esemény"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "OnMouseUp esemény"
+
+#~ msgid "OnReset event"
+#~ msgstr "OnReset esemény"
+
+#~ msgid "OnSelect event"
+#~ msgstr "OnSelect esemény"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "OnSubmit esemény"
+
+#~ msgid "OnUnload event"
+#~ msgstr "OnUnload esemény"
+
+#~ msgid "Option group"
+#~ msgstr "Opciócsoport"
+
+#~ msgid "Option selector"
+#~ msgstr "Opcióválasztó"
+
+#~ msgid "Ordered list"
+#~ msgstr "Számozott lista"
+
+#~ msgid "Output media"
+#~ msgstr "Kimeneti média"
+
+#~ msgid "Paragraph"
+#~ msgstr "Bekezdés"
+
+#~ msgid "Paragraph class"
+#~ msgstr "Bekezdés osztálya"
+
+#~ msgid "Paragraph style"
+#~ msgstr "Bekezdés stílusa"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "Előre formázott forrásszöveg"
+
+#~ msgid "Preformatted text"
+#~ msgstr "Előre formázott szöveg"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Profil metainformációinak szótára"
+
+#~ msgid "Prompt message"
+#~ msgstr "Prompt üzenet"
+
+#~ msgid "Push button"
+#~ msgstr "Nyomógomb"
+
+#~ msgid "Quote"
+#~ msgstr "Idézet"
+
+#~ msgid "Range"
+#~ msgstr "Tartomány"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "Csak olvasható"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "Csökkentett térköz"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Csökkentett térköz (elavult)"
+
+#~ msgid "Reverse link"
+#~ msgstr "Fordított hivatkozás"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Rows"
+#~ msgstr "Sorok"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Sorok és oszlopok közti térköz"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Minta programkimenet"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Cellafejlécek hatásköre"
+
+#~ msgid "Script language name"
+#~ msgstr "Parancsnyelv neve"
+
+#~ msgid "Script statements"
+#~ msgstr "Parancsfájl-utasítások"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Görgetősáv"
+
+#~ msgid "Selectable option"
+#~ msgstr "Kiválasztható opció"
+
+#~ msgid "Selected"
+#~ msgstr "Kiválasztva"
+
+#~ msgid "Server-side image map"
+#~ msgstr "Kiszolgálóoldali képtérkép"
+
+#~ msgid "Shape"
+#~ msgstr "Alak"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "Rövid beágyazott idézet"
+
+#~ msgid "Single line prompt"
+#~ msgstr "Egysoros prompt"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "Méret (elavult)"
+
+#~ msgid "Soft line break"
+#~ msgstr "Gyenge sortörés"
+
+#~ msgid "Sound"
+#~ msgstr "Hang"
+
+#~ msgid "Source"
+#~ msgstr "Forrás"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "Szóközzel elválasztott archívumlista"
+
+#~ msgid "Spacer"
+#~ msgstr "Üres hely"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "Cellák közti üres hely"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "Cellákon belüli üres hely"
+
+#~ msgid "Span"
+#~ msgstr "Span"
+
+#~ msgid "Square root"
+#~ msgstr "Négyzetgyök"
+
+#~ msgid "Standby load message"
+#~ msgstr "A kód betöltődése alatt látható szöveg"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "Kezdő sorszám"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Kezdő sorszám (elavult)"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Áthúzott szöveg (elavult)"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "Szövegstílus: áthúzott"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Szövegstílus: áthúzott (elavult)"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "Vastag kiemelés"
+
+#~ msgid "Style info"
+#~ msgstr "Stílusinformáció"
+
+#~ msgid "Subscript"
+#~ msgstr "Alsó index"
+
+#~ msgid "Superscript"
+#~ msgstr "Felső index"
+
+#~ msgid "Tab order position"
+#~ msgstr "Tabulátor helye a sorban"
+
+#~ msgid "Table"
+#~ msgstr "Táblázat"
+
+#~ msgid "Table body"
+#~ msgstr "Táblázat törzse"
+
+#~ msgid "Table caption"
+#~ msgstr "Táblázat felirata"
+
+#~ msgid "Table column group properties"
+#~ msgstr "Táblázat oszlopai csoportjának tulajdonságai"
+
+#~ msgid "Table column properties"
+#~ msgstr "Táblázat oszlopának tulajdonságai"
+
+#~ msgid "Table data cell"
+#~ msgstr "Táblázat adatcella"
+
+#~ msgid "Table footer"
+#~ msgstr "Táblázat lábléce"
+
+#~ msgid "Table header"
+#~ msgstr "Táblázat fejléce"
+
+#~ msgid "Table header cell"
+#~ msgstr "Táblázat fejléc-cellája"
+
+#~ msgid "Table row"
+#~ msgstr "Táblázat sora"
+
+#~ msgid "Table summary"
+#~ msgstr "Táblázat összegzése"
+
+#~ msgid "Target — Blank"
+#~ msgstr "Cél – Üres ablak"
+
+#~ msgid "Target — Parent"
+#~ msgstr "Cél – Szülőablak"
+
+#~ msgid "Target — Self"
+#~ msgstr "Cél – Aktuális ablak"
+
+#~ msgid "Target — Top"
+#~ msgstr "Cél – Keretmentes ablak"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Szövegstílus: rögzített szélességű"
+
+#~ msgid "Text"
+#~ msgstr "Szöveg"
+
+#~ msgid "Text color"
+#~ msgstr "Szövegszín"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Szövegszín (elavult)"
+
+#~ msgid "Text entered by user"
+#~ msgstr "Felhasználó által bevitt szöveg"
+
+#~ msgid "Title"
+#~ msgstr "Cím"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "Felső margó képpontokban"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Unordered list"
+#~ msgstr "Rendezetlen lista"
+
+#~ msgid "Use image map"
+#~ msgstr "Képtérkép használata"
+
+#~ msgid "Value"
+#~ msgstr "Érték"
+
+#~ msgid "Value interpretation"
+#~ msgstr "Érték típusa"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "Változó vagy programparaméter"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Függőleges cellaigazítás"
+
+#~ msgid "Vertical space"
+#~ msgstr "Függőleges szabad hely"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Függőleges szabad hely (elavult)"
+
+#~ msgid "Visited link color"
+#~ msgstr "Látogatott hivatkozás színe"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Látogatott hivatkozás színe (elavult)"
+
+#~ msgid "Width"
+#~ msgstr "Szélesség"
+
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 – Címkék"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Irodalomjegyzék (idézet)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Irodalomjegyzék (elem)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Irodalomjegyzék (rövid idézet)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Irodalomjegyzék (thebibliography)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "() zárójelek"
+
+#~ msgid "Brackets <>"
+#~ msgstr "<> zárójelek"
+
+#~ msgid "Brackets []"
+#~ msgstr "[] zárójelek"
+
+#~ msgid "Brackets {}"
+#~ msgstr "{} zárójelek"
+
+#~ msgid "File input"
+#~ msgstr "Bemenet fájlból"
+
+#~ msgid "Footnote"
+#~ msgstr "Lábjegyzet"
+
+#~ msgid "Function cosine"
+#~ msgstr "Koszinusz függvény"
+
+#~ msgid "Function e^"
+#~ msgstr "e^ függvény"
+
+#~ msgid "Function exp"
+#~ msgstr "exp függvény"
+
+#~ msgid "Function log"
+#~ msgstr "log függvény"
+
+#~ msgid "Function log10"
+#~ msgstr "log10 függvény"
+
+#~ msgid "Function sine"
+#~ msgstr "Szinusz függvény"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Görög alfa"
+
+#~ msgid "Greek beta"
+#~ msgstr "Görög béta"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Görög epszilon"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Görög gamma"
+
+#~ msgid "Greek lambda"
+#~ msgstr "Görög lambda"
+
+#~ msgid "Greek rho"
+#~ msgstr "Görög ró"
+
+#~ msgid "Greek tau"
+#~ msgstr "Görög tau"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Fejléc 0 (fejezet)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Fejléc 0 (fejezet*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Fejléc 1 (szakasz)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Fejléc 1 (szakasz*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Fejléc 2 (alszakasz)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Fejléc 2 (alszakasz*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Fejléc 3 (alalszakasz)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Fejléc 3 (alalszakasz*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Fejléc 4 (bekezdés)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Fejléc függelék"
+
+#~ msgid "Item"
+#~ msgstr "Elem"
+
+#~ msgid "Item with label"
+#~ msgstr "Elem címkével"
+
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex – Címkék"
+
+#~ msgid "List enumerate"
+#~ msgstr "Lista – felsorolásos"
+
+#~ msgid "List itemize"
+#~ msgstr "Lista – elemenkénti"
+
+#~ msgid "Maths (display)"
+#~ msgstr "Matematikai (megjelenítés)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Matematikai (beágyazott)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "Tört operátor"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Integrál operátor (megjelenítés)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Integrál operátor (beágyazott)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Összeg operátor (megjelenítés)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Összeg operátor (beágyazott)"
+
+#~ msgid "Reference label"
+#~ msgstr "Hivatkozás – címke"
+
+#~ msgid "Reference ref"
+#~ msgstr "Hivatkozás – ref"
+
+#~ msgid "Symbol <<"
+#~ msgstr "Szimbólum: <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "Szimbólum: <="
+
+#~ msgid "Symbol >="
+#~ msgstr "Szimbólum: >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Szimbólum: >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Szimbólum: and"
+
+#~ msgid "Symbol const"
+#~ msgstr "Szimbólum: const"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Szimbólum: d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Szimbólum: d-by-dt-partial"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Szimbólum: d2-by-dt2-partial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Szimbólum: dagger"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Szimbólum: em-dash ---"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Szimbólum: nagykötőjel --"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Szimbólum: equiv"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Szimbólum: végtelen"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Szimbólum: matematikai ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Szimbólum: matematikai ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Szimbólum: matematikai _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Szimbólum: matematikai __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Szimbólum: ≃"
+
+#~ msgid "Symbol star"
+#~ msgstr "Szimbólum: csillag"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Betű: félkövér"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Betű: dőlt"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Betű: döntött"
+
+#~ msgid "Typeface type"
+#~ msgstr "Betű: rögzített szélességű"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Nem törhető szöveg"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "A gyakran használt elemek egyszerű beillesztése, azok beírása nélkül"
+
+#~ msgid "Tag list"
+#~ msgstr "Elemlista"
+
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT – Tengelyek"
+
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT – Elemek"
+
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT – Függvények"
+
+#~ msgid "ancestor"
+#~ msgstr "ancestor"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "ancestor-or-self"
+
+#~ msgid "attribute"
+#~ msgstr "attribute"
+
+#~ msgid "child"
+#~ msgstr "child"
+
+#~ msgid "descendant"
+#~ msgstr "descendant"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "descendant-or-self"
+
+#~ msgid "following"
+#~ msgstr "following"
+
+#~ msgid "following-sibling"
+#~ msgstr "following-sibling"
+
+#~ msgid "namespace"
+#~ msgstr "namespace"
+
+#~ msgid "parent"
+#~ msgstr "parent"
+
+#~ msgid "preceding"
+#~ msgstr "preceding"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "preceding-sibling"
+
+#~ msgid "self"
+#~ msgstr "self"
+
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL – Címkék"
+
+#~ msgid "_Increase font size"
+#~ msgstr "Betűméret _növelése"
+
+#~ msgid "_Decrease font size"
+#~ msgstr "Betűméret _csökkentése"
+
+#~ msgid "_Reset font size"
+#~ msgstr "Betűméret _visszaállítása"
+
+#~ msgid "_Insert"
+#~ msgstr "_Beszúrás"
