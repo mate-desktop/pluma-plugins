@@ -1,5 +1,12 @@
-plugins/codecomment/codecomment.plugin.desktop.in.in
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/codecomment.py
-plugins/git/git.plugin.desktop.in.in
-plugins/synctex/synctex.plugin.desktop.in.in
+plugins/codecomment/pluma-codecomment.metainfo.xml
+plugins/synctex/pluma-synctex.metainfo.xml
+plugins/synctex/synctex.plugin.desktop.in
 plugins/synctex/synctex/synctex.py
+plugins/terminal/pluma-terminal.metainfo.xml
+plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml
+plugins/terminal/terminal.plugin.desktop.in
+plugins/terminal/terminal.py

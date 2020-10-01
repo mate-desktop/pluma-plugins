@@ -1,3 +1,5 @@
-plugins/codecomment/codecomment.plugin.desktop.in
-plugins/git/git.plugin.desktop.in
-plugins/synctex/synctex.plugin.desktop.in
+# List of source files that should *not* be translated.
+# Please keep this file sorted alphabetically.
+plugins/codecomment/codecomment.plugin.desktop
+plugins/synctex/synctex.plugin.desktop
+plugins/terminal/terminal.plugin.desktop
