@@ -218,14 +218,14 @@ Makefile
 help/Makefile
 plugins/gpdefs.py
 plugins/Makefile
-plugins/codecomment/codecomment.plugin.desktop
+plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile
 plugins/synctex/Makefile
-plugins/synctex/synctex.plugin.desktop
+plugins/synctex/synctex.plugin.desktop.in
 plugins/synctex/synctex/Makefile
 plugins/terminal/Makefile
 plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml
-plugins/terminal/terminal.plugin.desktop
+plugins/terminal/terminal.plugin.desktop.in
 po/Makefile.in])
 
 AC_OUTPUT

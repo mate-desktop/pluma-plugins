@@ -1,22 +1,11 @@
-SUBDIRS = help plugins #po
+SUBDIRS = po help plugins
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 EXTRA_DIST =			\
 	autogen.sh		\
 	ChangeLog-20090414	\
-	pluma-plugins.doap	\
-	intltool-extract.in 	\
-	intltool-merge.in 	\
-	intltool-update.in
-
-CLEANFILES =
-BUILT_SOURCES =
-
-DISTCLEANFILES = 		\
-	intltool-extract 	\
-	intltool-merge 		\
-	intltool-update
+	pluma-plugins.doap
 
 MAINTAINERCLEANFILES = 		\
 	aclocal.m4		\

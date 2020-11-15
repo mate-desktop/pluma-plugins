@@ -2,11 +2,11 @@
 # Please keep this file sorted alphabetically.
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/codecomment.py
-plugins/codecomment/pluma-codecomment.metainfo.xml
-plugins/synctex/pluma-synctex.metainfo.xml
+plugins/codecomment/template.pluma-codecomment.metainfo.xml
+plugins/synctex/template.pluma-synctex.metainfo.xml
 plugins/synctex/synctex.plugin.desktop.in
 plugins/synctex/synctex/synctex.py
-plugins/terminal/pluma-terminal.metainfo.xml
-plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml
+plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in
+plugins/terminal/template.pluma-terminal.metainfo.xml
 plugins/terminal/terminal.plugin.desktop.in
 plugins/terminal/terminal.py

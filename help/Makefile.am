@@ -1,11 +1,13 @@
 @YELP_HELP_RULES@
 
-HELP_ID = pluma
-
-HELP_FILES = \
-	code-comment.page \
-	terminal.page
-
+HELP_ID = pluma-plugins
+HELP_FILES = code-comment.page index.page legal-plugins.xml terminal.page
 HELP_MEDIA =
 
-HELP_LINGUAS =  ar bg ca cs da de el es eu fi fr gl hu it ja ko lv oc pt_BR ru sl sv te th uk zh_CN zh_HK zh_TW
+# Add linguas to be ignored, e.g. IGNORE_HELP_LINGUAS = ca de es fr
+IGNORE_HELP_LINGUAS =
+HELP_LINGUAS = $(if $(IGNORE_HELP_LINGUAS), \
+	$(filter-out $(IGNORE_HELP_LINGUAS),$(subst /,,$(dir $(wildcard */*.po)))), \
+	$(subst /,,$(dir $(wildcard */*.po))) )
+
+-include $(top_srcdir)/git.mk
