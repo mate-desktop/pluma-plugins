@@ -32,19 +32,6 @@ AC_PROG_MAKE_SET
 LT_PREREQ([2.2])
 LT_INIT([disable-static])
 
-dnl check for win32 platform
-AC_MSG_CHECKING([for some Win32 platform])
-case "$host" in
-  *-*-mingw*|*-*-cygwin*)
-    platform_win32=yes
-    ;;
-  *)
-    platform_win32=no
-    ;;
-esac
-AC_MSG_RESULT([$platform_win32])
-AM_CONDITIONAL(PLATFORM_WIN32, test "$platform_win32" = "yes")
-
 AM_GNU_GETTEXT_VERSION([0.19.8])
 AM_GNU_GETTEXT([external])
 
@@ -191,11 +178,7 @@ then
 	AC_SUBST(DISABLE_DEPRECATED_CFLAGS)
 fi
 
-if test "$platform_win32" = yes; then
-	PLUGIN_LIBTOOL_FLAGS="-module -avoid-version -no-undefined"
-else
-	PLUGIN_LIBTOOL_FLAGS="-module -avoid-version"
-fi
+PLUGIN_LIBTOOL_FLAGS="-module -avoid-version"
 AC_SUBST(PLUGIN_LIBTOOL_FLAGS)
 
 PLUMA_PLUGINS_LIBS_DIR="$libdir/pluma/plugins"
