@@ -29,20 +29,25 @@ MAINTAINERCLEANFILES = 		\
 
 DISTCHECK_CONFIGURE_FLAGS = --enable-verify-all
 
-CHANGELOG_START = PLUMA_PLUGINS_1_24_0
+CLEANFILES = ChangeLog
 
-dist-hook:
-	@if test -d "$(srcdir)/.git"; \
-	then \
-		echo Creating ChangeLog && \
-		(GIT_DIR=$(top_srcdir)/.git \
-		  ./missing --run git log $(CHANGELOG_START)^^.. --stat -M -C --name-status  --date=short --no-color) | \
-		  fmt --split-only > ChangeLog.tmp \
-		&& mv -f ChangeLog.tmp $(top_distdir)/ChangeLog \
-		|| ( rm -f ChangeLog.tmp ; \
-		  echo Failed to generate ChangeLog >&2 ); \
+# Build ChangeLog from GIT history
+ChangeLog:
+	@echo Creating $@
+	@if test -d $(top_srcdir)/.git; then \
+		(GIT_DIR=$(top_srcdir)/.git $(top_srcdir)/missing --run git log --stat -M -C --name-status  --date=short --no-color) | fmt --split-only > $@.tmp \
+		 && mv -f $@.tmp $@ \
+		 || ($(RM) $@.tmp; \
+		     echo Failed to generate ChangeLog, your ChangeLog may be outdated >&2; \
+		     (test -f $@ || echo git-log is required to generate this file >> $@)); \
 	else \
-		echo A git clone is required to generate a ChangeLog >&2; \
+		test -f $@ || \
+		(echo A git checkout and git-log is required to generate ChangeLog >&2 && \
+		echo A git checkout and git-log is required to generate this file >> $@); \
 	fi
+
+dist: ChangeLog
+
+.PHONY: ChangeLog
 
 -include $(top_srcdir)/git.mk
