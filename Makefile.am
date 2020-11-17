@@ -4,7 +4,6 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 EXTRA_DIST =			\
 	autogen.sh		\
-	ChangeLog-20090414	\
 	pluma-plugins.doap
 
 MAINTAINERCLEANFILES = 		\
