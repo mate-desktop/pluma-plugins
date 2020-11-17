@@ -1,4 +1,4 @@
-# -*- coding: utf8 -*-
+# -*- coding: utf-8 -*-
 
 # terminal.py - Embeded VTE terminal for pluma
 # This file is part of pluma
