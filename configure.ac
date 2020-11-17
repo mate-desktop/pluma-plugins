@@ -160,11 +160,6 @@ else
 	disabled_plugins="$disabled_plugins $PYTHON_PLUGINS synctex terminal (python not found)"
 fi
 
-if test -z "$disabled_plugins"
-then
-	disabled_plugins="none"
-fi
-
 AM_CONDITIONAL([ENABLE_SYNCTEX], test "x$have_synctex" = "xyes")
 AM_CONDITIONAL([ENABLE_TERMINAL], test "x$have_vte" = "xyes")
 
