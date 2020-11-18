@@ -1,7 +1,7 @@
 @YELP_HELP_RULES@
 
 HELP_ID = pluma-plugins
-HELP_FILES = code-comment.page index.page legal-plugins.xml terminal.page
+HELP_FILES = bookmarks.page code-comment.page index.page legal-plugins.xml terminal.page
 HELP_MEDIA =
 
 # Add linguas to be ignored, e.g. IGNORE_HELP_LINGUAS = ca de es fr

@@ -66,7 +66,7 @@ GLIB_GSETTINGS
 # ================================================================
 
 # C plugins that don't need special dependencies
-C_PLUGINS=""
+C_PLUGINS="bookmarks"
 
 # Python plugins that don't need special dependencies, besides Python
 PYTHON_PLUGINS="codecomment"
@@ -195,6 +195,8 @@ AC_CONFIG_FILES([
 Makefile
 help/Makefile
 plugins/gpdefs.py
+plugins/bookmarks/bookmarks.plugin.desktop.in
+plugins/bookmarks/Makefile
 plugins/Makefile
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile

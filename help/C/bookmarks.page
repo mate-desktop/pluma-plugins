@@ -1,0 +1,61 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-bookmarks">
+
+  <info>
+    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+    <revision version="3.4" date="2013-02-24" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <desc>Record commonly-referenced locations with bookmarks.</desc>
+  </info>
+
+  <title>Bookmarks</title>
+
+  <p><app>pluma</app> bookmarks allow you to highlight important lines of text
+  within your document or program, making them easier to find. You can also
+  move up or down between bookmarks, making document navigation a bit
+  faster.</p>
+
+  <p>To enable the bookmark plugin, select <guiseq><gui style="menu">pluma</gui>
+  <gui style="menuitem">Preferences</gui><gui>Plugins</gui>
+  <gui>Bookmarks</gui></guiseq>.</p>
+
+  <steps>
+    <title>Bookmarks are inserted and removed by completing the same action. To
+    insert or remove bookmarks:</title>
+    <item>
+      <p>Navigate to the line where you want to insert or remove the
+      bookmark.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or
+      click <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Toggle
+      Bookmark</gui></guiseq>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>To move between bookmarks:</title>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next
+      bookmark.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to
+      move to the previous bookmark.</p>
+      <note>
+        <p>If you prefer using the mouse, you can click
+        <guiseq><gui style="menu">pluma</gui><gui style="menuitem">Go to Next
+        Bookmark</gui></guiseq> or <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Go to Previous Bookmark</gui></guiseq>.</p>
+      </note>
+    </item>
+  </steps>
+
+</page>
