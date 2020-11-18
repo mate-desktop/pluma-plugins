@@ -5,20 +5,21 @@
 
 ## General Information
 
-A set set of plugins for Pluma, the MATE text editor. The package pluma-plugins started as a fork of gedit-plugins.
+A set set of plugins for Pluma, the MATE text editor. The package *pluma-plugins* started as a fork of *gedit-plugins*.
 
 Currently available plugins:
 
+- **bookmarks** - *Easy document navigation with bookmarks.*
 - **codecomment** - *Comment and uncomment blocks of code.*
 - **synctex** - *SyncTeX synchronization of TeX files and PDF output.*
 - **terminal** - *Embed a terminal in the bottom pane.*
 
 Note:
 
-- For the synctex plugin to get enabled you will need to have dbus-python installed.
-- For the terminal plugin to get enabled you will need to have vte installed.
+- The *synctex* plugin requires `dbus-python` (>= 0.82).
+- The *terminal* plugin requires the `VTE` (>= 2.91) library.
 
-See the Pluma [README](https://github.com/mate-desktop/pluma/blob/master/README) file for more information.
+See the Pluma [README](https://github.com/mate-desktop/pluma/blob/master/README.md) file for more information.
 
 ## Installation
 

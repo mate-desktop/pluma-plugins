@@ -1,5 +1,8 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
+plugins/bookmarks/bookmarks.plugin.desktop.in
+plugins/bookmarks/pluma-bookmarks-plugin.c
+plugins/bookmarks/template.pluma-bookmarks.metainfo.xml
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/codecomment.py
 plugins/codecomment/template.pluma-codecomment.metainfo.xml
