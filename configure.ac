@@ -200,13 +200,17 @@ plugins/bookmarks/Makefile
 plugins/Makefile
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile
+po/Makefile.in])
+
+AM_COND_IF([ENABLE_SYNCTEX],[AC_CONFIG_FILES([
 plugins/synctex/Makefile
 plugins/synctex/synctex.plugin.desktop.in
-plugins/synctex/synctex/Makefile
+plugins/synctex/synctex/Makefile])])
+
+AM_COND_IF([ENABLE_TERMINAL],[AC_CONFIG_FILES([
 plugins/terminal/Makefile
 plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml
-plugins/terminal/terminal.plugin.desktop.in
-po/Makefile.in])
+plugins/terminal/terminal.plugin.desktop.in])])
 
 AC_OUTPUT
 
