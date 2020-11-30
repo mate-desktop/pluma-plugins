@@ -9,8 +9,9 @@ m4_define(pluma_plugins_version, pluma_plugins_major_version.pluma_plugins_minor
 
 AC_INIT([pluma-plugins],
         [pluma_plugins_version],
-        [https://mate-desktop.org/],
-        [pluma-plugins])
+        [https://github.com/mate-desktop/pluma-plugins/issues],
+        [pluma-plugins],
+        [https://mate-desktop.org/])
 
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_SRCDIR([plugins])
@@ -197,19 +198,23 @@ help/Makefile
 plugins/gpdefs.py
 plugins/bookmarks/bookmarks.plugin.desktop.in
 plugins/bookmarks/Makefile
+plugins/bookmarks/pluma-bookmarks.metainfo.xml.in
 plugins/Makefile
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile
+plugins/codecomment/pluma-codecomment.metainfo.xml.in
 po/Makefile.in])
 
 AM_COND_IF([ENABLE_SYNCTEX],[AC_CONFIG_FILES([
 plugins/synctex/Makefile
+plugins/synctex/pluma-synctex.metainfo.xml.in
 plugins/synctex/synctex.plugin.desktop.in
 plugins/synctex/synctex/Makefile])])
 
 AM_COND_IF([ENABLE_TERMINAL],[AC_CONFIG_FILES([
 plugins/terminal/Makefile
 plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml
+plugins/terminal/pluma-terminal.metainfo.xml.in
 plugins/terminal/terminal.plugin.desktop.in])])
 
 AC_OUTPUT

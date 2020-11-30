@@ -22,22 +22,22 @@ $(plugin_DATA): $(plugin_in_files)
 	$(AM_V_GEN) $(MSGFMT) --keyword=Name --keyword=Description --desktop --template $< -d $(top_srcdir)/po -o $@
 
 metainfodir = $(datadir)/metainfo
-metainfo_in_files = template.pluma-bookmarks.metainfo.xml
-metainfo_DATA = $(metainfo_in_files:template.%=%)
+metainfo_DATA = pluma-bookmarks.metainfo.xml
+metainfo_in_files = $(metainfo_DATA:=.in)
 
 $(metainfo_DATA): $(metainfo_in_files)
 	$(AM_V_GEN) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = \
-	$(plugin_in_files) \
-	$(metainfo_in_files)
+	$(metainfo_in_files:=.in) \
+	$(plugin_in_files:=.in)
 
 CLEANFILES = \
-	$(plugin_DATA) \
-	$(metainfo_DATA)
-
-DISTCLEANFILES = \
 	$(metainfo_DATA) \
 	$(plugin_DATA)
+
+DISTCLEANFILES = \
+	$(metainfo_in_files) \
+	$(plugin_in_files)
 
 -include $(top_srcdir)/git.mk

@@ -5,8 +5,8 @@
   <extends>org.mate.pluma.desktop</extends>
   <name>Bookmarks</name>
   <summary>Easy document navigation with bookmarks</summary>
-  <url type="homepage">https://mate-desktop.org/</url>
-  <url type="bugtracker">https://github.com/mate-desktop/pluma-plugins/issues</url>
+  <url type="homepage">@PACKAGE_URL@</url>
+  <url type="bugtracker">@PACKAGE_BUGREPORT@</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <updatecontact>i.gnatenko.brain@gmail.com</updatecontact>
