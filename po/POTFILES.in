@@ -15,3 +15,6 @@ plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in
 plugins/terminal/pluma-terminal.metainfo.xml.in.in
 plugins/terminal/terminal.plugin.desktop.in.in
 plugins/terminal/terminal.py
+plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in
+plugins/wordcompletion/pluma-word-completion-plugin.c
+plugins/wordcompletion/wordcompletion.plugin.desktop.in.in

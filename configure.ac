@@ -43,6 +43,24 @@ GETTEXT_PACKAGE=pluma-plugins
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package])
 
+# **********************
+# GLIB_COMPILE_RESOURCES
+# **********************
+AC_ARG_VAR([GLIB_COMPILE_RESOURCES],[glib-compile-resources bin])
+AC_PATH_PROG([GLIB_COMPILE_RESOURCES],[glib-compile-resources],[])
+if test -z "$GLIB_COMPILE_RESOURCES"; then
+  AC_MSG_ERROR([glib-compile-resources not found])
+fi
+
+# *******
+# XMLLINT
+# *******
+AC_ARG_VAR([XMLLINT],[xmllint bin])
+AC_PATH_PROG([XMLLINT],[xmllint],[])
+if test -z "$XMLLINT"; then
+  AC_MSG_ERROR([xmllint not found])
+fi
+
 # ================================================================
 # Start of pkg-config checks
 # ================================================================
@@ -68,7 +86,7 @@ GLIB_GSETTINGS
 # ================================================================
 
 # C plugins that don't need special dependencies
-C_PLUGINS="bookmarks"
+C_PLUGINS="bookmarks wordcompletion"
 
 # Python plugins that don't need special dependencies, besides Python
 PYTHON_PLUGINS="bracketcompletion codecomment smartspaces"
@@ -157,11 +175,6 @@ AC_SUBST(PLUGINS)
 # ================================================================
 # Misc
 # ================================================================
-AC_PATH_PROG(GLIB_COMPILE_RESOURCES, glib-compile-resources)
-AC_PATH_PROG(GLIB_GENMARSHAL, glib-genmarshal)
-
-AC_DEFINE(GDK_VERSION_MIN_REQUIRED, GDK_VERSION_3_8, [minimum gdk version])
-
 YELP_HELP_INIT
 
 AC_ARG_ENABLE(deprecations,
@@ -208,6 +221,9 @@ plugins/codecomment/Makefile
 plugins/codecomment/pluma-codecomment.metainfo.xml.in
 plugins/smartspaces/smartspaces.plugin.desktop.in
 plugins/smartspaces/Makefile
+plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml
+plugins/wordcompletion/wordcompletion.plugin.desktop.in
+plugins/wordcompletion/Makefile
 po/Makefile.in])
 
 AM_COND_IF([ENABLE_SYNCTEX],[AC_CONFIG_FILES([

@@ -1,0 +1,9 @@
+[Plugin]
+Module=wordcompletion
+IAge=3
+Name=Word Completion
+Description=Word completion using the completion framework
+Authors=Jesse van den Kieboom <jesse@gnome.org>\nIgnacio Casal Quinteiro <icq@gnome.org>
+Copyright=Copyright © 2009 Jesse van den Kieboom
+Website=@PACKAGE_URL@
+Version=@VERSION@
