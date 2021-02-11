@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/mate/pluma/plugins/wordcompletion/ui">
+    <file preprocess="xml-stripblanks">pluma-word-completion-configure.ui</file>
+  </gresource>
+</gresources>

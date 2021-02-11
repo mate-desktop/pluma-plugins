@@ -14,6 +14,7 @@ Currently available plugins:
 - **smartspaces** - *Forget you’re not using tabulations.*
 - **synctex** - *SyncTeX synchronization of TeX files and PDF output.*
 - **terminal** - *Embed a terminal in the bottom pane.*
+- **wordcompletion** - *Word completion using the completion framework.*
 
 Note:
 
