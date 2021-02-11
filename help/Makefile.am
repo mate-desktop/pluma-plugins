@@ -1,6 +1,6 @@
 @YELP_HELP_RULES@
 
-PLUGINS_WITHOUT_HELP = synctex
+PLUGINS_WITHOUT_HELP = synctex smartspaces
 HELP_ID = pluma-plugins
 HELP_FILES = index.page legal-plugins.xml $(foreach plugin,$(filter-out $(PLUGINS_WITHOUT_HELP),$(PLUGINS)),$(plugin).page)
 HELP_MEDIA =

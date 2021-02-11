@@ -6,6 +6,7 @@ plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in
 plugins/codecomment/codecomment.plugin.desktop.in.in
 plugins/codecomment/codecomment.py
 plugins/codecomment/pluma-codecomment.metainfo.xml.in.in
+plugins/smartspaces/smartspaces.plugin.desktop.in.in
 plugins/synctex/pluma-synctex.metainfo.xml.in.in
 plugins/synctex/synctex.plugin.desktop.in.in
 plugins/synctex/synctex/synctex.py

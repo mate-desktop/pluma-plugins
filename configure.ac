@@ -70,7 +70,7 @@ GLIB_GSETTINGS
 C_PLUGINS="bookmarks"
 
 # Python plugins that don't need special dependencies, besides Python
-PYTHON_PLUGINS="codecomment"
+PYTHON_PLUGINS="codecomment smartspaces"
 
 PLUGINS="$C_PLUGINS"
 disabled_plugins=""
@@ -203,6 +203,8 @@ plugins/Makefile
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile
 plugins/codecomment/pluma-codecomment.metainfo.xml.in
+plugins/smartspaces/smartspaces.plugin.desktop.in
+plugins/smartspaces/Makefile
 po/Makefile.in])
 
 AM_COND_IF([ENABLE_SYNCTEX],[AC_CONFIG_FILES([
