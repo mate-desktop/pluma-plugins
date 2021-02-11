@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=smartspaces
+IAge=3
+Name=Smart Spaces
+Description=Forget you're not using tabulations.
+Authors=Steve Frécinaux <steve@istique.net>
+Copyright=Copyright © 2006 Steve Frécinaux
+Website=@PACKAGE_URL@
+Version=@VERSION@
