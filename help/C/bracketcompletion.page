@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-bracketcompletion">
+
+  <info>
+    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <desc>Auto-complete closing brackets.</desc>
+  </info>
+
+  <title>Bracket Completion</title>
+
+  <p>The <app>Bracket Completion</app> plugin will auto-complete closing
+  brackets for curly braces, parentheses and square brackets.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p> Go to
+      <guiseq><gui style="menuitem">Edit</gui>
+      <gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Bracket Completion</gui> to enable the
+      plugin.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>This plugin does not automatically insert closing HTML or XML tags.</p>
+  </note>
+
+</page>
