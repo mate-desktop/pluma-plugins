@@ -71,7 +71,7 @@ GLIB_GSETTINGS
 C_PLUGINS="bookmarks"
 
 # Python plugins that don't need special dependencies, besides Python
-PYTHON_PLUGINS="codecomment smartspaces"
+PYTHON_PLUGINS="bracketcompletion codecomment smartspaces"
 
 PLUGINS="$C_PLUGINS"
 disabled_plugins=""
@@ -200,6 +200,8 @@ plugins/gpdefs.py
 plugins/bookmarks/bookmarks.plugin.desktop.in
 plugins/bookmarks/Makefile
 plugins/bookmarks/pluma-bookmarks.metainfo.xml.in
+plugins/bracketcompletion/bracketcompletion.plugin.desktop.in
+plugins/bracketcompletion/Makefile
 plugins/Makefile
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile

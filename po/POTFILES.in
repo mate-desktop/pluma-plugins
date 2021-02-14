@@ -3,6 +3,7 @@
 plugins/bookmarks/bookmarks.plugin.desktop.in.in
 plugins/bookmarks/pluma-bookmarks-plugin.c
 plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in
+plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in
 plugins/codecomment/codecomment.plugin.desktop.in.in
 plugins/codecomment/codecomment.py
 plugins/codecomment/pluma-codecomment.metainfo.xml.in.in
