@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=multiedit
+IAge=3
+Name=Multi Edit
+Description=Edit document in multiple places at once
+Authors=Jesse van den Kieboom <jessevdk@gnome.org>
+Copyright=Copyright © 2009 Jesse van den Kieboom
+Website=@PACKAGE_URL@
+Version=@VERSION@

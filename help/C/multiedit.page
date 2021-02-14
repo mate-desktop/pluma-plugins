@@ -1,0 +1,92 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-multi-edit">
+
+  <info>
+    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2011</years>
+    </credit>
+
+    <desc>Edit a document in multiple places at once.</desc>
+  </info>
+
+  <title>Multi Edit</title>
+
+  <p>The <app>Multi Edit</app> plugin allows you to edit a document in multiple
+  places at once. This can be helpful when performing tedious editing tasks. To
+  enable the Multi Edit plugin, select <guiseq><gui style="menu">pluma</gui>
+  <gui>Preferences</gui><gui>Plugins</gui><gui>Multi Edit</gui></guiseq>.</p>
+
+  <p>After you have enabled the plugin, turn-on Multi Edit mode by pressing
+  <keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or clicking
+  <guiseq><gui style="menu">pluma</gui><gui>Multi Edit Mode</gui></guiseq>. You
+  can then select the points in your file that you would like start
+  editing.</p>
+
+  <p>To insert editing points in your file:</p>
+  <steps>
+    <item>
+      <p>Place your cursor at your first desired editing point.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>E</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Move to your next editing point, and press <keyseq><key>Ctrl</key>
+      <key>E</key></keyseq> again.</p>
+    </item>
+    <item>
+      <p>Continue inserting editing points, adding as many as you need.</p>
+    </item>
+  </steps>
+
+  <p>Once you have inserted all of your editing points, you can make your
+  desired edits.</p>
+
+  <p>To remove editing points, press the <key>Esc</key> key. This will remove
+  all of the editing points. Pressing the <key>Esc</key> key again will turn
+  off Multi Edit mode, returning the editor back to its normal state.</p>
+
+  <p>Selection:</p>
+
+  <table>
+    <tr>
+      <td><p><key>Return</key></p></td> <td><p>Enter column mode using selection</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>Return</key></keyseq></p></td> <td><p>Enter smart column mode using selection</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>Shift</key><key>Return</key></keyseq></p></td> <td><p>Smart column align mode using selection</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>Shift</key><key>Alt</key><key>Return</key></keyseq></p></td> <td><p>Smart column align mode with additional space using selection</p></td>
+    </tr>
+  </table>
+
+  <p>Edit points:</p>
+
+  <table>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>e</key></keyseq></p></td> <td><p>Toggle edit point</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>Home</key></keyseq></p></td> <td><p>Add edit point at beginnig of line/selection</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>End</key></keyseq></p></td> <td><p>Add edit point at end of line/selection</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>Shift</key><key>Return</key></keyseq></p></td> <td><p>Align edit points</p></td>
+    </tr>
+    <tr>
+      <td><p><keyseq><key>Primary</key><key>Shift</key><key>Alt</key><key>Return</key></keyseq></p></td> <td><p>Align edit points with additional space</p></td>
+    </tr>
+  </table>
+
+</page>
