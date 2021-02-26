@@ -8,6 +8,7 @@ requires:
     - clang
     - gcc
     - git
+    - gtksourceview4
     - make
     - mate-common
     - yelp-tools
@@ -22,7 +23,7 @@ requires:
     - gcc
     - git
     - libgtk-3-dev
-    - libgtksourceview-3.0-dev
+    - libgtksourceview-4-dev
     - libpeas-dev
     - libvte-2.91-dev
     - make
@@ -45,7 +46,7 @@ requires:
     - gcc
     - git
     - gtk3-devel
-    - gtksourceview3-devel
+    - gtksourceview4-devel
     - libpeas-devel
     - make
     - mate-common
@@ -66,7 +67,7 @@ requires:
     - gcc
     - git
     - libgtk-3-dev
-    - libgtksourceview-3.0-dev
+    - libgtksourceview-4-dev
     - libpeas-dev
     - libvte-2.91-dev
     - make
@@ -96,12 +97,13 @@ variables:
     -enable-checker alpha.unix.cstring.OutOfBounds
     -enable-checker alpha.core.FixedAddr
     -enable-checker security.insecureAPI.strcpy"'
+  - PLUMA_VERSION=1.25.3
 
 before_scripts:
   - cd ${START_DIR}
-  - '[ -f pluma-1.25.2.tar.xz ] || curl -Ls -o pluma-1.25.2.tar.xz https://github.com/mate-desktop/pluma/releases/download/v1.25.2/pluma-1.25.2.tar.xz'
-  - tar xf pluma-1.25.2.tar.xz
-  - cd pluma-1.25.2
+  - '[ -f pluma-${PLUMA_VERSION}.tar.xz ] || curl -Ls -o pluma-${PLUMA_VERSION}.tar.xz https://github.com/mate-desktop/pluma/releases/download/v${PLUMA_VERSION}/pluma-${PLUMA_VERSION}.tar.xz'
+  - tar xf pluma-${PLUMA_VERSION}.tar.xz
+  - cd pluma-${PLUMA_VERSION}
   - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
   -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
   - else
