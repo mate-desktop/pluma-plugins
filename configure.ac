@@ -46,15 +46,16 @@ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package])
 # ================================================================
 # Start of pkg-config checks
 # ================================================================
+GTKSOURCEVIEW_REQUIRED=4.0.2
 
 PKG_CHECK_MODULES(PLUMA, [
 	glib-2.0 >= 2.32.0
 	gio-2.0 >= 2.32.0
 	gtk+-3.0 >= 3.9.0
-	gtksourceview-3.0 >= 3.9.2
+	gtksourceview-4 >= $GTKSOURCEVIEW_REQUIRED
 	libpeas-1.0 >= 1.7.0
 	libpeas-gtk-1.0 >= 1.7.0
-	pluma >= 1.25.2
+	pluma >= 1.25.3
 ])
 
 dnl ================================================================
