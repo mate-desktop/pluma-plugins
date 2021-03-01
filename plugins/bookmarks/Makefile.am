@@ -26,7 +26,7 @@ metainfo_DATA = pluma-bookmarks.metainfo.xml
 metainfo_in_files = $(metainfo_DATA:=.in)
 
 $(metainfo_DATA): $(metainfo_in_files)
-	$(AM_V_GEN) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
+	$(AM_V_GEN) GETTEXTDATADIR=$(top_srcdir) $(MSGFMT) --xml --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST = \
 	$(metainfo_in_files:=.in) \
