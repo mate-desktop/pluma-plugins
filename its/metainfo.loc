@@ -17,7 +17,10 @@
   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
 <locatingRules>
-  <locatingRule name="metainfo" pattern="*.metainfo.xml.in.in">
+  <locatingRule name="metainfo" pattern="*.metainfo.xml">
+    <documentRule localName="component" target="metainfo.its"/>
+  </locatingRule>
+  <locatingRule name="AppData" pattern="*.appdata.xml">
     <documentRule localName="component" target="metainfo.its"/>
   </locatingRule>
 </locatingRules>
