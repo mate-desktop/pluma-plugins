@@ -11,7 +11,7 @@
     <value nick='underline' value='2'/>
   </enum>
 
-  <schema gettext-domain="pluma-plugins" id="org.mate.pluma.plugins.terminal" path="/org/mate/pluma/plugins/terminal/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.mate.pluma.plugins.terminal" path="/org/mate/pluma/plugins/terminal/">
     <key name="silent-bell" type="b">
       <default>true</default>
       <summary>Whether to silence terminal bell</summary>
