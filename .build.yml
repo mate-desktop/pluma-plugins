@@ -32,6 +32,8 @@ requires:
     - python-dbus-dev
     - python3-gi
     - yelp-tools
+# for building pluma
+    - libenchant-2-dev
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/atril.git
@@ -51,6 +53,10 @@ requires:
     - python3-devel
     - vte291-devel
     - yelp-tools
+# for building pluma
+    - enchant2-devel
+    - iso-codes-devel
+    - libSM-devel
 
   ubuntu:
     - autopoint
@@ -70,6 +76,8 @@ requires:
     - python-dbus-dev
     - python3-gi
     - yelp-tools
+# for building pluma
+    - libenchant-2-dev
 
 variables:
   - 'CHECKERS="
@@ -90,10 +98,17 @@ variables:
     -enable-checker security.insecureAPI.strcpy"'
 
 before_scripts:
-  - if [ ${DISTRO_NAME} == "debian" ];then
-  -     egrep -lRZ 'G_GNUC_BEGIN_IGNORE_DEPRECATIONS' . | xargs -0 -l sed -i -e 's/G_GNUC_BEGIN_IGNORE_DEPRECATIONS/ /g'
-  -     egrep -lRZ 'G_GNUC_END_IGNORE_DEPRECATIONS' . | xargs -0 -l sed -i -e 's/G_GNUC_END_IGNORE_DEPRECATIONS/ /g'
+  - cd ${START_DIR}
+  - '[ -f pluma-1.25.2.tar.xz ] || curl -Ls -o pluma-1.25.2.tar.xz https://github.com/mate-desktop/pluma/releases/download/v1.25.2/pluma-1.25.2.tar.xz'
+  - tar xf pluma-1.25.2.tar.xz
+  - cd pluma-1.25.2
+  - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
+  -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
+  - else
+  -     ./configure --prefix=/usr
   - fi
+  - make
+  - make install
 
 build_scripts:
   - if [ ${DISTRO_NAME} == "debian" ];then
