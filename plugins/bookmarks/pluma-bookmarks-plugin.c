@@ -28,13 +28,12 @@
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
 #include <gmodule.h>
-#include <libpeas/peas-activatable.h>
 #include <gtksourceview/gtksource.h>
 
+#include <pluma/pluma-window-activatable.h>
 #include <pluma/pluma-debug.h>
 #include <pluma/pluma-window.h>
 #include <pluma/pluma-document.h>
-
 
 #define BOOKMARK_CATEGORY "PlumaBookmarksPluginBookmark"
 #define BOOKMARK_PRIORITY 1
@@ -95,7 +94,7 @@ static void add_bookmark    (GtkSourceBuffer *buffer, GtkTextIter *iter);
 static void remove_bookmark (GtkSourceBuffer *buffer, GtkTextIter *iter);
 static void toggle_bookmark (GtkSourceBuffer *buffer, GtkTextIter *iter);
 
-static void peas_activatable_iface_init (PeasActivatableInterface *iface);
+static void pluma_window_activatable_iface_init (PlumaWindowActivatableInterface *iface);
 
 struct _PlumaBookmarksPluginPrivate
 {
@@ -110,13 +109,13 @@ G_DEFINE_DYNAMIC_TYPE_EXTENDED (PlumaBookmarksPlugin,
                                 PEAS_TYPE_EXTENSION_BASE,
                                 0,
                                 G_ADD_PRIVATE_DYNAMIC (PlumaBookmarksPlugin)
-                                G_IMPLEMENT_INTERFACE_DYNAMIC (PEAS_TYPE_ACTIVATABLE,
-                                                               peas_activatable_iface_init))
+                                G_IMPLEMENT_INTERFACE_DYNAMIC (PLUMA_TYPE_WINDOW_ACTIVATABLE,
+                                                               pluma_window_activatable_iface_init))
 
 enum
 {
 	PROP_0,
-	PROP_OBJECT
+	PROP_WINDOW
 };
 
 static void
@@ -159,7 +158,7 @@ pluma_bookmarks_plugin_set_property (GObject      *object,
 
 	switch (prop_id)
 	{
-		case PROP_OBJECT:
+		case PROP_WINDOW:
 			plugin->priv->window = PLUMA_WINDOW (g_value_dup_object (value));
 			break;
 
@@ -179,7 +178,7 @@ pluma_bookmarks_plugin_get_property (GObject    *object,
 
 	switch (prop_id)
 	{
-		case PROP_OBJECT:
+		case PROP_WINDOW:
 			g_value_set_object (value, plugin->priv->window);
 			break;
 
@@ -723,7 +722,7 @@ uninstall_messages (PlumaWindow *window)
 }
 
 static void
-pluma_bookmarks_plugin_activate (PeasActivatable *activatable)
+pluma_bookmarks_plugin_activate (PlumaWindowActivatable *activatable)
 {
 	PlumaBookmarksPluginPrivate *priv;
 	GList *views;
@@ -754,7 +753,7 @@ pluma_bookmarks_plugin_activate (PeasActivatable *activatable)
 }
 
 static void
-pluma_bookmarks_plugin_update_state (PeasActivatable *activatable)
+pluma_bookmarks_plugin_update_state (PlumaWindowActivatable *activatable)
 {
 	PlumaBookmarksPluginPrivate *priv;
 
@@ -812,7 +811,7 @@ save_bookmark_metadata (PlumaView *view)
 }
 
 static void
-pluma_bookmarks_plugin_deactivate (PeasActivatable *activatable)
+pluma_bookmarks_plugin_deactivate (PlumaWindowActivatable *activatable)
 {
 	PlumaBookmarksPluginPrivate *priv;
 	GList *views;
@@ -845,7 +844,7 @@ pluma_bookmarks_plugin_class_init (PlumaBookmarksPluginClass *klass)
 	object_class->set_property = pluma_bookmarks_plugin_set_property;
 	object_class->get_property = pluma_bookmarks_plugin_get_property;
 
-	g_object_class_override_property (object_class, PROP_OBJECT, "object");
+	g_object_class_override_property (object_class, PROP_WINDOW, "window");
 }
 
 static void
@@ -1163,7 +1162,7 @@ on_tab_removed (PlumaWindow          *window,
 }
 
 static void
-peas_activatable_iface_init (PeasActivatableInterface *iface)
+pluma_window_activatable_iface_init (PlumaWindowActivatableInterface *iface)
 {
 	iface->activate     = pluma_bookmarks_plugin_activate;
 	iface->deactivate   = pluma_bookmarks_plugin_deactivate;
@@ -1176,7 +1175,7 @@ peas_register_types (PeasObjectModule *module)
 	pluma_bookmarks_plugin_register_type (G_TYPE_MODULE (module));
 
 	peas_object_module_register_extension_type (module,
-						    PEAS_TYPE_ACTIVATABLE,
+						    PLUMA_TYPE_WINDOW_ACTIVATABLE,
 						    PLUMA_TYPE_BOOKMARKS_PLUGIN);
 }
 
