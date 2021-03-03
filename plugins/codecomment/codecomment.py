@@ -54,16 +54,15 @@ ui_str = """
 </ui>
 """
 
-class CodeCommentPlugin(GObject.Object, Peas.Activatable):
+class CodeCommentPlugin(GObject.Object, Pluma.WindowActivatable):
     __gtype_name__ = "CodeCommentPlugin"
 
-    object = GObject.Property(type=GObject.Object)
+    window = GObject.Property(type=Pluma.Window)
 
     def __init__(self):
         GObject.Object.__init__(self)
 
     def do_activate(self):
-        self.window = self.object
         self._insert_menu()
 
     def do_deactivate(self):

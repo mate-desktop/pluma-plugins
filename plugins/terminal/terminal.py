@@ -296,17 +296,15 @@ class PlumaTerminalPanel(Gtk.Box):
         self._vte.feed_child(('cd "%s"\n' % path).encode('utf-8'))
         self._vte.grab_focus()
 
-class TerminalPlugin(GObject.Object, Peas.Activatable):
+class TerminalPlugin(GObject.Object, Pluma.WindowActivatable):
     __gtype_name__ = "TerminalPlugin"
 
-    object = GObject.Property(type=GObject.Object)
+    window = GObject.Property(type=Pluma.Window)
 
     def __init__(self):
         GObject.Object.__init__(self)
 
     def do_activate(self):
-        self.window = self.object
-
         self._panel = PlumaTerminalPanel()
         self._panel.connect("populate-popup", self.on_panel_populate_popup)
         self._panel.show()

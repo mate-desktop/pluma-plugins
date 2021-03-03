@@ -240,10 +240,10 @@ class SynctexViewHelper:
             self.window_proxy = None
 
 
-class SynctexWindowActivatable(GObject.Object, Peas.Activatable):
+class SynctexWindowActivatable(GObject.Object, Pluma.WindowActivatable):
     __gtype_name__ = "SynctexWindowActivatable"
 
-    object = GObject.Property(type=GObject.Object)
+    window = GObject.Property(type=Pluma.Window)
     view_dict = {}
     _proxy_dict = {}
 
@@ -251,8 +251,6 @@ class SynctexWindowActivatable(GObject.Object, Peas.Activatable):
         GObject.Object.__init__(self)
 
     def do_activate(self):
-        self.window = self.object
-
         self._insert_menu()
 
         for view in self.window.get_views():
