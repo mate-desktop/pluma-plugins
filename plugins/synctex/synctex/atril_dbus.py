@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# This file is part of the Gedit Synctex plugin.
+# This file is part of the Pluma Synctex plugin.
 #
 # Copyright (C) 2010 Jose Aliste <jose.aliste@gmail.com>
 #
@@ -11,13 +11,12 @@
 # version.
 #
 # This program is distributed in the hope that it will be useful, but WITHOUT
-# ANY WARRANTY; without ATen the implied warranty of MERCHANTABILITY or FITNESS
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 # FOR A PARTICULAR PURPOSE.  See the GNU General Public Licence for more
 # details.
 #
-# You should have received a copy of the GNU General Public Licence along with
-# this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
-# Street, Fifth Floor, Boston, MA  02110-1301, USA
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see https://www.gnu.org/licenses/.
 
 import dbus, subprocess, time
 
@@ -31,7 +30,6 @@ ATRIL_PATH = "/org/mate/atril/Atril"
 ATRIL_IFACE = "org.mate.atril.Application"
 
 AT_WINDOW_IFACE = "org.mate.atril.Window"
-
 
 
 class AtrilWindowProxy:
@@ -102,7 +100,7 @@ class AtrilWindowProxy:
             self.window.connect_to_signal("Closed", self.on_window_close)
             self.window.connect_to_signal("SyncSource", self.on_sync_source)
         else:
-            #That should nATer happen.
+            #That should never happen.
             if self._log:
                 self._log.debug("GetWindowList returned empty list")
 
@@ -167,19 +165,19 @@ The usage is atril_dbus output_file line_number input_file from the directory of
 
     dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)
     logger = logging.getLogger("atril_dbus")
-    logger.setLATel(logging.DEBUG)
+    logger.setLevel(logging.DEBUG)
     ch = logging.StreamHandler()
-    ch.setLATel(logging.DEBUG)
+    ch.setLevel(logging.DEBUG)
 
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(lATelname)s - %(message)s')
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
     ch.setFormatter(formatter)
 
     logger.addHandler(ch)
     a = AtrilWindowProxy('file://' + path_output, True,logger=logger)
 
-    def sync_view(AT_window, path_input, line_number):
-        AT_window.SyncView (path_input, (line_number, 1),0)
+    def sync_view(ev_window, path_input, line_number):
+        ev_window.SyncView (path_input, (line_number, 1),0)
 
     GObject.timeout_add(400, sync_view, a, path_input, line_number)
     loop = GObject.MainLoop()
