@@ -99,9 +99,9 @@ variables:
 
 before_scripts:
   - cd ${START_DIR}
-  - '[ -f pluma-1.25.2.tar.xz ] || curl -Ls -o pluma-1.25.2.tar.xz https://github.com/mate-desktop/pluma/releases/download/v1.25.2/pluma-1.25.2.tar.xz'
-  - tar xf pluma-1.25.2.tar.xz
-  - cd pluma-1.25.2
+  - '[ -f pluma-1.25.3.tar.xz ] || curl -Ls -o pluma-1.25.3.tar.xz https://github.com/mate-desktop/pluma/releases/download/v1.25.3/pluma-1.25.3.tar.xz'
+  - tar xf pluma-1.25.3.tar.xz
+  - cd pluma-1.25.3
   - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
   -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
   - else
