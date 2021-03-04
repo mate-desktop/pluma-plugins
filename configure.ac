@@ -54,7 +54,7 @@ PKG_CHECK_MODULES(PLUMA, [
 	gtksourceview-3.0 >= 3.9.2
 	libpeas-1.0 >= 1.7.0
 	libpeas-gtk-1.0 >= 1.7.0
-	pluma >= 1.24.0
+	pluma >= 1.25.2
 ])
 
 dnl ================================================================
