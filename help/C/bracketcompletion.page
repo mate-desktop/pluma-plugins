@@ -4,7 +4,7 @@
       id="plugin-bracketcompletion">
 
   <info>
-    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+    <link type="guide" xref="index#pluma-additional-plugins"/>
 
     <credit type="author">
       <name>Jim Campbell</name>

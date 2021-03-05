@@ -1,17 +1,36 @@
 <page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
       type="guide" style="task"
       id="index">
 
-  <info></info>
+  <info>
+    <title type="link">Pluma Plugins</title>
+    <title type="text">Pluma Plugins</title>
+    <link type="guide" xref="index#gedit-plugins"/>
+    <desc>Use plugins to customize how pluma works for you.</desc> 
+    <revision pkgversion="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.24" date="2017-09-17" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jcampbell@gnome.org</email>
+    </credit>
+    <credit type="editor">
+      <name>Robert Buj</name>
+      <email its:translate="no">robert.buj@gmail.com</email>
+    </credit>
+    <include href="legal-plugins.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+  </info>
 
-  <title>Gedit Plugins</title>
+  <title>
+    <media type="image" mime="image/png" src="figures/pluma-icon.png" its:translate="no" />
+    Pluma Plugins
+  </title>
+  <p>You can do more with <app>pluma</app> by using plugins. Several plugins 
+  are installed by default, but a large number of other plugins are available 
+  separately.</p>
 
-  <comment>
-    <cite href="mailto:kittykat3756@gmail.com">Kat</cite>
-    <p>This is a dummy page for https://l10n.gnome.org/module/gedit-plugins/ to
-    work correctly. See
-    https://mail.gnome.org/archives/gnome-i18n/2013-March/msg00057.html for
-    more details.</p>
-  </comment>
+  <section id="pluma-additional-plugins" style="2column">
+	<title>Additional pluma Plugins</title>
+  </section>
 
 </page>
