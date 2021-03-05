@@ -3,7 +3,7 @@
 PLUGINS_WITHOUT_HELP = synctex smartspaces
 HELP_ID = pluma-plugins
 HELP_FILES = index.page legal-plugins.xml $(foreach plugin,$(filter-out $(PLUGINS_WITHOUT_HELP),$(PLUGINS)),$(plugin).page)
-HELP_MEDIA =
+HELP_MEDIA = figures/pluma-plugins-icon.png
 
 # Add linguas to be ignored, e.g. IGNORE_HELP_LINGUAS = ca de es fr
 IGNORE_HELP_LINGUAS =

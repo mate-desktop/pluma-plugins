@@ -4,7 +4,7 @@
       id="plugin-code-comment">
 
   <info>
-    <link type="guide" xref="pluma-plugin-guide#pluma-additional-plugins"/>
+    <link type="guide" xref="index#pluma-additional-plugins"/>
     <revision version="3.4" date="2013-02-24" status="review"/>
 
     <credit type="author">
