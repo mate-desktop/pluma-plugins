@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-08 12:02+0100\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,9 +14,50 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr ""
 
-#. (itstool) path: page/title
+#. (itstool) path: info/title
 #: C/index.page:7
-msgid "Gedit Plugins"
+msgctxt "link"
+msgid "Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/index.page:10
+msgid "Use plugins to customize how pluma works for you."
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:14
+#: C/bookmarks.page:11
+#: C/bracketcompletion.page:10
+#: C/codecomment.page:11
+#: C/terminal.page:12
+msgid "Jim Campbell"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:18
+msgid "Robert Buj"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:24
+msgid "<_:media-1/> Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/index.page:28
+msgid "You can do more with <app>pluma</app> by using plugins. Several plugins are installed by default, but a large number of other plugins are available separately."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Additional pluma Plugins"
 msgstr ""
 
 #. (itstool) path: p/link
@@ -27,13 +68,6 @@ msgstr ""
 #. (itstool) path: license/p
 #: C/legal-plugins.xml:5
 msgid "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit <_:link-1/> or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
-msgstr ""
-
-#. (itstool) path: credit/name
-#: C/bookmarks.page:11
-#: C/codecomment.page:11
-#: C/terminal.page:12
-msgid "Jim Campbell"
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -89,6 +123,41 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/bookmarks.page:53
 msgid "If you prefer using the mouse, you can click <guiseq><gui style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/bracketcompletion.page:14
+msgid "Auto-complete closing brackets."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/bracketcompletion.page:17
+msgid "Bracket Completion"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/bracketcompletion.page:19
+msgid "The <app>Bracket Completion</app> plugin will auto-complete closing brackets for curly braces, parentheses and square brackets."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/bracketcompletion.page:23
+msgid "To enable the plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/bracketcompletion.page:25
+msgid "Go to <guiseq><gui style=\"menuitem\">Edit</gui> <gui style=\"menuitem\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/bracketcompletion.page:31
+msgid "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the plugin."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/bracketcompletion.page:37
+msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr ""
 
 #. (itstool) path: info/desc

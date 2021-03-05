@@ -1,193 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-08 12:02+0100\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-msgctxt "_"
-msgid "translator-credits"
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/index.page:7
-msgid "Gedit Plugins"
-msgstr ""
-
-#. (itstool) path: p/link
-#: C/legal-plugins.xml:7
-msgid "http://creativecommons.org/licenses/by-sa/3.0/"
-msgstr ""
-
-#. (itstool) path: license/p
-#: C/legal-plugins.xml:5
-msgid "This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit <_:link-1/> or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
-msgstr ""
-
-#. (itstool) path: credit/name
-#: C/bookmarks.page:11
-#: C/codecomment.page:11
-#: C/terminal.page:12
-msgid "Jim Campbell"
-msgstr ""
-
-#. (itstool) path: info/desc
-#: C/bookmarks.page:15
-msgid "Record commonly-referenced locations with bookmarks."
-msgstr ""
-
-#. (itstool) path: page/title
-#: C/bookmarks.page:18
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
 msgstr ""
 
-#. (itstool) path: page/p
-#: C/bookmarks.page:20
-msgid "<app>pluma</app> bookmarks allow you to highlight important lines of text within your document or program, making them easier to find. You can also move up or down between bookmarks, making document navigation a bit faster."
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
+msgid "Easy document navigation with bookmarks"
 msgstr ""
 
-#. (itstool) path: page/p
-#: C/bookmarks.page:25
-msgid "To enable the bookmark plugin, select <guiseq><gui style=\"menu\">pluma</gui> <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> <gui>Bookmarks</gui></guiseq>."
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
+msgid "Toggle Bookmark"
 msgstr ""
 
-#. (itstool) path: steps/title
-#: C/bookmarks.page:30
-msgid "Bookmarks are inserted and removed by completing the same action. To insert or remove bookmarks:"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
+msgid "Toggle bookmark status of the current line"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/bookmarks.page:33
-msgid "Navigate to the line where you want to insert or remove the bookmark."
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/bookmarks.page:37
-msgid "Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or click <guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle Bookmark</gui></guiseq>."
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
 msgstr ""
 
-#. (itstool) path: steps/title
-#: C/bookmarks.page:44
-msgid "To move between bookmarks:"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/bookmarks.page:46
-msgid "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next bookmark."
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/bookmarks.page:50
-msgid "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move to the previous bookmark."
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+msgid "Bracket Completion"
 msgstr ""
 
-#. (itstool) path: note/p
-#: C/bookmarks.page:53
-msgid "If you prefer using the mouse, you can click <guiseq><gui style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
 msgstr ""
 
-#. (itstool) path: info/desc
-#: C/codecomment.page:15
-msgid "Comment-out or uncomment a block of code."
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
+msgid "Code Comment"
 msgstr ""
 
-#. (itstool) path: page/title
-#: C/codecomment.page:18
-msgid "Code comment"
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
 msgstr ""
 
-#. (itstool) path: page/p
-#: C/codecomment.page:20
-msgid "Code comments are portions of text that make it easier for people to understand a program's code, but they don't affect how a program works. Comments are separated from other parts of a program by special characters."
+#: plugins/codecomment/codecomment.py:92
+msgid "Co_mment Code"
 msgstr ""
 
-#. (itstool) path: page/p
-#: C/codecomment.page:25
-msgid "The <app>code comment</app> plugin makes it easier to quickly create or remove code comments. To enable the code comment plugin, select <guiseq><gui style=\"menu\">pluma</gui><gui style=\"menuitem\">Preferences</gui> <gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+#: plugins/codecomment/codecomment.py:94
+msgid "Comment the selected code"
 msgstr ""
 
-#. (itstool) path: steps/title
-#: C/codecomment.page:31
-msgid "To create or remove a comment:"
+#: plugins/codecomment/codecomment.py:98
+msgid "U_ncomment Code"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/codecomment.page:33
-msgid "Highlight the portion of text where you want to add or remove a comment."
+#: plugins/codecomment/codecomment.py:100
+msgid "Uncomment the selected code"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/codecomment.page:37
-msgid "To add a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Comment Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
 msgstr ""
 
-#. (itstool) path: item/p
-#: C/codecomment.page:42
-msgid "To remove a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> <key>Ctrl</key><key>M</key></keyseq>."
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
 msgstr ""
 
-#. (itstool) path: note/p
-#: C/codecomment.page:49
-msgid "<app>pluma</app> will automatically use the correct style of comment based on the language or syntax of the file. If <app>pluma</app> doesn't identify your language or syntax, you can select it from the language list in the bottom <gui>Status bar</gui>."
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you're not using tabulations."
 msgstr ""
 
-#. (itstool) path: credit/name
-#: C/terminal.page:16
-msgid "Sindhu S"
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
 msgstr ""
 
-#. (itstool) path: info/desc
-#: C/terminal.page:22
-msgid "Add a terminal console to the bottom pane."
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
 msgstr ""
 
-#. (itstool) path: page/title
-#: C/terminal.page:25
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
+msgid "Forward Search"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
+msgid "Whether to silence terminal bell"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
+msgid "Number of lines to keep in scrollback"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
+msgid "Default color of text in the terminal"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
+msgid "Default color of terminal background"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
+msgid "Palette for terminal applications"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
+msgid "Whether to blink the cursor"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
+msgid "The cursor appearance"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
+msgid "Whether to use the system font"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
+msgid "Font"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+msgid "Terminal"
+msgstr ""
+
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
 msgstr ""
 
-#. (itstool) path: page/p
-#: C/terminal.page:27
-msgid "<app>pluma</app> makes it possible to include an embedded version of <app>MATE Terminal</app>, the MATE command-line application, in the bottom pane of the <app>pluma</app> window. This will let you run scripts, install needed software, or test your program without leaving <app>pluma</app>."
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
 msgstr ""
 
-#. (itstool) path: section/title
-#: C/terminal.page:33
-msgid "Enable Embedded Terminal"
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
 msgstr ""
 
-#. (itstool) path: steps/title
-#: C/terminal.page:36
-msgid "To enable the <app>Embedded Terminal</app> plugin:"
+#: plugins/terminal/terminal.py:339
+msgid "C_hange Directory"
 msgstr ""
-
-#. (itstool) path: item/p
-#: C/terminal.page:38
-msgid "Select <guiseq><gui style=\"menu\">pluma</gui> <gui style=\"menuitem\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/terminal.page:43
-msgid "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
-msgstr ""
-
-#. (itstool) path: section/title
-#: C/terminal.page:51
-msgid "Using Embedded Terminal"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/terminal.page:53
-msgid "Once you have enabled the plugin, to add a terminal to the bottom pane:"
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/terminal.page:58
-msgid "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom Pane</gui></guiseq>. Alternatively, you can press <keyseq><key>Ctrl</key><key>F9</key></keyseq>."
-msgstr ""
-
