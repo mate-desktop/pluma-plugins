@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=sourcecodebrowser
+IAge=3
+Name=Source Code Browser
+Description=A source code class and function browser for Pluma.
+Authors=Micah Carrick <micah@quixotix.com>
+Copyright=Copyright © 2011 Micah Carrick
+Website=@PACKAGE_URL@
+Version=@VERSION@
