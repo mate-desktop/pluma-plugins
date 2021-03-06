@@ -8,6 +8,10 @@ plugins/codecomment/codecomment.plugin.desktop.in.in
 plugins/codecomment/codecomment.py
 plugins/codecomment/pluma-codecomment.metainfo.xml.in.in
 plugins/smartspaces/smartspaces.plugin.desktop.in.in
+plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in
+plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui
+plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in
+plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py
 plugins/synctex/pluma-synctex.metainfo.xml.in.in
 plugins/synctex/synctex.plugin.desktop.in.in
 plugins/synctex/synctex/synctex.py

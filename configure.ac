@@ -86,7 +86,7 @@ GLIB_GSETTINGS
 # ================================================================
 
 # C plugins that don't need special dependencies
-C_PLUGINS="bookmarks wordcompletion"
+C_PLUGINS="bookmarks sourcecodebrowser wordcompletion"
 
 # Python plugins that don't need special dependencies, besides Python
 PYTHON_PLUGINS="bracketcompletion codecomment smartspaces"
@@ -221,6 +221,11 @@ plugins/codecomment/Makefile
 plugins/codecomment/pluma-codecomment.metainfo.xml.in
 plugins/smartspaces/smartspaces.plugin.desktop.in
 plugins/smartspaces/Makefile
+plugins/sourcecodebrowser/Makefile
+plugins/sourcecodebrowser/sourcecodebrowser/Makefile
+plugins/sourcecodebrowser/sourcecodebrowser/icons/Makefile
+plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml
+plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in
 plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml
 plugins/wordcompletion/wordcompletion.plugin.desktop.in
 plugins/wordcompletion/Makefile
