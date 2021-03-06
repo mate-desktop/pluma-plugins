@@ -15,7 +15,7 @@
     <desc>Comment-out or uncomment a block of code.</desc>
   </info>
 
-  <title>Code comment</title>
+  <title>Code Comment</title>
 
   <p>Code comments are portions of text that make it easier for people to
   understand a program's code, but they don't affect how a program works.
