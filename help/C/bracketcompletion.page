@@ -5,6 +5,7 @@
 
   <info>
     <link type="guide" xref="index#pluma-additional-plugins"/>
+    <revision version="1.25" date="2021-03-29" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
