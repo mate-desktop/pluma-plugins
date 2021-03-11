@@ -5,7 +5,6 @@
 
   <info>
     <link type="guide" xref="index#pluma-additional-plugins"/>
-    <revision version="3.4" date="2013-02-24" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -24,8 +23,8 @@
 
   <p>The <app>code comment</app> plugin makes it easier to quickly create or
   remove code comments. To enable the code comment plugin, select
-  <guiseq><gui style="menu">pluma</gui><gui style="menuitem">Preferences</gui>
-  <gui>Plugins</gui><gui>Code comment</gui></guiseq>.</p>
+  <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Preferences</gui>
+  <gui>Plugins</gui><gui>Code Comment</gui></guiseq>.</p>
 
   <steps>
     <title>To create or remove a comment:</title>
@@ -34,12 +33,12 @@
       comment.</p>
     </item>
     <item>
-      <p>To add a comment, click <guiseq><gui style="menu">pluma</gui>
+      <p>To add a comment, click <guiseq><gui style="menu">Edit</gui>
       <gui>Comment Code</gui></guiseq>, or press <keyseq><key>Ctrl</key>
       <key>M</key></keyseq>.</p>
     </item>
     <item>
-      <p>To remove a comment, click <guiseq><gui style="menu">pluma</gui>
+      <p>To remove a comment, click <guiseq><gui style="menu">Edit</gui>
       <gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key>
       <key>Ctrl</key><key>M</key></keyseq>.</p>
     </item>

@@ -6,10 +6,8 @@
   <info>
     <title type="link">Pluma Plugins</title>
     <title type="text">Pluma Plugins</title>
-    <link type="guide" xref="index#gedit-plugins"/>
-    <desc>Use plugins to customize how pluma works for you.</desc> 
-    <revision pkgversion="3.8" date="2013-02-24" status="review"/>
-    <revision pkgversion="3.24" date="2017-09-17" status="review"/>
+    <link type="guide" xref="index#pluma-plugins"/>
+    <desc>Use plugins to customize how pluma works for you.</desc>
     <credit type="author">
       <name>Jim Campbell</name>
       <email its:translate="no">jcampbell@gnome.org</email>
@@ -23,14 +21,15 @@
 
   <title>
     <media type="image" mime="image/png" src="figures/pluma-icon.png" its:translate="no" />
+    <media type="image" mime="image/png" src="figures/pluma-plugin-icon.png" its:translate="no" />
     Pluma Plugins
   </title>
-  <p>You can do more with <app>pluma</app> by using plugins. Several plugins 
-  are installed by default, but a large number of other plugins are available 
+  <p>You can do more with <app>pluma</app> by using plugins. Several plugins
+  are installed by default, but a large number of other plugins are available
   separately.</p>
 
   <section id="pluma-additional-plugins" style="2column">
-	<title>Additional pluma Plugins</title>
+    <title>Additional Pluma Plugins</title>
   </section>
 
 </page>

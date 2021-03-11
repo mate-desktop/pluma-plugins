@@ -5,7 +5,6 @@
 
   <info>
     <link type="guide" xref="index#pluma-additional-plugins"/>
-    <revision version="3.4" date="2013-02-24" status="review"/>
 
     <credit type="author">
       <name>Jim Campbell</name>
@@ -22,7 +21,7 @@
   move up or down between bookmarks, making document navigation a bit
   faster.</p>
 
-  <p>To enable the bookmark plugin, select <guiseq><gui style="menu">pluma</gui>
+  <p>To enable the bookmark plugin, select <guiseq><gui style="menu">Edit</gui>
   <gui style="menuitem">Preferences</gui><gui>Plugins</gui>
   <gui>Bookmarks</gui></guiseq>.</p>
 
@@ -51,7 +50,7 @@
       move to the previous bookmark.</p>
       <note>
         <p>If you prefer using the mouse, you can click
-        <guiseq><gui style="menu">pluma</gui><gui style="menuitem">Go to Next
+        <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Go to Next
         Bookmark</gui></guiseq> or <guiseq><gui style="menu">Edit</gui>
         <gui style="menuitem">Go to Previous Bookmark</gui></guiseq>.</p>
       </note>
