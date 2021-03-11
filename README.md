@@ -10,6 +10,7 @@ A set set of plugins for Pluma, the MATE text editor. The package *pluma-plugins
 Currently available plugins:
 
 - **bookmarks** - *Easy document navigation with bookmarks.*
+- **bracketcompletion** - *Automatically adds closing brackets.*
 - **codecomment** - *Comment and uncomment blocks of code.*
 - **smartspaces** - *Forget you’re not using tabulations.*
 - **synctex** - *SyncTeX synchronization of TeX files and PDF output.*
