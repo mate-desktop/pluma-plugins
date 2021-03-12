@@ -19,9 +19,6 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor,
 #  Boston, MA 02110-1301, USA.
 
-import gi
-gi.require_version('Gtk', '3.0')
-
 from gi.repository import GObject, Pango, Gtk, Pluma, Peas, PeasGtk, Gio, Gdk
 from .atril_dbus import AtrilWindowProxy
 import dbus.mainloop.glib
