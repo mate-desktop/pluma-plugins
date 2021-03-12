@@ -313,7 +313,7 @@ class TerminalPlugin(GObject.Object, Pluma.WindowActivatable):
         image.set_from_icon_name(TERMINAL_ICON, Gtk.IconSize.MENU)
 
         bottom = self.window.get_bottom_panel()
-        bottom.add_item(self._panel, _('PlumaTerminalPanel'), image)
+        bottom.add_item(self._panel, _('Terminal'), image)
 
     def do_deactivate(self):
         bottom = self.window.get_bottom_panel()
