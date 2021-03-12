@@ -23,7 +23,6 @@ from gi.repository import GObject, Pango, Gtk, Pluma, Peas, PeasGtk, Gio, Gdk
 from .atril_dbus import AtrilWindowProxy
 import dbus.mainloop.glib
 import logging
-import gettext
 import os
 import re
 from gpdefs import *
