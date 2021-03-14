@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-03-14 17:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,7 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/index.page:14
 #: C/bookmarks.page:11
+#: C/wordcompletion.page:10
 #: C/bracketcompletion.page:10
 #: C/codecomment.page:11
 #: C/terminal.page:12
@@ -125,6 +126,58 @@ msgstr ""
 msgid "If you prefer using the mouse, you can click <guiseq><gui style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
 
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:14
+msgid "Paul Weaver"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:18
+#: C/terminal.page:16
+msgid "Sindhu S"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/wordcompletion.page:24
+msgid "Autocomplete words or portions of code as you type."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/wordcompletion.page:27
+msgid "Word Completion"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:29
+msgid "The <app>Word Completion</app> plugin can speed up your editing by suggesting completions of words as you type."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/wordcompletion.page:33
+#: C/bracketcompletion.page:23
+msgid "To enable the plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:35
+msgid "Press the menu button in the top-right corner of the window and select <guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:40
+msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:45
+msgid "While editing, the <app>Word Completion</app> plugin will automatically display a pop-up list of words that begin with the letters you have already typed. Word suggestions are based upon words that appear elsewhere in your document and upon pre-defined keywords if your document is of a recognised format."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:51
+msgid "To insert a suggested word, double-click on it in the pop-up list or press <keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the number displayed next to your desired word."
+msgstr ""
+
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:14
 msgid "Auto-complete closing brackets."
@@ -138,11 +191,6 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/bracketcompletion.page:19
 msgid "The <app>Bracket Completion</app> plugin will auto-complete closing brackets for curly braces, parentheses and square brackets."
-msgstr ""
-
-#. (itstool) path: steps/title
-#: C/bracketcompletion.page:23
-msgid "To enable the plugin:"
 msgstr ""
 
 #. (itstool) path: item/p
@@ -167,7 +215,7 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
-msgid "Code comment"
+msgid "Code Comment"
 msgstr ""
 
 #. (itstool) path: page/p
@@ -203,11 +251,6 @@ msgstr ""
 #. (itstool) path: note/p
 #: C/codecomment.page:49
 msgid "<app>pluma</app> will automatically use the correct style of comment based on the language or syntax of the file. If <app>pluma</app> doesn't identify your language or syntax, you can select it from the language list in the bottom <gui>Status bar</gui>."
-msgstr ""
-
-#. (itstool) path: credit/name
-#: C/terminal.page:16
-msgid "Sindhu S"
 msgstr ""
 
 #. (itstool) path: info/desc
