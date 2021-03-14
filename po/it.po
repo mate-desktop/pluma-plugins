@@ -1,674 +1,311 @@
-# Italian translation of gedit-plugins
-# Copyright (C) 1998-2010, 2011, 2013 Free Software Foundation, Inc.
-# Copyright (C) 2012 The gedit-plugins Copyright Holders
-# This file is distributed under the same license as the gedit-plugins package.
-# Paolo Maggi <maggi@athena.polito.it> 2002
-# Giuseppe <quiquoqua@pn.itnet.it>, 1998.
-# Alessio Frusciante <algol@firenze.linux.it>, 2002.
-# Roberto Rosselli Del Turco <rosselli@ling.unipi.it>, 2003-2005.
-# Milo Casagrande <milo@ubuntu.com>, 2006-2012, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Dario Di Nucci <linkin88mail@gmail.com>, 2020
+# Giuseppe Pignataro <rogepix@gmail.com>, 2021
+# Marco Bartolucci <nap.84@live.it>, 2021
+# Alessandro Volturno <alelvb@inwind.it>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit-plugins\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-13 10:12+0100\n"
-"PO-Revision-Date: 2013-12-13 10:12+0100\n"
-"Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
-"Language-Team: Italian <tp@lists.linux.it>\n"
-"Language: it\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
+"Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
 msgstr "Segnalibri"
 
-# (ndt) meglio navigazione in questo caso?
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "Semplice esplorazione dei documenti con i segnalibri"
+msgstr "Navigazione del documento facilitata con i segnalibri"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "Abilita/Disabilita segnalibro"
+msgstr "Attiva i segnalibri"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr "Abilita/Disabilita lo stato del segnalibro della riga corrente"
+msgstr "Attiva lo stato del segnalibro della linea corrente"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-msgid "Goto Next Bookmark"
-msgstr "Segnalibro successivo"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr "Vai al segnalibro successivo"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
-msgid "Goto the next bookmark"
-msgstr "Va al segnalibro successivo"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr "Vai al segnalibro successivo"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
-msgid "Goto Previous Bookmark"
-msgstr "Segnalibro precedente"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr "Vai al segnalibro precedente"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
-msgid "Goto the previous bookmark"
-msgstr "Va al segnalibro precedente"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr "Vai al segnalibro precedente"
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr "Completamento parentesi"
+msgstr "Completamento delle parentesi"
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr "Aggiunge automaticamente le parentesi di chiusura"
+msgstr "Aggiunge automatimaticamente le parentesi chiuse."
 
-#. ex:et:ts=4:
-#: ../plugins/charmap/charmap/__init__.py:51
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-msgid "Character Map"
-msgstr "Tabella caratteri"
-
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
-msgid "Insert special characters just by clicking on them."
-msgstr "Inserisce dei caratteri speciali semplicemente facendoci clic."
-
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr "Commenta codice"
+msgstr "Commenta il codice"
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr "Commenta o de-commenta un blocco di codice selezionato."
+msgstr "Commenta o decommenta il blocco di codice selezionato."
 
-#: ../plugins/codecomment/codecomment.py:88
+#: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr "Co_mmenta codice"
+msgstr "Co_mmenta il codice"
 
-#: ../plugins/codecomment/codecomment.py:90
+#: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
 msgstr "Commenta il codice selezionato"
 
-#: ../plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr "D_e-commenta codice"
+msgstr "Decomme_nta il codice"
 
-#: ../plugins/codecomment/codecomment.py:96
+#: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr "Toglie il commento al codice selezionato"
+msgstr "Decommenta il codice selezionato"
 
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-msgid "Color Picker"
-msgstr "Selettore colore"
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Commenta o decommenta blocchi di codice"
 
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
-msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr ""
-"Seleziona un colore da un dialogo e inserisce la sua rappresentazione "
-"esadecimale."
-
-#: ../plugins/colorpicker/colorpicker.py:161
-msgid "Pick _Color..."
-msgstr "Scegli _colore..."
-
-# (NdT) questo è un tooltip... però il colore siamo noi a sceglierlo...
-#: ../plugins/colorpicker/colorpicker.py:162
-msgid "Pick a color from a dialog"
-msgstr "Scegli un colore da un dialogo"
-
-#: ../plugins/colorpicker/colorpicker.py:178
-msgid "Pick Color"
-msgstr "Seleziona colore"
-
-#. ex:ts=4:et:
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
-#: ../plugins/colorschemer/schemer/schemer.ui.h:1
-msgid "Color Scheme Editor"
-msgstr "Editor schema colori"
-
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
-msgid "Source code color scheme editor"
-msgstr "Editor schemi colori per codice sorgente"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:2
-msgid "Bold"
-msgstr "Grassetto"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:3
-msgid "Italic"
-msgstr "Corsivo"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:4
-msgid "Underline"
-msgstr "Sottolineato"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:5
-msgid "Strikethrough"
-msgstr "Testo barrato"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:6
-msgid "Pick the background color"
-msgstr "Scelta colore di sfondo"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:7
-msgid "Pick the foreground color"
-msgstr "Scelta colore primo piano"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:8
-msgid "_Background"
-msgstr "_Sfondo"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:9
-msgid "_Foreground"
-msgstr "_Primo piano"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:10
-msgid "_Clear "
-msgstr "_Azzera"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:11
-msgid "Name"
-msgstr "Nome"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:12
-msgid "ID"
-msgstr "ID"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:13
-msgid "Description"
-msgstr "Descrizione"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:14
-msgid "Author"
-msgstr "Autore"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:15
-msgid "Sample"
-msgstr "Campione"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-msgid "Commander"
-msgstr "Commander"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-msgid "Command line interface for advanced editing"
-msgstr "Interfaccia a riga di comando per modifiche avanzate"
-
-#: ../plugins/commander/commander/windowactivatable.py:70
-msgid "Commander Mode"
-msgstr "Modalità commander"
-
-# (ndt) suggerimento
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr "Attiva la modalità commander"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:117
-msgid "Empty Document"
-msgstr "Documento vuoto"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:158
-msgid "Type here to search..."
-msgstr "Digitare il termine di ricerca..."
-
-#. ex:ts=4:et:
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
-msgid "Dashboard"
-msgstr "Dashboard"
-
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
-msgid "A Dashboard for new tabs"
-msgstr "Una dashboard per le nuove schede"
-
-# (ndt) opzione quando si seleziona la dimensione
-# della tabulazione
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
-msgid "Draw Spaces"
-msgstr "Traccia gli spazi"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw spaces and tabs"
-msgstr "Traccia gli spazi e le tabulazioni"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-msgid "Show _White Space"
-msgstr "Mostra spazi _bianchi"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-msgid "Show spaces and tabs"
-msgstr "Mostra gli spazi e le tabulazioni"
-
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-msgid "Draw spaces"
-msgstr "Tracciare gli spazi"
-
-# (NdT) opzione
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-msgid "Draw tabs"
-msgstr "Tracciare le tabulazioni"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-msgid "Draw new lines"
-msgstr "Tracciare gli a capo"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-msgid "Draw non-breaking spaces"
-msgstr "Tracciare gli spazi non terminanti"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-msgid "Draw leading spaces"
-msgstr "Tracciare gli spazi di inizio riga"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
-msgid "Draw spaces in text"
-msgstr "Tracciare gli spazi all'interno del testo"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-msgid "Draw trailing spaces"
-msgstr "Tracciare gli spazi di fine riga"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "Abilitato"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "If TRUE drawing will be enabled."
-msgstr "Se VERO la visualizzazione degli spazi verrà abilitata."
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
-msgid "The type of spaces to be drawn."
-msgstr "Il tipo di spazio da disegnare."
-
-#: ../plugins/git/git.plugin.desktop.in.in.h:1
-msgid "Git"
-msgstr "Git"
-
-#: ../plugins/git/git.plugin.desktop.in.in.h:2
-msgid "Highlight lines that have been changed since the last commit"
-msgstr "Evidenzia le righe modificate dall'ultimo commit"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join/Split Lines"
-msgstr "Unisce/Spezza righe"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join several lines or split long ones"
-msgstr "Unisce più righe o spezza quelle lunghe"
-
-#: ../plugins/joinlines/joinlines.py:74
-msgid "_Join Lines"
-msgstr "_Unisci righe"
-
-#: ../plugins/joinlines/joinlines.py:75
-msgid "Join the selected lines"
-msgstr "Unisce le righe selezionate"
-
-# (NdT) voce di menù
-#: ../plugins/joinlines/joinlines.py:77
-msgid "_Split Lines"
-msgstr "_Dividi righe"
-
-#: ../plugins/joinlines/joinlines.py:78
-msgid "Split the selected lines"
-msgstr "Divide le righe selezionate"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr "Punto di modifica aggiunto..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr "Modalità colonna..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr "Punto di modifica rimosso..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:920
-msgid "Cancelled column mode..."
-msgstr "Modalità colonna annullata..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Enter column edit mode using selection"
-msgstr "Attiva la modalità di modifica a colonna utilizzando la selezione"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr ""
-"Attiva la modalità di modifica <b>intelligente</b> a colonna utilizzando la "
-"selezione"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "<b>Smart</b> column align mode using selection"
-msgstr "Allineamento colonna <b>intelligente</b> utilizzando la selezione"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr ""
-"Allineamento colonna <b>intelligente</b> con spazi aggiuntivi utilizzando la "
-"selezione"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1298
-msgid "Toggle edit point"
-msgstr "Attiva/Disattiva punto di modifica"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1299
-msgid "Add edit point at beginning of line/selection"
-msgstr "Aggiungi punto di modifica all'inizio della riga/selezione"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1300
-msgid "Add edit point at end of line/selection"
-msgstr "Aggiungi punto di modifica alla fine della riga/selezione"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1301
-msgid "Align edit points"
-msgstr "Allinea punti di modifica"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1302
-msgid "Align edit points with additional space"
-msgstr "Allinea i punti di modifica con spazi aggiuntivi"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1333
-#: ../plugins/multiedit/multiedit/__init__.py:79
-msgid "Multi Edit Mode"
-msgstr "Modalità multi-modifica"
-
-# (ndt) suggerimento
-#: ../plugins/multiedit/multiedit/__init__.py:81
-msgid "Start multi edit mode"
-msgstr "Attiva la modalità multi-modifica"
-
-# (ndt) altri suggerimenti sono i benvenuti
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Multi Edit"
-msgstr "Multi-modifica"
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-msgid "Edit document in multiple places at once"
-msgstr "Modifica il documento in più parti alla volta"
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
 msgstr "Spazi intelligenti"
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr "Dimentica che non stai usando le tabulazioni."
+msgstr "Dimenticatevi che non state utilizzando le tabulazioni."
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
 msgstr "SyncTeX"
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Sincronizza tra LaTeX e PDF con gedit ed Evince"
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
+msgstr "Sincronizza tra LaTeX e PDF con pluma ed atril"
 
-#: ../plugins/synctex/synctex/synctex.py:310
-#: ../plugins/synctex/synctex/synctex.py:311
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr "Sincronizza tra LaTeX e PDF con pluma ed atril"
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
 msgid "Forward Search"
-msgstr "Cerca in avanti"
+msgstr "Ricerca in avanti"
 
-#. ex:ts=4:et:
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
 msgstr "Indica se disabilitare l'avviso acustico"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
-"If true, don't make a noise when applications send the escape sequence for "
+"If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
-"Se VERO, non emette rumore quando i programmi mandano la sequenza di escape "
-"per il l'avviso acustico."
+"Se impostato a vero, non emette suoni quando le applicazioni inviano la "
+"sequenza di escape per l'avviso acustico del terminale."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
-msgstr "Numero di righe da mantenere per scorrere all'indietro"
+msgstr "Numero di righe da mantenere nel riavvolgimento"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are "
-"discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
-"Numero di righe per scorrere all'indietro. È possibile scorrere all'indietro "
-"nel terminale di questo numero di righe, le righe in più vengono scartate. "
-"Se scrollback-unlimited è impostato a VERO, questo valore viene ignorato."
+"Numero di linee di riavvolgimento per la navigazione. È possibile "
+"riavvolgere la visualizzazione nel terminale di questo numero di linee; "
+"quelle che non si adattano al riavvolgimento saranno scartate. Se l'opzione "
+"riavvolgimento-illimitato è vera, questo valore è ignorato."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
-"Indica se un numero illimitato di righe deve essere mantenuto nello "
-"scorrimento all'indietro"
+"Indica se mantenere un numero illimitato di righe per lo scorrimento "
+"all'indietro"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is "
-"stored on disk temporarily, so this may cause the system to run out of disk "
-"space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
 msgstr ""
-"Se VERO, le righe precedenti non verranno mai cancellate. La cronologia "
-"delle righe viene archiviata temporaneamente sul disco, questo potrebbe "
-"causare il superamento dello spazio disponibile se c'è molto output nel "
-"terminale."
+"Se impostato a vero, le righe precedenti non verranno mai cancellate. La "
+"cronologia delle righe viene archiviata temporaneamente sul disco, questo "
+"potrebbe quindi causare il superamento dello spazio disponibile se c'è molto"
+" output nel terminale."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr "Indica se scorrere verso il fondo quando viene premuto un tasto"
+msgstr "Indica se far scorrere verso il basso quando viene premuto un tasto"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
-"Se VERO, porta la barra di scorrimento verso il basso alla pressione di un "
-"tasto."
+"Seimpostato a vero, alla pressione di un tasto la barra di scorrimento viene"
+" spostata verso il basso."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
-msgid "Whether to scroll to the bottom when there's new output"
-msgstr "Indica se scorrere verso il fondo quando è presente nuovo output"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Indica se scorrere verso il basso quando c'è nuovo testo in output"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
-"If true, whenever there's new output the terminal will scroll to the bottom."
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"Se VERO, quando ci sarà nuovo output il terminale scorrerà verso il basso."
+"Se impostato a vero, ogni volta che c'è del nuovo output il terminale "
+"scorrerà verso il fondo."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
-msgid "Whether to allow bold text"
-msgstr "Indica se consentire il testo in grassetto"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"Se VERO, permette ai programmi nel terminale di mostrare testo in grassetto."
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr "Caratteri considerati parti di una parola"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
-msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-msgstr ""
-"Selezionando il testo per parole, le sequenze di caratteri sono considerate "
-"una singola parola. Possono essere usati anche intervalli come \"A-Z\". Il "
-"carattere trattino (se non esprime un intervallo) deve essere il primo "
-"carattere dato."
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
-msgstr "Colore predefinito del testo nel terminale"
+msgstr "Colore predefinito per il testo nel terminale"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
 msgid ""
-"Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
-"Colore predefinito del testo nel terminale come specifica di colore (può "
-"essere in stile HTML o il nome di un colore come \"red\")"
+"Colore del testo predefinito nel terminale, come specifica di colore (può "
+"essere una cifra esadecimale nel formato HTML o un nome di colore, come per "
+"esempio \"red\")."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
 msgstr "Colore predefinito dello sfondo del terminale"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
-"Colore predefinito dello sfondo del terminale come specifica di colore (può "
-"essere in stile HTML o il nome di un colore come \"red\")"
+"Colore predefinito dello sfondo del terminale, come specifica di colore (può"
+" essere un formato esadecimale in stile HTML oppure il nome di un colore, "
+"come per esempio \"red\")."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
 msgstr "Tavolozza per le applicazioni del terminale"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
-"I terminali hanno tavolozze da 16 colori che le applicazioni all'interno del "
-"terminale possono usare. Questa è quella tavolozza, nella forma di una lista "
+"I terminali hanno tavolozze da 16 colori disponibili alle applicazioni "
+"all'interno del terminale. Questa è quella tavolozza, in formato di elenco "
 "di colori separati da due punti. I nomi dei colori devono essere in formato "
-"esadecimale, per esempio \"#FF00FF\"."
+"esadecimale, ad es. \"#FF00FF\""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr "Indica se usare i colori dal tema per il widget del terminale"
+msgstr "Indica se usare i colori dal tema per il componente del terminale"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"Se VERO, lo schema di colori del tema usato per le caselle di testo sarà "
-"usato per il testo del terminale, invece dei colori forniti dall'utente."
+"Se impostato a vero, lo schema di colori del tema usato per le caselle di "
+"testo sarà impiegato per il testo del terminale, invece dei colori forniti "
+"dall'utente."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
-msgstr "Indica se il cursore deve lampeggiare"
+msgstr "Indica se il cursore debba lampeggiare"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
-"The possible values are \"system\" to use the global cursor blinking "
-"settings, or \"on\" or \"off\" to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 msgstr ""
-"I possibili valori sono \"system\" per usare le impostazioni globali del "
-"lampeggio del cursore oppure \"on\" od \"off\" per impostare il cursore in "
-"modo esplicito."
+"I valori possibili sono \"system\" per utilizzare le impostazioni di "
+"lampeggiamento globali, oppure \"on\" o \"off\" per specificarne "
+"esplicitamente il comportamento."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
 msgstr "L'aspetto del cursore"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
 msgid ""
-"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
-"vertical line cursor, or \"underline\" to use an underline cursor."
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"I valori possibili sono \"block\" per usare un cursore simile a un blocco, "
-"\"ibeam\" per usare una linea verticale oppure \"underline\\\" per usare una "
-"linea orizzontale bassa."
+"I possibili valori sono \"block\" per usare un cursore solido, \"ibeam\" per"
+" utilizzare un cursor a linea verticale, oppure \"underline\" per utilizzare"
+" un cursore basso."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
 msgstr "Indica se usare il tipo di carattere di sistema"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
 msgid ""
-"If true, the terminal will use the desktop-global standard font if it's "
+"If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Se VERO, il terminale userà il carattere predefinito se è a spaziatura fissa "
-"(altrimenti il carattere più simile che riuscirà a trovare)."
+"Se impostato a vero, il terminale utilizzerà l carattere monospace standard "
+"definito per l'intero ambiente desktop (e il più simile che riesce a "
+"trovare, in caso contrario)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
-msgstr "Carattere"
+msgstr "Tipo di carattere"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
-msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
-msgstr ""
-"Il nome di un carattere Pango. Per esempio \"Sans 12\" o \"Monospace Bold "
-"14\"."
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Un nome di caratter Pango. Esempi sono \"Sans 12\" o \"Monospaced Bold 14\"."
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-msgid "Embedded Terminal"
-msgstr "Terminale integrato"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-msgid "Embed a terminal in the bottom pane."
-msgstr "Incorpora un terminale nel riquadro inferiore"
-
-#: ../plugins/terminal/terminal.py:316
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 msgid "Terminal"
 msgstr "Terminale"
 
-#: ../plugins/terminal/terminal.py:337
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Un semplice componente-terminale accessibile dal pannello di fondo"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Terminale Integrato"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Incorpora un terminale nel pannello di fondo."
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr "PlumaTerminalPanel"
+
+#: plugins/terminal/terminal.py:339
 msgid "C_hange Directory"
-msgstr "Cambia _directory"
-
-#: ../plugins/textsize/textsize/__init__.py:142
-msgid "_Larger Text"
-msgstr "Testo più _grande"
-
-#: ../plugins/textsize/textsize/__init__.py:145
-msgid "S_maller Text"
-msgstr "Testo _più piccolo"
-
-#: ../plugins/textsize/textsize/__init__.py:148
-msgid "_Normal size"
-msgstr "Dimensione _normale"
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Text Size"
-msgstr "Dimensione testo"
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-msgid "Easily increase and decrease the text size"
-msgstr "Aumenta o riduce facilmente la dimensione del testo"
-
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
-msgid "Interactive completion"
-msgstr "Completamento interattivo"
-
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
-msgid "Minimum word size:"
-msgstr "Dimensione minima parola:"
-
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
-msgid "Document Words"
-msgstr "Parole del documento"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
-msgid "Interactive Completion"
-msgstr "Completamento interattivo"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
-msgid "Whether to enable interactive completion."
-msgstr "Indica se abilitare o meno il completamento interattivo."
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
-msgid "Minimum Word Size"
-msgstr "Dimensione minima parola"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
-msgid "The minimum word size to complete."
-msgstr "La dimensione minima di una parola da completare."
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-msgid "Word Completion"
-msgstr "Completamento parola"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
-msgid "Word completion using the completion framework"
-msgstr "Completamento delle parole attraverso l'apposito framework"
+msgstr "Cambia cartella"

@@ -1,1821 +1,283 @@
-# gedit Finnish Translation
-# Suomennos: http://www.gnome.fi/
-# Copyright (C) 1999-2010 Free Software Foundation Inc.
-# Jarkko Ranta <jjranta@cc.joensuu.fi>, 2000-2004.
-# Sami Pesonen <sampeson@iki.fi>, 2005.
-# Lauri Nurmi <lanurmi@iki.fi>, 2005-2007.
-# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
-# Tommi Vainikainen <thv@iki.fi>, 2009-2010.
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2010, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Kimmo Kujansuu <mrkujansuu@gmail.com>, 2020
+# Lasse Liehu <larso@gmx.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# nomen omen, 2021
+# Ammuu5, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2013-08-02 13:25+0000\n"
-"PO-Revision-Date: 2013-09-14 18:00+0300\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
-"Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
-"Language: fi\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: Ammuu5, 2021\n"
+"Language-Team: Finnish (https://www.transifex.com/mate/teams/13566/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
 msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
-#, fuzzy
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "Kirjanmerkit"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
-#, fuzzy
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr "Näytä tai piilota tilarivi tässä ikkunassa"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-msgid "Goto Next Bookmark"
-msgstr "Siirry seuraavaan kirjanmerkkiin"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
-msgid "Goto the next bookmark"
-msgstr "Siirry seuraavaan kirjanmerkkiin"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
-msgid "Goto Previous Bookmark"
-msgstr "Siirry edelliseen kirjanmerkkiin"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
-msgid "Goto the previous bookmark"
-msgstr "Siirry edelliseen kirjanmerkkiin"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr "Sulkuparin täsmäys"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr "Lisää suluille pääte automaattisesti."
+msgstr ""
 
-#. ex:et:ts=4:
-#: ../plugins/charmap/charmap/__init__.py:51
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-msgid "Character Map"
-msgstr "Merkistökartta"
-
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
-msgid "Insert special characters just by clicking on them."
-msgstr "Lisää erikoismerkkejä napsauttamalla niitä."
-
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-#, fuzzy
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr "Kommentti"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr "Kommentoi tai poista kommentit valitusta lähdekoodin alueesta."
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:88
-#, fuzzy
+#: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr "Kommentti"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:90
-#, fuzzy
+#: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr "Tyhjennä valittu teksti"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr "_Poista kommentti koodista"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:96
-#, fuzzy
+#: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr "Tyhjennä valittu teksti"
-
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-msgid "Color Picker"
-msgstr "Värivalitsin"
-
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
-msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr "Valitse väri ikkunasta ja syötä tekstiin sen heksadesimaaliesitys."
-
-#: ../plugins/colorpicker/colorpicker.py:161
-msgid "Pick _Color..."
-msgstr "Valitse _väri..."
-
-#: ../plugins/colorpicker/colorpicker.py:162
-msgid "Pick a color from a dialog"
-msgstr "Valitse väri ikkunasta"
-
-#: ../plugins/colorpicker/colorpicker.py:178
-msgid "Pick Color"
-msgstr "Valitse väri"
-
-#. ex:ts=4:et:
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
-#: ../plugins/colorschemer/schemer/schemer.ui.h:1
-msgid "Color Scheme Editor"
 msgstr ""
 
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
-msgid "Source code color scheme editor"
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
 msgstr ""
 
-#: ../plugins/colorschemer/schemer/schemer.ui.h:2
-msgid "Bold"
-msgstr "Lihavoitu"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:3
-#| msgid "Italic text"
-msgid "Italic"
-msgstr "Kursivoitu"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:4
-#| msgid "Underlined text style"
-msgid "Underline"
-msgstr "Alleviivattu"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:5
-#| msgid "Strike-through text"
-msgid "Strikethrough"
-msgstr "Lävistetty"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:6
-#, fuzzy
-#| msgid "Background color"
-msgid "Pick the background color"
-msgstr "Taustaväri"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:7
-#, fuzzy
-#| msgid "Background color"
-msgid "Pick the foreground color"
-msgstr "Taustaväri"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:8
-#, fuzzy
-#| msgid "Background color"
-msgid "_Background"
-msgstr "Taustaväri"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:9
-msgid "_Foreground"
-msgstr ""
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:10
-msgid "_Clear "
-msgstr "_Tyhjennä"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:11
-msgid "Name"
-msgstr "Nimi"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:12
-msgid "ID"
-msgstr ""
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:13
-#| msgid "List description"
-msgid "Description"
-msgstr "Kuvaus"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:14
-#, fuzzy
-#| msgid "Author info"
-msgid "Author"
-msgstr "Tekijätiedot"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:15
-msgid "Sample"
-msgstr ""
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Commander"
-msgstr "_Komennon väri:"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-msgid "Command line interface for advanced editing"
-msgstr ""
-
-#: ../plugins/commander/commander/windowactivatable.py:70
-#, fuzzy
-msgid "Commander Mode"
-msgstr "_Komennon väri:"
-
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr ""
-
-#: ../plugins/dashboard/dashboard/dashboard.py:117
-msgid "Empty Document"
-msgstr "Tyhjä asiakirja"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:158
-msgid "Type here to search..."
-msgstr "Kirjoita etsiäksesi..."
-
-#. ex:ts=4:et:
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
-msgid "Dashboard"
-msgstr ""
-
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
-msgid "A Dashboard for new tabs"
-msgstr ""
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
-#, fuzzy
-msgid "Draw Spaces"
-msgstr "Käytä välilyöntejä"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-#, fuzzy
-#| msgid "Draw Spaces and Tabs"
-msgid "Draw spaces and tabs"
-msgstr "Näytä välilyönnit ja sarkaimet"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-#, fuzzy
-msgid "Show _White Space"
-msgstr "Näytä seuraava sivu"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-#, fuzzy
-msgid "Show spaces and tabs"
-msgstr "Lisää _välilyöntejä sarkaimien sijaan"
-
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-#, fuzzy
-msgid "Draw spaces"
-msgstr "Lisää välilyöntejä"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-msgid "Draw tabs"
-msgstr "Näytä sarkaimet"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-#, fuzzy
-msgid "Draw new lines"
-msgstr "Sisennä rivit"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-#, fuzzy
-msgid "Draw non-breaking spaces"
-msgstr "Katkaisematon välilyönti"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-#, fuzzy
-msgid "Draw leading spaces"
-msgstr "Katkaisematon välilyönti"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
-#, fuzzy
-msgid "Draw spaces in text"
-msgstr "Lisää välilyöntejä"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-#, fuzzy
-msgid "Draw trailing spaces"
-msgstr "Poista ylimääräiset tyhjät"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "Käytössä"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "If TRUE drawing will be enabled."
-msgstr ""
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
-msgid "The type of spaces to be drawn."
-msgstr ""
-
-#: ../plugins/git/git.plugin.desktop.in.in.h:1
-msgid "Git"
-msgstr ""
-
-#: ../plugins/git/git.plugin.desktop.in.in.h:2
-msgid "Git differences"
-msgstr ""
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join/Split Lines"
-msgstr "_Yhdistä tai jaa rivejä"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join several lines or split long ones"
-msgstr "Liitä useita rivejä tai jaa pitkiä rivejä"
-
-#: ../plugins/joinlines/joinlines.py:74
-msgid "_Join Lines"
-msgstr "_Yhdistä rivit"
-
-#: ../plugins/joinlines/joinlines.py:75
-msgid "Join the selected lines"
-msgstr "Yhdistät valitut rivit"
-
-#: ../plugins/joinlines/joinlines.py:77
-msgid "_Split Lines"
-msgstr "_Jaa rivit"
-
-#: ../plugins/joinlines/joinlines.py:78
-msgid "Split the selected lines"
-msgstr "Jaa valitut rivit"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:920
-msgid "Cancelled column mode..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Enter column edit mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "<b>Smart</b> column align mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1298
-msgid "Toggle edit point"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1299
-msgid "Add edit point at beginning of line/selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1300
-msgid "Add edit point at end of line/selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1301
-msgid "Align edit points"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1302
-msgid "Align edit points with additional space"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1333
-#: ../plugins/multiedit/multiedit/__init__.py:79
-msgid "Multi Edit Mode"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/__init__.py:81
-msgid "Start multi edit mode"
-msgstr ""
-
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Multi Edit"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-msgid "Edit document in multiple places at once"
-msgstr ""
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
-#, fuzzy
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr "Lisää välilyöntejä"
+msgstr ""
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr "Unohda, että et käytä sarkaimia."
+msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
 msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
 msgstr ""
 
-#: ../plugins/synctex/synctex/synctex.py:310
-#: ../plugins/synctex/synctex/synctex.py:311
-#, fuzzy
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
 msgid "Forward Search"
-msgstr "Linkki eteenpäin"
-
-#. ex:ts=4:et:
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
-msgid "Whether to silence terminal bell"
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
+msgid "Whether to silence terminal bell"
+msgstr "Vaiennetaanko päätteen äänimerkki"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
-"If true, don't make a noise when applications send the escape sequence for "
+"If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
-msgstr ""
+msgstr "Muistissa säilyvien rivien määrä"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are "
-"discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
-msgstr ""
+msgstr "Pidetäänkö takaisinkelauspuskurissa rajoittamaton määrä rivejä"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is "
-"stored on disk temporarily, so this may cause the system to run out of disk "
-"space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
 msgstr ""
+"Jos tosi, takaisinvieritysrivejä ei koskaan hävitetä. "
+"Takaisinvierityshistoria tallennetaan tilapäisesti levylle, joten se voi "
+"johtaa järjestelmän levyn täyttymiseen jos päätteeseen tulee paljon "
+"tulostetta."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr ""
+msgstr "Vierittyykö päätteen teksti alas kun näppäintä painetaan"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Jos tosi, näppäimen painaminen vierittää tekstin alalaitaan."
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
-msgid "Whether to scroll to the bottom when there's new output"
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
-"If true, whenever there's new output the terminal will scroll to the bottom."
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
-msgid "Whether to allow bold text"
-msgstr "Sallitaanko lihavoitu teksti"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
-msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
-msgstr "Päätteen tekstin oletusväri"
+msgstr "Päätteen tekstin oletusarvoinen väri"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
 msgid ""
-"Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
-msgstr ""
+msgstr "Päätteen taustan oletusarvoinen väri"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
-msgstr ""
+msgstr "Päätesovellusten väripaletti"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
+"Päätteissä oleva 16-värinen paletti, jota niissä toimivat sovellukset voivat"
+" käyttää. Tässä se tulee antaa luettelona värien nimistä, kaksoispistein "
+"eroteltuina. Värien nimet tulee antaa heksamuodossa, esimerkiksi ”#FF00FF”."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
-msgstr ""
+msgstr "Ovatko päätesäätimen teeman värit käytössä"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
+"Jos tosi, teeman tekstilaatikkojen värivalikoimaa käytetään päätteessä "
+"käyttäjän antamien värien sijaan."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
-msgstr ""
+msgstr "Vilkkuuko kohdistin"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
-"The possible values are \"system\" to use the global cursor blinking "
-"settings, or \"on\" or \"off\" to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
-msgstr ""
+msgstr "Kohdistimen ulkonäkö"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
 msgid ""
-"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
-"vertical line cursor, or \"underline\" to use an underline cursor."
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
-msgstr "Käytetäänkö järjestelmän kirjasinta"
+msgstr "Onko järjestelmän kirjasin käytössä"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
 msgid ""
-"If true, the terminal will use the desktop-global standard font if it's "
+"If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
-#| msgid "Font face"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
-msgstr "Kirjasin"
+msgstr "Fontti"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
-msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-msgid "Embedded Terminal"
-msgstr "Upotettu pääte"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-msgid "Embed a terminal in the bottom pane."
-msgstr "Upota pääte alapaneeliin."
-
-#: ../plugins/terminal/terminal.py:318
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 msgid "Terminal"
-msgstr "Pääteikkuna"
+msgstr "Pääte"
 
-#: ../plugins/terminal/terminal.py:339
-msgid "C_hange Directory"
-msgstr "_Vaihda hakemistoa"
-
-#: ../plugins/textsize/textsize/__init__.py:142
-#| msgid "Large text style"
-msgid "_Larger Text"
-msgstr "_Suurempi teksti"
-
-#: ../plugins/textsize/textsize/__init__.py:145
-#| msgid "Small text style"
-msgid "S_maller Text"
-msgstr "_Pienempi teksti"
-
-#: ../plugins/textsize/textsize/__init__.py:148
-#| msgid "No resize"
-msgid "_Normal size"
-msgstr "_Tavallinen koko"
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Text Size"
-msgstr "Tekstin koko"
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-msgid "Easily increase and decrease the text size"
-msgstr "Pienennä tai suurenna tekstin kokoa helposti"
-
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
-msgid "Interactive completion"
-msgstr "Vuorovaikutteinen täydentäminen"
-
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
-msgid "Minimum word size:"
-msgstr "Sanan vähimmäiskoko:"
-
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
-#, fuzzy
-msgid "Document Words"
-msgstr "Asiakirjan runko"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
-msgid "Interactive Completion"
-msgstr "Vuorovaikutteinen täydentäminen"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
-msgid "Whether to enable interactive completion."
-msgstr "Käytetäänkö vuorovaikutteista täydentämistä."
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
-msgid "Minimum Word Size"
-msgstr "Sanan vähimmäiskoko"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
-msgid "The minimum word size to complete."
-msgstr "Täydennettävän sanan vähimmäiskoko."
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-msgid "Word Completion"
-msgstr "Sanan täydentäminen"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
-msgid "Word completion using the completion framework"
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
 msgstr ""
 
-#~ msgid "_Insert"
-#~ msgstr "L_isää"
-
-#~ msgid "Sa_ved sessions"
-#~ msgstr "Ta_llennetut istunnot"
-
-#, fuzzy
-#~ msgid "_Save current session"
-#~ msgstr "Korvaa nykyinen valinta"
-
-#, fuzzy
-#~ msgid "Save the current document list as a new session"
-#~ msgstr "Siirrä asiakirja uuteen ikkunaan"
-
-#~ msgid "_Manage saved sessions..."
-#~ msgstr "_Hallitse tallennettuja istuntoja..."
-
-#, fuzzy
-#~ msgid "Open the saved session manager"
-#~ msgstr "Avaa geditin ohje"
-
-#~ msgid "Recover '%s' session"
-#~ msgstr "Palauta istunto \"%s\""
-
-#~ msgid "Session Name"
-#~ msgstr "Istunnon nimi"
-
-#~ msgid "Save and restore your working sessions"
-#~ msgstr "Tallenna istunto ja palaa tallennettuun istuntoon"
-
-#~ msgid "Session Saver"
-#~ msgstr "Istunnon tallannus"
-
-#~ msgid "Save session"
-#~ msgstr "Tallenna istunto"
-
-#~ msgid "Saved Sessions"
-#~ msgstr "Tallennetut istunnot"
-
-#~ msgid "Session name:"
-#~ msgstr "Istunnon nimi:"
-
-#~ msgid "Tags"
-#~ msgstr "Merkinnät"
-
-#~ msgid "Select the group of tags you want to use"
-#~ msgstr "Valitse käytettävä merkintäryhmä"
-
-#~ msgid "_Preview"
-#~ msgstr "_Esikatselu"
-
-#~ msgid "Available Tag Lists"
-#~ msgstr "Käytettävissä olevat merkinnät"
-
-#~ msgid "Abbreviated form"
-#~ msgstr "Lyhennetty muoto"
-
-#~ msgid "Abbreviation"
-#~ msgstr "Lyhenne"
-
-#~ msgid "Above"
-#~ msgstr "Yllä"
-
-#~ msgid "Accessibility key character"
-#~ msgstr "Esteettömyysnäppäin"
-
-#~ msgid "Acronym"
-#~ msgstr "Akronyymi"
-
-#~ msgid "Align"
-#~ msgstr "Tasaus"
-
-#~ msgid "Alignment character"
-#~ msgstr "Keskitysmerkki"
-
-#~ msgid "Alternative"
-#~ msgstr "Vaihtoehtoinen"
-
-#~ msgid "Anchor"
-#~ msgstr "Ankkuri"
-
-#~ msgid "Anchor URI"
-#~ msgstr "Ankkuri URI"
-
-#~ msgid "Applet class file code"
-#~ msgstr "Appletin luokkatiedoston koodi"
-
-#~ msgid "Applet class file code (deprecated)"
-#~ msgstr "Appletin luokkatiedoston koodi (vanhentunut)"
-
-#~ msgid "Array"
-#~ msgstr "Muuttujaryhmä"
-
-#~ msgid "Associated information"
-#~ msgstr "Yhdistettävä tieto"
-
-#~ msgid "Axis related headers"
-#~ msgstr "Akseliin liittyvät otsikkotiedot"
-
-#~ msgid "Background color (deprecated)"
-#~ msgstr "Taustaväri (vanhentunut)"
-
-#~ msgid "Background texture tile"
-#~ msgstr "Taustan tekstuuritiedosto"
-
-#~ msgid "Background texture tile (deprecated)"
-#~ msgstr "Taustan tekstuuritiedosto (vanhentunut)"
-
-#~ msgid "Base URI"
-#~ msgstr "Juuri URI"
-
-#~ msgid "Base font"
-#~ msgstr "Oletuskirjasin"
-
-#~ msgid "Base font (deprecated)"
-#~ msgstr "Peruskirjasin (vanhentunut)"
-
-#~ msgid "Border"
-#~ msgstr "Reunus"
-
-#~ msgid "Border (deprecated)"
-#~ msgstr "Reunus (vanhentunut)"
-
-#~ msgid "Border color"
-#~ msgstr "Reunuksen väri"
-
-#~ msgid "Cell rowspan"
-#~ msgstr "Solun riviväli"
-
-#~ msgid "Center"
-#~ msgstr "Keskitä"
-
-#~ msgid "Center (deprecated)"
-#~ msgstr "Keskitä (vanhentunut)"
-
-#~ msgid "Character encoding of linked resource"
-#~ msgstr "Linkitetyn lähteen merkistön koodaustavat"
-
-#~ msgid "Checked (state)"
-#~ msgstr "Valittu (tila)"
-
-#~ msgid "Checked state"
-#~ msgstr "Valittu tila"
-
-#~ msgid "Citation"
-#~ msgstr "Lainaus"
-
-#~ msgid "Cite reason for change"
-#~ msgstr "Syy muutokseen sitaattina"
-
-#~ msgid "Class implementation ID"
-#~ msgstr "Luokkatoteutuksen tunniste"
-
-#~ msgid "Class list"
-#~ msgstr "Luokkalista"
-
-#~ msgid "Clear text flow control"
-#~ msgstr "Selväkielisen tekstin vuonohjaus"
-
-#~ msgid "Code content type"
-#~ msgstr "Koodin sisältötyyppi"
-
-#~ msgid "Color of selected links"
-#~ msgstr "Valittujen linkkien värit"
-
-#~ msgid "Color of selected links (deprecated)"
-#~ msgstr "Valittujen linkkien väri (vanhentunut)"
-
-#~ msgid "Column span"
-#~ msgstr "Sarakkeen leveys"
-
-#~ msgid "Columns"
-#~ msgstr "Sarakkeet"
-
-#~ msgid "Comment"
-#~ msgstr "Kommentti"
-
-#~ msgid "Computer code fragment"
-#~ msgstr "Tietokonemuotoinen koodin osa"
-
-#~ msgid "Content scheme"
-#~ msgstr "Sisältömalli"
-
-#~ msgid "Content type"
-#~ msgstr "Sisällön tyyppi"
-
-#~ msgid "Content type (deprecated)"
-#~ msgstr "Sisältötyyppi (vanhentunut)"
-
-#~ msgid "Coordinates"
-#~ msgstr "Koordinaatit"
-
-#~ msgid "DIV Style container"
-#~ msgstr "DIV-tyylierotin"
-
-#~ msgid "DIV container"
-#~ msgstr "DIG-erotin"
-
-#~ msgid "Date and time of change"
-#~ msgstr "Muutokset päiväys ja kellonaika"
-
-#~ msgid "Declare flag"
-#~ msgstr "Määrittelylippu"
-
-#~ msgid "Defer attribute"
-#~ msgstr "Defer-attribuutti"
-
-#~ msgid "Definition description"
-#~ msgstr "Määrittelyn kuvaus"
-
-#~ msgid "Definition list"
-#~ msgstr "Määrittelylista"
-
-#~ msgid "Definition term"
-#~ msgstr "Määrittelyn termi"
-
-#~ msgid "Deleted text"
-#~ msgstr "Poistettu teksti"
-
-#~ msgid "Direction"
-#~ msgstr "Suunta"
-
-#~ msgid "Directionality"
-#~ msgstr "Suunnallisuus"
-
-#~ msgid "Directionality (deprecated)"
-#~ msgstr "Suunta (vanhentunut)"
-
-#~ msgid "Directory list"
-#~ msgstr "Hakemistolista"
-
-#~ msgid "Disabled"
-#~ msgstr "Pois käytöstä"
-
-#~ msgid "Document base"
-#~ msgstr "Asiakirjan perus URI"
-
-#~ msgid "Document body"
-#~ msgstr "Asiakirjan runko"
-
-#~ msgid "Document head"
-#~ msgstr "Asiakirjan otsikkotiedot"
-
-#~ msgid "Document title"
-#~ msgstr "Asiakirjan otsikko"
-
-#~ msgid "Document type"
-#~ msgstr "Asiakirjan tyyppi"
-
-#~ msgid "Element ID"
-#~ msgstr "Elementtitunniste"
-
-#~ msgid "Embedded object"
-#~ msgstr "Upotettu olio"
-
-#~ msgid "Emphasis"
-#~ msgstr "Korostus"
-
-#~ msgid "Encode type"
-#~ msgstr "Koodaustapa"
-
-#~ msgid "Figure"
-#~ msgstr "Kaava"
-
-#~ msgid "Font face (deprecated)"
-#~ msgstr "Kirjasintyyli (vanhentunut)"
-
-#~ msgid "For label"
-#~ msgstr "Otsikkoa varten"
-
-#~ msgid "Forced line break"
-#~ msgstr "Pakotettu rivinvaihto"
-
-#~ msgid "Form"
-#~ msgstr "Kaavake"
-
-#~ msgid "Form action handler"
-#~ msgstr "Lomakkeen tehtäväkäsittelijä"
-
-#~ msgid "Form control group"
-#~ msgstr "Lomakkeen ohjainryhmä"
-
-#~ msgid "Form field label text"
-#~ msgstr "Lomakkeen kentän nimiketeksti"
-
-#~ msgid "Form input"
-#~ msgstr "Lomakkeen syöte"
-
-#~ msgid "Form input type"
-#~ msgstr "Lomakkeen syötteen tyyppi"
-
-#~ msgid "Form method"
-#~ msgstr "Lomakkeen metodi"
-
-#~ msgid "Forward link"
-#~ msgstr "Linkki eteenpäin"
-
-#~ msgid "Frame"
-#~ msgstr "Kehys"
-
-#~ msgid "Frame border"
-#~ msgstr "Kehysreunus"
-
-#~ msgid "Frame render parts"
-#~ msgstr "Raamin piirrettävät osat"
-
-#~ msgid "Frame source"
-#~ msgstr "Raamin lähde"
-
-#~ msgid "Frame spacing"
-#~ msgstr "Kehysvälistys"
-
-#~ msgid "Frame target"
-#~ msgstr "Raamin kohde"
-
-#~ msgid "Frameborder"
-#~ msgstr "Raamin reuna"
-
-#~ msgid "Frameset"
-#~ msgstr "Kehykset"
-
-#~ msgid "Frameset columns"
-#~ msgstr "Kehysjoukon sarakkeet"
-
-#~ msgid "Frameset rows"
-#~ msgstr "Kehysjoukon rivit"
-
-#~ msgid "Framespacing"
-#~ msgstr "Raamien välien koko"
-
-#~ msgid "Generic embedded object"
-#~ msgstr "Yleinen upotettu objekti"
-
-#~ msgid "Generic metainformation"
-#~ msgstr "Yleinen metatieto"
-
-#~ msgid "Generic span"
-#~ msgstr "Yleinen alue"
-
-#~ msgid "HREF URI"
-#~ msgstr "HREF URI"
-
-#~ msgid "HTML root element"
-#~ msgstr "HTML:n juurielementti"
-
-#~ msgid "HTML version"
-#~ msgstr "HTML-versio"
-
-#, fuzzy
-#~ msgid "HTML — Special Characters"
-#~ msgstr "HTML - Erikoismerkit"
-
-#, fuzzy
-#~ msgid "HTML — Tags"
-#~ msgstr "HTML - Merkinnät"
-
-#~ msgid "HTTP header name"
-#~ msgstr "HTTP-otsakkeen nimi"
-
-#~ msgid "Header cell IDs"
-#~ msgstr "Otsakesolun tunnisteet"
-
-#~ msgid "Heading"
-#~ msgstr "Otsikko"
-
-#~ msgid "Heading 1"
-#~ msgstr "Otsikko 1"
-
-#~ msgid "Heading 2"
-#~ msgstr "Otsikko 2"
-
-#~ msgid "Heading 3"
-#~ msgstr "Otsikko 3"
-
-#~ msgid "Heading 4"
-#~ msgstr "Otsikko 4"
-
-#~ msgid "Heading 5"
-#~ msgstr "Otsikko 5"
-
-#~ msgid "Heading 6"
-#~ msgstr "Otsikko 6"
-
-#~ msgid "Height"
-#~ msgstr "Korkeus"
-
-#~ msgid "Horizontal rule"
-#~ msgstr "Vaakaviiva"
-
-#~ msgid "Horizontal space"
-#~ msgstr "Vaakasuuntainen tyhjä tila"
-
-#~ msgid "Horizontal space (deprecated)"
-#~ msgstr "Vaakasuuntainen tila (vanhentunut)"
-
-#~ msgid "I18N BiDi override"
-#~ msgstr "Kansainvälinen kaksisuuntaisen kirjoituksen ylikirjoitus"
-
-#~ msgid "Image"
-#~ msgstr "Kuva"
-
-#~ msgid "Image map"
-#~ msgstr "Kuvakartta"
-
-#~ msgid "Image map area"
-#~ msgstr "Kuvakartan alue"
-
-#~ msgid "Image map name"
-#~ msgstr "Kuvakartan nimi"
-
-#~ msgid "Image source"
-#~ msgstr "Kuvan lähde"
-
-#~ msgid "Inline frame"
-#~ msgstr "Sisäkkäinen kehys"
-
-#~ msgid "Inline layer"
-#~ msgstr "Sisäkkäinen kerros"
-
-#~ msgid "Inserted text"
-#~ msgstr "Lisätty teksti"
-
-#~ msgid "Instance definition"
-#~ msgstr "Instanssin määritelmä"
-
-#~ msgid "Java applet"
-#~ msgstr "Java-sovelma"
-
-#~ msgid "Java applet (deprecated)"
-#~ msgstr "Java-sovelma (vanhentunut)"
-
-#~ msgid "Label"
-#~ msgstr "Otsikko"
-
-#~ msgid "Language code"
-#~ msgstr "Kielikoodi"
-
-#~ msgid "Layer"
-#~ msgstr "Kerros"
-
-#~ msgid "Link color"
-#~ msgstr "Linkin väri"
-
-#~ msgid "Link color (deprecated)"
-#~ msgstr "Linkin väri (vanhentunut)"
-
-#~ msgid "List item"
-#~ msgstr "Luettelon kohta"
-
-#~ msgid "List of MIME types for file upload"
-#~ msgstr "Sisään tuotavien tiedostojen MIME-tyypit"
-
-#~ msgid "List of supported character sets"
-#~ msgstr "Lista tuetuista merkistöistä"
-
-#~ msgid "Listing"
-#~ msgstr "Listaus"
-
-#~ msgid "Local change to font"
-#~ msgstr "Paikallinen muutos kirjasimeen"
-
-#~ msgid "Long description link"
-#~ msgstr "Linkki pitkään kuvaukseen"
-
-#~ msgid "Long quotation"
-#~ msgstr "Pitkä lainaus"
-
-#~ msgid "Mail link"
-#~ msgstr "Sähköpostilinkki"
-
-#~ msgid "Margin pixel height"
-#~ msgstr "Reunuksen korkeus pikseleissä"
-
-#~ msgid "Margin pixel width"
-#~ msgstr "Reunuksen leveys pikseleissä"
-
-#~ msgid "Marquee"
-#~ msgstr "Marquee"
-
-#~ msgid "Maximum length of text field"
-#~ msgstr "Tekstikentän enimmäisleveys"
-
-#~ msgid "Media-independent link"
-#~ msgstr "Media-riippumaton linkki"
-
-#~ msgid "Menu list"
-#~ msgstr "Otsikkolista"
-
-#~ msgid "Menu list (deprecated)"
-#~ msgstr "Otsikkolista (vanhentunut)"
-
-#~ msgid "Multi-line text field"
-#~ msgstr "Monirivinen tekstikenttä"
-
-#~ msgid "Multicolumn"
-#~ msgstr "Monisarakkeinen"
-
-#~ msgid "Multiple"
-#~ msgstr "Useita"
-
-#~ msgid "Named property value"
-#~ msgstr "Nimetty ominaisuusarvo"
-
-#~ msgid "Next ID"
-#~ msgstr "Seuraava ID"
-
-#~ msgid "No URI"
-#~ msgstr "Ei URI:tä"
-
-#~ msgid "No embedded objects"
-#~ msgstr "Ei upotettuja objekteja"
-
-#~ msgid "No frames"
-#~ msgstr "Ei kehyksiä"
-
-#~ msgid "No layers"
-#~ msgstr "Ei kerroksia"
-
-#~ msgid "No line break"
-#~ msgstr "Ei rivinvaihtoja"
-
-#~ msgid "No script"
-#~ msgstr "Ei skriptiä"
-
-#~ msgid "No shade"
-#~ msgstr "Ei varjostusta"
-
-#~ msgid "No shade (deprecated)"
-#~ msgstr "Ei varjostusta (vanhentunut)"
-
-#~ msgid "No word wrap"
-#~ msgstr "Ei rivitystä"
-
-#~ msgid "No word wrap (deprecated)"
-#~ msgstr "Ei rivitystä (vanhentunut)"
-
-#~ msgid "Non-breaking space"
-#~ msgstr "Katkaisematon välilyönti"
-
-#~ msgid "Note"
-#~ msgstr "Huomautus"
-
-#~ msgid "Object applet file"
-#~ msgstr "Oliosovelman tiedosto"
-
-#~ msgid "Object applet file (deprecated)"
-#~ msgstr "Oliosovelman tiedosto (vanhentunut)"
-
-#~ msgid "Object data reference"
-#~ msgstr "Oliotiedon viite"
-
-#~ msgid "Offset for alignment character"
-#~ msgstr "Sisennyskirjaimen siirtymä"
-
-#~ msgid "OnBlur event"
-#~ msgstr "OnBlur-tapahtuma"
-
-#~ msgid "OnChange event"
-#~ msgstr "OnChange-tapahtuma"
-
-#~ msgid "OnClick event"
-#~ msgstr "OnClick-tapahtuma"
-
-#~ msgid "OnDblClick event"
-#~ msgstr "OnDblClick-tapahtuma"
-
-#~ msgid "OnFocus event"
-#~ msgstr "OnFocus-tapahtuma"
-
-#~ msgid "OnKeyDown event"
-#~ msgstr "OnKeyDown-tapahtuma"
-
-#~ msgid "OnKeyPress event"
-#~ msgstr "OnKeyPress-tapahtuma"
-
-#~ msgid "OnKeyUp event"
-#~ msgstr "OnKeyUp-tapahtuma"
-
-#~ msgid "OnLoad event"
-#~ msgstr "OnLoad-tapahtuma"
-
-#~ msgid "OnMouseDown event"
-#~ msgstr "OnMouseDown-tapahtuma"
-
-#~ msgid "OnMouseMove event"
-#~ msgstr "OnMouseMove-tapahtuma"
-
-#~ msgid "OnMouseOut event"
-#~ msgstr "OnMouseOut-tapahtuma"
-
-#~ msgid "OnMouseOver event"
-#~ msgstr "OnMouseOver-tapahtuma"
-
-#~ msgid "OnMouseUp event"
-#~ msgstr "OnMouseUp-tapahtuma"
-
-#~ msgid "OnReset event"
-#~ msgstr "OnReset-tapahtuma"
-
-#~ msgid "OnSelect event"
-#~ msgstr "OnSelect-tapahtuma"
-
-#~ msgid "OnSubmit event"
-#~ msgstr "OnSubmit-tapahtuma"
-
-#~ msgid "OnUnload event"
-#~ msgstr "OnUnload-tapahtuma"
-
-#~ msgid "Option group"
-#~ msgstr "Valintaryhmä"
-
-#~ msgid "Option selector"
-#~ msgstr "Valinnan valitsin"
-
-#~ msgid "Ordered list"
-#~ msgstr "Järjestetty lista"
-
-#~ msgid "Output media"
-#~ msgstr "Esitysmedia"
-
-#~ msgid "Paragraph"
-#~ msgstr "Kappale"
-
-#~ msgid "Paragraph class"
-#~ msgstr "Kappaleen luokka"
-
-#~ msgid "Paragraph style"
-#~ msgstr "Kappaleen tyyli"
-
-#~ msgid "Preformatted listing"
-#~ msgstr "Esimuotoiltu listaus"
-
-#~ msgid "Preformatted text"
-#~ msgstr "Esimuotoiltu teksti"
-
-#~ msgid "Profile metainfo dictionary"
-#~ msgstr "Profiilin metatiedon sanakirja"
-
-#~ msgid "Prompt message"
-#~ msgstr "Kysymysviesti"
-
-#~ msgid "Push button"
-#~ msgstr "Painike"
-
-#~ msgid "Quote"
-#~ msgstr "Lainaus"
-
-#~ msgid "Range"
-#~ msgstr "Alue"
-
-#~ msgid "ReadOnly text and password"
-#~ msgstr "Vain luettava teksti ja salasanat"
-
-#~ msgid "Reduced spacing"
-#~ msgstr "Pienennetty välistys"
-
-#~ msgid "Reduced spacing (deprecated)"
-#~ msgstr "Pienennetty välistys (vanhentunut)"
-
-#~ msgid "Reverse link"
-#~ msgstr "Käänteinen linkki"
-
-#~ msgid "Root"
-#~ msgstr "Juuri"
-
-#~ msgid "Rows"
-#~ msgstr "Rivejä"
-
-#~ msgid "Rulings between rows and columns"
-#~ msgstr "Rivien ja sarakkeiden väliset viivat"
-
-#~ msgid "Sample program output, scripts"
-#~ msgstr "Ohjelman tulosteen esimerkki ja skriptit"
-
-#~ msgid "Scope covered by header cells"
-#~ msgstr "Otsikkosolujen kohdealue"
-
-#~ msgid "Script language name"
-#~ msgstr "Skriptikielen nimi"
-
-#~ msgid "Script statements"
-#~ msgstr "Skriptilausekkeet"
-
-#~ msgid "Scrollbar"
-#~ msgstr "Vierityspalkki"
-
-#~ msgid "Selectable option"
-#~ msgstr "Valittavissa oleva vaihtoehto"
-
-#~ msgid "Selected"
-#~ msgstr "Valittu"
-
-#~ msgid "Server-side image map"
-#~ msgstr "Palvelimella oleva kuvakartta"
-
-#~ msgid "Shape"
-#~ msgstr "Muoto"
-
-#~ msgid "Short inline quotation"
-#~ msgstr "Lyhyt sisäkkäinen lainaus"
-
-#~ msgid "Single line prompt"
-#~ msgstr "Yhden rivin kehote"
-
-#~ msgid "Size"
-#~ msgstr "Koko"
-
-#~ msgid "Size (deprecated)"
-#~ msgstr "Koko (vanhentunut)"
-
-#~ msgid "Soft line break"
-#~ msgstr "Pehmeä rivinvaihto"
-
-#~ msgid "Sound"
-#~ msgstr "Ääni"
-
-#~ msgid "Source"
-#~ msgstr "Lähde"
-
-#~ msgid "Space-separated archive list"
-#~ msgstr "Välilyönnein eroteltu arkistoluettelo"
-
-#~ msgid "Spacer"
-#~ msgstr "Välje"
-
-#~ msgid "Spacing between cells"
-#~ msgstr "Solujen välinen tila"
-
-#~ msgid "Spacing within cells"
-#~ msgstr "Solujen välinen tila"
-
-#~ msgid "Span"
-#~ msgstr "Väli"
-
-#~ msgid "Square root"
-#~ msgstr "Neliöjuuri"
-
-#~ msgid "Standby load message"
-#~ msgstr "Valmiustilan latausviesti"
-
-#~ msgid "Starting sequence number"
-#~ msgstr "Aloittava järjestysnumero"
-
-#~ msgid "Starting sequence number (deprecated)"
-#~ msgstr "Aloittava järjestysnumero (vanhentunut)"
-
-#~ msgid "Strike-through text (deprecated)"
-#~ msgstr "Yliviivattu tekstityyli (vanhentunut)"
-
-#~ msgid "Strike-through text style"
-#~ msgstr "Yliviivattu tekstityyli"
-
-#~ msgid "Strike-through text style (deprecated)"
-#~ msgstr "Yliviivattu tekstityyli (vanhentunut)"
-
-#~ msgid "Strong emphasis"
-#~ msgstr "Voimakas korostus"
-
-#~ msgid "Style info"
-#~ msgstr "Tyylin tiedot"
-
-#~ msgid "Subscript"
-#~ msgstr "Alaviite"
-
-#~ msgid "Superscript"
-#~ msgstr "Yläviite"
-
-#~ msgid "Tab order position"
-#~ msgstr "Tabulaattorijärjestys"
-
-#~ msgid "Table"
-#~ msgstr "Taulukko"
-
-#~ msgid "Table body"
-#~ msgstr "Taulukon runko"
-
-#~ msgid "Table caption"
-#~ msgstr "Taulukon erotin"
-
-#~ msgid "Table column group properties"
-#~ msgstr "Taulukon sarakeryhmän ominaisuudet"
-
-#~ msgid "Table column properties"
-#~ msgstr "Taulukon sarakkeen ominaisuudet"
-
-#~ msgid "Table data cell"
-#~ msgstr "Taulukon tietoalkio"
-
-#~ msgid "Table footer"
-#~ msgstr "Taulukon alatunniste"
-
-#~ msgid "Table header"
-#~ msgstr "Taulukon ylätunniste"
-
-#~ msgid "Table header cell"
-#~ msgstr "Taulukon otsikkoalkio"
-
-#~ msgid "Table row"
-#~ msgstr "Taulukon rivi"
-
-#~ msgid "Table summary"
-#~ msgstr "Taulukon kooste"
-
-#, fuzzy
-#~ msgid "Target — Blank"
-#~ msgstr "Kohde - Tyhjä"
-
-#, fuzzy
-#~ msgid "Target — Parent"
-#~ msgstr "Kohde - Ylempi"
-
-#, fuzzy
-#~ msgid "Target — Self"
-#~ msgstr "Kohde - Sama ikkuna"
-
-#, fuzzy
-#~ msgid "Target — Top"
-#~ msgstr "Kohde - Ylin"
-
-#~ msgid "Teletype or monospace text style"
-#~ msgstr "Tasavälinen tekstityyli"
-
-#~ msgid "Text"
-#~ msgstr "Teksti"
-
-#~ msgid "Text color"
-#~ msgstr "Tekstiväri"
-
-#~ msgid "Text color (deprecated)"
-#~ msgstr "Tekstiväri (vanhentunut)"
-
-#~ msgid "Text entered by user"
-#~ msgstr "Käyttäjän syöttämä teksti"
-
-#~ msgid "Title"
-#~ msgstr "Otsikko"
-
-#~ msgid "Top margin in pixels"
-#~ msgstr "Ylämarginaali pikseleinä"
-
-#~ msgid "URL"
-#~ msgstr "URL"
-
-#~ msgid "Unordered list"
-#~ msgstr "Järjestelemätön luettelo"
-
-#~ msgid "Use image map"
-#~ msgstr "Käytä kuvakarttaa"
-
-#~ msgid "Value"
-#~ msgstr "Arvo"
-
-#~ msgid "Value interpretation"
-#~ msgstr "Arvon tulkinta"
-
-#~ msgid "Variable or program argument"
-#~ msgstr "Muuttuva tai ohjelman argumentti"
-
-#~ msgid "Vertical cell alignment"
-#~ msgstr "Pystysuora alkioiden kohdistus"
-
-#~ msgid "Vertical space"
-#~ msgstr "Pystytyhje"
-
-#~ msgid "Vertical space (deprecated)"
-#~ msgstr "Vaakasuuntainen tyhjä tila (vanhentunut)"
-
-#~ msgid "Visited link color"
-#~ msgstr "Vieraillun linkin väri"
-
-#~ msgid "Visited link color (deprecated)"
-#~ msgstr "Vieraillun linkin väri (vanhentunut)"
-
-#~ msgid "Width"
-#~ msgstr "Leveys"
-
-#, fuzzy
-#~ msgid "XHTML 1.0 — Tags"
-#~ msgstr "XHTML 1.0 - merkinnät"
-
-#~ msgid "Bibliography (cite)"
-#~ msgstr "Kirjallisuusluettelo (lainaus)"
-
-#~ msgid "Bibliography (item)"
-#~ msgstr "Kirjallisuusluettelo (kohta)"
-
-#~ msgid "Bibliography (shortcite)"
-#~ msgstr "Kirjallisuusluettelo (lyhyt lainaus)"
-
-#~ msgid "Bibliography (thebibliography)"
-#~ msgstr "Kirjallisuusluettelo (thebibliography)"
-
-#~ msgid "Brackets ()"
-#~ msgstr "Sulkeet ()"
-
-#~ msgid "Brackets <>"
-#~ msgstr "Sulkeet <>"
-
-#~ msgid "Brackets []"
-#~ msgstr "Sulkeet []"
-
-#~ msgid "Brackets {}"
-#~ msgstr "Sulkeet {}"
-
-#~ msgid "File input"
-#~ msgstr "Tiedoston syöte"
-
-#~ msgid "Footnote"
-#~ msgstr "Alaviite"
-
-#~ msgid "Function cosine"
-#~ msgstr "Funktio kosini"
-
-#~ msgid "Function e^"
-#~ msgstr "Funktio e^"
-
-#~ msgid "Function exp"
-#~ msgstr "Funktio exp"
-
-#~ msgid "Function log"
-#~ msgstr "Funktio log"
-
-#~ msgid "Function log10"
-#~ msgstr "Funktio log10"
-
-#~ msgid "Function sine"
-#~ msgstr "Funktio sin"
-
-#~ msgid "Greek alpha"
-#~ msgstr "Kreikkalainen alpha"
-
-#~ msgid "Greek beta"
-#~ msgstr "Kreikkalainen beta"
-
-#~ msgid "Greek epsilon"
-#~ msgstr "Kreikkalainen epsilon"
-
-#~ msgid "Greek gamma"
-#~ msgstr "Kreikkalainen gamma"
-
-#~ msgid "Greek lambda"
-#~ msgstr "Kreikkalainen lambda"
-
-#~ msgid "Greek rho"
-#~ msgstr "Kreikkalainen rho"
-
-#~ msgid "Greek tau"
-#~ msgstr "Kreikkalainen tau"
-
-#~ msgid "Header 0 (chapter)"
-#~ msgstr "Otsikko 0 (kappale)"
-
-#~ msgid "Header 0 (chapter*)"
-#~ msgstr "Otsikko 0 (kappale*)"
-
-#~ msgid "Header 1 (section)"
-#~ msgstr "Otsikko 1 (osa-alue)"
-
-#~ msgid "Header 1 (section*)"
-#~ msgstr "Otsikko 1 (osa-alue*)"
-
-#~ msgid "Header 2 (subsection)"
-#~ msgstr "Otsikko 2 (aliosa-alue)"
-
-#~ msgid "Header 2 (subsection*)"
-#~ msgstr "Otsikko 2 (aliosa-alue*)"
-
-#~ msgid "Header 3 (subsubsection)"
-#~ msgstr "Otsikko 3 (alialiosa-alue)"
-
-#~ msgid "Header 3 (subsubsection*)"
-#~ msgstr "Otsikko 3 (alialiosa-alue*)"
-
-#~ msgid "Header 4 (paragraph)"
-#~ msgstr "Otsikko 4 (kappale)"
-
-#~ msgid "Header appendix"
-#~ msgstr "Otsikko liite"
-
-#~ msgid "Item"
-#~ msgstr "Kohta"
-
-#~ msgid "Item with label"
-#~ msgstr "Kohta otsikolla"
-
-#, fuzzy
-#~ msgid "Latex — Tags"
-#~ msgstr "Latex - merkinnät"
-
-#~ msgid "List enumerate"
-#~ msgstr "Numeroitu lista"
-
-#~ msgid "List itemize"
-#~ msgstr "Yksilöity lista"
-
-#~ msgid "Maths (display)"
-#~ msgstr "Matematiikka (näyttö)"
-
-#~ msgid "Maths (inline)"
-#~ msgstr "Matematiikka (sisäkkäinen)"
-
-#~ msgid "Operator fraction"
-#~ msgstr "Operaattori jakomäärä"
-
-#~ msgid "Operator integral (display)"
-#~ msgstr "Operaattori integraali (näyttö)"
-
-#~ msgid "Operator integral (inline)"
-#~ msgstr "Operaattori integraali (sisäkkäinen)"
-
-#~ msgid "Operator sum (display)"
-#~ msgstr "Operaattori summa (näyttö)"
-
-#~ msgid "Operator sum (inline)"
-#~ msgstr "Operaattori summa (sisäkkäinen)"
-
-#~ msgid "Reference label"
-#~ msgstr "Viittaus (label)"
-
-#~ msgid "Reference ref"
-#~ msgstr "Viittaus (ref)"
-
-#~ msgid "Symbol <<"
-#~ msgstr "Symboli <<"
-
-#~ msgid "Symbol <="
-#~ msgstr "Symboli <="
-
-#~ msgid "Symbol >="
-#~ msgstr "Symboli >="
-
-#~ msgid "Symbol >>"
-#~ msgstr "Symboli >>"
-
-#~ msgid "Symbol and"
-#~ msgstr "Symboli ja"
-
-#~ msgid "Symbol const"
-#~ msgstr "Symboli vakio"
-
-#~ msgid "Symbol d-by-dt"
-#~ msgstr "Symboli d-by-dt"
-
-#~ msgid "Symbol d-by-dt-partial"
-#~ msgstr "Symboli d-by-dt-partial"
-
-#~ msgid "Symbol d2-by-dt2-partial"
-#~ msgstr "Symboli d2-by-dt2-partial"
-
-#~ msgid "Symbol dagger"
-#~ msgstr "Symboli risti"
-
-#~ msgid "Symbol em-dash ---"
-#~ msgstr "Symboli em-viiva ---"
-
-#~ msgid "Symbol en-dash --"
-#~ msgstr "Symboli en-viiva --"
-
-#~ msgid "Symbol equiv"
-#~ msgstr "Symboli yhtäkuin"
-
-#~ msgid "Symbol infinity"
-#~ msgstr "Symboli ääretön"
-
-#~ msgid "Symbol mathspace ,"
-#~ msgstr "Symboli matemaattinen ,"
-
-#~ msgid "Symbol mathspace ."
-#~ msgstr "Symboli matemaattinen ."
-
-#~ msgid "Symbol mathspace _"
-#~ msgstr "Symboli matemaattinen _"
-
-#~ msgid "Symbol mathspace __"
-#~ msgstr "Symboli matemaattinen __"
-
-#~ msgid "Symbol simeq"
-#~ msgstr "Symboli simeq"
-
-#~ msgid "Symbol star"
-#~ msgstr "Symboli tähti"
-
-#~ msgid "Typeface bold"
-#~ msgstr "Kirjaintyyli korostettu"
-
-#~ msgid "Typeface italic"
-#~ msgstr "Kirjaintyyli italic"
-
-#~ msgid "Typeface slanted"
-#~ msgstr "Kirjaintyyli slanted"
-
-#~ msgid "Typeface type"
-#~ msgstr "Kirjaintyyli type"
-
-#~ msgid "Unbreakable text"
-#~ msgstr "Katkeamaton teksti"
-
-#~ msgid ""
-#~ "Provides a method to easily insert commonly used tags/strings into a "
-#~ "document without having to type them."
-#~ msgstr ""
-#~ "Tarjoaa tavan lisätä helposti usein käytettyjä tageja/tekstejä "
-#~ "asiakirjaan kirjoittamatta niitä."
-
-#~ msgid "Tag list"
-#~ msgstr "Merkintälista"
-
-#, fuzzy
-#~ msgid "XSLT — Axes"
-#~ msgstr "XSLT - Akselit"
-
-#, fuzzy
-#~ msgid "XSLT — Elements"
-#~ msgstr "XSLT - Elementit"
-
-#, fuzzy
-#~ msgid "XSLT — Functions"
-#~ msgstr "XSLT - Funktiot"
-
-#~ msgid "ancestor"
-#~ msgstr "kantaisä"
-
-#~ msgid "ancestor-or-self"
-#~ msgstr "kantaisä-tai-itse"
-
-#~ msgid "attribute"
-#~ msgstr "määre"
-
-#~ msgid "child"
-#~ msgstr "lapsi"
-
-#~ msgid "descendant"
-#~ msgstr "jälkeläinen"
-
-#~ msgid "descendant-or-self"
-#~ msgstr "jälkeläinen-tai-itse"
-
-#~ msgid "following"
-#~ msgstr "seuraava"
-
-#~ msgid "following-sibling"
-#~ msgstr "seuraava-sisarus"
-
-#~ msgid "namespace"
-#~ msgstr "nimiavaruus"
-
-#~ msgid "parent"
-#~ msgstr "vanhempi"
-
-#~ msgid "preceding"
-#~ msgstr "edeltävä"
-
-#~ msgid "preceding-sibling"
-#~ msgstr "edeltävä sisarus"
-
-#~ msgid "self"
-#~ msgstr "itse"
-
-#, fuzzy
-#~ msgid "XUL — Tags"
-#~ msgstr "XUL - merkinnät"
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Sulautettu pääte"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr ""
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr ""
+
+#: plugins/terminal/terminal.py:339
+msgid "C_hange Directory"
+msgstr ""

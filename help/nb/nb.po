@@ -1,0 +1,394 @@
+# 
+# Translators:
+# Allan Nordhøy <epost@anotheragency.no>, 2020
+# Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:27+0000\n"
+"Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2021\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Send en e-post om du finner feil eller mangler i oversettelsen.\n"
+"\n"
+"stefanok (Stefano Karapetsas) 7943\n"
+"kingu (Allan Nordhøy) epost@anotheragency.no 3326\n"
+"pompel9 (Kenneth Jenssen) 186\n"
+"Bornxlo (Alexander Jansen) 93\n"
+"flexiondotorg (Martin Wimpress) 19\n"
+"wty (Håvard Havdal) 18\n"
+"\n"
+"Av totalt 11597 tekststrenger."
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link"
+msgid "Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/index.page:10
+msgid "Use plugins to customize how pluma works for you."
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:14 C/bookmarks.page:11 C/bracketcompletion.page:10
+#: C/codecomment.page:11 C/terminal.page:12
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/index.page:18
+msgid "Robert Buj"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:24
+msgid "<_:media-1/> Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/index.page:28
+msgid ""
+"You can do more with <app>pluma</app> by using plugins. Several plugins are "
+"installed by default, but a large number of other plugins are available "
+"separately."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Additional pluma Plugins"
+msgstr ""
+
+#. (itstool) path: p/link
+#: C/legal-plugins.xml:7
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "https://creativecommons.org/licenses/by-sa/3.0/deed.no"
+
+#. (itstool) path: license/p
+#: C/legal-plugins.xml:5
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Dette verket er lisensiert under lisensen Creative Commons Navngivelse-"
+"DelPåSammeVilkår 3.0 Unported. Gå til <_:link-1/> for å se lisensen, eller "
+"send en forespørsel til Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:15
+msgid "Record commonly-referenced locations with bookmarks."
+msgstr "Bokmerk plasseringer som ofte brukes."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:18
+msgid "Bookmarks"
+msgstr "Bokmerker"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:20
+msgid ""
+"<app>pluma</app> bookmarks allow you to highlight important lines of text "
+"within your document or program, making them easier to find. You can also "
+"move up or down between bookmarks, making document navigation a bit faster."
+msgstr ""
+"<app>pluma</app>-bokmerker lar deg utheve viktige tekstlinjer i dokumentet "
+"eller programmet for å gjøre dem lettere å finne. Man kan flytte opp og ned "
+"mellom bokmerker, noe som gjør navigeringen raskere."
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:25
+msgid ""
+"To enable the bookmark plugin, select <guiseq><gui "
+"style=\"menu\">pluma</gui> <gui "
+"style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
+"<gui>Bookmarks</gui></guiseq>."
+msgstr ""
+"Velg <guiseq><gui style=\"menu\">pluma</gui><gui "
+"style=\"menuitem\">Innstillinger</gui><gui>Programtillegg</gui><gui>Bokmerker</gui></guiseq>."
+" "
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:30
+msgid ""
+"Bookmarks are inserted and removed by completing the same action. To insert "
+"or remove bookmarks:"
+msgstr ""
+"Bokmerker settes inn og fjernes ved å fullføre samme handling. For å sette "
+"inn eller fjerne bokmerker:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:33
+msgid "Navigate to the line where you want to insert or remove the bookmark."
+msgstr "Navigér til linja der bokmerket skal settes inn eller fjernes."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:37
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or click "
+"<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
+"Bookmark</gui></guiseq>."
+msgstr ""
+"Trykk <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, eller "
+"klikk <guiseq><gui style=\"menu\">Rediger</gui><gui "
+"style=\"menuitem\">Veksle bokmerke</gui></guiseq>."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:44
+msgid "To move between bookmarks:"
+msgstr "For å flytte mellom bokmerker:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:46
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
+"bookmark."
+msgstr ""
+"Trykk <keyseq><key>Ctrl</key><key>B</key></keyseq> for å flytte til neste "
+"bokmerke."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:50
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
+"to the previous bookmark."
+msgstr ""
+"Trykk <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> for å "
+"flytte til forrige bokmerke."
+
+#. (itstool) path: note/p
+#: C/bookmarks.page:53
+msgid ""
+"If you prefer using the mouse, you can click <guiseq><gui "
+"style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next "
+"Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
+msgstr ""
+"Hvis du foretrekker å bruke musa så kan du klikke <guiseq><gui "
+"style=\"menu\">pluma</gui><gui style=\"menuitem\">Gå til neste "
+"bokmerke</gui></guiseq> eller <guiseq><gui style=\"menu\">Rediger</gui><gui "
+"style=\"menuitem\">Gå til forrige bokmerke</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/bracketcompletion.page:14
+msgid "Auto-complete closing brackets."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/bracketcompletion.page:17
+msgid "Bracket Completion"
+msgstr "Fullføring av hakeparenteser"
+
+#. (itstool) path: page/p
+#: C/bracketcompletion.page:19
+msgid ""
+"The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
+" for curly braces, parentheses and square brackets."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/bracketcompletion.page:23
+msgid "To enable the plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/bracketcompletion.page:25
+msgid ""
+"Go to <guiseq><gui style=\"menuitem\">Edit</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/bracketcompletion.page:31
+msgid ""
+"Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
+"plugin."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/bracketcompletion.page:37
+msgid "This plugin does not automatically insert closing HTML or XML tags."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/codecomment.page:15
+msgid "Comment-out or uncomment a block of code."
+msgstr "Kommentere vekk eller avkommentere en del kode."
+
+#. (itstool) path: page/title
+#: C/codecomment.page:18
+msgid "Code comment"
+msgstr "Kodekommentar"
+
+#. (itstool) path: page/p
+#: C/codecomment.page:20
+msgid ""
+"Code comments are portions of text that make it easier for people to "
+"understand a program's code, but they don't affect how a program works. "
+"Comments are separated from other parts of a program by special characters."
+msgstr ""
+"Kommentarer til kildekode er tekst som gjør det lettere for mennesker å "
+"forstå programmets kildekode, men de påvirker ikke hvordan programmet "
+"fungerer. Kommentarer adskilles fra andre deler av programmet med spesielle "
+"tegn."
+
+#. (itstool) path: page/p
+#: C/codecomment.page:25
+msgid ""
+"The <app>code comment</app> plugin makes it easier to quickly create or "
+"remove code comments. To enable the code comment plugin, select <guiseq><gui"
+" style=\"menu\">pluma</gui><gui style=\"menuitem\">Preferences</gui> "
+"<gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+msgstr ""
+"Tillegget <app>kodekommentar</app> gjør det enklere å raskt lage eller "
+"fjerne kodekommentarer. Velg <guiseq><gui style=\"menu\">pluma</gui><gui "
+"style=\"menuitem\">Innstillinger</gui><gui>Tillegg</gui><gui>Kodekommentar</gui></guiseq>"
+" for å slå på tillegget."
+
+#. (itstool) path: steps/title
+#: C/codecomment.page:31
+msgid "To create or remove a comment:"
+msgstr "For å lage eller fjerne en kommentar:"
+
+#. (itstool) path: item/p
+#: C/codecomment.page:33
+msgid ""
+"Highlight the portion of text where you want to add or remove a comment."
+msgstr "Uthev et stykke tekst der du vil legge til eller fjerne kommentaren."
+
+#. (itstool) path: item/p
+#: C/codecomment.page:37
+msgid ""
+"To add a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Comment"
+" Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
+"<key>M</key></keyseq>."
+msgstr ""
+"Velg <guiseq><gui "
+"style=\"menu\">pluma</gui><gui>Kodekommentar</gui></guiseq> eller trykk "
+"<keyseq><key>Ctrl</key><key>M</key></keyseq> for å legge til en kommentar."
+
+#. (itstool) path: item/p
+#: C/codecomment.page:42
+msgid ""
+"To remove a comment, click <guiseq><gui style=\"menu\">pluma</gui> "
+"<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
+"<key>Ctrl</key><key>M</key></keyseq>."
+msgstr ""
+"Velg <guiseq><gui style=\"menu\">pluma</gui><gui>Avkommenter "
+"kode</gui></guiseq> eller trykk "
+"<keyseq><key>Shift</key><key>Ctrl</key><key>M</key></keyseq> for å fjerne en"
+" kommentar."
+
+#. (itstool) path: note/p
+#: C/codecomment.page:49
+msgid ""
+"<app>pluma</app> will automatically use the correct style of comment based "
+"on the language or syntax of the file. If <app>pluma</app> doesn't identify "
+"your language or syntax, you can select it from the language list in the "
+"bottom <gui>Status bar</gui>."
+msgstr ""
+"<app>pluma</app> forsøker å automatisk bruke riktig syntaks for kommentaren "
+"basert på språket eller filas format. Hvis <app>pluma</app> mislykkes så kan"
+" du velge språk eller syntaks fra språklista nederst i "
+"<gui>statuslinja</gui>."
+
+#. (itstool) path: credit/name
+#: C/terminal.page:16
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: info/desc
+#: C/terminal.page:22
+msgid "Add a terminal console to the bottom pane."
+msgstr "Legg til en terminalkonsoll til nederste rute."
+
+#. (itstool) path: page/title
+#: C/terminal.page:25
+msgid "Embedded Terminal"
+msgstr "Innebygd terminal"
+
+#. (itstool) path: page/p
+#: C/terminal.page:27
+msgid ""
+"<app>pluma</app> makes it possible to include an embedded version of "
+"<app>MATE Terminal</app>, the MATE command-line application, in the bottom "
+"pane of the <app>pluma</app> window. This will let you run scripts, install "
+"needed software, or test your program without leaving <app>pluma</app>."
+msgstr ""
+"<app>pluma</app> gjør det mulig å bygge inn <app>MATE-terminalen</app> i "
+"nederste rute i <app>pluma</app>-vinduet. Dette lar deg kjøre skript, "
+"installere programvare eller teste programmer uten å forlate "
+"<app>pluma</app>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:33
+msgid "Enable Embedded Terminal"
+msgstr "Slå på innebygd terminal"
+
+#. (itstool) path: steps/title
+#: C/terminal.page:36
+msgid "To enable the <app>Embedded Terminal</app> plugin:"
+msgstr "For å slå på tillegget <app>innebygd terminal</app>:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:38
+msgid ""
+"Select <guiseq><gui style=\"menu\">pluma</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"Velg <guiseq><gui style=\"menu\">pluma</gui><gui "
+"style=\"menuitem\">Innstillinger</gui><gui "
+"style=\"tab\">Programtillegg</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/terminal.page:43
+msgid ""
+"Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
+msgstr ""
+"Velg <gui style=\"menuitem\">innebygd terminal</gui> for å slå på tillegget."
+
+#. (itstool) path: section/title
+#: C/terminal.page:51
+msgid "Using Embedded Terminal"
+msgstr "Bruk av innebygd terminal"
+
+#. (itstool) path: section/p
+#: C/terminal.page:53
+msgid ""
+"Once you have enabled the plugin, to add a terminal to the bottom pane:"
+msgstr ""
+"Etter at tillegget er slått på, kan man legge til en terminal i nederste "
+"rute:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:58
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom"
+" Pane</gui></guiseq>. Alternatively, you can press "
+"<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
+msgstr ""
+"Velg <guiseq><gui style=\"menu\">Vis</gui><gui style=\"menuitem\">Nederste "
+"rute</gui></guiseq> eller trykk "
+"<keyseq><key>Ctrl</key><key>F9</key></keyseq>."

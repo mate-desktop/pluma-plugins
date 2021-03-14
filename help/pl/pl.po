@@ -1,0 +1,396 @@
+# 
+# Translators:
+# Paweł Bandura <gawelx@gmail.com>, 2020
+# Daniel Tokarzewski <bezimo@gmail.com>, 2020
+# No Ne, 2020
+# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:27+0000\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2021\n"
+"Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Tłumacze środowiska MATE, 2014-2020\n"
+"\n"
+"Zbigniew Chyla, 2002-2003\n"
+"Artur Flinta, 2003-2005\n"
+"Wadim Dziedzic, 2007-2009\n"
+"Tomasz Dominikowski, 2008-2009\n"
+"Joanna Mazgaj, 2009\n"
+"Piotr Drąg, 2010\n"
+"Aviary.pl, 2007-2010\n"
+"Daniel Tokarzewski, 2020"
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link"
+msgid "Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/index.page:10
+msgid "Use plugins to customize how pluma works for you."
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:14 C/bookmarks.page:11 C/bracketcompletion.page:10
+#: C/codecomment.page:11 C/terminal.page:12
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/index.page:18
+msgid "Robert Buj"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:24
+msgid "<_:media-1/> Pluma Plugins"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/index.page:28
+msgid ""
+"You can do more with <app>pluma</app> by using plugins. Several plugins are "
+"installed by default, but a large number of other plugins are available "
+"separately."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Additional pluma Plugins"
+msgstr ""
+
+#. (itstool) path: p/link
+#: C/legal-plugins.xml:7
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal-plugins.xml:5
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Ta praca jest objęta licencją Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. Aby wyświetlić kopię tej licencji, odwiedź <_:link-1/> lub"
+" wyślij list do Creative Commons, 444 Castro Street, Suite 900, Mountain "
+"View, California, 94041, USA."
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:15
+msgid "Record commonly-referenced locations with bookmarks."
+msgstr " Zapisuje często przywoływane lokalizacje zakładkami."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:18
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:20
+msgid ""
+"<app>pluma</app> bookmarks allow you to highlight important lines of text "
+"within your document or program, making them easier to find. You can also "
+"move up or down between bookmarks, making document navigation a bit faster."
+msgstr ""
+"Zakładki <app>plumy</app> pozwalają na wyróżnienie ważnych wierszy tekstu w "
+"dokumencie lub programie, ułatwiając ich odnalezienie. Możesz także poruszać"
+" się w górę lub w dół między zakładkami, co przyspiesza nawigację w "
+"dokumencie."
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:25
+msgid ""
+"To enable the bookmark plugin, select <guiseq><gui "
+"style=\"menu\">pluma</gui> <gui "
+"style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
+"<gui>Bookmarks</gui></guiseq>."
+msgstr ""
+"Aby włączyć wtyczkę zakładek, wybierz <guiseq><gui "
+"style=\"menu\">pluma</gui> <gui "
+"style=\"menuitem\">Preferencje</gui><gui>Wtyczki</gui><gui>Zakładki</gui></guiseq>."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:30
+msgid ""
+"Bookmarks are inserted and removed by completing the same action. To insert "
+"or remove bookmarks:"
+msgstr ""
+"Zakładki są wstawiane i usuwane, wykonując tę samą czynność. Aby wstawić lub"
+" usunąć zakładki:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:33
+msgid "Navigate to the line where you want to insert or remove the bookmark."
+msgstr "Przejdź do wiersza, w którym chcesz wstawić lub usunąć zakładkę."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:37
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or click "
+"<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
+"Bookmark</gui></guiseq>."
+msgstr ""
+"Naciśnij <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq> lub "
+"kliknij <guiseq><gui style=\"menu\">Edycja</gui><gui "
+"style=\"menuitem\">Przełącz zakładkę</gui></guiseq>."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:44
+msgid "To move between bookmarks:"
+msgstr "Aby poruszać się między zakładkami:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:46
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
+"bookmark."
+msgstr ""
+"Naciśnij <keyseq><key>Ctrl</key><key>B</key></keyseq>, aby przejść do "
+"następnej zakładki."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:50
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
+"to the previous bookmark."
+msgstr ""
+"Naciśnij <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq>, aby "
+"przejść do poprzedniej zakładki."
+
+#. (itstool) path: note/p
+#: C/bookmarks.page:53
+msgid ""
+"If you prefer using the mouse, you can click <guiseq><gui "
+"style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next "
+"Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
+msgstr ""
+"Jeśli wolisz używać myszy, możesz kliknąć <guiseq><gui "
+"style=\"menu\">pluma</gui><gui style=\"menuitem\">Przejdź do następnej "
+"zakładki</gui></guiseq> lub <guiseq><gui style=\"menu\">Edycja</gui> <gui "
+"style=\"menuitem\">Przejdź do poprzedniej zakładki</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/bracketcompletion.page:14
+msgid "Auto-complete closing brackets."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/bracketcompletion.page:17
+msgid "Bracket Completion"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/bracketcompletion.page:19
+msgid ""
+"The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
+" for curly braces, parentheses and square brackets."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/bracketcompletion.page:23
+msgid "To enable the plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/bracketcompletion.page:25
+msgid ""
+"Go to <guiseq><gui style=\"menuitem\">Edit</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/bracketcompletion.page:31
+msgid ""
+"Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
+"plugin."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/bracketcompletion.page:37
+msgid "This plugin does not automatically insert closing HTML or XML tags."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/codecomment.page:15
+msgid "Comment-out or uncomment a block of code."
+msgstr "Dodawanie lub usuwanie komentarzy z bloku kodu."
+
+#. (itstool) path: page/title
+#: C/codecomment.page:18
+msgid "Code comment"
+msgstr "Komentarz do kodu"
+
+#. (itstool) path: page/p
+#: C/codecomment.page:20
+msgid ""
+"Code comments are portions of text that make it easier for people to "
+"understand a program's code, but they don't affect how a program works. "
+"Comments are separated from other parts of a program by special characters."
+msgstr ""
+"Komentarze do kodu to fragmenty tekstu, które ułatwiają ludziom zrozumienie "
+"kodu programu, ale nie wpływają na sposób działania programu. Komentarze są "
+"oddzielone od innych części programu znakami specjalnymi."
+
+#. (itstool) path: page/p
+#: C/codecomment.page:25
+msgid ""
+"The <app>code comment</app> plugin makes it easier to quickly create or "
+"remove code comments. To enable the code comment plugin, select <guiseq><gui"
+" style=\"menu\">pluma</gui><gui style=\"menuitem\">Preferences</gui> "
+"<gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+msgstr ""
+"Wtyczka <app>komentarz do kodu</app> ułatwia szybkie tworzenie lub usuwanie "
+"komentarzy do kodu. Aby włączyć wtyczkę komentarz do kodu, "
+"wybierz<guiseq><gui style=\"menu\">pluma</gui><gui "
+"style=\"menuitem\">Preferencje</gui> <gui>Wtyczki</gui><gui>Komentarz do "
+"kodu</gui></guiseq>."
+
+#. (itstool) path: steps/title
+#: C/codecomment.page:31
+msgid "To create or remove a comment:"
+msgstr "Aby stworzyć lub usunąć komentarz:"
+
+#. (itstool) path: item/p
+#: C/codecomment.page:33
+msgid ""
+"Highlight the portion of text where you want to add or remove a comment."
+msgstr "Zaznacz fragment tekstu, w którym chcesz dodać lub usunąć komentarz."
+
+#. (itstool) path: item/p
+#: C/codecomment.page:37
+msgid ""
+"To add a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Comment"
+" Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
+"<key>M</key></keyseq>."
+msgstr ""
+"Aby dodać komentarz, kliknij <guiseq><gui style=\"menu\">pluma</gui> "
+"<gui>Skomentuj kod</gui></guiseq> lub naciśnij <keyseq><key>Ctrl</key> "
+"<key>M</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/codecomment.page:42
+msgid ""
+"To remove a comment, click <guiseq><gui style=\"menu\">pluma</gui> "
+"<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
+"<key>Ctrl</key><key>M</key></keyseq>."
+msgstr ""
+"Aby usunąć komentarz, kliknij <guiseq><gui style=\"menu\">pluma</gui> "
+"<gui>Odkomentuj kod</gui></guiseq> lub naciśnij <keyseq><key>Shift</key> "
+"<key>Ctrl</key><key>M</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/codecomment.page:49
+msgid ""
+"<app>pluma</app> will automatically use the correct style of comment based "
+"on the language or syntax of the file. If <app>pluma</app> doesn't identify "
+"your language or syntax, you can select it from the language list in the "
+"bottom <gui>Status bar</gui>."
+msgstr ""
+"<app>pluma</app> automatycznie użyje odpowiedniego stylu komentarza w "
+"oparciu o język lub składnię pliku. Jeśli <app>pluma</app> nie identyfikuje "
+"twojego języka lub składni, możesz wybrać je z listy języków na dolnym "
+"<gui>Pasku stanu</gui>."
+
+#. (itstool) path: credit/name
+#: C/terminal.page:16
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: info/desc
+#: C/terminal.page:22
+msgid "Add a terminal console to the bottom pane."
+msgstr "Dodaje konsolę terminala do dolnego panelu."
+
+#. (itstool) path: page/title
+#: C/terminal.page:25
+msgid "Embedded Terminal"
+msgstr "Terminal wbudowany"
+
+#. (itstool) path: page/p
+#: C/terminal.page:27
+msgid ""
+"<app>pluma</app> makes it possible to include an embedded version of "
+"<app>MATE Terminal</app>, the MATE command-line application, in the bottom "
+"pane of the <app>pluma</app> window. This will let you run scripts, install "
+"needed software, or test your program without leaving <app>pluma</app>."
+msgstr ""
+"<app>pluma</app> umożliwia dołączenie wbudowanej wersji <app>Terminala "
+"MATE</app>, aplikacji wiersza poleceń MATE, w dolnym panelu okna "
+"<app>plumy</app>. Umożliwi to uruchamianie skryptów, instalowanie "
+"potrzebnego oprogramowania lub testowanie programu bez opuszczania "
+"<app>plumy</app>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:33
+msgid "Enable Embedded Terminal"
+msgstr "Włącz terminal wbudowany"
+
+#. (itstool) path: steps/title
+#: C/terminal.page:36
+msgid "To enable the <app>Embedded Terminal</app> plugin:"
+msgstr "Aby włączyć wtyczkę <app>Terminala wbudowanego</app>:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:38
+msgid ""
+"Select <guiseq><gui style=\"menu\">pluma</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">pluma</gui> <gui "
+"style=\"menuitem\">Preferencje</gui> <gui "
+"style=\"tab\">Wtyczki</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/terminal.page:43
+msgid ""
+"Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
+msgstr ""
+"Wybierz <gui style=\"menuitem\">Terminal wbudowany</gui>, aby włączyć "
+"wtyczkę."
+
+#. (itstool) path: section/title
+#: C/terminal.page:51
+msgid "Using Embedded Terminal"
+msgstr "Używanie terminala wbudowanego"
+
+#. (itstool) path: section/p
+#: C/terminal.page:53
+msgid ""
+"Once you have enabled the plugin, to add a terminal to the bottom pane:"
+msgstr "Po włączeniu wtyczki, aby dodać terminal do dolnego panelu:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:58
+msgid ""
+"Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom"
+" Pane</gui></guiseq>. Alternatively, you can press "
+"<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
+msgstr ""
+"Wybierz <guiseq><gui style=\"menu\">Widok</gui> <gui "
+"style=\"menuitem\">Panel dolny</gui></guiseq>. Alternatywnie możesz nacisnąć"
+" <keyseq><key>Ctrl</key><key>F9</key></keyseq>."

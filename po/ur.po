@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# mauron, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: mauron, 2021\n"
+"Language-Team: Urdu (https://www.transifex.com/mate/teams/13566/ur/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ur\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
+msgid "Bookmarks"
+msgstr "پسندیدہ"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr ""
+
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
+msgid "Toggle Bookmark"
+msgstr ""
+
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
+msgid "Toggle bookmark status of the current line"
+msgstr ""
+
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr ""
+
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr ""
+
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr ""
+
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr ""
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+msgid "Bracket Completion"
+msgstr ""
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr ""
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
+msgid "Code Comment"
+msgstr ""
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr ""
+
+#: plugins/codecomment/codecomment.py:92
+msgid "Co_mment Code"
+msgstr ""
+
+#: plugins/codecomment/codecomment.py:94
+msgid "Comment the selected code"
+msgstr ""
+
+#: plugins/codecomment/codecomment.py:98
+msgid "U_ncomment Code"
+msgstr ""
+
+#: plugins/codecomment/codecomment.py:100
+msgid "Uncomment the selected code"
+msgstr ""
+
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr ""
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
+msgstr ""
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you're not using tabulations."
+msgstr ""
+
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr ""
+
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
+msgstr ""
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
+msgid "Forward Search"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
+msgid "Whether to silence terminal bell"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
+msgid "Number of lines to keep in scrollback"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
+msgid "Default color of text in the terminal"
+msgstr "ٹرمنل میں متن کا طے شُدہ رنگ"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
+msgid ""
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
+msgid "Default color of terminal background"
+msgstr "ٹرمنل کے پس منظر کا طے شُدہ رنگ"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
+msgid "Palette for terminal applications"
+msgstr "ٹرمنل اطلاقیوں کے لیے پلیٹ"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
+msgid "Whether to blink the cursor"
+msgstr "کیا کرسر کو جھپکایا جائے"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
+msgid "The cursor appearance"
+msgstr "کرسر کی ظاہری شکل"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
+msgid "Whether to use the system font"
+msgstr "کیا نظام کا فونٹ استعمال کیا جائے"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
+msgid "Font"
+msgstr "فونٹ"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+msgid "Terminal"
+msgstr "ٹرمنل"
+
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr ""
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr ""
+
+#: plugins/terminal/terminal.py:339
+msgid "C_hange Directory"
+msgstr ""

@@ -1,1990 +1,281 @@
-# gedit.po for ukrainian language.
-# Copyright (C) 1999,2000 Free Software Foundation, Inc.
-# Yuri Syrota <yuri@renome.rovno.ua>, 1999.
-# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2008
-# Ivan Petruk <petruk.ivan@gmail.com>
-#
-# wanderlust <wanderlust@ukr.net>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Микола Ткач <chistomov@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 13:13+0100\n"
-"PO-Revision-Date: 2010-06-01 21:08+0300\n"
-"Last-Translator: Maxim Dziumanenko <dziumanenko@gmail.com>\n"
-"Language-Team:  Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
+"Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Проста навіґація документами із закладками"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:197
-#, fuzzy
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "Закладки"
+msgstr "Перемикнути закладку"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:198
-#, fuzzy
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr "Показати або сховати панель стану в поточному вікні"
+msgstr "Перемикнути стан закладок поточного рядка"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:200
-msgid "Goto Next Bookmark"
-msgstr ""
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr "Перейти до наступної закладки"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
-#, fuzzy
-msgid "Goto the next bookmark"
-msgstr "Перейти до наступної відвіданої адреси"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr "Перейти до наступної закладки"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:203
-#, fuzzy
-msgid "Goto Previous Bookmark"
-msgstr "Перейти до попередньої адреси"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr "Перейти до попередньої закладки"
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-#, fuzzy
-msgid "Goto the previous bookmark"
-msgstr "Показати попередню сторінку"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr "Перейти до попередньої закладки"
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Automatically adds closing brackets."
-msgstr "Автовизначення кодування"
-
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
-#, fuzzy
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr "Розширення резервних копій"
+msgstr "Завершення дужок"
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-#: ../plugins/charmap/gedit-charmap-plugin.c:337
-#, fuzzy
-msgid "Character Map"
-msgstr "Символів (без пропусків)"
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Автоматично додає закривні дужки."
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
-msgid "Insert special characters just by clicking on them."
-msgstr ""
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
+msgid "Code Comment"
+msgstr "Коментар коду"
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Code comment"
-msgstr "Коментар"
-
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Коментувати або розкоментувати обраний блок коду."
 
-#: ../plugins/codecomment/codecomment.py:90
-#, fuzzy
+#: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr "Коментар"
+msgstr "Ко_ментувати код"
 
-#: ../plugins/codecomment/codecomment.py:92
-#, fuzzy
+#: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr "Видалений виділений текст"
+msgstr "Прокоментувати обраний код"
 
-#: ../plugins/codecomment/codecomment.py:96
+#: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "Роз_коментувати код"
 
-#: ../plugins/codecomment/codecomment.py:98
-#, fuzzy
+#: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr "Видалений виділений текст"
+msgstr "Розкоментувати обраний код"
 
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Color Picker"
-msgstr "Схема кольорів"
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Коментувати або розкоментувати блоки коду"
 
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
-msgid "Pick a color from a dialog and insert its hexadecimal representation."
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
 msgstr ""
 
-#: ../plugins/colorpicker/colorpicker.py:77
-msgid "Pick _Color..."
-msgstr ""
-
-#: ../plugins/colorpicker/colorpicker.py:78
-msgid "Pick a color from a dialog"
-msgstr ""
-
-#: ../plugins/colorpicker/colorpicker.py:188
-#, fuzzy
-msgid "Pick Color"
-msgstr "Колір посилання"
-
-#: ../plugins/colorpicker/colorpicker.py:195
-msgid "_Insert"
-msgstr "Вст_авити"
-
-#. ex:ts=4:et:
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-msgid "Command line interface for advanced editing"
-msgstr ""
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Commander"
-msgstr "К_олір команди:"
-
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-#, fuzzy
-msgid "Draw Spaces"
-msgstr "Вставляти пробіли"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw Spaces and Tabs"
-msgstr ""
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-#, fuzzy
-msgid "Draw leading spaces"
-msgstr "Нерозривний пробіл"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-#, fuzzy
-msgid "Draw new lines"
-msgstr "Поточний рядок"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-#, fuzzy
-msgid "Draw non-breaking spaces"
-msgstr "Нерозривний пробіл"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-#, fuzzy
-msgid "Draw spaces"
-msgstr "Вставляти пропуски"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-msgid "Draw spaces in text"
-msgstr ""
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
-msgid "Draw tabs"
-msgstr ""
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-#, fuzzy
-msgid "Draw trailing spaces"
-msgstr "Видалити пробіли"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-#, fuzzy
-msgid "Show _White Space"
-msgstr "Показати наступну сторінку"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-#, fuzzy
-msgid "Show spaces and tabs"
-msgstr "Вставляти _пробіли замість табуляції"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "Enabled"
-msgstr "Увімкнуто"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
-msgid "If TRUE drawing will be enabled."
-msgstr ""
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
-msgid "The type of spaces to be drawn."
-msgstr ""
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join several lines or split long ones"
-msgstr ""
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join/Split Lines"
-msgstr ""
-
-#: ../plugins/joinlines/joinlines.py:56
-#, fuzzy
-msgid "_Join Lines"
-msgstr "Рядки"
-
-#: ../plugins/joinlines/joinlines.py:57
-#, fuzzy
-msgid "Join the selected lines"
-msgstr "Колір вибраних посилань"
-
-#: ../plugins/joinlines/joinlines.py:59
-#, fuzzy
-msgid "_Split Lines"
-msgstr "Кінцеве медіа"
-
-#: ../plugins/joinlines/joinlines.py:60
-#, fuzzy
-msgid "Split the selected lines"
-msgstr "Видалений виділений текст"
-
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Edit document in multiple places at once"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-msgid "Multi Edit"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:637
-msgid "Column Mode..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:759
-msgid "Removed edit point..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:922
-msgid "Cancelled column mode..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1260
-msgid "Enter column edit mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1261
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1262
-msgid "<b>Smart</b> column align mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1263
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1265
-msgid "Toggle edit point"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1266
-msgid "Add edit point at beginning of line/selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1267
-msgid "Add edit point at end of line/selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1268
-msgid "Align edit points"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1269
-msgid "Align edit points with additional space"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1305
-#: ../plugins/multiedit/multiedit/windowhelper.py:70
-msgid "Multi Edit Mode"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/windowhelper.py:70
-msgid "Start multi edit mode"
-msgstr ""
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Easily increase and decrease the text size"
-msgstr ""
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Text Size"
-msgstr "Розмір табуляції"
-
-#: ../plugins/sessionsaver/__init__.py:64
-#, fuzzy
-msgid "Sa_ved sessions"
-msgstr "З_берегти зі стисненням"
-
-#: ../plugins/sessionsaver/__init__.py:65
-#, fuzzy
-msgid "_Save current session"
-msgstr "Замінити поточне виділення"
-
-#: ../plugins/sessionsaver/__init__.py:65
-#, fuzzy
-msgid "Save the current document list as a new session"
-msgstr "Перемістити поточний документ у нове вікно"
-
-#: ../plugins/sessionsaver/__init__.py:66
-msgid "_Manage saved sessions..."
-msgstr ""
-
-#: ../plugins/sessionsaver/__init__.py:66
-#, fuzzy
-msgid "Open the saved session manager"
-msgstr "Відкрити посібник з gedit"
-
-#: ../plugins/sessionsaver/__init__.py:106
-#, python-format
-msgid "Recover '%s' session"
-msgstr ""
-
-#: ../plugins/sessionsaver/dialogs.py:167
-msgid "Session Name"
-msgstr ""
-
-#. ex:ts=4:et:
-#: ../plugins/sessionsaver/sessionsaver.plugin.desktop.in.in.h:1
-msgid "Save and restore your working sessions"
-msgstr ""
-
-#: ../plugins/sessionsaver/sessionsaver.plugin.desktop.in.in.h:2
-msgid "Session Saver"
-msgstr ""
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:1
-#, fuzzy
-msgid "Save session"
-msgstr "З_берегти зі стисненням"
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:2
-msgid "Saved Sessions"
-msgstr ""
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:3
-#, fuzzy
-msgid "Session name:"
-msgstr "Накреслення шрифту"
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
 msgstr ""
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Smart Spaces"
-msgstr "Вставляти пропуски"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Embed a terminal in the bottom pane."
-msgstr "Відкрити термінал у каталозі документу"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Embedded Terminal"
-msgstr "Вбудований об'єкт"
-
-#: ../plugins/terminal/terminal.py:307
-msgid "Terminal"
-msgstr ""
-
-#: ../plugins/terminal/terminal.py:329
-#, fuzzy
-msgid "C_hange Directory"
-msgstr "Замінити _на:"
-
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:146
-#, fuzzy
-msgid "Document Words"
-msgstr "Тіло документу"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-msgid "Word Completion"
-msgstr ""
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
-msgid "Word completion using the completion framework"
-msgstr ""
-
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
 msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
 msgstr ""
 
-#: ../plugins/synctex/synctex/synctex.py:280
-#: ../plugins/synctex/synctex/synctex.py:281
-#, fuzzy
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
 msgid "Forward Search"
-msgstr "Посилання вперед"
-
-#: ../plugins/taglist/gedit-taglist-plugin.c:165
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:697
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:713
-msgid "Tags"
-msgstr "Теги"
-
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:608
-msgid "Select the group of tags you want to use"
-msgstr "Вибрати групу тегів, яку ви хочете використовувати"
-
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:627
-msgid "_Preview"
-msgstr "_Попередній перегляд"
-
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:694
-msgid "Available Tag Lists"
-msgstr "Списки доступних тегів"
-
-#. ex:ts=8:noet:
-#: ../plugins/taglist/HTML.tags.xml.in.h:1
-msgid "Abbreviated form"
-msgstr "Скорочена форма"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:2
-msgid "Abbreviation"
-msgstr "Абревіатура"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:3
-msgid "Above"
-msgstr "Над"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:4
-msgid "Accessibility key character"
-msgstr "Ключ типу для допоміжної ідентификації"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:5
-msgid "Acronym"
-msgstr "Скорочення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:6
-msgid "Align"
-msgstr "Вирівнювання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:7
-msgid "Alignment character"
-msgstr "Символ вирівнювання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:8
-msgid "Alternative"
-msgstr "Альтернатива"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:9
-msgid "Anchor"
-msgstr "Прив'язка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:10
-msgid "Anchor URI"
-msgstr "Прив'язка URI"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:11
-msgid "Applet class file code"
-msgstr "Код аплету"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:13
-msgid "Applet class file code (deprecated)"
-msgstr "Код аплету (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:14
-msgid "Array"
-msgstr "Масив"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:15
-msgid "Associated information"
-msgstr "Пов'язана інформація"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:16
-msgid "Author info"
-msgstr "Про автора"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:17
-msgid "Axis related headers"
-msgstr "Заголовки пов'язані з напрямком"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:18
-msgid "Background color"
-msgstr "Колір тла"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:20
-msgid "Background color (deprecated)"
-msgstr "Колір тла (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:21
-msgid "Background texture tile"
-msgstr "Файл фонової текстурної заливки"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:23
-msgid "Background texture tile (deprecated)"
-msgstr "Файл фонової текстурної заливки (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:24
-msgid "Base URI"
-msgstr "Основний ресурс URI"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:25
-msgid "Base font"
-msgstr "Основний шрифт"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:27
-msgid "Base font (deprecated)"
-msgstr "Основний шрифт (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:28
-msgid "Bold"
-msgstr "Жирний"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:29
-msgid "Border"
-msgstr "Межа"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:31
-msgid "Border (deprecated)"
-msgstr "Межа (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:32
-msgid "Border color"
-msgstr "Колір межі"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:33
-msgid "Cell rowspan"
-msgstr "Об'єднання комірок"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:34
-msgid "Center"
-msgstr "По центру"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:36
-msgid "Center (deprecated)"
-msgstr "По центру (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:37
-msgid "Character encoding of linked resource"
-msgstr "Кодування символів зв'язаного ресурсу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:38
-msgid "Checked (state)"
-msgstr "Відмічений (стан)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:39
-msgid "Checked state"
-msgstr "Відмічений стан"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:40
-msgid "Citation"
-msgstr "Цитата"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:41
-msgid "Cite reason for change"
-msgstr "Відмітка про причину зміни"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:42
-msgid "Class implementation ID"
-msgstr "ID реалізації класів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:43
-msgid "Class list"
-msgstr "Список класів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:44
-msgid "Clear text flow control"
-msgstr "Очищення параметрів керування текстом"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:45
-msgid "Code content type"
-msgstr "Тип змісту коду"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:46
-msgid "Color of selected links"
-msgstr "Колір вибраних посилань"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:48
-msgid "Color of selected links (deprecated)"
-msgstr "Колір вибраних посилань (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:49
-msgid "Column span"
-msgstr "Об'єднання стовпчиків"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:50
-msgid "Columns"
-msgstr "Стовпчики"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:51
-msgid "Comment"
-msgstr "Коментар"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:52
-msgid "Computer code fragment"
-msgstr "Фрагмент коду для комп'ютера"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:53
-msgid "Content scheme"
-msgstr "Схема змісту"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:54
-msgid "Content type"
-msgstr "Тип змісту"
-
-#. The "type" attribute is deprecated for the "ol" tag only,
-#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:57
-msgid "Content type (deprecated)"
-msgstr "Тип змісту (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:58
-msgid "Coordinates"
-msgstr "Координати"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:59
-msgid "DIV Style container"
-msgstr "Контейнер стилю DIV"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:60
-msgid "DIV container"
-msgstr "Контейнер DIV"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:61
-msgid "Date and time of change"
-msgstr "Дата та час зміни"
-
-#. NOTE: used in "object" tag
-#: ../plugins/taglist/HTML.tags.xml.in.h:63
-msgid "Declare flag"
-msgstr "Опис ознаки"
-
-#. Translators: DEFER is an optional attribute of the <script> tag.
-#. It indicates that the script is not going to generate any document
-#. content. The browser can continue parsing and drawing the page.
-#: ../plugins/taglist/HTML.tags.xml.in.h:67
-msgid "Defer attribute"
-msgstr "Ознака відкладення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:68
-msgid "Definition description"
-msgstr "Опис визначення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:69
-msgid "Definition list"
-msgstr "Список визначень"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:70
-msgid "Definition term"
-msgstr "термін з визначенням"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:71
-msgid "Deleted text"
-msgstr "Видалений текст"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:72
-msgid "Direction"
-msgstr "Напрямок"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:73
-msgid "Directionality"
-msgstr "Направленість"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:75
-msgid "Directionality (deprecated)"
-msgstr "Направленість (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:76
-msgid "Directory list"
-msgstr "Список каталогів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:77
-msgid "Disabled"
-msgstr "Вимкнено"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:78
-msgid "Document base"
-msgstr "Початок документу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:79
-msgid "Document body"
-msgstr "Тіло документу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:80
-msgid "Document head"
-msgstr "Заголовок документу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:81
-msgid "Document title"
-msgstr "Назва документу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:82
-msgid "Document type"
-msgstr "Тип документу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:83
-msgid "Element ID"
-msgstr "Ідентифікатор"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:84
-msgid "Embedded object"
-msgstr "Вбудований об'єкт"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:85
-#: ../plugins/taglist/Latex.tags.xml.in.h:9
-msgid "Emphasis"
-msgstr "Виділення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:86
-msgid "Encode type"
-msgstr "Тип кодування"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:87
-msgid "Figure"
-msgstr "Рисунок"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:88
-msgid "Font face"
-msgstr "Накреслення шрифту"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:90
-msgid "Font face (deprecated)"
-msgstr "Накреслення шрифту (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:91
-msgid "For label"
-msgstr "Для мітки"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:92
-msgid "Forced line break"
-msgstr "Примусовий розрив рядка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:93
-msgid "Form"
-msgstr "Форма"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:94
-msgid "Form action handler"
-msgstr "Обробник дії форми"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:95
-msgid "Form control group"
-msgstr "Група керування формою"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:96
-msgid "Form field label text"
-msgstr "Текстова метка поля форми"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:97
-msgid "Form input"
-msgstr "Ввід форми"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:98
-msgid "Form input type"
-msgstr "Тип вводу форми"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:99
-msgid "Form method"
-msgstr "Метод форми"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:100
-msgid "Forward link"
-msgstr "Посилання вперед"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:101
-msgid "Frame"
-msgstr "Назва:"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:102
-msgid "Frame border"
-msgstr "Межа області"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:103
-msgid "Frame render parts"
-msgstr "Частини візуалізації області"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:104
-msgid "Frame source"
-msgstr "Джерело області"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:105
-msgid "Frame spacing"
-msgstr "Відстань між областями"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:106
-msgid "Frame target"
-msgstr "Призначення області"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:107
-msgid "Frameborder"
-msgstr "Межа області"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:108
-msgid "Frameset"
-msgstr "Набір областей"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:109
-msgid "Frameset columns"
-msgstr "Стовпчики областей"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:110
-msgid "Frameset rows"
-msgstr "Рядки областей"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:111
-msgid "Framespacing"
-msgstr "Відстань між областями"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:112
-msgid "Generic embedded object"
-msgstr "Звичайний вбудований об'єкт"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:113
-msgid "Generic metainformation"
-msgstr "Звичайна метаінформація"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:114
-msgid "Generic span"
-msgstr "Звичайний діапазон"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:115
-msgid "HREF URI"
-msgstr "Ідентифікатор HREF"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:116
-msgid "HTML root element"
-msgstr "Кореневий елемент HTML"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:117
-msgid "HTML version"
-msgstr "Версія HTML"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:118
-msgid "HTML — Special Characters"
-msgstr "Спеціальні символи HTML"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:119
-msgid "HTML — Tags"
-msgstr "Теги HTML"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:120
-msgid "HTTP header name"
-msgstr "Назва заголовку HTTP"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:121
-msgid "Header cell IDs"
-msgstr "Комірка заголовку ідентифікатора"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:122
-msgid "Heading"
-msgstr "Заголовок"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:123
-msgid "Heading 1"
-msgstr "Заголовок 1"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:124
-msgid "Heading 2"
-msgstr "Заголовок 2"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:125
-msgid "Heading 3"
-msgstr "Заголовок 3"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:126
-msgid "Heading 4"
-msgstr "Заголовок 4"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:127
-msgid "Heading 5"
-msgstr "Заголовок 5"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:128
-msgid "Heading 6"
-msgstr "Заголовок 6"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:129
-msgid "Height"
-msgstr "Висота"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:130
-msgid "Horizontal rule"
-msgstr "Горизонтальна лінія"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:131
-msgid "Horizontal space"
-msgstr "Горизонтальний проміжок"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:133
-msgid "Horizontal space (deprecated)"
-msgstr "Горизонтальний проміжок (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:134
-msgid "I18N BiDi override"
-msgstr "Перевизначення напрямку тексту"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:135
-msgid "Image"
-msgstr "Зображення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:136
-msgid "Image map"
-msgstr "Мапа зображення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:137
-msgid "Image map area"
-msgstr "Область мапи зображення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:138
-msgid "Image map name"
-msgstr "Ім'я мапи зображення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:139
-msgid "Image source"
-msgstr "Джерело зображення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:140
-msgid "Inline frame"
-msgstr "Вбудована область"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:141
-msgid "Inline layer"
-msgstr "Вбудований шар"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:142
-msgid "Inserted text"
-msgstr "Вставлений текст"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:143
-msgid "Instance definition"
-msgstr "Визначення відстані"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:144
-msgid "Italic text"
-msgstr "Курсив"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:145
-msgid "Java applet"
-msgstr "Java-аплет"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:147
-msgid "Java applet (deprecated)"
-msgstr "Java-аплет (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:148
-msgid "Label"
-msgstr "Мітка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:149
-msgid "Language code"
-msgstr "Код мови"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:150
-msgid "Large text style"
-msgstr "Збільшити стиль тексту"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:151
-msgid "Layer"
-msgstr "Шар"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:152
-msgid "Link color"
-msgstr "Колір посилання"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:154
-msgid "Link color (deprecated)"
-msgstr "Колір посилання (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:155
-msgid "List item"
-msgstr "Елемент списку"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:156
-msgid "List of MIME types for file upload"
-msgstr "Список типів MIME для файлу який відвантажується"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:157
-msgid "List of supported character sets"
-msgstr "Перелік наборів символів, які підтримуються"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:158
-msgid "Listing"
-msgstr "Перелік"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:159
-msgid "Local change to font"
-msgstr "Локальні зміни шрифта"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:160
-msgid "Long description link"
-msgstr "Довгий опис посилання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:161
-msgid "Long quotation"
-msgstr "Довга цитата"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:162
-msgid "Mail link"
-msgstr "Надіслати посилання"
-
-#. Supported in XHTML 1.0 Frameset DTD only.
-#: ../plugins/taglist/HTML.tags.xml.in.h:164
-msgid "Margin pixel height"
-msgstr "Висота граничного пікселя"
-
-#. Supported in XHTML 1.0 Frameset DTD only.
-#: ../plugins/taglist/HTML.tags.xml.in.h:166
-msgid "Margin pixel width"
-msgstr "Ширина граничного пікселя"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:167
-msgid "Marquee"
-msgstr "Маркер"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:168
-msgid "Maximum length of text field"
-msgstr "Максимальна довжина текстового поля"
-
-#. Here I take some liberties: There's no mandatory attributes,
-#. but those are most common, and will likely be used.
-#: ../plugins/taglist/HTML.tags.xml.in.h:171
-msgid "Media-independent link"
-msgstr "Media-independent link"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:172
-msgid "Menu list"
-msgstr "Меню"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:174
-msgid "Menu list (deprecated)"
-msgstr "Меню (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:175
-msgid "Multi-line text field"
-msgstr "Багаторядкове текстове поле"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:176
-msgid "Multicolumn"
-msgstr "Багато стовпчиків"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:177
-msgid "Multiple"
-msgstr "Складний"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:178
-msgid "Name"
-msgstr "Назва"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:179
-msgid "Named property value"
-msgstr "Значення властивості"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:180
-msgid "Next ID"
-msgstr "Наступний ID"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:181
-msgid "No URI"
-msgstr "Немає ідентифікатора URI"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:182
-msgid "No embedded objects"
-msgstr "Вбудовані об'єкти відсутні"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:183
-msgid "No frames"
-msgstr "Без блоків"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:184
-msgid "No layers"
-msgstr "Без шарів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:185
-msgid "No line break"
-msgstr "Без розриву рядків"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:186
-msgid "No resize"
-msgstr "Без змін розмірів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:187
-msgid "No script"
-msgstr "Без сценаріїв"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:188
-msgid "No shade"
-msgstr "Без тіні"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:190
-msgid "No shade (deprecated)"
-msgstr "Без тіні (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:191
-msgid "No word wrap"
-msgstr "Без переносу слів"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:193
-msgid "No word wrap (deprecated)"
-msgstr "Без переносу слів (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:194
-msgid "Non-breaking space"
-msgstr "Нерозривний пробіл"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:195
-msgid "Note"
-msgstr "Примітка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:196
-msgid "Object applet file"
-msgstr "Об'єктний файл аплету"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:198
-msgid "Object applet file (deprecated)"
-msgstr "Об'єктний файл аплету (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:199
-msgid "Object data reference"
-msgstr "Object data reference"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:200
-msgid "Offset for alignment character"
-msgstr "Зсув для символу вирівнювання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:201
-msgid "OnBlur event"
-msgstr "Подія OnBlur"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:202
-msgid "OnChange event"
-msgstr "Подія OnChange"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:203
-msgid "OnClick event"
-msgstr "Подія OnClick"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:204
-msgid "OnDblClick event"
-msgstr "Подія OnDblClick"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:205
-msgid "OnFocus event"
-msgstr "Подія OnFocus"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:206
-msgid "OnKeyDown event"
-msgstr "Подія OnKeyDown"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:207
-msgid "OnKeyPress event"
-msgstr "Подія OnKeyPress"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:208
-msgid "OnKeyUp event"
-msgstr "Подія OnKeyUp"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:209
-msgid "OnLoad event"
-msgstr "Подія OnLoad"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:210
-msgid "OnMouseDown event"
-msgstr "Подія OnMouseDown"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:211
-msgid "OnMouseMove event"
-msgstr "Подія OnMouseMove"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:212
-msgid "OnMouseOut event"
-msgstr "Подія OnMouseOut"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:213
-msgid "OnMouseOver event"
-msgstr "Подія OnMouseOver"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:214
-msgid "OnMouseUp event"
-msgstr "Подія OnMouseUp"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:215
-msgid "OnReset event"
-msgstr "Подія OnReset"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:216
-msgid "OnSelect event"
-msgstr "Подія OnSelect"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:217
-msgid "OnSubmit event"
-msgstr "Подія OnSubmit"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:218
-msgid "OnUnload event"
-msgstr "Подія OnUnload"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:219
-msgid "Option group"
-msgstr "Група параметрів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:220
-msgid "Option selector"
-msgstr "Вибір параметрів"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:221
-msgid "Ordered list"
-msgstr "Замовлений список"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:222
-msgid "Output media"
-msgstr "Кінцеве медіа"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:223
-msgid "Paragraph"
-msgstr "Абзац"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:224
-msgid "Paragraph class"
-msgstr "Клас абзацу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:225
-msgid "Paragraph style"
-msgstr "Стиль абзацу"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:226
-msgid "Preformatted listing"
-msgstr "Попередньо відформатований програмний код"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:227
-msgid "Preformatted text"
-msgstr "Попередньо відформатований текст"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:228
-msgid "Profile metainfo dictionary"
-msgstr "Профіль слоіника метафніормації"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:229
-msgid "Prompt message"
-msgstr "Підказка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:230
-msgid "Push button"
-msgstr "Кнопка натискання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:231
-msgid "Quote"
-msgstr "Цитата"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:232
-msgid "Range"
-msgstr "Діапазон"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:233
-msgid "ReadOnly text and password"
-msgstr "Тект та пароль лише для читання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:234
-msgid "Reduced spacing"
-msgstr "Зменшений інтервал"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:236
-msgid "Reduced spacing (deprecated)"
-msgstr "Скорочені інтервали (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:237
-msgid "Reverse link"
-msgstr "Зворотне посилання"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:238
-msgid "Root"
-msgstr "Корінь"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:239
-msgid "Rows"
-msgstr "Рядки"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:240
-msgid "Rulings between rows and columns"
-msgstr "Керування рядками та стовпцями"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:241
-msgid "Sample program output, scripts"
-msgstr "Зразок виводу програми, сценаріїв"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:242
-msgid "Scope covered by header cells"
-msgstr "Область видимості, яка зайнята комірками заголовка"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:244
-msgid "Script language name"
-msgstr "Назва мови сценаріїв"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:245
-msgid "Script statements"
-msgstr "Оператори сценарію"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:246
-msgid "Scrollbar"
-msgstr "Смуга прокрутки"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:247
-msgid "Selectable option"
-msgstr "Параметр з можливістю вибору"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:248
-msgid "Selected"
-msgstr "Обрано"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:249
-msgid "Server-side image map"
-msgstr "Мапа зображення на стороні сервера"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:250
-msgid "Shape"
-msgstr "Форма"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:251
-msgid "Short inline quotation"
-msgstr "Коротка вбудована цитата"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:252
-msgid "Single line prompt"
-msgstr "Однорядкова підказка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:253
-msgid "Size"
-msgstr "Розмір"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:255
-msgid "Size (deprecated)"
-msgstr "Розмір (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:256
-msgid "Small text style"
-msgstr "Стиль малого тексту"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:257
-msgid "Soft line break"
-msgstr "М'який розрив рядка"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:258
-msgid "Sound"
-msgstr "Звук"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:259
-msgid "Source"
-msgstr "Вихідний текст"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:260
-msgid "Space-separated archive list"
-msgstr "Архівний список, розділений пробілами"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:261
-msgid "Spacer"
-msgstr "Проміжок"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:262
-msgid "Spacing between cells"
-msgstr "Відстань між комірками"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:263
-msgid "Spacing within cells"
-msgstr "Відстань у комірках"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:264
-msgid "Span"
-msgstr "Діапазон"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:265
-msgid "Square root"
-msgstr "Корінь квадратний"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:266
-msgid "Standby load message"
-msgstr "Повідомлення запуску режиму призупинення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:267
-msgid "Starting sequence number"
-msgstr "Перше число послідовності"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:269
-msgid "Starting sequence number (deprecated)"
-msgstr "Перше число послідовності (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:270
-msgid "Strike-through text"
-msgstr "Закреслений текст"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:272
-msgid "Strike-through text (deprecated)"
-msgstr "Закреслений текст (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:273
-msgid "Strike-through text style"
-msgstr "Стиль закресленого тексту"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:275
-msgid "Strike-through text style (deprecated)"
-msgstr "Стиль закресленого тексту (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:276
-msgid "Strong emphasis"
-msgstr "Сильний наголос"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:277
-msgid "Style info"
-msgstr "Інформація про стиль"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:278
-msgid "Subscript"
-msgstr "Нижній індекс"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:279
-msgid "Superscript"
-msgstr "Верхній індекс"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:280
-msgid "Tab order position"
-msgstr "Позиція переходу табуляції"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:281
-msgid "Table"
-msgstr "Таблиця"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:282
-msgid "Table body"
-msgstr "Тіло таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:283
-msgid "Table caption"
-msgstr "Назва таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:284
-msgid "Table column group properties"
-msgstr "Властивості групи стовпців таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:285
-msgid "Table column properties"
-msgstr "Властивості стовпця таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:286
-msgid "Table data cell"
-msgstr "Дані у комірці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:287
-msgid "Table footer"
-msgstr "Кінцівка таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:288
-msgid "Table header"
-msgstr "Заголовок таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:289
-msgid "Table header cell"
-msgstr "Комірка заголовку таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:290
-msgid "Table row"
-msgstr "Рядок таблиці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:291
-msgid "Table summary"
-msgstr "Інформація про таблицю"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:292
-msgid "Target — Blank"
-msgstr "Ціль — Blank"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:293
-msgid "Target — Parent"
-msgstr "Ціль — Parent"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:294
-msgid "Target — Self"
-msgstr "Ціль — Self"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:295
-msgid "Target — Top"
-msgstr "Ціль — Top"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:296
-msgid "Teletype or monospace text style"
-msgstr "Телетайпний або моноширний стиль тексту"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:297
-msgid "Text"
-msgstr "Текст"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:298
-msgid "Text color"
-msgstr "Колір тексту"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:300
-msgid "Text color (deprecated)"
-msgstr "Колір тексту (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:301
-msgid "Text entered by user"
-msgstr "Текст, введений користувачем"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:302
-msgid "Title"
-msgstr "Заголовок"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:303
-msgid "Top margin in pixels"
-msgstr "Верхня межа у точках"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:304
-msgid "URL"
-msgstr "URL"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:305
-msgid "Underlined text style"
-msgstr "Підкреслений стиль тексту"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:306
-msgid "Unordered list"
-msgstr "Несортований список"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:307
-msgid "Use image map"
-msgstr "Використовувати мапу зображення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:308
-msgid "Value"
-msgstr "Значення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:309
-msgid "Value interpretation"
-msgstr "Пояснення значення"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:310
-msgid "Variable or program argument"
-msgstr "Змінна або параметр програми"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:311
-msgid "Vertical cell alignment"
-msgstr "Вертикальне вирівнювання у комірці"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:312
-msgid "Vertical space"
-msgstr "Вертикальний пробіл"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:314
-msgid "Vertical space (deprecated)"
-msgstr "Вертикальний пробіл (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:315
-msgid "Visited link color"
-msgstr "Колір відвіданого посилання"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:317
-msgid "Visited link color (deprecated)"
-msgstr "Колір відвіданого посилання (застарілий)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:318
-msgid "Width"
-msgstr "Ширина"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:319
-msgid "XHTML 1.0 — Tags"
-msgstr "XHTML 1.0 — Теги"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:1
-msgid "Bibliography (cite)"
-msgstr "Бібліографія (cite)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:2
-msgid "Bibliography (item)"
-msgstr "Бібліографія (item)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:3
-msgid "Bibliography (shortcite)"
-msgstr "Бібліографія (shortcite)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:4
-msgid "Bibliography (thebibliography)"
-msgstr "Бібліографія (thebibliography)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:5
-msgid "Brackets ()"
-msgstr "Дужки()"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:6
-msgid "Brackets <>"
-msgstr "Дужки ()"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:7
-msgid "Brackets []"
-msgstr "Дужки []"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:8
-msgid "Brackets {}"
-msgstr "Дужки {}"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:10
-msgid "File input"
-msgstr "Вхід файлу"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:11
-msgid "Footnote"
-msgstr "Виноска"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:12
-msgid "Function cosine"
-msgstr "Функція cosine"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:13
-msgid "Function e^"
-msgstr "Функція e^"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:14
-msgid "Function exp"
-msgstr "Функція exp"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:15
-msgid "Function log"
-msgstr "Функція log"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:16
-msgid "Function log10"
-msgstr "Функція log10"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:17
-msgid "Function sine"
-msgstr "Функція sine"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:18
-msgid "Greek alpha"
-msgstr "Грецька альфа"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:19
-msgid "Greek beta"
-msgstr "Грецька бета"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:20
-msgid "Greek epsilon"
-msgstr "Грецький епсилон"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:21
-msgid "Greek gamma"
-msgstr "Грецька гамма"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:22
-msgid "Greek lambda"
-msgstr "Грецька лямбда"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:23
-msgid "Greek rho"
-msgstr "Грецька ро"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:24
-msgid "Greek tau"
-msgstr "Грецька тау"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:25
-msgid "Header 0 (chapter)"
-msgstr "Заголовок 0 (chapter)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:26
-msgid "Header 0 (chapter*)"
-msgstr "Заголовок 0 (chapter*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:27
-msgid "Header 1 (section)"
-msgstr "Заголовок 1 (section)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:28
-msgid "Header 1 (section*)"
-msgstr "Заголовок 1 (section*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:29
-msgid "Header 2 (subsection)"
-msgstr "Заголовок 2 (subsection)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:30
-msgid "Header 2 (subsection*)"
-msgstr "Заголовок 2 (subsection*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:31
-msgid "Header 3 (subsubsection)"
-msgstr "Заголовок 3 (subsubsection)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:32
-msgid "Header 3 (subsubsection*)"
-msgstr "Заголовок 3 (subsubsection*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:33
-msgid "Header 4 (paragraph)"
-msgstr "Заголовок 4 (paragraph)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:34
-msgid "Header appendix"
-msgstr "Додаток до заголовку"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:35
-msgid "Item"
-msgstr "елемент"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:36
-msgid "Item with label"
-msgstr "Елемент з міткою"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:37
-msgid "Latex — Tags"
-msgstr "Latex — Теги"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:38
-msgid "List description"
-msgstr "Опис списку"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:39
-msgid "List enumerate"
-msgstr "Нумерований список"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:40
-msgid "List itemize"
-msgstr "Список перерахування"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:41
-msgid "Maths (display)"
-msgstr "Математика (зображення)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:42
-msgid "Maths (inline)"
-msgstr "Математика (вбудований)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:43
-msgid "Operator fraction"
-msgstr "Оператор ділення"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:44
-msgid "Operator integral (display)"
-msgstr "Інтеграл (зображення)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:45
-msgid "Operator integral (inline)"
-msgstr "Інтеграл (вбудований)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:46
-msgid "Operator sum (display)"
-msgstr "Сума (зображення)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:47
-msgid "Operator sum (inline)"
-msgstr "Сума (вбудований)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:48
-msgid "Reference label"
-msgstr "Мітка посилання"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:49
-msgid "Reference ref"
-msgstr "Посилання ref"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:50
-msgid "Symbol <<"
-msgstr "Символ <<"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:51
-msgid "Symbol <="
-msgstr "Символ <="
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:52
-msgid "Symbol >="
-msgstr "Символ >="
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:53
-msgid "Symbol >>"
-msgstr "Символ >>"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:54
-msgid "Symbol and"
-msgstr "Символ and"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:55
-msgid "Symbol const"
-msgstr "Символ const"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:56
-msgid "Symbol d-by-dt"
-msgstr "Символ d-на-dt"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:57
-msgid "Symbol d-by-dt-partial"
-msgstr "Символ часткового d-на-dt"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:58
-msgid "Symbol d2-by-dt2-partial"
-msgstr "Символl часткового d2-на-dt2"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:59
-msgid "Symbol dagger"
-msgstr "Символ хрестика"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:60
-msgid "Symbol em-dash ---"
-msgstr "Символ em-dash ---"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:61
-msgid "Symbol en-dash --"
-msgstr "Символ en-dash --"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:62
-msgid "Symbol equiv"
-msgstr "Символ еквівалентності"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:63
-msgid "Symbol infinity"
-msgstr "Безконечність"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:64
-msgid "Symbol mathspace ,"
-msgstr "Мантиса ,"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:65
-msgid "Symbol mathspace ."
-msgstr "Мантиса ."
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:66
-msgid "Symbol mathspace _"
-msgstr "Символ математичного пробілу _"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:67
-msgid "Symbol mathspace __"
-msgstr "Символ математичного пробілу __"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:68
-msgid "Symbol simeq"
-msgstr "Символ simeq"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:69
-msgid "Symbol star"
-msgstr "Символ \"зірочка\""
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:70
-msgid "Typeface bold"
-msgstr "Товста гарнітура"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:71
-msgid "Typeface italic"
-msgstr "Гарнітура курсив"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:72
-msgid "Typeface slanted"
-msgstr "Похилена гарнітура"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:73
-msgid "Typeface type"
-msgstr "Тип гарнітури"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:74
-msgid "Unbreakable text"
-msgstr "Нерозривний текст"
-
-#: ../plugins/taglist/taglist.plugin.desktop.in.in.h:1
-msgid ""
-"Provides a method to easily insert commonly used tags/strings into a "
-"document without having to type them."
 msgstr ""
-"Надає можливість простого вставляння в документ тегів чи рядків, що часто "
-"використовуються, без потреби набирати їх."
 
-#: ../plugins/taglist/taglist.plugin.desktop.in.in.h:2
-msgid "Tag list"
-msgstr "Список тегів"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
+msgid "Whether to silence terminal bell"
+msgstr "Чи пригнічувати сигнал терміналу"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:1
-msgid "XSLT — Axes"
-msgstr "XSLT — Вісі"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:2
-msgid "XSLT — Elements"
-msgstr "XSLT — Елементи"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
+msgid "Number of lines to keep in scrollback"
+msgstr "Кількість рядків у буфері гортання"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:3
-msgid "XSLT — Functions"
-msgstr "XSLT — Функції"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:4
-msgid "ancestor"
-msgstr "предок"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Включення у буфері гортання нескінченної кількости рядків"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:5
-msgid "ancestor-or-self"
-msgstr "предок або ж цей самий об'єкт"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
+msgstr ""
+"Якщо увімкнено, то перемотані рядки не будуть відкидуватися. Вони будуть "
+"тимчасово зберігатися на диск, що при більшій кількости виводу у термінал "
+"може призвести до заповнення дискового простору."
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:6
-msgid "attribute"
-msgstr "ознака"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Чи прокручувати вікно до низу при натисканні клавіші"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:7
-msgid "child"
-msgstr "дочірній об'єкт"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Якщо увімкнено, натискання клавіші призводить до прогортання до низу."
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:8
-msgid "descendant"
-msgstr "нащадок"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr ""
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:9
-msgid "descendant-or-self"
-msgstr "нащадок або цей ж самий об'єкт"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:10
-msgid "following"
-msgstr "наступний"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
+msgid "Default color of text in the terminal"
+msgstr "Типовий колір тексту у терміналі"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:11
-msgid "following-sibling"
-msgstr "наступна вершина"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
+msgid ""
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
+msgstr ""
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:12
-msgid "namespace"
-msgstr "простір імен"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
+msgid "Default color of terminal background"
+msgstr "Типовий колір тла терміналу"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:13
-msgid "parent"
-msgstr "материнський об'єкт"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:14
-msgid "preceding"
-msgstr "попередній"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
+msgid "Palette for terminal applications"
+msgstr "Палітра для термінальних додатків"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:15
-msgid "preceding-sibling"
-msgstr "попередня вершина"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+"Термінали мають 16-колірну палітру, яку можуть використовувати запущені у "
+"терміналі застосунки. Цей ключ містить палітру у вигляді розділеного комами "
+"переліку імен кольорів. Імена кольорів повинні бути у шістнадцятковому "
+"форматі, наприклад «#FF00FF»"
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:16
-msgid "self"
-msgstr "поточний"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Чи використовувати шрифт з поточної теми для об’єкту терміналу"
 
-#: ../plugins/taglist/XUL.tags.xml.in.h:1
-msgid "XUL — Tags"
-msgstr "XUL — Теги"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Якщо встановлено, для терміналу буде використовуватися колірна схема полів "
+"уведення з поточної теми, а не кольори користувача."
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
+msgid "Whether to blink the cursor"
+msgstr "Чи повинен вказівник блимати"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
+msgid "The cursor appearance"
+msgstr "Зовнішній вигляд вказівника"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
+msgid "Whether to use the system font"
+msgstr "Чи використовувати системний шрифт"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
+msgid "Font"
+msgstr "Шрифт"
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+"Назва шрифту Pango. Прикладами можуть служити “Sans 12” або “Monospace Bold "
+"14”."
+
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+msgid "Terminal"
+msgstr "Термінал"
+
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Простий віджет терміналу, доступний з нижньої панелі"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Вставити термінал у нижню панель."
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr ""
+
+#: plugins/terminal/terminal.py:339
+msgid "C_hange Directory"
+msgstr ""

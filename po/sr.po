@@ -1,518 +1,200 @@
-# Serbian translation of gedit
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003 — 2012.
-# This file is distributed under the same license as the gedit package.
-# Maintainer: Горан Ракић <grakic@devbase.net>
-# Данило Шеган <danilo@prevod.org>, 2005.
-# Reviewed on 2005-09-03 by: Игор Несторовић <igor@prevod.org>
-# Translated on 2010-03-07 by: Бранко Кокановић <branko.kokanovic@gmail.com>
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gedit&"
-"keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2013-08-02 13:25+0000\n"
-"PO-Revision-Date: 2013-09-08 08:14+0200\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <gnom@prevod.org>\n"
-"Language: sr\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
+"Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Project-Style: gnome\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
 msgstr "Обележивачи"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "Лако претраживање документа са обележивачима"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "Укључи обележивач"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr "Мења стање обележивача у тренутном реду"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-msgid "Goto Next Bookmark"
-msgstr "Иди на следећи обележивач"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
-msgid "Goto the next bookmark"
-msgstr "Идите на следећи обележивач"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
-msgid "Goto Previous Bookmark"
-msgstr "Иди на претходни обележивач"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
-msgid "Goto the previous bookmark"
-msgstr "Идите на претходни обележивач"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr "Допуњавање заграда"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr "Аутоматски додаје затворене заграде."
+msgstr ""
 
-#. ex:et:ts=4:
-#: ../plugins/charmap/charmap/__init__.py:51
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-msgid "Character Map"
-msgstr "Таблица знакова"
-
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
-msgid "Insert special characters just by clicking on them."
-msgstr "Убаците посебне знакове једноставним кликом на њих."
-
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr "Кодна примедба"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr "Додајте или поништите примедбу кодног блока."
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:88
+#: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr "Додај кодну при_медбу"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:90
+#: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr "Додајте примедбу изабраном коду"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr "По_ништи кодну примедбу"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:96
+#: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr "Поништите примедбу изабраном коду"
-
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-msgid "Color Picker"
-msgstr "Бирач боја"
-
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
-msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
-"Изаберите боју из прозорчета и убаците њено хексадецимално представљање."
 
-#: ../plugins/colorpicker/colorpicker.py:161
-msgid "Pick _Color..."
-msgstr "Изабери _боју..."
-
-#: ../plugins/colorpicker/colorpicker.py:162
-msgid "Pick a color from a dialog"
-msgstr "Изаберите боју из прозорчета"
-
-#: ../plugins/colorpicker/colorpicker.py:178
-msgid "Pick Color"
-msgstr "Изаберите боју"
-
-#. ex:ts=4:et:
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
-#: ../plugins/colorschemer/schemer/schemer.ui.h:1
-msgid "Color Scheme Editor"
-msgstr "Уређивач шеме боја"
-
-#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
-msgid "Source code color scheme editor"
-msgstr "Уређивач шеме боја изворног кода"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:2
-msgid "Bold"
-msgstr "Подебљано"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:3
-msgid "Italic"
-msgstr "Искошено"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:4
-msgid "Underline"
-msgstr "Подвучено"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:5
-msgid "Strikethrough"
-msgstr "Прецртано"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:6
-msgid "Pick the background color"
-msgstr "Изаберите боју позадине"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:7
-msgid "Pick the foreground color"
-msgstr "Изаберите боју прочеља"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:8
-msgid "_Background"
-msgstr "_Позадина"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:9
-msgid "_Foreground"
-msgstr "Про_чеље"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:10
-msgid "_Clear "
-msgstr "_Очисти "
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:11
-msgid "Name"
-msgstr "Назив"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:12
-msgid "ID"
-msgstr "ИБ"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:13
-msgid "Description"
-msgstr "Опис"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:14
-msgid "Author"
-msgstr "Стваралац"
-
-#: ../plugins/colorschemer/schemer/schemer.ui.h:15
-msgid "Sample"
-msgstr "Узорак"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-msgid "Commander"
-msgstr "Командир"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-msgid "Command line interface for advanced editing"
-msgstr "Сучеље линије наредби за напредније уређивање"
-
-#: ../plugins/commander/commander/windowactivatable.py:70
-msgid "Commander Mode"
-msgstr "Режим командира"
-
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr "Покрените режим командира"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:117
-msgid "Empty Document"
-msgstr "Празан документ"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:158
-msgid "Type here to search..."
-msgstr "Упишите овде да потражите..."
-
-#. ex:ts=4:et:
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
-msgid "Dashboard"
-msgstr "Инструмент-табла"
-
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
-msgid "A Dashboard for new tabs"
-msgstr "Табла инструмената за нове језичке"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
-msgid "Draw Spaces"
-msgstr "Исцртавач размака"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw spaces and tabs"
-msgstr "Исцртава размаке и табулаторе"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-msgid "Show _White Space"
-msgstr "Прикажи пра_зан размак"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-msgid "Show spaces and tabs"
-msgstr "Прикажи размаке и табулаторе"
-
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-msgid "Draw spaces"
-msgstr "Исцртај размаке"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-msgid "Draw tabs"
-msgstr "Исцртај табулаторе"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-msgid "Draw new lines"
-msgstr "Исцртај нове редове"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-msgid "Draw non-breaking spaces"
-msgstr "Исцртај размаке без прелома"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-msgid "Draw leading spaces"
-msgstr "Исцртај почетне размаке"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
-msgid "Draw spaces in text"
-msgstr "Исцртај размаке у тексту"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-msgid "Draw trailing spaces"
-msgstr "Исцртај завршне размаке"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "Укључено"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "If TRUE drawing will be enabled."
-msgstr "Уколико је изабрано исцртавање ће бити укључено."
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
-msgid "The type of spaces to be drawn."
-msgstr "Врсте размака које ће бити исцртане."
-
-#: ../plugins/git/git.plugin.desktop.in.in.h:1
-msgid "Git"
-msgstr "Гит"
-
-#: ../plugins/git/git.plugin.desktop.in.in.h:2
-msgid "Git differences"
-msgstr "Разлике гита"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join/Split Lines"
-msgstr "Споји/Подели редове"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join several lines or split long ones"
-msgstr "Спојите неколико редова или поделите оне предуге"
-
-#: ../plugins/joinlines/joinlines.py:74
-msgid "_Join Lines"
-msgstr "Спо_ј редове"
-
-#: ../plugins/joinlines/joinlines.py:75
-msgid "Join the selected lines"
-msgstr "Обједините изабране редове"
-
-#: ../plugins/joinlines/joinlines.py:77
-msgid "_Split Lines"
-msgstr "_Подели редове"
-
-#: ../plugins/joinlines/joinlines.py:78
-msgid "Split the selected lines"
-msgstr "Поделите изабране редове"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr "Додата тачка уређивања..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr "Режим колона..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr "Уклоњена тачка уређивања..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:920
-msgid "Cancelled column mode..."
-msgstr "Режим отказане колоне..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Enter column edit mode using selection"
-msgstr "Унесите режим уређивања колоне користећи избор"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr "Унесите <b>паметан</b> режим уређивања колоне користећи избор"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "<b>Smart</b> column align mode using selection"
-msgstr "<b>Паметан</b> режим поравнања колоне користећи избор"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "<b>Smart</b> column align mode with additional space using selection"
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
 msgstr ""
-"<b>Паметан</b> режим поравнања колоне уз додатан размак користећи избор"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1298
-msgid "Toggle edit point"
-msgstr "Укљ./Искљ. тачку уређивања"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1299
-msgid "Add edit point at beginning of line/selection"
-msgstr "Додајте тачку уређивања на почетак реда/избора"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1300
-msgid "Add edit point at end of line/selection"
-msgstr "Додајте тачку уређивања на крај реда/избора"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1301
-msgid "Align edit points"
-msgstr "Поравнајте тачке уређивања"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1302
-msgid "Align edit points with additional space"
-msgstr "Поравнајте тачке уређивања додатним простором"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1333
-#: ../plugins/multiedit/multiedit/__init__.py:79
-msgid "Multi Edit Mode"
-msgstr "Режим вишемесног уређивања"
-
-#: ../plugins/multiedit/multiedit/__init__.py:81
-msgid "Start multi edit mode"
-msgstr "Покрените режим вишемесног уређивања"
-
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Multi Edit"
-msgstr "Вишемесно уређивање"
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-msgid "Edit document in multiple places at once"
-msgstr "Уређујте документ на више места одједном"
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr "Паметни размаци"
+msgstr ""
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr "Заборавите да не користите табулаторе."
+msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr "СинкТеКс"
+msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Усклађивање између ЛаТеКс-а и ПДФ-а са гедитом и евинсом."
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
+msgstr ""
 
-#: ../plugins/synctex/synctex/synctex.py:310
-#: ../plugins/synctex/synctex/synctex.py:311
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
 msgid "Forward Search"
-msgstr "Потражи унапред"
+msgstr ""
 
-#. ex:ts=4:et:
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
 msgstr "Да ли да искључи терминалско звонце"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
-"If true, don't make a noise when applications send the escape sequence for "
+"If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
-msgstr "Ако је изабрано, не прави буку када програми пошаљу ознаку за звонце."
+msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
 msgstr "Број редова који се памте у клизачу"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are "
-"discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
-"Број редова клизача који се памте. Можете ићи уназад у терминалу за овај "
-"број редова; редови који нису стали у клизачу се одбацују. Ако је изабрано "
-"„scrollback-unlimited“ (неограничено враћање уназад), ова вредност се "
-"занемарује."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
-msgstr "Да ли неограничен број редова треба задржати у клизачу"
+msgstr "Да ли ће неограничени број редова бити задржан у клизачу"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is "
-"stored on disk temporarily, so this may cause the system to run out of disk "
-"space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
 msgstr ""
 "Ако је изабрано, исписани редови неће бити заборављани. Историјат се чува "
 "привремено на диску, тако да можете остати без простора на диску ако има "
 "пуно редова у терминалу."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Да ли да помери на дно када се притисне тастер"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
 "Ако је изабрано, притисак на тастер пребацује клизач на крај терминала."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
-msgid "Whether to scroll to the bottom when there's new output"
-msgstr "Да ли да помери на дно када има новог излаза"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
-msgid ""
-"If true, whenever there's new output the terminal will scroll to the bottom."
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
 msgstr ""
-"Ако је укључено, када год има новог излаза, терминал ће вас пребацити на "
-"крај."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
-msgid "Whether to allow bold text"
-msgstr "Да ли да дозволи подебљани текст"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr "Ако је изабрано, дозвољава програмима у терминалу да подебљају текст."
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr "Знаци који се сматрају „делом речи“"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"Када се бира текст на основу речи, низ ових знакова се посматра као "
-"појединачна реч. Опсег може бити дат као „А-Ш“. Цртица (која не означава "
-"опсег) треба да буде први наведени знак."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
 msgstr "Основна боја текста у терминалу"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
 msgid ""
-"Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
-"Основна боја текста у терминалу, као одредница боје (може бити дата у виду "
-"хексадекадних цифара ХТМЛ стила, или назив боје на енглеском језику, нпр.: "
-"„red“ — црвена)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
 msgstr "Основна боја позадине терминала"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
-"Основна боја позадине терминала, као одредница боје (може бити дата у виду "
-"хексадекадних цифара ХТМЛ стила, или назив боје на енглеском језику, нпр.: "
-"„red“ — црвена)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
 msgstr "Палета за програме терминала"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -522,11 +204,11 @@ msgstr ""
 "терминала. Ово је та палета, где су дате боје раздвојене двотачком. Имена "
 "боја треба да буду у хексадекадном запису, нпр. „#FF00FF“"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Да ли да користи боје из теме за терминалски елемент"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -534,123 +216,64 @@ msgstr ""
 "Ако је изабрано, користиће боје из теме за поља за унос текста у терминалу, "
 "уместо боја које је подесио корисник."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
 msgstr "Да ли курсор да трепће"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
-"The possible values are \"system\" to use the global cursor blinking "
-"settings, or \"on\" or \"off\" to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 msgstr ""
-"Дозвољене вредности су „system“ која користи општа подешавања трептања "
-"курсора или „on“ и „off“ за непосредно укључивање или искључивање треперења."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
 msgstr "Изглед курсора"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
 msgid ""
-"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
-"vertical line cursor, or \"underline\" to use an underline cursor."
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"Дозвољене вредности су „block“ за квадратни курсор, „ibeam“ за курсор у виду "
-"вертикалне црте, или „underline“ за курсор у виду доње црте."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
 msgstr "Да ли да користи системски словни лик"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
 msgid ""
-"If true, the terminal will use the desktop-global standard font if it's "
+"If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Ако је изабрано, терминал ће користити општи словни лик радне површи ако је "
-"утврђене ширине (или у супротном најсличнији словни лик који пронађе)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
 msgstr "Словни лик"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
-msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"Назив словног лика Панго. Примери су „Sans 12“ или „Monospace Bold 14“."
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-msgid "Embedded Terminal"
-msgstr "Угњеждени терминал"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-msgid "Embed a terminal in the bottom pane."
-msgstr "Угради терминал у доњи панел."
-
-#: ../plugins/terminal/terminal.py:318
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 msgid "Terminal"
 msgstr "Терминал"
 
-# хм, хм?
-#: ../plugins/terminal/terminal.py:339
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Угнеждени терминал"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr ""
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr ""
+
+#: plugins/terminal/terminal.py:339
 msgid "C_hange Directory"
-msgstr "_Промени директоријум"
-
-#: ../plugins/textsize/textsize/__init__.py:142
-msgid "_Larger Text"
-msgstr "_Велики текст"
-
-#: ../plugins/textsize/textsize/__init__.py:145
-msgid "S_maller Text"
-msgstr "_Мањи текст"
-
-#: ../plugins/textsize/textsize/__init__.py:148
-msgid "_Normal size"
-msgstr "_Уобичајена величина"
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Text Size"
-msgstr "Величина текста"
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-msgid "Easily increase and decrease the text size"
-msgstr "Лако повећајте и смањите величину текста"
-
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
-#| msgid "Bracket Completion"
-msgid "Interactive completion"
-msgstr "Међудејствено довршавање"
-
-#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
-msgid "Minimum word size:"
-msgstr "Најмања величина речи:"
-
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
-msgid "Document Words"
-msgstr "Речи документа"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
-#| msgid "Bracket Completion"
-msgid "Interactive Completion"
-msgstr "Међудејствено довршавање"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
-msgid "Whether to enable interactive completion."
-msgstr "Да ли омогућити међудејствено довршавање"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
-msgid "Minimum Word Size"
-msgstr "Најмања величина речи"
-
-#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
-msgid "The minimum word size to complete."
-msgstr "Најмања величина речи за довршавање."
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-msgid "Word Completion"
-msgstr "Довршавање речи"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
-msgid "Word completion using the completion framework"
-msgstr "Довршавајте речи користећи радни оквир довршавања"
+msgstr ""

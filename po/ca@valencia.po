@@ -1,583 +1,283 @@
-# gedit translation to Catalan.
-# Copyright © 2000-2007, Free Software Foundation, Inc.
-# Quico Llach <quico@softcatala.org>, 2000, 2001, 2002.
-# Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004.
-# Jordi Mas i Hernàndez <jmas@softcatala.org>, 2003.
-# Aleix Badia i Bosch <abadia@ica.es>, 2004.
-# Josep Puigdemont <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
-# Gil Forcada <gilforcada@guifi.net>, 2008, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2021
+# Pilar Embid <embid.mar@gmail.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: Catalan translation of gedit plugins\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-31 21:25+0200\n"
-"PO-Revision-Date: 2013-01-20 17:23+0100\n"
-"Last-Translator: cubells <vicent@vcubells.net>\n"
-"Language-Team: Catalan <tradgnome@softcatala.org>\n"
-"Language: ca-XV\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: Pilar Embid <embid.mar@gmail.com>, 2021\n"
+"Language-Team: Catalan (Valencian) (https://www.transifex.com/mate/teams/13566/ca@valencia/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"Language: ca@valencia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
-msgstr "Adreces d'interés"
+msgstr "Marcadors"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "Navegueu fàcilment pel document amb les adreces d'interés"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "Commuta les adreces d'interés"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:202
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr "Commuta l'estat de l'adreça d'interés de la línia actual"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-msgid "Goto Next Bookmark"
-msgstr "Vés a l'adreça d'interés següent"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:205
-msgid "Goto the next bookmark"
-msgstr "Vés a l'adreça d'interés següent"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
-msgid "Goto Previous Bookmark"
-msgstr "Vés a l'adreça d'interés anterior"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:208
-msgid "Goto the previous bookmark"
-msgstr "Vés a l'adreça d'interés anterior"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr "Compleció dels claudàtors"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr "Afig claudàtors de tancada automàticament."
+msgstr ""
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-#: ../plugins/charmap/charmap/__init__.py:51
-msgid "Character Map"
-msgstr "Mapa de caràcters"
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
+msgid "Code Comment"
+msgstr ""
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
-msgid "Insert special characters just by clicking on them."
-msgstr "Inseriu caràcters especials fent-hi clic."
-
-#. ex:et:ts=4:
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-msgid "Code comment"
-msgstr "Comentaris al codi"
-
-# FIXME: "descomentar" (si no fos que no existeix)
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr "Comenteu o traieu els comentaris del bloc de codi seleccionat."
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:88
+#: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr "Co_menta el codi"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:90
+#: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr "Comenta del codi seleccionat"
+msgstr ""
 
-# FIXME: "descomentar" (si no fos que no existeix)
-#: ../plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr "_Trau el comentari del codi"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:96
+#: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr "Trau el comentari del codi seleccionat"
-
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-msgid "Color Picker"
-msgstr "Selector de color"
-
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
-msgid "Pick a color from a dialog and insert its hexadecimal representation."
 msgstr ""
-"Seleccioneu un color mitjançant un diàleg i inseriu-ne el codi hexadecimal."
 
-#: ../plugins/colorpicker/colorpicker.py:161
-msgid "Pick _Color..."
-msgstr "Escolliu un _color..."
-
-#: ../plugins/colorpicker/colorpicker.py:162
-msgid "Pick a color from a dialog"
-msgstr "Escolliu un color mitjançant un diàleg"
-
-#: ../plugins/colorpicker/colorpicker.py:178
-msgid "Pick Color"
-msgstr "Escolliu un color"
-
-#. ex:ts=4:et:
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-msgid "Commander"
-msgstr "Commander"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-msgid "Command line interface for advanced editing"
-msgstr "Interfície de línia d'ordes per a l'edició avançada"
-
-#: ../plugins/commander/commander/windowactivatable.py:70
-msgid "Commander Mode"
-msgstr "Mode commander"
-
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr "Inicia el mode commander"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:110
-msgid "Empty Document"
-msgstr "Document buit"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:218
-msgid "Type here to search..."
-msgstr "Feu clic ací per cercar..."
-
-#: ../plugins/dashboard/dashboard/dashboard.py:345
-msgid "Most Used"
-msgstr "Més utilitzats"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:346
-msgid "Recently Used"
-msgstr "Utilitzats recentment"
-
-#. ex:ts=4:et:
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
-msgid "Dashboard"
-msgstr "Tauler"
-
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
-msgid "A Dashboard for new tabs"
-msgstr "Un tauler per a pestanyes noves"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
-msgid "Draw Spaces"
-msgstr "Dibuixa els espais"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw Spaces and Tabs"
-msgstr "Dibuixa els espais i les tabulacions"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-msgid "Show _White Space"
-msgstr "Mostra els espais en _blanc"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-msgid "Show spaces and tabs"
-msgstr "Mostra els espais i les tabulacions"
-
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-msgid "Draw spaces"
-msgstr "Dibuixa els espais"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-msgid "Draw tabs"
-msgstr "Dibuixa les tabulacions"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-msgid "Draw new lines"
-msgstr "Dibuixa les línies noves"
-
-# FIXME
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-msgid "Draw non-breaking spaces"
-msgstr "Dibuixa els espais durs"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-msgid "Draw leading spaces"
-msgstr "Dibuixa els espais del principi de la línia"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
-msgid "Draw spaces in text"
-msgstr "Dibuixa els espais al text"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-msgid "Draw trailing spaces"
-msgstr "Dibuixa els espais del final de la línia"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "Habilitat"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "If TRUE drawing will be enabled."
-msgstr "Si és «TRUE» (cert) s'activarà el dibuix."
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
-msgid "The type of spaces to be drawn."
-msgstr "El tipus d'espai que es dibuixarà."
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join/Split Lines"
-msgstr "Uneix/separa les línies"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join several lines or split long ones"
-msgstr "Uneix diverses línies, o separa les llargues"
-
-#: ../plugins/joinlines/joinlines.py:74
-msgid "_Join Lines"
-msgstr "_Uneix línies"
-
-#: ../plugins/joinlines/joinlines.py:75
-msgid "Join the selected lines"
-msgstr "Uneix les línies seleccionades"
-
-#: ../plugins/joinlines/joinlines.py:77
-msgid "_Split Lines"
-msgstr "_Separa línies"
-
-#: ../plugins/joinlines/joinlines.py:78
-msgid "Split the selected lines"
-msgstr "Separa les línies seleccionades"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr "S'ha afegit el punt d'edició..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr "Mode de columnes..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr "S'ha suprimit el punt d'edició..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:920
-msgid "Cancelled column mode..."
-msgstr "S'ha cancel·lat el mode de columnes..."
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Enter column edit mode using selection"
-msgstr "Inicia l'edició en columnes utilitzant la selecció"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Enter <b>smart</b> column edit mode using selection"
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
 msgstr ""
-"Utilitzeu el mode d'edició de columna <b>intel·ligent</b> amb la selecció"
 
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "<b>Smart</b> column align mode using selection"
-msgstr ""
-"Utilitzeu el mode d'alineació de columna <b>intel·ligent</b> amb la selecció"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr ""
-"Utilitzeu el mode d'alineació de columna <b>intel·ligent</b> amb espais "
-"addicionals amb la selecció"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1298
-msgid "Toggle edit point"
-msgstr "Commuta el punt d'edició"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1299
-msgid "Add edit point at beginning of line/selection"
-msgstr "Afig un punt d'edició al principi de la línia/selecció"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1300
-msgid "Add edit point at end of line/selection"
-msgstr "Afig un punt d'edició al final de la línia/selecció"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1301
-msgid "Align edit points"
-msgstr "Alinea els punts d'edició"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1302
-msgid "Align edit points with additional space"
-msgstr "Alinea els punts d'edició amb espais addicionals"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1333
-#: ../plugins/multiedit/multiedit/__init__.py:79
-msgid "Multi Edit Mode"
-msgstr "Mode d'edició múltiple"
-
-#: ../plugins/multiedit/multiedit/__init__.py:81
-msgid "Start multi edit mode"
-msgstr "Inicia el mode d'edició múltiple"
-
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Multi Edit"
-msgstr "Edició múltiple"
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-msgid "Edit document in multiple places at once"
-msgstr "Edita document en diversos llocs alhora"
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr "Espais intel·ligents"
+msgstr ""
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr "Oblideu-vos que no utilitzeu les tabulacions."
+msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr "SyncTeX"
+msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
-msgstr "Sincronitza entre LaTeX i PDF amb el gedit i l'evince."
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
+msgstr ""
 
-#: ../plugins/synctex/synctex/synctex.py:310
-#: ../plugins/synctex/synctex/synctex.py:311
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
 msgid "Forward Search"
-msgstr "Cerca avant"
+msgstr ""
 
-#. ex:ts=4:et:
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
-msgstr "Si s'ha de silenciar la campana del terminal"
+msgstr "Si se silencia l'avís sonor del terminal"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
-"If true, don't make a noise when applications send the escape sequence for "
+"If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
-"Si és «true» (cert), no es farà cap soroll quan les aplicacions envien la "
-"seqüència d'escapament de la campana del terminal."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
-msgstr "Nombre de línies a mantindre en l'historial"
+msgstr "Nombre de línies que es mantenen en el desplaçament"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are "
-"discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
-"El nombre de línies de l'historial que cal mantindre. Podeu desplaçar-vos "
-"arrere al terminal este nombre de línies. Es descarten les línies que no "
-"caben a l'historial. Si «scrollback-unlimited» és «true» (cert) s'ignorarà "
-"este valor."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
-msgstr "Si s'ha de mantindre un nombre il·limitat de línies a l'historial"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
-msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is "
-"stored on disk temporarily, so this may cause the system to run out of disk "
-"space if there is a lot of output to the terminal."
 msgstr ""
-"Si és «true» (cert), mai es descartarà cap línia de l'historial. L'historial "
-"s'emmagatzema al disc temporalment, la qual cosa pot fer que el sistema es "
-"quede sense espai de disc si el terminal ha produït una gran quantitat de "
-"eixida."
+"Si s'ha de mantindre un nombre de línies il·limitat en el desplaçament"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
+msgstr ""
+"Si s'estableix a cert, les línies de desplaçament no es descartaran mai. "
+"L'historial dels desplaçaments s'emmagatzema temporalment al disc, de manera"
+" que això pot provocar que el sistema es quede sense espai al disc, si hi ha"
+" molta eixida al terminal."
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr "Si s'ha de desplaçar a la part inferior quan es prema una tecla"
+msgstr "Si s'ha de desplaçar al final quan es prem una tecla"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Si s'estableix a cert, en prémer una tecla es desplaça al final."
+
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
 msgstr ""
-"Si és «true» (cert), la barra de desplaçament saltarà a la part inferior "
-"quan es prema una tecla."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
-msgid "Whether to scroll to the bottom when there's new output"
-msgstr "Si s'ha de desplaçar a la part inferior quan hi haja una eixida nova"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
-"If true, whenever there's new output the terminal will scroll to the bottom."
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"Si és «true» (cert), cada vegada que hi haja una eixida nova, el terminal es "
-"desplaçarà a la part inferior."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
-msgid "Whether to allow bold text"
-msgstr "Si es permet el text en negreta"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-"Si és «true» (cert), es permet que les aplicacions del terminal mostren text "
-"amb  negreta."
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr "Els caràcters que es consideren \"part d'una paraula\""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
-msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-msgstr ""
-"Quan se selecciona el text per paraula, les seqüències d'estos caràcters es "
-"consideren paraules individuals. Els intervals es poden especificar com a «A-"
-"Z». El guió sol (que no expressa un interval) hauria de ser el primer "
-"caràcter donat."
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
-msgstr "Color per defecte del text al terminal"
+msgstr "Color predeterminat del text al terminal"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
 msgid ""
-"Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
-"El color per defecte del text al terminal, en format de color (poden ser "
-"dígits en hexadecimal a l'estil HTML, o bé un nom de color com ara «red» - "
-"roig)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
-msgstr "Color per defecte del fons del terminal"
+msgstr "Color predeterminat del fons del terminal"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
-"El color per defecte del fons del terminal, en format de color (poden ser "
-"dígits en hexadecimal a l'estil HTML, o bé un nom de color com ara «red» - "
-"roig)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
-msgstr "Paleta per a aplicacions de terminal"
+msgstr "Paleta per a les aplicacions del terminal"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
-"Els terminals tenen un paleta de 16 colors que les aplicacions del terminal "
-"poden utilitzar. Ací podeu definir esta paleta, en forma de llista de noms "
-"de colors separats per dos punts. Els noms de color haurien d'estar en "
-"format hexadecimal, per exemple, «#FF00FF»"
+"Els terminals tenen una paleta de 16 colors que poden utilitzar les "
+"aplicacions dins del terminal. Per a això és aquesta paleta, en forma d'una "
+"llista de noms de colors separats per dos punts. Els colors han d'estar en "
+"format hexadecimal, p. ex. «#FF00FF»."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Si s'han d'utilitzar els colors del tema per al giny del terminal"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
-"Si és «true» (cert), s'utilitzarà per al terminal l'esquema de color del "
-"tema utilitzat per als quadres de text, en lloc dels colors proporcionats "
-"per l'usuari."
+"Si s'estableix a cert, l'esquema de colors del tema que s'utilitza per als "
+"quadres d'entrada de text s'utilitzarà per al terminal, en lloc dels colors "
+"indicats per l'usuari."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
-msgstr "Si s'ha de fer que el cursor parpellege"
+msgstr "Si el cursor ha de parpellejar"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
-"The possible values are \"system\" to use the global cursor blinking "
-"settings, or \"on\" or \"off\" to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 msgstr ""
-"Els valors possibles són: «system» (sistema) per utilitzar la configuració "
-"global de parpelleig, «on» (actiu) o «off» (inactiu) per definir el mode "
-"explícitament."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
 msgstr "L'aparença del cursor"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
 msgid ""
-"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
-"vertical line cursor, or \"underline\" to use an underline cursor."
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
-"Els valors possibles són «block» (bloc) per utilitzar un cursor de bloc "
-"quadrat, «ibeam» (vertical) per utilitzar un cursor en forma de barra "
-"vertical, o «underline» (subratllat) per utilitzar un cursor en forma de "
-"barra horitzontal."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
-msgstr "Si s'ha d'utilitzar la font del sistema"
+msgstr "Si s'ha d'utilitzar el tipus de lletra del sistema"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
 msgid ""
-"If true, the terminal will use the desktop-global standard font if it's "
+"If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
-"Si és «true» (cert), el terminal farà servir el tipus de lletra estàndard "
-"global de l'escriptori si és monoespai (i el tipus de lletra més paregut que "
-"es trobe en cas contrari)."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
 msgstr "Tipus de lletra"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
-msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"Un nom de tipus de lletra de Pango. Per exemple: «Sans 12» o «Monospace Bold "
-"14»."
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-msgid "Embedded Terminal"
-msgstr "Terminal incrustat"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-msgid "Embed a terminal in the bottom pane."
-msgstr "Incrusta un terminal a la subfinestra inferior."
-
-#: ../plugins/terminal/terminal.py:260
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ../plugins/terminal/terminal.py:281
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr ""
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr ""
+
+#: plugins/terminal/terminal.py:339
 msgid "C_hange Directory"
-msgstr "_Canvia el directori"
-
-#: ../plugins/textsize/textsize/__init__.py:142
-msgid "_Increase font size"
-msgstr "_Augmenta la mida del tipus de lletra"
-
-#: ../plugins/textsize/textsize/__init__.py:145
-msgid "_Decrease font size"
-msgstr "_Redueix la mida del tipus de lletra"
-
-#: ../plugins/textsize/textsize/__init__.py:148
-msgid "_Reset font size"
-msgstr "_Reinicia la mida del tipus de lletra"
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-msgid "Text Size"
-msgstr "Mida del text"
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-msgid "Easily increase and decrease the text size"
-msgstr "Augmenta i redueix fàcilment la mida del text"
-
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:153
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:200
-msgid "Document Words"
-msgstr "Paraules del document"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-msgid "Word Completion"
-msgstr "Compleció de paraules"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
-msgid "Word completion using the completion framework"
-msgstr "Compleció de paraules utilitzant l'entorn de treball de compleció"
+msgstr ""

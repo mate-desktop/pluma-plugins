@@ -1,2211 +1,282 @@
-# translation of gedit.master.ml.po to Malayalam
-# This file is distributed under the same license as the gedit package.
-# Copyright (C) 2007-2008 gedit'S COPYRIGHT HOLDER.
-#
-# FSF-India <locale@gnu.org.in>, 2003.
-# Ani Peter <apeter@redhat.com>, 2006, 2007.
-# Santhosh Thottingal <santhosh00@gmail.com>, 2007.
-# Hari Vishnu <harivishnu@gmail.com>, 2008.
-# Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2007, 2008, 2009, 2012.
-# Afsal <afsal21@gmail.com>, 2012
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the pluma-plugins package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: ml\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gedit&keywords=I18N+L10N&component=Plugins\n"
-"POT-Creation-Date: 2012-03-18 14:42+0000\n"
-"PO-Revision-Date: 2009-09-20 10:35+0530\n"
-"Last-Translator: \n"
-"Language-Team:  <smc-discuss@googlegroups.com>\n"
+"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
+"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"PO-Revision-Date: 2020-12-08 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Language-Team: Malayalam (https://www.transifex.com/mate/teams/13566/ml/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
-"X-Poedit-Language: Malayalam\n"
-"X-Poedit-Country: INDIA\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: ml\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
 msgid "Bookmarks"
 msgstr "ബുക്ക് മാര്‍ക്കുകള്‍"
 
-#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr "രേഖകളിലൂടെ അടയാളക്കുറിപ്പുകള്‍ ഉപയോഗിച്ചുള്ള അനായാസ യാത്ര"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:200
-#, fuzzy
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "ബുക്ക് മാര്‍ക്കുകള്‍"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:201
-#, fuzzy
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr "സജീവ ജാലകത്തില്‍ സ്റ്റേറ്റസ് ബാര്‍ കാണിയ്ക്കുകയോ അദൃശ്യമാക്കുകയോ ചെയ്യുക"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:203
-msgid "Goto Next Bookmark"
-msgstr "അടുത്ത അടയാളക്കുറിപ്പിലേക്കു് പോകുക"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+msgid "Go to Next Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:204
-#, fuzzy
-msgid "Goto the next bookmark"
-msgstr "അടുത്ത സന്ദര്‍ശിച്ച സ്ഥാനത്തേക്ക് പോകുക"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+msgid "Go to the next bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:206
-#, fuzzy
-msgid "Goto Previous Bookmark"
-msgstr "മുമ്പുളള സ്ഥാനത്തേക്ക് പോകുക"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+msgid "Go to Previous Bookmark"
+msgstr ""
 
-#: ../plugins/bookmarks/gedit-bookmarks-plugin.c:207
-#, fuzzy
-msgid "Goto the previous bookmark"
-msgstr "മുമ്പുളള താള്‍ കാണിയ്ക്കുക"
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+msgid "Go to the previous bookmark"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
-#, fuzzy
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr "<b>ബ്രാക്കറ്റുകളുടെ പൊരുത്തം</b>"
+msgstr ""
 
-#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
-#, fuzzy
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr "സ്വയം കണ്ടുപിടിച്ച എന്‍കോഡിങ്ങുകള്‍"
+msgstr ""
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
-#: ../plugins/charmap/charmap/__init__.py:51
-#, fuzzy
-msgid "Character Map"
-msgstr "അക്ഷരങ്ങളുടെ കോഡിങ്ങുകള്‍"
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
+msgid "Code Comment"
+msgstr ""
 
-#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
-msgid "Insert special characters just by clicking on them."
-msgstr "പ്രത്യേക അക്ഷരങ്ങളില്‍ ക്ലിക്ക് ചെയ്തു് അവ ചേര്‍ക്കുക."
-
-#. ex:et:ts=4:
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Code comment"
-msgstr "അഭിപ്രായം"
-
-#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr "തെരഞ്ഞടുത്തിരിക്കുന്ന കോഡുകളുടെ ബ്ലോക്ക് കമന്റ് അല്ലെങ്കില്‍ അണ്‍കമന്റ് ചെയ്യുക."
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:88
-#, fuzzy
+#: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr "അഭിപ്രായം"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:90
-#, fuzzy
+#: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr "തെരഞ്ഞെടുത്തവ നീക്കം ചെയ്യുക"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr "കോഡു് അണ്‍കമന്റ് ചെയ്യുക"
+msgstr ""
 
-#: ../plugins/codecomment/codecomment.py:96
-#, fuzzy
+#: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr "തെരഞ്ഞെടുത്തവ നീക്കം ചെയ്യുക"
-
-#. ex:ts=4:et:
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Color Picker"
-msgstr "നിറം കൊടുക്കുന്ന പദ്ധതിയ്ക്കുള്ള ഫയലുകള്‍"
-
-#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
-msgid "Pick a color from a dialog and insert its hexadecimal representation."
-msgstr "ഡയലോഗില്‍ നിന്നും ഒരു നിറം തെരഞ്ഞെടുത്തു് അതിനുചിതമായ ഹെക്സാ ഡെസിമല്‍ നല്‍കുക."
-
-#: ../plugins/colorpicker/colorpicker.py:76
-msgid "Pick _Color..."
-msgstr "_നിറം തെരഞ്ഞെടുക്കുക..."
-
-#: ../plugins/colorpicker/colorpicker.py:77
-msgid "Pick a color from a dialog"
-msgstr "ഒരു ഡയലോഗില്‍ നിന്നും നിറം തെരഞ്ഞെടുക്കുക"
-
-#: ../plugins/colorpicker/colorpicker.py:176
-#, fuzzy
-msgid "Pick Color"
-msgstr "നിറം തിരഞ്ഞെടുക്കുക"
-
-#. ex:ts=4:et:
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Commander"
-msgstr "_ആജ്ഞയുടെ നിറം:"
-
-#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
-msgid "Command line interface for advanced editing"
 msgstr ""
 
-#: ../plugins/commander/commander/windowactivatable.py:70
-#, fuzzy
-msgid "Commander Mode"
-msgstr "_ആജ്ഞയുടെ നിറം:"
-
-#: ../plugins/commander/commander/windowactivatable.py:71
-msgid "Start commander mode"
-msgstr "കമാന്‍ഡര്‍ ദശ തുടങ്ങുക"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:110
-msgid "Empty Document"
-msgstr "ഒഴിഞ്ഞ രേഖ"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:218
-msgid "Type here to search..."
-msgstr "തിരയുന്നതിനു് ഇവിടെ ടൈപ്പ് ചെയ്യുക..."
-
-#: ../plugins/dashboard/dashboard/dashboard.py:345
-msgid "Most Used"
-msgstr "കൂടുതല്‍ ഉപയോഗിച്ചതു്"
-
-#: ../plugins/dashboard/dashboard/dashboard.py:346
-msgid "Recently Used"
-msgstr "കുറച്ചു് മുമ്പ് ഉപയോഗിച്ചതു്"
-
-#. ex:ts=4:et:
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
-msgid "Dashboard"
+#: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
+msgid "Comment or uncomment blocks of code"
 msgstr ""
 
-#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
-msgid "A Dashboard for new tabs"
-msgstr ""
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
-msgid "Draw Spaces"
-msgstr "സ്പെയിസുകള്‍ വരയ്ക്കുക"
-
-#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
-msgid "Draw Spaces and Tabs"
-msgstr "സ്പെയിസുകളും റ്റാബുകളും നല്‍കുക"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:134
-#, fuzzy
-msgid "Show _White Space"
-msgstr "അടുത്ത താള്‍ കാണിയ്ക്കുക"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.c:135
-#, fuzzy
-msgid "Show spaces and tabs"
-msgstr "ടാബുകള്‍ക്കു് പ_കരം സ്പേയ്സുകള്‍ ചേര്‍ക്കുക"
-
-#. ex:set ts=8 noet:
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:1
-#, fuzzy
-msgid "Draw spaces"
-msgstr "സ്പെയിസ് ചേര്‍ക്കുക"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:2
-msgid "Draw tabs"
-msgstr "റ്റാബുകള്‍ നല്‍കുക"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:3
-msgid "Draw new lines"
-msgstr "പുതിയ വരകള്‍ വരയ്ക്കുക"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:4
-#, fuzzy
-msgid "Draw non-breaking spaces"
-msgstr "അനുസ്യൂത വിടവ്"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:5
-#, fuzzy
-msgid "Draw leading spaces"
-msgstr "അനുസ്യൂത വിടവ്"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:6
-#, fuzzy
-msgid "Draw spaces in text"
-msgstr "സ്പെയിസ് ചേര്‍ക്കുക"
-
-#: ../plugins/drawspaces/gedit-drawspaces-plugin.ui.h:7
-#, fuzzy
-msgid "Draw trailing spaces"
-msgstr "അവസാനം കിടക്കുന്ന സ്പെയ്സുകള്‍ നീക്കം ചെയ്യുക"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
-msgid "Enabled"
-msgstr "പ്രാവര്‍ത്തികം"
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
-msgid "If TRUE drawing will be enabled."
-msgstr "TRUE ആണെങ്കില്‍ വരക്കുന്നതായിരിയ്ക്കും."
-
-#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
-msgid "The type of spaces to be drawn."
-msgstr ""
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
-msgid "Join/Split Lines"
-msgstr "വരകള്‍ കൂട്ടിചേര്‍ക്കുക/വേര്‍തിരിക്കുക"
-
-#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
-msgid "Join several lines or split long ones"
-msgstr "അനവധി വരകള്‍ കൂട്ടിചേര്‍ക്കുക അല്ലെങ്കില്‍ വലിയ വരകള്‍ വേര്‍തിരിക്കുക"
-
-#: ../plugins/joinlines/joinlines.py:74
-#, fuzzy
-msgid "_Join Lines"
-msgstr "വരികള്‍"
-
-#: ../plugins/joinlines/joinlines.py:75
-#, fuzzy
-msgid "Join the selected lines"
-msgstr "തെരഞ്ഞെടുത്ത വരികള്‍ ഇടത്തോട്ടേക്കൊതുക്കുക"
-
-#: ../plugins/joinlines/joinlines.py:77
-msgid "_Split Lines"
-msgstr "വരകള്‍ _വേര്‍തിരിക്കുക"
-
-#: ../plugins/joinlines/joinlines.py:78
-#, fuzzy
-msgid "Split the selected lines"
-msgstr "തെരഞ്ഞെടുത്ത വരികള്‍ ഇടത്തോട്ടേക്കൊതുക്കുക"
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:301
-msgid "Added edit point..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:643
-msgid "Column Mode..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:757
-msgid "Removed edit point..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:916
-msgid "Cancelled column mode..."
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1288
-msgid "Enter column edit mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1289
-msgid "Enter <b>smart</b> column edit mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1290
-msgid "<b>Smart</b> column align mode using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1291
-msgid "<b>Smart</b> column align mode with additional space using selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1293
-msgid "Toggle edit point"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1294
-msgid "Add edit point at beginning of line/selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1295
-msgid "Add edit point at end of line/selection"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1296
-msgid "Align edit points"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1297
-msgid "Align edit points with additional space"
-msgstr ""
-
-#: ../plugins/multiedit/multiedit/documenthelper.py:1328
-#: ../plugins/multiedit/multiedit/__init__.py:80
-msgid "Multi Edit Mode"
-msgstr "പല ഭാഗങ്ങളില്‍ മാറ്റം വരുത്തുന്ന ദശ"
-
-#: ../plugins/multiedit/multiedit/__init__.py:82
-msgid "Start multi edit mode"
-msgstr "പല ഭാഗങ്ങളില്‍ മാറ്റം വരുത്തുന്ന ദശ തുടങ്ങുക"
-
-#. ex:ts=4:et:
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
-msgid "Multi Edit"
-msgstr "പല ഭാഗങ്ങളില്‍ മാറ്റം വരുത്തുക"
-
-#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
-msgid "Edit document in multiple places at once"
-msgstr "രേഖയുടെ പല ഭാഗങ്ങളിലും ഒന്നിച്ചു് മാറ്റം വരുത്തുക"
-
-#: ../plugins/sessionsaver/dialogs.py:132
-msgid "Session Name"
-msgstr "സെഷന്റെ പേരു്"
-
-#: ../plugins/sessionsaver/__init__.py:84
-#, python-format
-msgid "Recover '%s' session"
-msgstr "'%s' സെഷന്‍ വീണ്ടെടുക്കുക"
-
-#: ../plugins/sessionsaver/__init__.py:103
-msgid "Sa_ved sessions"
-msgstr "_സൂക്ഷിച്ചിട്ടുള്ള സെഷനുകള്‍"
-
-#: ../plugins/sessionsaver/__init__.py:105
-#, fuzzy
-msgid "_Save current session"
-msgstr "നിലവില്‍ തെരഞ്ഞെടുത്തത് മാറ്റുക"
-
-#: ../plugins/sessionsaver/__init__.py:106
-#, fuzzy
-msgid "Save the current document list as a new session"
-msgstr "സജീവ രേഖ ഒരു പുതിയ ജാലകത്തിലേക്ക് മാറ്റുക"
-
-#: ../plugins/sessionsaver/__init__.py:108
-msgid "_Manage saved sessions..."
-msgstr "സൂക്ഷിച്ചിട്ടുള്ള സെഷനുകള്‍ _കൈകാര്യം ചെയ്യുക..."
-
-#: ../plugins/sessionsaver/__init__.py:109
-#, fuzzy
-msgid "Open the saved session manager"
-msgstr "ജിഎഡിറ്റ് സഹായക ഗ്രന്ഥം തുറക്കുക"
-
-#. ex:ts=4:et:
-#: ../plugins/sessionsaver/sessionsaver.plugin.desktop.in.in.h:1
-msgid "Session Saver"
-msgstr "സെഷന്‍ സൂക്ഷിക്കുന്നതിനുള്ള സംവിധാനം"
-
-#: ../plugins/sessionsaver/sessionsaver.plugin.desktop.in.in.h:2
-msgid "Save and restore your working sessions"
-msgstr "നിങ്ങള്‍ പ്രവര്‍ത്തിക്കുന്ന സെഷനുകള്‍ സൂക്ഷിച്ചു് അവ വീണ്ടെടുക്കുക"
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:1
-msgid "Save session"
-msgstr "സെഷന്‍ സൂക്ഷിക്കുക"
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:2
-msgid "Session name:"
-msgstr "സെഷന്റെ പേരു്:"
-
-#: ../plugins/sessionsaver/sessionsaver.ui.h:3
-msgid "Saved Sessions"
-msgstr "സൂക്ഷിച്ചിട്ടുള്ള സെഷനുകള്‍"
-
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
-#, fuzzy
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr "സ്പെയിസ് ചേര്‍ക്കുക"
+msgstr ""
 
-#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr "നിങ്ങള്‍ റ്റാബുകള്‍ ഉപയോഗിക്കുന്നില്ല എന്നതു് മറന്നുകളയുക."
+msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
 msgstr ""
 
-#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
-msgid "Synchronize between LaTeX and PDF with gedit and evince."
+#: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril"
 msgstr ""
 
-#: ../plugins/synctex/synctex/synctex.py:307
-#: ../plugins/synctex/synctex/synctex.py:308
-#, fuzzy
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with pluma and atril."
+msgstr ""
+
+#: plugins/synctex/synctex/synctex.py:321
+#: plugins/synctex/synctex/synctex.py:322
 msgid "Forward Search"
-msgstr "മുമ്പോട്ടുളള കണ്ണി"
-
-#: ../plugins/taglist/gedit-taglist-plugin.c:165
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:700
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:716
-msgid "Tags"
-msgstr "ടാഗുകള്‍"
-
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:608
-msgid "Select the group of tags you want to use"
-msgstr "താങ്കള്‍ക്കുപയോഗിക്കാനാവശ്യമായ ടാഗുകളുടെ കൂട്ടങ്ങള്‍ തെരഞ്ഞെടുക്കുക"
-
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:627
-msgid "_Preview"
-msgstr "അച്ചടിയ്ക്കുന്നതിനു് മുമ്പ് _കാണുക"
-
-#: ../plugins/taglist/gedit-taglist-plugin-panel.c:697
-msgid "Available Tag Lists"
-msgstr "ലഭ്യമായ ടാഗ് ലിസ്റ്റുകള്‍"
-
-#. ex:ts=8:noet:
-#: ../plugins/taglist/HTML.tags.xml.in.h:1
-#, fuzzy
-msgid "XHTML 1.0 — Tags"
-msgstr "XHTML 1.0 - ടാഗുകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:2
-msgid "Abbreviated form"
-msgstr "ചുരുങ്ങിയ രീതി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:3
-msgid "Abbreviation"
-msgstr "ചുരുക്കല്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:4
-msgid "Accessibility key character"
-msgstr "Accessibility key character"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:5
-msgid "Acronym"
-msgstr "ചുരുക്കപ്പേര്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:6
-msgid "Align"
-msgstr "ചിട്ടപ്പെടുത്തുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:7
-msgid "Alignment character"
-msgstr "ചിട്ടപ്പെടുത്തുന്നതിനുളള അക്ഷരം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:8
-msgid "Alternative"
-msgstr "പകരമായുളള"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:9
-msgid "Anchor URI"
-msgstr "Anchor URI"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:10
-msgid "Anchor"
-msgstr "ആങ്കര്‍"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:12
-msgid "Applet class file code (deprecated)"
-msgstr "അപ്പ്-ലെറ്റ് ക്ളാസ് ഫയലുകളുടെ കോഡ് (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:13
-msgid "Associated information"
-msgstr "അനുബന്ധിച്ചുളള വിവരങ്ങള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:14
-msgid "Author info"
-msgstr "രചയിതാവിന്റെ വിവരം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:15
-msgid "Axis related headers"
-msgstr "ആക്സിസ് സംബന്ധിച്ചുളള തലക്കെട്ടുകള്‍"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:17
-msgid "Background color (deprecated)"
-msgstr "പശ്ചാത്തല നിറം (കാലഹരണപ്പെട്ടു)"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:19
-msgid "Background texture tile (deprecated)"
-msgstr "പശ്ചാത്തലത്തിലുളള ടൈല്‍ (കാലഹരണപ്പെട്ടു)"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:21
-msgid "Base font (deprecated)"
-msgstr "അടിസ്ഥാന അക്ഷരസഞ്ചയം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:22
-msgid "Base URI"
-msgstr "അടിസ്ഥാന യുആര്‍ഐ"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:23
-msgid "Bold"
-msgstr "കട്ടികൂടിയത്"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:25
-msgid "Border (deprecated)"
-msgstr "അതിരു് (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:26
-msgid "Cell rowspan"
-msgstr "സെല്‍ റോ സ്പാന്‍"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:28
-msgid "Center (deprecated)"
-msgstr "മദ്ധ്യത്തില്‍ (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:29
-msgid "Character encoding of linked resource"
-msgstr "ബന്ധിപ്പിച്ച വിഭവത്തിന്റെ അക്ഷരങ്ങളുടെ എന്‍കോഡിങ്ങ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:30
-msgid "Checked state"
-msgstr "തെരഞ്ഞെടുത്ത അവസ്ഥ"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:31
-msgid "Citation"
-msgstr "Citation"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:32
-msgid "Cite reason for change"
-msgstr "മാറ്റത്തിനുളള കാരണം വ്യക്തമാക്കുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:33
-msgid "Class implementation ID"
-msgstr "Class implementation ID"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:34
-msgid "Class list"
-msgstr "ക്ലാസ് പട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:35
-msgid "Clear text flow control"
-msgstr "പദാവലിയുടെ ഒഴുക്കിന്റെ നിയന്ത്രണം നീക്കം ചെയ്യുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:36
-msgid "Code content type"
-msgstr "കോഡ് ഉള്ളടക്ക തരം"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:38
-msgid "Color of selected links (deprecated)"
-msgstr "തെരഞ്ഞെടുത്ത കണ്ണികളുടെ നിറം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:39
-msgid "Column span"
-msgstr "എത്ര അക്ഷരങ്ങള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:40
-msgid "Columns"
-msgstr "അക്ഷരങ്ങള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:41
-msgid "Comment"
-msgstr "അഭിപ്രായം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:42
-msgid "Computer code fragment"
-msgstr "കമ്പ്യൂട്ടര്‍ കോഡ് ഫ്രാഗ്മെന്റ്"
-
-#. The "type" attribute is deprecated for the "ol" tag only,
-#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:45
-msgid "Content type (deprecated)"
-msgstr "ഏത് തരം ഉള്ളടക്കം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:46
-msgid "Coordinates"
-msgstr "കോര്‍ഡിനേറ്റുകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:47
-msgid "Date and time of change"
-msgstr "മാറ്റം വരുത്തിയ സമയവും തിയ്യതിയും"
-
-#. NOTE: used in "object" tag
-#: ../plugins/taglist/HTML.tags.xml.in.h:49
-msgid "Declare flag"
-msgstr "ഫ്ലാഗ് പ്രസ്താവിക്കുക"
-
-#. Translators: DEFER is an optional attribute of the <script> tag.
-#. It indicates that the script is not going to generate any document
-#. content. The browser can continue parsing and drawing the page.
-#: ../plugins/taglist/HTML.tags.xml.in.h:53
-msgid "Defer attribute"
-msgstr "Defer attribute"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:54
-msgid "Definition description"
-msgstr "നിര്‍വചനവിവരണം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:55
-msgid "Definition list"
-msgstr "നിര്‍വചനപട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:56
-msgid "Definition term"
-msgstr "ഡിഫനിഷന്റെ ടേം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:57
-msgid "Deleted text"
-msgstr "നീക്കം ചെയ്ത പദാവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:58
-msgid "Directionality"
-msgstr "Directionality"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:60
-msgid "Directionality (deprecated)"
-msgstr "Directionality (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:61
-msgid "Disabled"
-msgstr "പ്രവര്‍ത്തന രഹിതമാക്കുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:62
-msgid "DIV container"
-msgstr "DIV കണ്‍ട്ടെയിനര്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:63
-msgid "DIV Style container"
-msgstr "DIV സ്റ്റൈല്‍ കണ്‍ട്ടെയിനര്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:64
-msgid "Document base"
-msgstr "രേഖയുടെ അടിസ്ഥാനം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:65
-msgid "Document body"
-msgstr "രേഖയുടെ ഭാഗം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:66
-msgid "Document head"
-msgstr "രേഖയുടെ തലക്കെട്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:67
-msgid "Element ID"
-msgstr "എലമെന്റ് ID"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:68
-msgid "Document title"
-msgstr "രേഖയുടെ തലക്കെട്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:69
-msgid "Document type"
-msgstr "രേഖയുടെ തരം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:70
-#: ../plugins/taglist/Latex.tags.xml.in.h:72
-msgid "Emphasis"
-msgstr "എംഫസിസ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:71
-msgid "Encode type"
-msgstr "എന്‍കോഡ് രീതി"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:73
-msgid "Font face (deprecated)"
-msgstr "അക്ഷരസഞ്ചയനാമം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:74
-msgid "For label"
-msgstr "ലേബലിനുളളത്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:75
-msgid "Forced line break"
-msgstr "ഫോഴ്​സ്​ഡ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:76
-msgid "Form action handler"
-msgstr "ഫോം ആക്ഷന്‍ ഗ്രൂപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:77
-msgid "Form control group"
-msgstr "ഫോം കണ്ട്രോള്‍ ഗ്രൂപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:78
-msgid "Form field label text"
-msgstr "പൂരിപ്പിയ്ക്കാനുള്ള കളത്തിന്റെ പേരായ പദാവി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:79
-msgid "Form input type"
-msgstr "ഫോം ഇന്‍പുട്ട് രീതി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:80
-msgid "Form input"
-msgstr "ഫോം ഇന്‍പുട്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:81
-msgid "Form method"
-msgstr "ഫോം രീതി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:82
-msgid "Form"
-msgstr "ഫോം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:83
-msgid "Forward link"
-msgstr "മുമ്പോട്ടുളള കണ്ണി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:84
-msgid "Frame render parts"
-msgstr "ചിട്ടപ്പെടുത്തിയ ഭാഗങ്ങള്‍ ഫ്രെയിം ചെയ്യുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:85
-msgid "Frame source"
-msgstr "ഉറവിടം ഫ്രെയിം ചെയ്യുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:86
-msgid "Frame target"
-msgstr "ലക്ഷ്യസ്ഥാനം ഫ്രെയിം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:87
-msgid "Frame"
-msgstr "ഫ്രെയിം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:88
-#, fuzzy
-msgid "Frame border"
-msgstr "ഫ്രെയിമിന്റെ അതിര്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:89
-msgid "Frameset columns"
-msgstr "ഫ്രെയിംസെറ്റ് നിരകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:90
-msgid "Frameset rows"
-msgstr "ഫ്രെയിംസെറ്റ്  വരികള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:91
-msgid "Frameset"
-msgstr "ഫ്രെയിംസെറ്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:92
-#, fuzzy
-msgid "Frame spacing"
-msgstr "ഫ്രെയിം സ്പെയിസിങ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:93
-msgid "Generic embedded object"
-msgstr "ജനറിക്ക് എംബഡഡ് ഒബ്ജക്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:94
-msgid "Generic metainformation"
-msgstr "ജനറിക്ക് മെറ്റാ ഇന്‍ഫോര്‍മേഷന്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:95
-msgid "Generic span"
-msgstr "ജനറിക്ക് സ്പാന്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:96
-#, fuzzy
-msgid "Header cell IDs"
-msgstr "ഹെഡര്‍ സെല്ലിന്റെ ID"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:97
-msgid "Heading 1"
-msgstr "തലക്കെട്ട് 1"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:98
-msgid "Heading 2"
-msgstr "തലക്കെട്ട് 2"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:99
-msgid "Heading 3"
-msgstr "തലക്കെട്ട് 3"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:100
-msgid "Heading 4"
-msgstr "തലക്കെട്ട് 4"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:101
-msgid "Heading 5"
-msgstr "തലക്കെട്ട് 5"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:102
-msgid "Heading 6"
-msgstr "തലക്കെട്ട് 6"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:103
-msgid "Height"
-msgstr "ഉയരം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:104
-msgid "Horizontal rule"
-msgstr "മുകളില്‍ നിന്നും താഴേക്കുളള നിയമം"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:106
-msgid "Horizontal space (deprecated)"
-msgstr "മുകളില്‍ നിന്നും താഴേക്കുളള സ്ഥലം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:107
-msgid "HREF URI"
-msgstr "HREF URI"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:108
-msgid "HTML root element"
-msgstr "HTML റൂട്ട് എലമെന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:109
-msgid "HTTP header name"
-msgstr "HTTP തലക്കെട്ടിന്റെ പേര്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:110
-#, fuzzy
-msgid "I18N BiDi override"
-msgstr "I18N BiDi over-ride"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:111
-msgid "Image map area"
-msgstr "ഇമേജ് മാപ്പ് പരിധി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:112
-msgid "Image map name"
-msgstr "ഇമേജിന്റെ മാപ്പിന്റെ പേര്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:113
-msgid "Image map"
-msgstr "ഇമേജ് മാപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:114
-msgid "Image"
-msgstr "ഇമേജ് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:115
-msgid "Inline frame"
-msgstr "ഇന്‍ലൈന്‍ ഫ്രെയിം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:116
-msgid "Inserted text"
-msgstr "ഇടയ്ക്ക് ചേര്‍ക്കുന്ന പദാവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:117
-msgid "Instance definition"
-msgstr "ഇന്സ്റ്റന്‍സ് നിര്‍വചനം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:118
-msgid "Italic text"
-msgstr "ചരിഞ്ഞ രീതിയിലുളള പദാവലി "
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:120
-msgid "Java applet (deprecated)"
-msgstr "Java ആപ്പ്-ലെറ്റ് (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:121
-msgid "Label"
-msgstr "ലേബല്‍ "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:122
-msgid "Language code"
-msgstr "ഭാഷകളുടെ കോഡ് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:123
-msgid "Large text style"
-msgstr "വലുപ്പത്തിലുളള ടെകസ്റ്റിന്റെ ശൈലി"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:125
-msgid "Link color (deprecated)"
-msgstr "ലിങ്കിന്റെ നിറം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:126
-msgid "List item"
-msgstr "പട്ടിക ഇനം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:127
-msgid "List of MIME types for file upload"
-msgstr "ഫയല്‍ അപ്ലോഡ് ചെയ്യുന്നതിനുളള MIME തരങ്ങളുടെ പട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:128
-msgid "List of supported character sets"
-msgstr "പിന്തുണയുളള അക്ഷരക്കൂട്ടങ്ങളുടെ പട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:129
-msgid "Local change to font"
-msgstr "അക്ഷരസഞ്ചയത്തിലേക്ക് ലോക്കല്‍ മാറ്റം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:130
-msgid "Long description link"
-msgstr "വലിയ വിവരണമുളള ലിങ്ക്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:131
-msgid "Long quotation"
-msgstr "വലിയ ഉദ്ധരണി"
-
-#. Supported in XHTML 1.0 Frameset DTD only.
-#: ../plugins/taglist/HTML.tags.xml.in.h:133
-msgid "Margin pixel height"
-msgstr "അരികു് പിക്സലിന്റെ ഉയരം"
-
-#. Supported in XHTML 1.0 Frameset DTD only.
-#: ../plugins/taglist/HTML.tags.xml.in.h:135
-msgid "Margin pixel width"
-msgstr "അരികു് പിക്സലിന്റെ വീതി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:136
-msgid "Maximum length of text field"
-msgstr "പദാവലി ഫീള്‍ഡിന്റെ ഏറ്റവും കൂടിയ നീളം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:137
-msgid "Output media"
-msgstr "ഔട്ട്പുട്ട് മീഡിയാ "
-
-#. Here I take some liberties: There's no mandatory attributes,
-#. but those are most common, and will likely be used.
-#: ../plugins/taglist/HTML.tags.xml.in.h:140
-msgid "Media-independent link"
-msgstr "Media-independent link"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:142
-msgid "Menu list (deprecated)"
-msgstr "മെനുപ്പട്ടിക (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:143
-msgid "Multi-line text field"
-msgstr "മള്‍ട്ടി-ലൈന്‍ പദാവലി ഫീള്‍ഡ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:144
-msgid "Multiple"
-msgstr "ഒന്നില്‍കൂടുതല്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:145
-msgid "Name"
-msgstr "പേര്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:146
-msgid "Named property value"
-msgstr "പേരുളള വിശേഷതയുടെ മൂല്യം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:147
-msgid "No frames"
-msgstr "ഫ്രെയിമുകള്‍  വേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:148
-msgid "No resize"
-msgstr "വലിപ്പം മാറ്റേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:149
-msgid "No script"
-msgstr "സ്ക്രിപ്റ്റ്  വേണ്ട"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:151
-msgid "No shade (deprecated)"
-msgstr "നിഴലില്ല (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:152
-msgid "No URI"
-msgstr "URI വേണ്ട"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:154
-msgid "No word wrap (deprecated)"
-msgstr "വാക്കുകള്‍ ഒതുക്കേണ്ട (കാലഹരണപ്പെട്ടു)"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:156
-msgid "Object applet file (deprecated)"
-msgstr "ഒബ്ജക്റ്റ് ആപ്പ്-ലെറ്റ് ഫയല്‍ (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:157
-msgid "Object data reference"
-msgstr "ഒബ്ജക്ട് ഡേറ്റാ റിഫറന്‍സ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:158
-msgid "Offset for alignment character"
-msgstr "അലൈന്‍മെന്റ് അക്ഷരത്തിന്റെ ഓഫ്‌സെറ്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:159
-msgid "OnBlur event"
-msgstr "OnBlur ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:160
-msgid "OnChange event"
-msgstr "OnChange ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:161
-msgid "OnClick event"
-msgstr "OnClick ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:162
-msgid "OnDblClick event"
-msgstr "OnDblClick ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:163
-msgid "OnFocus event"
-msgstr "OnFocus ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:164
-msgid "OnKeyDown event"
-msgstr "OnKeyDown ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:165
-msgid "OnKeyPress event"
-msgstr "OnKeyPress ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:166
-msgid "OnKeyUp event"
-msgstr "OnKeyUp ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:167
-msgid "OnLoad event"
-msgstr "OnLoad ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:168
-msgid "OnMouseDown event"
-msgstr "OnMouseDown ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:169
-msgid "OnMouseMove event"
-msgstr "OnMouseMove ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:170
-msgid "OnMouseOut event"
-msgstr "OnMouseOut ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:171
-msgid "OnMouseOver event"
-msgstr "OnMouseOver ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:172
-msgid "OnMouseUp event"
-msgstr "OnMouseUp ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:173
-msgid "OnReset event"
-msgstr "OnReset ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:174
-msgid "OnSelect event"
-msgstr "OnSelect ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:175
-msgid "OnSubmit event"
-msgstr "OnSubmit ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:176
-msgid "OnUnload event"
-msgstr "OnUnload ഇവന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:177
-msgid "Option group"
-msgstr "ഐച്ഛികം ഗ്രൂപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:178
-msgid "Option selector"
-msgstr "ഐച്ഛികം തെരഞ്ഞെടുക്കല്‍ "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:179
-msgid "Ordered list"
-msgstr "ക്രമത്തിലുളള പട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:180
-msgid "Paragraph class"
-msgstr "ഖണ്ഡിക ക്ലാസ്സ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:181
-msgid "Paragraph style"
-msgstr "ഖണ്ഡിക രീതി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:182
-msgid "Paragraph"
-msgstr "ഖണ്ഡിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:183
-msgid "Preformatted text"
-msgstr "മുന്‍ക്രമീകരിക്കപ്പെട്ട പദാവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:184
-msgid "Profile metainfo dictionary"
-msgstr "പ്രൊഫൈല്‍ മെറ്റാ ഇന്‍ഫൊ നിഘണ്ടു"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:185
-msgid "Push button"
-msgstr "പുഷ് ബട്ടണ്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:186
-msgid "ReadOnly text and password"
-msgstr "റീഡ് ഒണ്‍ലി ടെക്സറ്റും അടയാളവാക്കും"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:188
-msgid "Reduced spacing (deprecated)"
-msgstr "കുറഞ്ഞ വിടവ് (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:189
-msgid "Reverse link"
-msgstr "വിപരീത ലിങ്ക് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:190
-msgid "Rows"
-msgstr "നിരകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:191
-msgid "Rulings between rows and columns"
-msgstr "നിരകള്‍ക്കും കളങ്ങള്‍ക്കുമിടയിലുള്ള വരകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:192
-msgid "Sample program output, scripts"
-msgstr "പ്രോഗ്രാം ഔട്ട് പുട്ടിന്റെ മാതൃക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:193
-msgid "Scope covered by header cells"
-msgstr "തലക്കെട്ടു് കള്ളികള്‍ എത്തിയിട്ടുള്ള വ്യാപ്തി"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:195
-msgid "Script language name"
-msgstr "സ്ക്രിപ്റ്റ് ഭാഷയുടെ പേര് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:196
-msgid "Script statements"
-msgstr "സ്ക്രിപ്റ്റ് സ്റ്റേറ്റ്മന്റുകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:197
-msgid "Scrollbar"
-msgstr "സ്ക്രോള്‍ ബാര്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:198
-msgid "Selectable option"
-msgstr "തെരഞ്ഞെടുക്കാവുന്ന ഐച്ഛികം "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:199
-msgid "Selected"
-msgstr "തെരഞ്ഞെടുത്തത്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:200
-msgid "Server-side image map"
-msgstr "സര്‍വര്‍-സൈഡ് ഇമേജ് മാപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:201
-msgid "Shape"
-msgstr "രൂപം "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:202
-msgid "Short inline quotation"
-msgstr "ചെറിയ ഇന്‍‍ലൈന്‍ കോട്ടേഷന്‍"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:204
-msgid "Size (deprecated)"
-msgstr "വലിപ്പം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:205
-msgid "Small text style"
-msgstr "ചെറിയ പദാവലി ശൈലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:206
-msgid "Source"
-msgstr "സ്രോതസ്സ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:207
-#, fuzzy
-msgid "Space-separated archive list"
-msgstr "വിടവാല്‍‌ വേരിതിരിക്കപ്പെട്ട ആര്‍‌ക്കൈവ് ലിസ്റ്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:208
-msgid "Spacing between cells"
-msgstr "കള്ളികള്‍ക്കിടയിലെ സ്ഥലം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:209
-msgid "Spacing within cells"
-msgstr "കള്ളികള്‍‌ക്കുള്ളിലെ വിടവ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:210
-msgid "Span"
-msgstr "വ്യാപനം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:211
-#, fuzzy
-msgid "Standby load message"
-msgstr "സ്റ്റാന്‍ഡ് ബൈ ആയുളള ലോഡ് സന്ദേശം"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:213
-msgid "Starting sequence number (deprecated)"
-msgstr "ക്രമത്തില്‍ അക്കങ്ങള്‍ ആരംഭിക്കുന്നു (കാലഹരണപ്പെട്ടു)"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:215
-msgid "Strike-through text style (deprecated)"
-msgstr "മദ്ധ്യത്തിലൂടെ വരയിടുന്ന പദാവലി ശൈലി (കാലഹരണപ്പെട്ടു)"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:217
-msgid "Strike-through text (deprecated)"
-msgstr "മദ്ധ്യത്തിലൂടെ വരയിടുന്ന പദാവലി ശൈലി (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:218
-msgid "Strong emphasis"
-msgstr "ശക്തമായ"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:219
-msgid "Style info"
-msgstr "ശൈലീവിവരണം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:220
-msgid "Subscript"
-msgstr "സബ് സ്ക്രിപ്റ്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:221
-msgid "Superscript"
-msgstr "സൂപ്പര്‍ സ്ക്രിപ്റ്റ് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:222
-msgid "Table body"
-msgstr "ടേബിളിന്റെ ഉളളടക്കം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:223
-msgid "Table caption"
-msgstr "ടേബിളിന്റെ പേര് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:224
-msgid "Table column group properties"
-msgstr "ടേബിളിന്റെ വരികളുടെ ഗ്രൂപ്പ് സവിശേഷതകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:225
-msgid "Table column properties"
-msgstr "ടേബിളിന്റെ വരികളുടെ സവിശേഷതകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:226
-msgid "Table data cell"
-msgstr "ടേബിളിന്റെ ഡേറ്റാ കള്ളി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:227
-msgid "Table footer"
-msgstr "ടേബിളിന്റെ അടിക്കുറിപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:228
-msgid "Table header cell"
-msgstr "ടേബിളിന്റെ തലക്കെട്ട് കള്ളി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:229
-msgid "Table header"
-msgstr "ടേബിളിന്റെ തലക്കെട്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:230
-msgid "Table row"
-msgstr "ടേബിള്‍ നിര"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:231
-msgid "Table summary"
-msgstr "ടേബിള്‍ ഉള്ളടക്കം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:232
-msgid "Table"
-msgstr "ടേബിള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:233
-#, fuzzy
-msgid "Target — Blank"
-msgstr "ടാര്‍ഗറ്റ് - ശൂന്യം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:234
-#, fuzzy
-msgid "Target — Parent"
-msgstr "ടാര്‍ഗറ്റ് - പേരന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:235
-#, fuzzy
-msgid "Target — Self"
-msgstr "ടാര്‍ഗറ്റ് - സ്വയം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:236
-#, fuzzy
-msgid "Target — Top"
-msgstr "ടാര്‍ഗറ്റ് - മുകള്‍ ഭാഗം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:237
-msgid "Teletype or monospace text style"
-msgstr "ടെലിടൈപ്പ് അല്ലെങ്കില്‍ മോണോ സ്പെയിസ് വാചക രീതി"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:239
-msgid "Text color (deprecated)"
-msgstr "പദാവലിയുടെ നിറം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:240
-msgid "Text entered by user"
-msgstr "ഉപയോക്താവ് ചേര്‍ത്ത ചെയ്ത പദാവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:241
-msgid "Title"
-msgstr "തലക്കെട്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:242
-msgid "Underlined text style"
-msgstr "അടിവരയിട്ട പദാവലി ശൈലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:243
-msgid "Unordered list"
-msgstr "ക്രമത്തിലല്ലാത്ത പട്ടിക "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:244
-msgid "Use image map"
-msgstr "ഇമേജ് മാപ്പ് ഉപയോഗിയ്ക്കുക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:245
-msgid "Value interpretation"
-msgstr "മൂല്യവ്യാഖ്യാനം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:246
-msgid "Value"
-msgstr "മൂല്യം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:247
-msgid "Variable or program argument"
-msgstr "ചരം അല്ലെങ്കില്‍ പ്രോഗ്രാം ആര്‍ഗുമെന്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:248
-msgid "Vertical cell alignment"
-msgstr "മുകളില്‍ നിന്നും താഴേക്കുളള കള്ളിയുടെ ക്രമീകരണം"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:250
-msgid "Vertical space (deprecated)"
-msgstr "നേരെയുളള സ്പെയിസ് (കാലഹരണപ്പെട്ടു)"
-
-#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
-#: ../plugins/taglist/HTML.tags.xml.in.h:252
-msgid "Visited link color (deprecated)"
-msgstr "സന്ദര്‍ശിച്ചിട്ടുളള ലിങ്കിന്റെ നിറം (കാലഹരണപ്പെട്ടു)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:253
-msgid "Width"
-msgstr "വീതി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:254
-#, fuzzy
-msgid "HTML — Tags"
-msgstr "HTML - ടാഗുകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:255
-msgid "Above"
-msgstr "മുകളില്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:256
-msgid "Applet class file code"
-msgstr "ആപ്പ്ലെറ്റ് ക്ളാസ് ഫയലുകളുടെ കോഡ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:257
-msgid "Array"
-msgstr "Array"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:258
-msgid "Background color"
-msgstr "പശ്ചാത്തല നിറം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:259
-msgid "Background texture tile"
-msgstr "പശ്ചാത്തലത്തിലുളള ടൈല്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:260
-msgid "Base font"
-msgstr "അടിസ്ഥാന അക്ഷരസഞ്ചയം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:261
-msgid "Border color"
-msgstr "അതിരിന്റെ നിറം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:262
-msgid "Border"
-msgstr "അതിരു്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:263
-msgid "Center"
-msgstr "മദ്ധ്യത്തില്‍ "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:264
-msgid "Checked (state)"
-msgstr "തെരഞ്ഞെടുത്തു (അവസ്ഥ)"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:265
-msgid "Color of selected links"
-msgstr "തെരഞ്ഞെടുത്ത കണ്ണികളുടെ നിറം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:266
-msgid "Content scheme"
-msgstr "ഉള്ളടക്കത്തിന്റെ സ്കീം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:267
-msgid "Content type"
-msgstr "ഉള്ളടക്കം തരം "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:268
-msgid "Direction"
-msgstr "ദിശ "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:269
-msgid "Directory list"
-msgstr "ഡയറക്ടറി പട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:270
-msgid "HTML version"
-msgstr "HTML ലക്കം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:271
-msgid "Embedded object"
-msgstr "എംബഡഡ് ഒബ്ജക്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:272
-msgid "Figure"
-msgstr "അക്കം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:273
-msgid "Font face"
-msgstr "അക്ഷരസഞ്ചയനാമം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:274
-msgid "Frameborder"
-msgstr "ഫ്രെയിമിന്റെ അതിര്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:275
-msgid "Framespacing"
-msgstr "ഫ്രെയിം സ്പെയിസിങ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:276
-msgid "Heading"
-msgstr "തലക്കെട്ട്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:277
-msgid "Horizontal space"
-msgstr "മുകളില്‍ നിന്നും താഴേക്കുളള സ്ഥലം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:278
-msgid "Image source"
-msgstr "ഇമേജിന്റെ ഉറവിടം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:279
-msgid "Inline layer"
-msgstr "ഇന്‍ലൈന്‍ ലേയര്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:280
-msgid "Java applet"
-msgstr "Java ആപ്പ്-ലെറ്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:281
-msgid "Layer"
-msgstr "ലെയര്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:282
-msgid "Link color"
-msgstr "ലിങ്കിന്റെ നിറം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:283
-msgid "Listing"
-msgstr "ലിസ്റ്റിങ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:284
-msgid "Mail link"
-msgstr "മെയില്‍ ലിങ്ക്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:285
-msgid "Marquee"
-msgstr "Marquee"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:286
-msgid "Menu list"
-msgstr "മെനു പട്ടിക"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:287
-msgid "Multicolumn"
-msgstr "മള്‍ട്ടികോളം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:288
-msgid "Next ID"
-msgstr "അടുത്ത ID"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:289
-msgid "No embedded objects"
-msgstr "എംബഡഡ് ഒബ്ജറ്റുകള്‍  വേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:290
-msgid "No layers"
-msgstr "ലെയറുകള്‍  വേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:291
-msgid "No line break"
-msgstr "ലൈന്‍ ബ്രൈക്ക്  വേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:292
-msgid "No shade"
-msgstr "ഷെയിഡ്  വേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:293
-msgid "No word wrap"
-msgstr "വാക്കുകള്‍ ഒതുക്കേണ്ട"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:294
-msgid "Note"
-msgstr "കുറിപ്പ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:295
-msgid "Object applet file"
-msgstr "ഒബ്ജക്റ്റ് ആപ്പ്-ലെറ്റ് ഫയല്‍ "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:296
-msgid "Preformatted listing"
-msgstr "മുന്‍ക്രമീകരിക്കപ്പെട്ട നാമവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:297
-msgid "Prompt message"
-msgstr "ചോദ്യവാചകം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:298
-msgid "Quote"
-msgstr "ഉദ്ധരണി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:299
-msgid "Range"
-msgstr "പരിധി "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:300
-msgid "Reduced spacing"
-msgstr "കുറഞ്ഞ  വിടവ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:301
-msgid "Root"
-msgstr "Root"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:302
-msgid "Single line prompt"
-msgstr "സിങ്കിള്‍ ലൈന്‍ പ്രോംപറ്റ്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:303
-msgid "Size"
-msgstr "വലിപ്പം "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:304
-msgid "Soft line break"
-msgstr "സോഫ്റ്റ് ലൈന്‍ ബ്രൈക്ക്"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:305
-msgid "Sound"
-msgstr "ശബ്ദം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:306
-msgid "Spacer"
-msgstr "സ്പെയിസര്‍ "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:307
-msgid "Square root"
-msgstr "വര്‍‌ഗ്ഗമൂലം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:308
-msgid "Starting sequence number"
-msgstr "ക്രമത്തില്‍ അക്കങ്ങള്‍ ആരംഭിക്കുന്നു"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:309
-msgid "Strike-through text style"
-msgstr "മദ്ധ്യത്തിലൂടെ വരയിടുന്ന പദാവലി ശൈലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:310
-msgid "Strike-through text"
-msgstr "മദ്ധ്യത്തിലൂടെ വരയിടുന്ന പദാവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:311
-msgid "Tab order position"
-msgstr "ടാബ് ക്രമത്തിന്റെ സ്ഥാനം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:312
-msgid "Text color"
-msgstr "പദാവലിയുടെ നിറം"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:313
-msgid "Text"
-msgstr "പദാവലി"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:314
-#, fuzzy
-msgid "Top margin in pixels"
-msgstr "പിക്സലുകളില്‍ മുകളിലുളള മാര്‍ജിനുകള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:315
-msgid "URL"
-msgstr "URL"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:316
-msgid "Vertical space"
-msgstr "കുത്തനെയുള്ള വിടവ് "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:317
-msgid "Visited link color"
-msgstr "സന്ദര്‍ശിച്ചിട്ടുളള ലിങ്കിന്റെ നിറം "
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:318
-#, fuzzy
-msgid "HTML — Special Characters"
-msgstr "HTML - പ്രത്യേക അക്ഷരങ്ങള്‍"
-
-#: ../plugins/taglist/HTML.tags.xml.in.h:319
-msgid "Non-breaking space"
-msgstr "അനുസ്യൂത വിടവ്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:1
-#, fuzzy
-msgid "Latex — Tags"
-msgstr "ലാറ്റക്സ് - ടാഗുകള്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:2
-msgid "Bibliography (cite)"
-msgstr "പുസ്തകവിവരണം (cite)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:3
-msgid "Bibliography (item)"
-msgstr "പുസ്തകവിവരണം (item)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:4
-msgid "Bibliography (shortcite)"
-msgstr "പുസ്തകവിവരണം (shortcite)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:5
-msgid "Bibliography (thebibliography)"
-msgstr "പുസ്തകവിവരണം (thebibliography)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:6
-msgid "Brackets ()"
-msgstr "() ബ്രാക്കറ്റുകള്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:7
-msgid "Brackets []"
-msgstr "[] ബ്രാക്കറ്റുകള്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:8
-msgid "Brackets {}"
-msgstr "{} ബ്രാക്കറ്റുകള്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:9
-msgid "Brackets <>"
-msgstr "<> ബ്രാക്കറ്റുകള്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:10
-msgid "File input"
-msgstr "ഫയല്‍ ഇന്‍പുട്ട്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:11
-#, fuzzy
-msgid "Function cosine"
-msgstr "cosin ഫംഗ്ഷന്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:12
-msgid "Function e^"
-msgstr "e^ ഫംഗ്ഷന്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:13
-msgid "Function exp"
-msgstr "exp ഫംഗ്ഷന്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:14
-msgid "Function log"
-msgstr "log ഫംഗ്ഷന്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:15
-msgid "Function log10"
-msgstr "log10 ഫംഗ്ഷന്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:16
-msgid "Function sine"
-msgstr "sine ഫംഗ്ഷന്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:17
-msgid "Greek alpha"
-msgstr "ഗ്രീക്ക് ആല്‍ഫാ "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:18
-msgid "Greek beta"
-msgstr "ഗ്രീക്ക് ബീറ്റാ "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:19
-msgid "Greek epsilon"
-msgstr "ഗ്രീക്ക് എപ്സിലോണ്‍"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:20
-msgid "Greek gamma"
-msgstr "ഗ്രീക്ക് ഗാമ്മാ "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:21
-msgid "Greek lambda"
-msgstr "ഗ്രീക്ക് ലാമ്ഡാ"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:22
-msgid "Greek rho"
-msgstr "ഗ്രീക്ക് റോ "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:23
-msgid "Greek tau"
-msgstr "ഗ്രീക്ക് താവു "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:24
-msgid "Header 0 (chapter)"
-msgstr "തലക്കെട്ട് 0 (പാഠഭാഗം)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:25
-msgid "Header 0 (chapter*)"
-msgstr "തലക്കെട്ട് 0 (പാഠഭാഗം*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:26
-msgid "Header 1 (section)"
-msgstr "തലക്കെട്ട് 1 (സബ് സെക്ഷന്‍)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:27
-msgid "Header 1 (section*)"
-msgstr "തലക്കെട്ട് 1 (സബ് സെക്ഷന്‍*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:28
-msgid "Header 2 (subsection)"
-msgstr "തലക്കെട്ട് 2 (സബ് സെക്ഷന്‍)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:29
-msgid "Header 2 (subsection*)"
-msgstr "തലക്കെട്ട് 2 (സബ് സെക്ഷന്‍*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:30
-msgid "Header 3 (subsubsection)"
-msgstr "തലക്കെട്ട് 3 (സബ് സെക്ഷന്‍)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:31
-msgid "Header 3 (subsubsection*)"
-msgstr "തലക്കെട്ട് 3 (സബ് സെക്ഷന്‍*)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:32
-msgid "Header 4 (paragraph)"
-msgstr "തലക്കെട്ട് 4 (ഖണ്ഡിക)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:33
-msgid "Header appendix"
-msgstr "തലക്കെട്ടിന്റെ സൂചിക"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:34
-msgid "List description"
-msgstr "ലിസ്റ്റിന്റെ വിവരണം "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:35
-msgid "List enumerate"
-msgstr "പട്ടിക എന്യൂമറേറ്റ്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:36
-msgid "List itemize"
-msgstr "പട്ടിക ഇനം‍‌‌തിരിക്കുക"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:37
-msgid "Item with label"
-msgstr "ലേബലുളള ഇനം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:38
-msgid "Item"
-msgstr "ഇനം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:39
-msgid "Maths (display)"
-msgstr "മാഥ്സ് (ഡിസ്പ്ളേ)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:40
-msgid "Maths (inline)"
-msgstr "മാഥ്സ് (ഇന്‍‍ലൈന്‍)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:41
-msgid "Operator fraction"
-msgstr "ഓപ്പറേറ്റര്‍ ഫ്രാക്ഷന്‍ "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:42
-msgid "Operator integral (display)"
-msgstr "ഓപ്പറേറ്റര്‍ ഇന്റെഗ്രല്‍ (ഡിസ്പ്ളെ)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:43
-msgid "Operator integral (inline)"
-msgstr "ഓപ്പറേറ്റര്‍ ഇന്റെഗ്രല്‍ (ഇന്‍‍ലൈന്‍)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:44
-msgid "Operator sum (display)"
-msgstr "ഓപ്പറേറ്റര്‍ സം (ഡിസ്പ്ളെ)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:45
-msgid "Operator sum (inline)"
-msgstr "ഓപ്പറേറ്റര്‍ സം (ഇന്‍‍ലൈന്‍)"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:46
-msgid "Reference label"
-msgstr "റിഫറന്‍സ് ലേബല്‍ "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:47
-msgid "Reference ref"
-msgstr "റിഫറന്‍സ് റെഫ്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:48
-msgid "Symbol <<"
-msgstr "<< ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:49
-msgid "Symbol <="
-msgstr "<= ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:50
-msgid "Symbol >="
-msgstr ">= ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:51
-msgid "Symbol >>"
-msgstr ">> ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:52
-msgid "Symbol and"
-msgstr "ആന്‍ഡ് ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:53
-msgid "Symbol const"
-msgstr "കോണ്‍സ്റ്റ് ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:54
-msgid "Symbol d2-by-dt2-partial"
-msgstr "d2-ബൈ-dt2-പാര്‍ഷ്യല്‍ ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:55
-msgid "Symbol dagger"
-msgstr "ഡാഗ്ഗര്‍ ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:56
-msgid "Symbol d-by-dt"
-msgstr "d-ബൈ-dt ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:57
-msgid "Symbol d-by-dt-partial"
-msgstr "d-ബൈ-dt-പാര്‍ഷ്യല്‍ ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:58
-msgid "Symbol equiv"
-msgstr "ഈക്വിവ് ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:59
-#, fuzzy
-msgid "Symbol en-dash --"
-msgstr "ഹൈഫന്‍ ചിഹ്നം --"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:60
-#, fuzzy
-msgid "Symbol em-dash ---"
-msgstr "ഹൈഫന്‍ ചിഹ്നം ---"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:61
-msgid "Symbol infinity"
-msgstr "അനന്തതചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:62
-msgid "Symbol mathspace ,"
-msgstr "മാഥ്സ്പെയിസ് , ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:63
-msgid "Symbol mathspace ."
-msgstr "മാഥ്സ്പെയിസ് . ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:64
-msgid "Symbol mathspace _"
-msgstr "മാഥ്സ്പെയിസ് _ ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:65
-msgid "Symbol mathspace __"
-msgstr "മാഥ്സ്പെയിസ് __ ചിഹ്നം "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:66
-msgid "Symbol simeq"
-msgstr "സിമെക്ക് ചിഹ്നം"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:67
-msgid "Symbol star"
-msgstr "നക്ഷത്രചിഹ്നം "
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:68
-msgid "Typeface bold"
-msgstr "ടൈപ്പ് ഫെയിസ് കട്ടികൂടിയത്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:69
-msgid "Typeface type"
-msgstr "ടൈപ്പ് ഫെയിസ് രീതി"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:70
-msgid "Typeface italic"
-msgstr "ടൈപ്പ് ഫെയിസ് ചരിഞ്ഞത്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:71
-msgid "Typeface slanted"
-msgstr "ടൈപ്പ് ഫെയിസ് സ്ലാന്റഡ്"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:73
-msgid "Unbreakable text"
-msgstr "തകരാറു സംഭവിക്കാത്ത പദാവലി"
-
-#: ../plugins/taglist/Latex.tags.xml.in.h:74
-msgid "Footnote"
-msgstr "അടിക്കുറിപ്പ് "
-
-#: ../plugins/taglist/taglist.plugin.desktop.in.in.h:1
-msgid "Tag list"
-msgstr "അനുബന്ധ പട്ടിക"
-
-#: ../plugins/taglist/taglist.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid ""
-"Provides a method to easily insert commonly used tags/strings into a "
-"document without having to type them."
 msgstr ""
-"രേഖയില്‍‌ സാധാരണ ഉപയോഗിക്കുന്ന ടാഗുകള്‍‌ ടൈപ്പു ചെയ്യാതെത്തന്നെ ചേര്‍‌ക്കാനുള്ള സൌകര്യമൊരുക്കുന്നു."
 
-#: ../plugins/taglist/XSLT.tags.xml.in.h:1
-#, fuzzy
-msgid "XSLT — Elements"
-msgstr "XSLT - എലമെന്റുകള്‍"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:2
-#, fuzzy
-msgid "XSLT — Functions"
-msgstr "XSLT - ഫംഗ്ഷനുകള്‍"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:3
-#, fuzzy
-msgid "XSLT — Axes"
-msgstr "XSLT - ആക്സുകള്‍"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:4
-msgid "ancestor"
-msgstr "പൂര്‍വ്വികമായത്"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:5
-msgid "ancestor-or-self"
-msgstr "പൂര്‍വ്വികമായത്-അല്ലെങ്കില്‍-സ്വയം"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:6
-msgid "attribute"
-msgstr "സവിശേഷത"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:7
-msgid "child"
-msgstr "ചൈള്‍ഡ്"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:8
-msgid "descendant"
-msgstr "പിന്തുടരുന്ന"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:9
-msgid "descendant-or-self"
-msgstr "പിന്തുടരുന്നത്-അല്ലെങ്കില്‍-സ്വയം"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:10
-msgid "following"
-msgstr "ശേഷമുളള"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:11
-msgid "following-sibling"
-msgstr "ശേഷമുളള-സിബ്ളിങ്"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:12
-msgid "namespace"
-msgstr "നെയിം സ്പെയിസ്"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:13
-msgid "parent"
-msgstr "പേരന്റ് "
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:14
-msgid "preceding"
-msgstr "മുമ്പുളള"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:15
-msgid "preceding-sibling"
-msgstr "മുമ്പുളള-സിബ്ളിങ്"
-
-#: ../plugins/taglist/XSLT.tags.xml.in.h:16
-msgid "self"
-msgstr "സ്വയം"
-
-#: ../plugins/taglist/XUL.tags.xml.in.h:1
-#, fuzzy
-msgid "XUL — Tags"
-msgstr "XUL - ടാഗുകള്‍"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
-msgstr ""
+msgstr "ടെര്‍മിനല്‍ ബെല്ല് നിശബ്ദമാക്കണമോ എന്നു്"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
-"If true, don't make a noise when applications send the escape sequence for "
+"If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
-msgstr ""
+msgstr "സ്ക്രോള്‍ബാക്കിനുള്ള വരികളുടെ എണ്ണം"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
-"terminal by this number of lines; lines that don't fit in the scrollback are "
-"discarded. If scrollback-unlimited is true, this value is ignored."
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
-msgstr ""
+msgstr "സ്ക്രോള്‍ബാക്കിനുള്ള വരികളുടെ എണ്ണത്തിനു് പരിധിയില്ലാതെ സൂക്ഷിക്കണമോ"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
 msgid ""
-"If true, scrollback lines will never be discarded. The scrollback history is "
-"stored on disk temporarily, so this may cause the system to run out of disk "
-"space if there is a lot of output to the terminal."
+"If true, scrollback lines will never be discarded. The scrollback history is"
+" stored on disk temporarily, so this may cause the system to run out of disk"
+" space if there is a lot of output to the terminal."
 msgstr ""
+"true എങ്കില്‍, സ്ക്രോള്‍ബാക്ക് വരികള്‍ ഒരിക്കലും വേണ്ടെന്നു് വയ്ക്കുന്നതല്ല."
+" സ്ക്രോള്‍ബാക്കിന്റെ നാള്‍വഴി ഡിസ്കില്‍ താല്‍ക്കാലികമായി സൂക്ഷിക്കുന്നു. "
+"ഇതിനാല്‍, ടെര്‍മനിലേക്കു് അനവധി ഔട്ട്പുട്ട് ഉണ്ടെങ്കില്‍, സിസ്റ്റത്തില്‍ "
+"സ്ഥലം ലഭ്യമല്ലാതെ വരാം."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr ""
+msgstr "കീ അമര്‍ത്തുമ്പോള്‍ താഴേക്ക് സ്ക്രോള്‍ ചെയ്യണമോ എന്നു്"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
+"true എങ്കില്‍, ഒരു കീ അമര്‍ത്തിയാല്‍ സ്ക്രോള്‍ബാര്‍ ഏറ്റവും അവസാനത്തിലേക്കു്"
+" നീങ്ങുന്നു."
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
-msgid "Whether to scroll to the bottom when there's new output"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
+msgid "Whether to scroll to the bottom when there’s new output"
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
-"If true, whenever there's new output the terminal will scroll to the bottom."
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
-msgid "Whether to allow bold text"
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
-msgid "If true, allow applications in the terminal to make text boldface."
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
-msgid "Characters that are considered \"part of a word\""
-msgstr "\"ഒരു വാക്കിന്റെ ഭാഗമായി\" പരിഗണിക്കുന്ന അക്ഷരങ്ങള്‍"
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
-msgid ""
-"When selecting text by word, sequences of these characters are considered "
-"single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
-"a range) should be the first character given."
-msgstr ""
-
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
-msgstr "ടെര്‍മിനലിലെ അക്ഷരങ്ങളുടെ സഹജ നിറം"
+msgstr "ടെര്‍മിനലില്‍ വാചകങ്ങളുടെ സഹജമായ നിറം"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
 msgid ""
-"Default color of text in the terminal, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"Default color of text in the terminal, as a color specification (can be "
+"HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
-msgstr "ടെര്‍മിനലിന്റെ പശ്ചാത്തലത്തിന്റെ സഹജ നിറം "
+msgstr "ടെര്‍മിനലില്‍ പശ്ചാത്തലത്തിലുളള സഹജമായ നിറം"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
-"style hex digits, or a color name such as \"red\")."
+"style hex digits, or a color name such as “red”)."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
-msgstr ""
+msgstr "ടെര്‍മിനല്‍ പ്രയോഗങ്ങള്‍ക്കുള്ള നിറക്കൂട്ടു്"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:81
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
+"ടെര്‍മിനലിനുള്ളിലുള്ള പ്രയോഗങ്ങള്‍ക്കായി 16-നിറം നിറക്കൂട്ടു് ലഭ്യമാണു്. ഈ "
+"താലത്തില്‍, നിറങ്ങള്‍ കോളണ്‍ ഉപയോഗിച്ചു് വേര്‍തിരിച്ചിരിക്കുന്നു. നിറങ്ങള്‍ "
+"ഹെക്സ് രീതിയിലായിരിക്കണം ഉദാ. \"#FF00FF\""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr ""
+"ടെര്‍മില്‍ വിഡ്ജറ്റിനു് പ്രമേയത്തില്‍ നിന്നും നിറങ്ങള്‍ ഉപയോഗിക്കണമോ എന്നു്"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:88
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
+"true എങ്കില്‍, ഉപയോക്താവു് ലഭ്യമാക്കുന്ന നിറങ്ങള്‍ക്കു് പകരം, ടെക്സ്റ്റ് "
+"എന്‍ട്രി ബോക്സുകളില്‍ പ്രമേയമനുസരിച്ചുള്ള നിറം ഉപയോഗിക്കുന്നു"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
-msgstr ""
+msgstr "കര്‍സര്‍ മിന്നിപ്പിക്കണമോ എന്നു്"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
-"The possible values are \"system\" to use the global cursor blinking "
-"settings, or \"on\" or \"off\" to set the mode explicitly."
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
-msgstr ""
+msgstr "കര്‍സറിന്റെ കാഴ്ച"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:104
 msgid ""
-"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
-"vertical line cursor, or \"underline\" to use an underline cursor."
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
-msgstr ""
+msgstr "സിസ്റ്റമിലുള്ള അക്ഷരസഞ്ചയങ്ങള്‍ ഉപയോഗിക്കണമോ എന്നു്"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
 msgid ""
-"If true, the terminal will use the desktop-global standard font if it's "
+"If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:29
-#, fuzzy
-#| msgid "Footnote"
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
-msgstr "അടിക്കുറിപ്പ് "
+msgstr "അക്ഷരരൂപം"
 
-#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:30
-msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+#: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
-"ഒരു അക്ഷരസഞ്ചയത്തിന്റെ പാംഗോ അറിയുന്ന പേര്. ചില ഉദാഹരണങ്ങള്‍ \"Sans 12\" അല്ലെങ്കില്‍ \"Monospace Bold 14\"."
 
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Embedded Terminal"
-msgstr "എംബഡഡ് ഒബ്ജക്ട്"
-
-#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
-#, fuzzy
-msgid "Embed a terminal in the bottom pane."
-msgstr "രേഖകളുടെ സ്ഥാനത്ത് ഒരു ടെര്‍മിനല്‍ തുറക്കുക"
-
-#: ../plugins/terminal/terminal.py:260
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 msgid "Terminal"
 msgstr "ടെര്‍മിനല്‍"
 
-#: ../plugins/terminal/terminal.py:282
-#, fuzzy
+#: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr ""
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr ""
+
+#: plugins/terminal/terminal.py:318
+msgid "PlumaTerminalPanel"
+msgstr ""
+
+#: plugins/terminal/terminal.py:339
 msgid "C_hange Directory"
-msgstr "മാറ്റുക"
-
-#: ../plugins/textsize/textsize/__init__.py:143
-msgid "_Increase font size"
 msgstr ""
-
-#: ../plugins/textsize/textsize/__init__.py:146
-msgid "_Decrease font size"
-msgstr ""
-
-#: ../plugins/textsize/textsize/__init__.py:149
-msgid "_Reset font size"
-msgstr ""
-
-#. ex:ts=4:et:
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Text Size"
-msgstr "അക്ഷരത്തിന്റെ വലിപ്പം "
-
-#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
-msgid "Easily increase and decrease the text size"
-msgstr "എളുപ്പത്തില്‍ വാക്കുകളുടെ വലിപ്പം കൂട്ടുകയോ കുറക്കുകയോ ചെയ്യുക"
-
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:153
-#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:200
-#, fuzzy
-msgid "Document Words"
-msgstr "രേഖയുടെ ഭാഗം"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
-#, fuzzy
-msgid "Word Completion"
-msgstr "<b>ബ്രാക്കറ്റുകളുടെ പൊരുത്തം</b>"
-
-#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
-msgid "Word completion using the completion framework"
-msgstr ""
-
-#~ msgid "_Insert"
-#~ msgstr "ഇടയ്ക്ക് _ചേര്‍ക്കുക"
