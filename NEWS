@@ -1,5 +1,42 @@
 ### pluma-plugins 1.25.0
 
-### pluma-plugins  1.24.0
-
-- Initial release
+  * update translations
+  * add sourcecodebrowser plugin
+  * rename "PlumaTerminalPanel" to "Terminal"
+  * add wordcompletion plugin
+  * readme: list bracketcompletion plugin
+  * help: write Code Comment in title case
+  * Port all plugins to use the window-construct property
+  * help: show help guide in all guides page
+  * synctex-plugin: atril_dbus.py: minor fixes
+  * add bracketcompletion plugin
+  * build: port to gtksourceview-4
+  * add smartpaces plugin
+  * configure: bump required version of pluma to 1.25.2
+  * terminal: missing GETTEXT_PACKAGE variable in gschema.xml.in file
+  * build: cannot locate ITS rules for pluma-bookmarks.metainfo.xml.in
+  * travis: add config for this repo
+  * update issue template
+  * Add bug report template
+  * Delete custom.md
+  * Update issue templates
+  * add config for transifex server
+  * build: Use PACKAGE_URL and PACKAGE_BUGREPORT variables
+  * configure: build list for help files using plugin list
+  * configure: conditional AC_CONFIG_FILES
+  * add bookmarks plugin
+  * build: drop win32 platform support
+  * synctex plugin: fix icon displayed on about synctex plugin dialog
+  * configure: fix `test ! -z "$disabled_plugins"`
+  * build: GEN ChangeLog
+  * build: Add makepot script
+  * build: Remove ChangeLog-20090414 from Makefile.am
+  * terminal: Fix coding comment
+  * build: use only gettext
+  * Update README.md file
+  * temporarily disable po in Makefile
+  * po: fix linguas and potfiles
+  * remove help/LINGUAS and help/Makefile.in
+  * update readme
+  * delete help/Makefile
+  * initial commit
