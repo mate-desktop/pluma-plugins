@@ -3,6 +3,7 @@
 # bracketcompletion.py - Bracket completion plugin for pluma
 #
 # Copyright (C) 2006 - Steve Frécinaux
+# Copyright (C) 2020-2021 MATE Developers
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

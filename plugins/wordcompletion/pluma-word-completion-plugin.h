@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 Ignacio Casal Quinteiro <icq@gnome.org>
+ * Copyright (C) 2020-2021 MATE Developers
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

@@ -4,6 +4,7 @@
 # This file is part of pluma
 #
 # Copyright (C) 2005-2006 - Paolo Borelli
+# Copyright (C) 2020-2021 MATE Developers
 #
 # pluma is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by

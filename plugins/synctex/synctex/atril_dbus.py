@@ -4,6 +4,7 @@
 # This file is part of the Pluma Synctex plugin.
 #
 # Copyright (C) 2010 Jose Aliste <jose.aliste@gmail.com>
+# Copyright (C) 2020-2021 MATE Developers
 #
 # This program is free software; you can redistribute it and/or modify it under
 # the terms of the GNU General Public Licence as published by the Free Software

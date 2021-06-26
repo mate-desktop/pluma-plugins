@@ -5,6 +5,7 @@
 #  Copyright (C) 2005-2006 Igalia
 #  Copyright (C) 2006 Matthew Dugan
 #  Copyrignt (C) 2007 Steve Frécinaux
+#  Copyright (C) 2020-2021 MATE Developers
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
