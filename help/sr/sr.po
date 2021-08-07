@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2020\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,47 +24,50 @@ msgstr "Мирослав Николић <miroslavnikolic@rocketmail.com>"
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Прикључци Плуме"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Прикључци Плуме"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr ""
+msgstr "Користите прикључке да за вас прилагодите рад плуме."
 
 #. (itstool) path: credit/name
-#: C/index.page:14 C/bookmarks.page:11 C/bracketcompletion.page:10
-#: C/codecomment.page:11 C/terminal.page:12
+#: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
+#: C/bracketcompletion.page:11 C/codecomment.page:11 C/terminal.page:12
 msgid "Jim Campbell"
 msgstr "Џим Кембел"
 
 #. (itstool) path: credit/name
-#: C/index.page:18
+#: C/index.page:16
 msgid "Robert Buj"
-msgstr ""
+msgstr "Роберт Буј"
 
 #. (itstool) path: page/title
-#: C/index.page:24
-msgid "<_:media-1/> Pluma Plugins"
-msgstr ""
+#: C/index.page:22
+msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
+msgstr "<_:media-1/> <_:media-2/> Прикључци Плуме"
 
 #. (itstool) path: page/p
-#: C/index.page:28
+#: C/index.page:27
 msgid ""
 "You can do more with <app>pluma</app> by using plugins. Several plugins are "
 "installed by default, but a large number of other plugins are available "
 "separately."
 msgstr ""
+"Више можете да урадите са <app>плумом</app> коришћењем прикључака. Неколико "
+"прикључака је унапред инсталирано, али велики број других прикључака је "
+"доступан одвојено."
 
 #. (itstool) path: section/title
-#: C/index.page:33
-msgid "Additional pluma Plugins"
-msgstr ""
+#: C/index.page:32
+msgid "Additional Pluma Plugins"
+msgstr "Додатни прикључци Плуме"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -109,15 +112,14 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/bookmarks.page:25
 msgid ""
-"To enable the bookmark plugin, select <guiseq><gui "
-"style=\"menu\">pluma</gui> <gui "
-"style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
+"To enable the bookmark plugin, select <guiseq><gui style=\"menu\">Edit</gui>"
+" <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
-"Да укључите прикључак обележивача, изаберите <guiseq><gui "
-"style=\"menu\">плума</gui> <gui "
+"Да укључите прикључак обележивача, изаберите „<guiseq><gui "
+"style=\"menu\">Уређивање</gui> <gui "
 "style=\"menuitem\">Поставке</gui><gui>Прикључци</gui> "
-"<gui>Обележивачи</gui></guiseq>."
+"<gui>Обележивачи</gui></guiseq>“."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
@@ -171,56 +173,135 @@ msgstr ""
 #: C/bookmarks.page:53
 msgid ""
 "If you prefer using the mouse, you can click <guiseq><gui "
-"style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next "
+"style=\"menu\">Edit</gui><gui style=\"menuitem\">Go to Next "
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
-"Ако више желите да користите миша, можете кликнути на <guiseq><gui "
-"style=\"menu\">плума</gui><gui style=\"menuitem\">Иди на следећи "
-"обележивач</gui></guiseq> или <guiseq><gui style=\"menu\">Уреди</gui> <gui "
-"style=\"menuitem\">Иди на претходни обележивач</gui></guiseq>."
+"Ако вам више одговара да користите миша, можете кликнути на „<guiseq><gui "
+"style=\"menu\">Уређивање</gui><gui style=\"menuitem\">Иди на следећи "
+"обележивач</gui></guiseq>“ или „<guiseq><gui style=\"menu\">Уређивање</gui> "
+"<gui style=\"menuitem\">Иди на претходни обележивач</gui></guiseq>“."
+
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:15
+msgid "Paul Weaver"
+msgstr "Пол Вивер"
+
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:19 C/terminal.page:16
+msgid "Sindhu S"
+msgstr "Синдху С"
 
 #. (itstool) path: info/desc
-#: C/bracketcompletion.page:14
-msgid "Auto-complete closing brackets."
-msgstr ""
+#: C/wordcompletion.page:25
+msgid "Autocomplete words or portions of code as you type."
+msgstr "Сам довршава речи или део кода када почнете да куцате."
 
 #. (itstool) path: page/title
-#: C/bracketcompletion.page:17
-msgid "Bracket Completion"
-msgstr ""
+#: C/wordcompletion.page:28
+msgid "Word Completion"
+msgstr "Довршавање речи"
 
 #. (itstool) path: page/p
-#: C/bracketcompletion.page:19
+#: C/wordcompletion.page:30
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr ""
+"Прикључак <app>Довршавање речи</app> може да убрза ваше уређивање предлажући"
+" довршавање речи када куцате."
+
+#. (itstool) path: steps/title
+#: C/wordcompletion.page:34 C/bracketcompletion.page:24
+msgid "To enable the plugin:"
+msgstr "Да укључите прикључак:"
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:36
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"Притисните дугме изборника у горњем десном углу прозора и изаберите "
+"<guiseq><gui style=\"menuitem\">Поставке</gui> <gui "
+"style=\"tab\">Прикључци</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:41
+msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+"Изаберите <gui style=\"menuitem\">Довршавање речи</gui> да укључите "
+"прикључак."
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:46
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+"Приликом уређивања, прикључак <app>Довршавање речи</app> ће сам приказати "
+"искачући списак речи које почињу словима која сте већ уписали. Предлози речи"
+" се заснивају на речима које се јављају негде другде у вашем документу и на "
+"предодређеним кључним речима ако је ваш документ препознатљивог формата."
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:52
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+"Да уметнете предложену реч, два пута кликните на њу у искачућем списку или "
+"притисните <keyseq><key>Алт</key><key>Број</key></keyseq>, где је "
+"<key>Број</key> приказан поред ваше жељене речи."
+
+#. (itstool) path: info/desc
+#: C/bracketcompletion.page:15
+msgid "Auto-complete closing brackets."
+msgstr "Самодовршавање затварајућих заграда."
+
+#. (itstool) path: page/title
+#: C/bracketcompletion.page:18
+msgid "Bracket Completion"
+msgstr "Довршавање заграда"
+
+#. (itstool) path: page/p
+#: C/bracketcompletion.page:20
 msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
 msgstr ""
-
-#. (itstool) path: steps/title
-#: C/bracketcompletion.page:23
-msgid "To enable the plugin:"
-msgstr ""
+"Прикључак <app>Довршавање заграда</app> ће сам довршити затварајуће заграде "
+"за мале, средње и велике заграде."
 
 #. (itstool) path: item/p
-#: C/bracketcompletion.page:25
+#: C/bracketcompletion.page:26
 msgid ""
 "Go to <guiseq><gui style=\"menuitem\">Edit</gui> <gui "
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Идите на <guiseq><gui style=\"menuitem\">Уређивање</gui> <gui "
+"style=\"menuitem\">Поставке</gui> <gui "
+"style=\"tab\">Прикључци</gui></guiseq>."
 
 #. (itstool) path: item/p
-#: C/bracketcompletion.page:31
+#: C/bracketcompletion.page:32
 msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
+"Изаберите <gui style=\"menuitem\">Довршавање заграда</gui> да укључите "
+"прикључак."
 
 #. (itstool) path: note/p
-#: C/bracketcompletion.page:37
+#: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
-msgstr ""
+msgstr "Овај прикључак не умеће сам затварајуће ХТМЛ или ИксМЛ ознаке."
 
 #. (itstool) path: info/desc
 #: C/codecomment.page:15
@@ -229,8 +310,8 @@ msgstr "Додајте или поништите коментар кодног �
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
-msgid "Code comment"
-msgstr "Кодни коментар"
+msgid "Code Comment"
+msgstr "Кодна напомена"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -248,14 +329,13 @@ msgstr ""
 msgid ""
 "The <app>code comment</app> plugin makes it easier to quickly create or "
 "remove code comments. To enable the code comment plugin, select <guiseq><gui"
-" style=\"menu\">pluma</gui><gui style=\"menuitem\">Preferences</gui> "
-"<gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+" style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
+"<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
-"Прикључак <app>кодног коментара</app> олакшава брзо постављање или уклањање "
-"кодног коментара. Да укључите прикључак кодног коментара, изаберите "
-"<guiseq><gui style=\"menu\">плума</gui><gui "
-"style=\"menuitem\">Поставке</gui> <gui>Прикључци</gui><gui>Кодни "
-"коментар</gui></guiseq>."
+"Прикључак „<app>напомена кода</app>“ чини лакшим брзо прављење или уклањање "
+"напомена кода. Да укључите овај прикључак, изаберите „<guiseq><gui "
+"style=\"menu\">Уређивање</gui><gui style=\"menuitem\">Поставке</gui> "
+"<gui>Прикључци</gui><gui>Напомена кода</gui></guiseq>“."
 
 #. (itstool) path: steps/title
 #: C/codecomment.page:31
@@ -271,24 +351,23 @@ msgstr "Истакните део текста где желите да дода
 #. (itstool) path: item/p
 #: C/codecomment.page:37
 msgid ""
-"To add a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Comment"
-" Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
-"<key>M</key></keyseq>."
+"To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
+"Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
-"Да додате коментар, кликните <guiseq><gui style=\"menu\">плума</gui> "
-"<gui>Додај коментар</gui></guiseq>, или притисните <keyseq><key>Ктрл</key> "
-"<key>M</key></keyseq>."
+"Да додате напомену, кликните „<guiseq><gui style=\"menu\">Уређивање</gui> "
+"<gui>Напомена кода</gui></guiseq>“, или притисните „<keyseq><key>Ктрл</key> "
+"<key>M</key></keyseq>“."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
 msgid ""
-"To remove a comment, click <guiseq><gui style=\"menu\">pluma</gui> "
+"To remove a comment, click <guiseq><gui style=\"menu\">Edit</gui> "
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
-"Да уклоните коментар, кликните <guiseq><gui style=\"menu\">плума</gui> "
-"<gui>Уклони коментар</gui></guiseq>, или притисните "
-"<keyseq><key>Промени</key> <key>Ктрл</key><key>M</key></keyseq>."
+"Да уклоните напомену, кликните „<guiseq><gui style=\"menu\">Уређивање</gui> "
+"<gui>Уклони напомену кода</gui></guiseq>“, или притисните "
+"„<keyseq><key>Шифт</key> <key>Ктрл</key><key>M</key></keyseq>“."
 
 #. (itstool) path: note/p
 #: C/codecomment.page:49
@@ -303,10 +382,93 @@ msgstr ""
 "синтаксу, можете да изаберете са списка језика на доњој <gui>траци "
 "стања</gui>."
 
-#. (itstool) path: credit/name
-#: C/terminal.page:16
-msgid "Sindhu S"
-msgstr "Синдху С"
+#. (itstool) path: info/desc
+#: C/synctex.page:17
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in atril."
+msgstr ""
+"Брзо се пребаците између ТеКс изворних датотека и исцртаних ПДФ докумената у"
+" атрилу."
+
+#. (itstool) path: page/title
+#: C/synctex.page:21
+msgid "SyncTeX"
+msgstr "СинкТеКс"
+
+#. (itstool) path: page/p
+#: C/synctex.page:23
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>atril</app> and vice versa."
+msgstr ""
+"СинкТеКс је метода која омогућава усклађивање између ТеКс изворне датотеке и"
+" ПДФ излаза створенг ТеКс/ЛаТеКс преводиоцем. Овај прикључак омогућава "
+"коришћење СинкТеКс-а у <app>плуми</app> за брзо пребацивање из отворене ТеКс"
+" датотеке извора у ПДФ документ отворен у <app>атрилу</app> и обрнуто."
+
+#. (itstool) path: steps/title
+#: C/synctex.page:29
+msgid "To enable the <app>SyncTeX</app> plugin:"
+msgstr "Да укључите прикључак <app>СинкТеКс</app>:"
+
+#. (itstool) path: item/p
+#: C/synctex.page:31 C/terminal.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"Изаберите „<guiseq><gui style=\"menuitem\">Уређивање</gui> <gui "
+"style=\"menuitem\">Поставке</gui> <gui "
+"style=\"tab\">Прикључци</gui></guiseq>“."
+
+#. (itstool) path: item/p
+#: C/synctex.page:36
+msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
+msgstr "Изаберите „<gui style=\"menuitem\">СинкТеКс</gui> да укључите прикључак."
+
+#. (itstool) path: note/p
+#: C/synctex.page:42
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>atril</app> must be installed."
+msgstr ""
+"Да би био од користи, овај прикључак захтева да су инсталирани ТеКс/ЛаТеКс "
+"преводилац и СинкТеКс. Оба се налазе на ТеКс дистрибуцији као ТеКс Лајв. "
+"Такође и <app>атрил</app> мора бити инсталиран."
+
+#. (itstool) path: item/p
+#: C/synctex.page:49
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
+msgstr ""
+"Неке основне информације о подешавању СинкТеКс-а и превођењу ЛаТеКс "
+"докумената можете наћи у <link "
+"xref=\"help:atril#synctex\"><app>атрил</app>-СинкТеКс документацији</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:55
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link "
+"xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
+"documentation</link>."
+msgstr ""
+"Пречице и контроле миша су такође документоване у <link xref=\"help:atril"
+"/synctex-search\"> <app>атрил</app>-СинкТеКс документацији</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:60
+msgid ""
+"<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
+"specifically designed for writing TeX code."
+msgstr ""
+"„<app>Гном-ЛаТеКс</app>“ и „<app>Gummi</app>“ су замнески уређивачи текста "
+"нарочито осмишљени за писање ТеКс  кода."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
@@ -331,48 +493,27 @@ msgstr ""
 "<app>плуме</app>. Ово ће вам омогућити да покрећете скрипте, инсталирате "
 "потребан софтвера, или да тестирате програм без изласка из <app>плуме</app>."
 
-#. (itstool) path: section/title
-#: C/terminal.page:33
-msgid "Enable Embedded Terminal"
-msgstr "Укључи угнеждени терминал"
-
 #. (itstool) path: steps/title
-#: C/terminal.page:36
+#: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
 msgstr "Да укључите прикључак <app>Угнежденог терминала</app>:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:38
-msgid ""
-"Select <guiseq><gui style=\"menu\">pluma</gui> <gui "
-"style=\"menuitem\">Preferences</gui> <gui "
-"style=\"tab\">Plugins</gui></guiseq>."
-msgstr ""
-"Изаберите <guiseq><gui style=\"menu\">плума</gui> <gui "
-"style=\"menuitem\">Поставке</gui> <gui "
-"style=\"tab\">Прикључци</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/terminal.page:43
+#: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
 "Изаберите <gui style=\"menuitem\">Угнеждени терминал</gui> да укључите "
 "прикључак."
 
-#. (itstool) path: section/title
-#: C/terminal.page:51
-msgid "Using Embedded Terminal"
-msgstr "Коришћење угнежденог терминала"
-
-#. (itstool) path: section/p
-#: C/terminal.page:53
+#. (itstool) path: page/p
+#: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
 msgstr "Након што сте укључили прикључак, да додате терминал на доњу површ:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:58
+#: C/terminal.page:50
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom"
 " Pane</gui></guiseq>. Alternatively, you can press "

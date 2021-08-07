@@ -4,15 +4,15 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2021
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: pluma-plugins 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2021\n"
+"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -99,6 +99,85 @@ msgstr "Espais intel·ligents"
 msgid "Forget you're not using tabulations."
 msgstr "Oblideu-vos que no utilitzeu tabulacions."
 
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+msgid "Source Code Browser"
+msgstr "Navegador de codi font"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
+msgid "A source code class and function browser for Pluma."
+msgstr "Un navegador de codi font de classes i funcions per a Pluma."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
+msgid "Show _line numbers in tree"
+msgstr "Mostra els números de _línia a l'arbre"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
+msgid "Load symbols from _remote files"
+msgstr "Carrega símbols des de fitxers _remots"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
+msgid "Start with rows _expanded"
+msgstr "Comença amb les files _expandides"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
+msgid "_Sort list alphabetically"
+msgstr "_Ordena la llista alfabèticament"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
+msgid "ctags executable"
+msgstr "executable ctags"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
+msgid "ctags"
+msgstr "ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
+msgid "Show Line Numbers"
+msgstr "Mostra els números de línia"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
+msgid "Show the line number of each item in the source tree."
+msgstr "Mostra els números de línia de cada element a l'arbre del codi font."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
+msgid "Load Remote Files"
+msgstr "Carrega fitxers remots"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
+msgid "Download remote files into a temporary file for parsing the symbols."
+msgstr ""
+"Baixa els fitxers remots en un fitxer temporal per analitzar els símbols."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
+msgid "Expand Rows"
+msgstr "Expandeix les files"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
+msgid "Expand the entire source tree when initially loaded."
+msgstr "Expandeix tot l'arbre de codi font quan es carrega inicialment."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
+msgid "Sort List"
+msgstr "Ordena la llista"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
+msgid ""
+"Sorts the list of symbols alphabetically rather than by where they occur in "
+"the source file."
+msgstr ""
+"Ordena la llista de símbols alfabèticament en lloc de la posició al fitxer "
+"de codi font."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
+msgid "Ctags Executable"
+msgstr "Executable ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
+msgid "Specifies the executable path for Exuberant Ctags."
+msgstr "Especifica el camí de l'executable per a Exuberant Ctags."
+
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
@@ -112,8 +191,8 @@ msgstr "Sincronitzeu LaTeX i PDF amb pluma i atril"
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
 msgstr "Sincronitzeu LaTeX i PDF amb pluma i atril."
 
-#: plugins/synctex/synctex/synctex.py:321
-#: plugins/synctex/synctex/synctex.py:322
+#: plugins/synctex/synctex/synctex.py:316
+#: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
 msgstr "Cerca cap endavant"
 
@@ -279,6 +358,7 @@ msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”.
 msgstr "Un nom de lletra Pango. Per exemple “Sans 12” o “Monospace Bold 14”."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+#: plugins/terminal/terminal.py:317
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -294,10 +374,34 @@ msgstr "Terminal incrustat"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Inseriu un terminal al plafó inferior."
 
-#: plugins/terminal/terminal.py:318
-msgid "PlumaTerminalPanel"
-msgstr "Tauler terminal pluma"
-
-#: plugins/terminal/terminal.py:339
+#: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
 msgstr "Ca_nvia de directori"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
+msgid "Interactive Completion"
+msgstr "Compleció interactiva"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
+msgid "Whether to enable interactive completion."
+msgstr "Si s'habilita la compleció interactiva"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
+msgid "Minimum Word Size"
+msgstr "Mida mínima de paraula"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
+msgid "The minimum word size to complete."
+msgstr "La mida mínima de paraula per completar."
+
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+msgid "Document Words"
+msgstr "Paraules del document"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Compleció de paraules"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Compleció de paraules amb un marc de treball de compleció"

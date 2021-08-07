@@ -1,15 +1,14 @@
 # 
 # Translators:
-# あわしろいくや <ikunya@gmail.com>, 2020
 # Mika Kobayashi, 2020
-# FuRuYa7 <goo.sirocat47@gmail.com>, 2021
+# Green, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: FuRuYa7 <goo.sirocat47@gmail.com>, 2021\n"
+"Last-Translator: Green, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,68 +20,71 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"相花 毅 <takeshi.aihana@gmail.com>\n"
-"佐藤 暁 <ss@gnome.gr.jp>\n"
-"KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>\n"
-"Akira TAGOH <tagoh@gnome.gr.jp>\n"
-"Yukihiro Nakai <nakai@gnome.gr.jp>\n"
-"Yuusuke Tahara <tahara@gnome.gr.jp>\n"
-"Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>\n"
-"やまね ひでき <henrich@debian.or.jp>\n"
-"草野 貴之 <AE5T-KSN@asahi-net.or.jp>\n"
-"松澤 二郎 <jmatsuzawa@gnome.org>\n"
-"日本GNOMEユーザー会 http://www.gnome.gr.jp/"
+"相花 毅 \n"
+"佐藤 暁 \n"
+"KAMAGASAKO Masatoshi \n"
+"Akira TAGOH \n"
+"Yukihiro Nakai \n"
+"Yuusuke Tahara \n"
+"Akira Higuchi \n"
+"やまね ひでき \n"
+"草野 貴之 \n"
+"松澤 二郎 \n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp/\n"
+"MATE 文書化チーム https://www.transifex.com/mate/ "
 
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Pluma プラグイン"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Pluma プラグイン"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr ""
+msgstr "プラグインを利用すると、Pluma の操作方法をユーザー向けにカスタマイズできます。"
 
 #. (itstool) path: credit/name
-#: C/index.page:14 C/bookmarks.page:11 C/bracketcompletion.page:10
-#: C/codecomment.page:11 C/terminal.page:12
+#: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
+#: C/bracketcompletion.page:11 C/codecomment.page:11 C/terminal.page:12
 msgid "Jim Campbell"
-msgstr ""
+msgstr "Jim Campbell"
 
 #. (itstool) path: credit/name
-#: C/index.page:18
+#: C/index.page:16
 msgid "Robert Buj"
-msgstr ""
+msgstr "Robert Buj"
 
 #. (itstool) path: page/title
-#: C/index.page:24
-msgid "<_:media-1/> Pluma Plugins"
-msgstr ""
+#: C/index.page:22
+msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
+msgstr "<_:media-1/> <_:media-2/> Pluma プラグイン"
 
 #. (itstool) path: page/p
-#: C/index.page:28
+#: C/index.page:27
 msgid ""
 "You can do more with <app>pluma</app> by using plugins. Several plugins are "
 "installed by default, but a large number of other plugins are available "
 "separately."
 msgstr ""
+"プラグインを使用すると Pluma "
+"でより多くのことができます。デフォルトではいくつかのプラグインがインストールされますが、他にも多数のプラグインが個別に使用可能です。"
 
 #. (itstool) path: section/title
-#: C/index.page:33
-msgid "Additional pluma Plugins"
-msgstr ""
+#: C/index.page:32
+msgid "Additional Pluma Plugins"
+msgstr "Pluma の追加プラグイン"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
-msgstr ""
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
 #. (itstool) path: license/p
 #: C/legal-plugins.xml:5
@@ -92,11 +94,15 @@ msgid ""
 "a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
 "California, 94041, USA."
 msgstr ""
+"この著作物はクリエイティブ・コモンズ 表示 - 継承 3.0 "
+"非移植ライセンスの下で利用許諾されています。このライセンスの写しを表示するには<_:link-1/>にアクセスするか、または Creative "
+"Commons,444Castro Street,Sui te900,Mountain View,California,94041,USA "
+"へ照会してください。"
 
 #. (itstool) path: info/desc
 #: C/bookmarks.page:15
 msgid "Record commonly-referenced locations with bookmarks."
-msgstr ""
+msgstr "一般的に参照される場所をブックマークに記録します。"
 
 #. (itstool) path: page/title
 #: C/bookmarks.page:18
@@ -110,28 +116,29 @@ msgid ""
 "within your document or program, making them easier to find. You can also "
 "move up or down between bookmarks, making document navigation a bit faster."
 msgstr ""
-"「pluma」のブックマークを使うと、ドキュメントやプログラムの重要なテキスト行を強調表示して、見つけやすくできます。ブックマーク間を上下に移動することで、ドキュメント操作を少し速くできます。"
+"<app>Pluma</app>のブックマークを使うと、文書やプログラムの重要なテキスト行を強調表示して、見つけやすくできます。ブックマーク間を上下に移動することで、文書操作を少し速くできます。"
 
 #. (itstool) path: page/p
 #: C/bookmarks.page:25
 msgid ""
-"To enable the bookmark plugin, select <guiseq><gui "
-"style=\"menu\">pluma</gui> <gui "
-"style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
+"To enable the bookmark plugin, select <guiseq><gui style=\"menu\">Edit</gui>"
+" <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
+"ブックマークプラグインを有効にするには、<guiseq><gui style=\"menu\">編集</gui><gui "
+"style=\"menuitem\">設定</gui><gui>プラグイン</gui><gui>ブックマーク</gui></guiseq>を選択します。"
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
 msgid ""
 "Bookmarks are inserted and removed by completing the same action. To insert "
 "or remove bookmarks:"
-msgstr ""
+msgstr "ブックマークは、同じアクションを完了することによって挿入および削除されます。ブックマークを挿入または削除する手順は、次のとおりです。"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:33
 msgid "Navigate to the line where you want to insert or remove the bookmark."
-msgstr ""
+msgstr "ブックマークを挿入または削除する行に移動します。"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:37
@@ -140,18 +147,21 @@ msgid ""
 "<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
 "Bookmark</gui></guiseq>."
 msgstr ""
+"<keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq> "
+"キーを押すか、または<guiseq><gui style=\"menu\">編集</gui><gui "
+"style=\"menuitem\">ブックマークの切り替え</gui></guiseq>をクリックします。"
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:44
 msgid "To move between bookmarks:"
-msgstr ""
+msgstr "ブックマーク間を移動するには"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:46
 msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
-msgstr ""
+msgstr "<keyseq><key>Ctrl</key><key>B</key></keyseq> を押して、次のブックマークへ移動します。"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:50
@@ -159,67 +169,138 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
 msgstr ""
+"<keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> "
+"を押すと、前のブックマークに移動します。"
 
 #. (itstool) path: note/p
 #: C/bookmarks.page:53
 msgid ""
 "If you prefer using the mouse, you can click <guiseq><gui "
-"style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next "
+"style=\"menu\">Edit</gui><gui style=\"menuitem\">Go to Next "
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
+"マウスを使用したい場合は、<guiseq><gui style=\"menu\">編集</gui> <gui "
+"style=\"menuitem\">次のブックマークへ移動</gui></guiseq>、または<guiseq><gui "
+"style=\"menu\">編集</gui><gui "
+"style=\"menuitem\">前のブックマークへ移動</gui></guiseq>をクリックします。"
+
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:15
+msgid "Paul Weaver"
+msgstr "Paul Weaver"
+
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:19 C/terminal.page:16
+msgid "Sindhu S"
+msgstr "Sindhu S"
 
 #. (itstool) path: info/desc
-#: C/bracketcompletion.page:14
-msgid "Auto-complete closing brackets."
-msgstr ""
+#: C/wordcompletion.page:25
+msgid "Autocomplete words or portions of code as you type."
+msgstr "入力時に単語またはコードの一部を自動的に補完します。"
 
 #. (itstool) path: page/title
-#: C/bracketcompletion.page:17
-msgid "Bracket Completion"
-msgstr ""
+#: C/wordcompletion.page:28
+msgid "Word Completion"
+msgstr "単語補完"
 
 #. (itstool) path: page/p
-#: C/bracketcompletion.page:19
+#: C/wordcompletion.page:30
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr "<app>単語補完</app>プラグインを使用すると、入力時に単語の補完が提示されるので、編集時間を短縮できます。"
+
+#. (itstool) path: steps/title
+#: C/wordcompletion.page:34 C/bracketcompletion.page:24
+msgid "To enable the plugin:"
+msgstr "プラグインを有効にするには"
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:36
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+"ウィンドウの右上隅にあるメニューボタンを押して、<guiseq><gui style=\"menuitem\">設定</gui><gui "
+"style=\"tab\">プラグイン</gui></guiseq>を選択します。"
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:41
+msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr "<gui style=\"menuitem\">単語補完</gui>を選択して、プラグインを有効にします。"
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:46
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+"編集作業中、<app>単語補完</app>プラグインは、既に入力した文字で始まる単語のポップアップ・リストを自動的に表示します。単語の候補は、文書内の他の場所に現れる単語と、文書が認識可能な形式の場合は事前定義されたキーワードに基づいて表示されます。"
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:52
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+"候補の単語を挿入するには、ポップアップ・リストでその単語をダブルクリックするか、<keyseq><key>Alt</key><key>Num</key></keyseq>"
+" キーを押します。<key>Num</key> は目的の単語の横に表示される番号です。"
+
+#. (itstool) path: info/desc
+#: C/bracketcompletion.page:15
+msgid "Auto-complete closing brackets."
+msgstr "閉じ括弧を自動補完します。"
+
+#. (itstool) path: page/title
+#: C/bracketcompletion.page:18
+msgid "Bracket Completion"
+msgstr "括弧補完"
+
+#. (itstool) path: page/p
+#: C/bracketcompletion.page:20
 msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
-msgstr ""
-
-#. (itstool) path: steps/title
-#: C/bracketcompletion.page:23
-msgid "To enable the plugin:"
-msgstr ""
+msgstr "<app>括弧補完</app>プラグインは、中括弧、丸括弧、および角括弧等の閉じ括弧を自動的に補完します。"
 
 #. (itstool) path: item/p
-#: C/bracketcompletion.page:25
+#: C/bracketcompletion.page:26
 msgid ""
 "Go to <guiseq><gui style=\"menuitem\">Edit</gui> <gui "
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"<guiseq><gui style=\"menuitem\">編集</gui> <gui style=\"menuitem\">設定</gui> "
+"<gui style=\"tab\">プラグイン</gui></guiseq>へ移動します。"
 
 #. (itstool) path: item/p
-#: C/bracketcompletion.page:31
+#: C/bracketcompletion.page:32
 msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
-msgstr ""
+msgstr "<gui style=\"menuitem\">括弧補完</gui>を選択して、プラグインを有効にします。"
 
 #. (itstool) path: note/p
-#: C/bracketcompletion.page:37
+#: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
-msgstr ""
+msgstr "このプラグインは、HTML または XML の終了タグを自動的に挿入しません。"
 
 #. (itstool) path: info/desc
 #: C/codecomment.page:15
 msgid "Comment-out or uncomment a block of code."
-msgstr ""
+msgstr "コードのブロックをコメントまたはコメント解除します。"
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
-msgid "Code comment"
-msgstr ""
+msgid "Code Comment"
+msgstr "コードコメント"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -228,39 +309,42 @@ msgid ""
 "understand a program's code, but they don't affect how a program works. "
 "Comments are separated from other parts of a program by special characters."
 msgstr ""
+"コードコメントはテキストの一部で、ユーザーがプログラムコードを理解しやすくするためのものですが、プログラムの動作には影響しません。コメントは、特殊文字によってプログラムの他の部分と区別されます。"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:25
 msgid ""
 "The <app>code comment</app> plugin makes it easier to quickly create or "
 "remove code comments. To enable the code comment plugin, select <guiseq><gui"
-" style=\"menu\">pluma</gui><gui style=\"menuitem\">Preferences</gui> "
-"<gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+" style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
+"<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
+"<app>コードコメント</app>・プラグインを使用すると、コードコメントを簡単にすばやく作成または削除できます。このプラグインを有効にするには、<guiseq><gui"
+" style=\"menu\">編集</gui><gui "
+"style=\"menuitem\">設定</gui><gui>プラグイン</gui><gui>コードコメント</gui></guiseq>を選択します。"
 
 #. (itstool) path: steps/title
 #: C/codecomment.page:31
 msgid "To create or remove a comment:"
-msgstr ""
+msgstr "コメントを作成または削除するには"
 
 #. (itstool) path: item/p
 #: C/codecomment.page:33
 msgid ""
 "Highlight the portion of text where you want to add or remove a comment."
-msgstr ""
+msgstr "コメントを追加または削除したいテキスト部分を強調表示する。"
 
 #. (itstool) path: item/p
 #: C/codecomment.page:37
 msgid ""
-"To add a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Comment"
-" Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
-"<key>M</key></keyseq>."
+"To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
+"Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
 msgid ""
-"To remove a comment, click <guiseq><gui style=\"menu\">pluma</gui> "
+"To remove a comment, click <guiseq><gui style=\"menu\">Edit</gui> "
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
@@ -274,9 +358,73 @@ msgid ""
 "bottom <gui>Status bar</gui>."
 msgstr ""
 
-#. (itstool) path: credit/name
-#: C/terminal.page:16
-msgid "Sindhu S"
+#. (itstool) path: info/desc
+#: C/synctex.page:17
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in atril."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/synctex.page:21
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#. (itstool) path: page/p
+#: C/synctex.page:23
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>atril</app> and vice versa."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/synctex.page:29
+msgid "To enable the <app>SyncTeX</app> plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:31 C/terminal.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:36
+msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/synctex.page:42
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>atril</app> must be installed."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:49
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:55
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link "
+"xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
+"documentation</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:60
+msgid ""
+"<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
+"specifically designed for writing TeX code."
 msgstr ""
 
 #. (itstool) path: info/desc
@@ -298,43 +446,25 @@ msgid ""
 "needed software, or test your program without leaving <app>pluma</app>."
 msgstr ""
 
-#. (itstool) path: section/title
-#: C/terminal.page:33
-msgid "Enable Embedded Terminal"
-msgstr ""
-
 #. (itstool) path: steps/title
-#: C/terminal.page:36
+#: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/terminal.page:38
-msgid ""
-"Select <guiseq><gui style=\"menu\">pluma</gui> <gui "
-"style=\"menuitem\">Preferences</gui> <gui "
-"style=\"tab\">Plugins</gui></guiseq>."
-msgstr ""
-
-#. (itstool) path: item/p
-#: C/terminal.page:43
+#: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
 
-#. (itstool) path: section/title
-#: C/terminal.page:51
-msgid "Using Embedded Terminal"
-msgstr ""
-
-#. (itstool) path: section/p
-#: C/terminal.page:53
+#. (itstool) path: page/p
+#: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/terminal.page:58
+#: C/terminal.page:50
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom"
 " Pane</gui></guiseq>. Alternatively, you can press "

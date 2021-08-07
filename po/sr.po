@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pluma-plugins 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
@@ -28,108 +28,188 @@ msgstr "Обележивачи"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Лако претраживање документа са обележивачима"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Окини обележивач"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Промените стање обележивача у тренутном реду"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "На следећи обележивач"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Идите на следећи обиљеживач"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "На претходни обележивач"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Идите на претходни обиљеживач"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Довршавање заграда"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Аутоматски додаје затворене заграде."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Кодна напомена"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Додајте или поништите напомену кодног блока."
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "Додај _напомену коду"
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Додајте напомену изабраном коду"
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "_Уклони напомену из кода"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Поништите напомену изабраном коду"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Додајте или иклоните напомену из блока кода"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Паметни размаци"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
+msgstr "Заборавите да не користите табулаторе."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+msgid "Source Code Browser"
+msgstr "Прегледник изворног кода"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
+msgid "A source code class and function browser for Pluma."
+msgstr "Класа изворног кода и прегледник функције за Плуму."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
+msgid "Show _line numbers in tree"
+msgstr "Прикажи бројеве _редова у стаблу"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
+msgid "Load symbols from _remote files"
+msgstr "Учитај симболе из _удаљених датотека"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
+msgid "Start with rows _expanded"
+msgstr "Почни са _раширеним редовима"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
+msgid "_Sort list alphabetically"
+msgstr "_Поређај списак азбучним редом"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
+msgid "ctags executable"
+msgstr "„ctags“ извршна"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
+msgid "ctags"
+msgstr "ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
+msgid "Show Line Numbers"
+msgstr "Приказује бројеве редова"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
+msgid "Show the line number of each item in the source tree."
+msgstr "Приказује број реда сваке ставке у изворном стаблу."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
+msgid "Load Remote Files"
+msgstr "Учитава удаљене датотеке"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
+msgid "Download remote files into a temporary file for parsing the symbols."
+msgstr "Преузима удаљене датотеке у привремену датотеку за обраду симбола."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
+msgid "Expand Rows"
+msgstr "Шири редове"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
+msgid "Expand the entire source tree when initially loaded."
+msgstr "Шири читаво изворно стабло када је прво учитан."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
+msgid "Sort List"
+msgstr "Ређа списак"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
+msgid ""
+"Sorts the list of symbols alphabetically rather than by where they occur in "
+"the source file."
 msgstr ""
+"Ређа списак симбола азбучним редом уместо по месту појављивања у изворном "
+"коду."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
+msgid "Ctags Executable"
+msgstr "„ctags“ извршна"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
+msgid "Specifies the executable path for Exuberant Ctags."
+msgstr "Наводи путању извршне за „Exuberant Ctags“."
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "СинкТеКс"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Усклађује између ЛаТеКс-а и ПДФ-а са плумом и атрилом"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Усклађује између ЛаТеКс-а и ПДФ-а са плумом и атрилом."
 
-#: plugins/synctex/synctex/synctex.py:321
-#: plugins/synctex/synctex/synctex.py:322
+#: plugins/synctex/synctex/synctex.py:316
+#: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Потражи унапред"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
-msgstr "Да ли да искључи терминалско звонце"
+msgstr "Да ли да искључи звонце терминала"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"Ако је изабрано, не прави буку када програми пошаљу ознаку за звонце "
+"терминала."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
-msgstr "Број редова који се памте у клизачу"
+msgstr "Број редова који се памте за клизач"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
@@ -137,6 +217,10 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Број редова клизача који се памте. Можете ићи уназад у терминалу за овај "
+"број редова; редови који нису стали у клизачу се одбацују. Ако је изабрано "
+"„scrollback-unlimited“ (неограничено враћање уназад), ова вредност се "
+"занемарује."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -148,7 +232,7 @@ msgid ""
 " stored on disk temporarily, so this may cause the system to run out of disk"
 " space if there is a lot of output to the terminal."
 msgstr ""
-"Ако је изабрано, исписани редови неће бити заборављани. Историјат се чува "
+"Ако је изабрано, редови враћања неће бити заборављани. Историјат се чува "
 "привремено на диску, тако да можете остати без простора на диску ако има "
 "пуно редова у терминалу."
 
@@ -163,12 +247,14 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Да ли да помери на дно када има новог излаза"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"Ако је укључено, кад год има новог излаза, терминал ће вас пребацити на "
+"крај."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -179,6 +265,9 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Основна боја текста у терминалу, као одредница боје (може бити дата у виду "
+"хексадекадних цифара ХТМЛ стила, или назив боје на енглеском језику, нпр.: "
+"„red“ — црвена)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -189,6 +278,9 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Основна боја позадине терминала, као одредница боје (може бити дата у виду "
+"хексадекадних цифара ХТМЛ стила, или назив боје на енглеском језику, нпр.: "
+"„red“ — црвена)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -218,13 +310,15 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
-msgstr "Да ли курсор да трепће"
+msgstr "Да ли курсор трепће"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Могуће вредности су „system“ која користи општа подешавања трептања курсора "
+"или „on“ и „off“ за непосредно укључивање или искључивање треперења."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -235,6 +329,8 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
+"Дозвољене вредности су „block“ за квадратни курсор, „ibeam“ за курсор у виду"
+" вертикалне црте, или „underline“ за курсор у виду доње црте."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -245,6 +341,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"Ако је изабрано, терминал ће користити општи словни лик радне површи ако је "
+"утврђене ширине (или у супротном најсличнији словни лик који пронађе)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -253,14 +351,16 @@ msgstr "Словни лик"
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
+"Назив Панго словног лика. Примери су „Sans 12“ или „Monospace Bold 14“."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+#: plugins/terminal/terminal.py:317
 msgid "Terminal"
 msgstr "Терминал"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "Једноставан елемент терминала коме се може приступити са доњег панела"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -268,12 +368,36 @@ msgstr "Угнеждени терминал"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Уграђени терминал у доњем панелу."
 
-#: plugins/terminal/terminal.py:318
-msgid "PlumaTerminalPanel"
-msgstr ""
-
-#: plugins/terminal/terminal.py:339
+#: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "_Промени директоријум"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
+msgid "Interactive Completion"
+msgstr "Међудејствено довршавање"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
+msgid "Whether to enable interactive completion."
+msgstr "Да ли ће омогућити међудејствено довршавање."
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
+msgid "Minimum Word Size"
+msgstr "Најмања величина речи"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
+msgid "The minimum word size to complete."
+msgstr "Најмања величина речи за довршавање."
+
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+msgid "Document Words"
+msgstr "Речи документа"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Довршавање речи"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Довршавајте речи користећи радни оквир довршавања"

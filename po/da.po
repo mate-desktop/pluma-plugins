@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pluma-plugins 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2021\n"
 "Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
@@ -29,94 +29,171 @@ msgstr "Bogmærker"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Nem dokumentnavigation med bogmærker"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Aktiver bogmærke"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Aktiver bogmærkestatus for aktuel linje"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Gå til næste bogmærke"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Gå til næste bogmærke"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Gå til forrige bogmærke"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Gå til det forrige bogmærke"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Parentesfuldførelse"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Tilføjer automatisk afsluttende parenteser"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Kodekommentar"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Aktiver/deaktiver en valgt kodeblok."
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "_Kodekommentar"
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Lav kodekommentar for den valgte kode"
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "_Fjern kodekommentar"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Fjern kodekommentar for den valgte kode"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Lav eller fjern kodekommentarer for kodeblokke"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Smarte mellemrum"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
+msgstr "Glem at du ikke bruger indryk."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+msgid "Source Code Browser"
+msgstr "Browser til kildekode"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
+msgid "A source code class and function browser for Pluma."
+msgstr "En klasse- og funktionsbrowser til kildekode for Pluma."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
+msgid "Show _line numbers in tree"
+msgstr "Vis _linjenumre i træ"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
+msgid "Load symbols from _remote files"
+msgstr "Indlæs symboler fra _eksterne filer"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
+msgid "Start with rows _expanded"
+msgstr "Start med rækker _udvidet"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
+msgid "_Sort list alphabetically"
+msgstr "_Sorter liste alfabetisk"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
+msgid "ctags executable"
+msgstr "ctags-kørbare filer"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
+msgid "ctags"
+msgstr "ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
+msgid "Show Line Numbers"
+msgstr "Vis linjenumre"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
+msgid "Show the line number of each item in the source tree."
+msgstr "Vis linjenummeret for hvert element i kildetræet."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
+msgid "Load Remote Files"
+msgstr "Indlæs eksterne filer"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
+msgid "Download remote files into a temporary file for parsing the symbols."
+msgstr "Hent eksterne filer i en midlertidig fil for at fortolke symbolerne."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
+msgid "Expand Rows"
+msgstr "Udvid rækker"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
+msgid "Expand the entire source tree when initially loaded."
+msgstr "Udvid hele kildetræet når det indlæses."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
+msgid "Sort List"
+msgstr "Sorter liste"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
+msgid ""
+"Sorts the list of symbols alphabetically rather than by where they occur in "
+"the source file."
 msgstr ""
+"Sorterer symbollisten alfabetisk frem for hvor de fremgår i kildefilen."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
+msgid "Ctags Executable"
+msgstr "Ctags - kørbare filer"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
+msgid "Specifies the executable path for Exuberant Ctags."
+msgstr "Angiver den kørbare sti for Exuberant Ctags."
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Synkroniser mellem LaTeX og PDF med Pluma og Atril"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Synkroniser mellem LaTeX og PDF med Pluma og Atril."
 
-#: plugins/synctex/synctex/synctex.py:321
-#: plugins/synctex/synctex/synctex.py:322
+#: plugins/synctex/synctex/synctex.py:316
+#: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Søgning fremad"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
@@ -127,6 +204,8 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"Hvis sand (true), laves ikke en lyd når programmer sender undvigesekvensen "
+"(escape) for terminalbippet."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -138,6 +217,9 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Antal linjers rullehistorik, der bevares. Du kan rulle tilbage i terminalen "
+"med dette antal linjer; ældre linjer bliver smidt væk. Hvis scrollback-"
+"unlimited er sand (true), ignoreres denne værdi."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -163,12 +245,12 @@ msgstr "Om tryk på en tast ruller ned til bunden."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Om der skal rulles til bunden, når der er nye data"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
-msgstr ""
+msgstr "Om terminalen vil rulle til bunden, når der er nye data."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -179,6 +261,8 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Standardfarve for teksten i terminalen, som en farvespecifikation (kan være "
+"hex-tal i stil med HTML, eller et farvenavn såsom »red« (rød))."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -189,6 +273,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Standardbaggrundsfarve som en farvespecifikation (kan være hex-tal i stil "
+"med HTML, eller et farvenavn såsom »red« (rød))."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -225,6 +311,9 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"De tilgængelige værdier er, »system« for de globale blinkende "
+"markørindstillinger, eller »on« eller »off« for at indstille tilstanden "
+"eksplicit."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -235,6 +324,9 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
+"De mulige værdier er »block« for at bruge en blokmarkør, »ibeam« for at "
+"bruge en lodret linjemarkør, eller »underline« for at bruge en "
+"understregsmarkør."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -245,6 +337,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"Om terminalen bruger den skrivebords-globale standardskrifttype hvis den er "
+"i fast bredde (og ellers den skrifttype den kan finde, der ligner den mest)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -253,14 +347,16 @@ msgstr "Skrifttype"
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
+"Et Pango-skrifttypenavn. Eksempler er »Sans 12« eller »Monospace Bold 14«."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+#: plugins/terminal/terminal.py:317
 msgid "Terminal"
 msgstr "Terminal"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "En simpel terminalkontrol tilgængelig fra panelet i bunden."
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -268,12 +364,36 @@ msgstr "Indlejret terminal"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Indlejr en terminal i panelet i bunden."
 
-#: plugins/terminal/terminal.py:318
-msgid "PlumaTerminalPanel"
-msgstr ""
-
-#: plugins/terminal/terminal.py:339
+#: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "_Ændr mappe"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
+msgid "Interactive Completion"
+msgstr "Interaktiv fuldførelse"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
+msgid "Whether to enable interactive completion."
+msgstr "Om interaktiv fuldførelse skal aktiveres."
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
+msgid "Minimum Word Size"
+msgstr "Mindste ordstørrelse"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
+msgid "The minimum word size to complete."
+msgstr "Den mindste ordstørrelse for fuldførelse"
+
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+msgid "Document Words"
+msgstr "Dokumentord"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Ordfuldførelse"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Ordfuldførelse via fuldførelsesrammen"

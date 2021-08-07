@@ -4,18 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Andika Triwidada <andika@gmail.com>, 2021
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2021
 # Muhammad Herdiansyah <herdiansyah@openmailbox.org>, 2021
 # Kukuh Syafaat <syafaatkukuh@gmail.com>, 2021
+# Andika Triwidada <andika@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: pluma-plugins 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>, 2021\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>, 2021\n"
 "Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,94 +31,174 @@ msgstr "Markah"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Navigasi dokumen mudah dengan markah"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Jungkitkan Markah"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Jungkitkan status markah dari baris saat ini"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Ke Markah Selanjutnya"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Menuju markah selanjutnya"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Ke Markah Sebelumnya"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Menuju markah sebelumnya"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Pelengkapan Kurung"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Secara otomatis menambahkan kurung tutup."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Komentar Kode"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
 msgstr ""
+"Jadikan komentar atau tidak jadikan komentar suatu blok kode yang dipilih."
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "Kode Dijadikan Ko_mentar "
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Jadikan komentar kode yang dipilih"
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "Kode Tidak Dijadika_n Komentar"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Jadikan bukan komentar kode yang dipilih"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Jadikan komentar atau tidak jadikan komentar blok kode"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Spasi Cerdas"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
+msgstr "Lupakan bahwa Anda tidak memakai tabulasi."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+msgid "Source Code Browser"
+msgstr "Peramban Kode Sumber"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
+msgid "A source code class and function browser for Pluma."
+msgstr "Peramban kelas dan fungsi kode sumber bagi Pluma."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
+msgid "Show _line numbers in tree"
+msgstr "Tampi_lkan nomor baris dalam pohon"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
+msgid "Load symbols from _remote files"
+msgstr "Muat simbol dari berkas ja_rak jauh"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
+msgid "Start with rows _expanded"
+msgstr "Mulai dengan baris-baris dik_embangkan"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
+msgid "_Sort list alphabetically"
+msgstr "Urutkan daftar _secara alfabetis"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
+msgid "ctags executable"
+msgstr "executable ctags"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
+msgid "ctags"
+msgstr "ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
+msgid "Show Line Numbers"
+msgstr "Tampilkan Nomor Baris"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
+msgid "Show the line number of each item in the source tree."
+msgstr "Tampilkan nomor baris untuk setiap butir dalam pohon sumber."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
+msgid "Load Remote Files"
+msgstr "Muat Berkas Jauh"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
+msgid "Download remote files into a temporary file for parsing the symbols."
 msgstr ""
+"Unduh berkas jarak jauh ke dalam berkas temporer untuk mengurai simbol."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
+msgid "Expand Rows"
+msgstr "Kembangkan Baris"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
+msgid "Expand the entire source tree when initially loaded."
+msgstr "Kembangkan seluruh pohon sumber saat awal mula dimuat."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
+msgid "Sort List"
+msgstr "Urutkan Daftar"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
+msgid ""
+"Sorts the list of symbols alphabetically rather than by where they occur in "
+"the source file."
+msgstr ""
+"Urutkan daftar simbol secara alfabetis bukan berdasarkan di mana mereka "
+"muncul dalam berkas sumber."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
+msgid "Ctags Executable"
+msgstr "Executable Ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
+msgid "Specifies the executable path for Exuberant Ctags."
+msgstr "Tentukan path executable bagi Exuberant Ctags."
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Selaraskan antara LaTeX dan PDF dengan pluma dan atril"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Menyelaraskan antara LaTeX dan PDF dengan pluma dan atril."
 
-#: plugins/synctex/synctex/synctex.py:321
-#: plugins/synctex/synctex/synctex.py:322
+#: plugins/synctex/synctex/synctex.py:316
+#: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Pencarian Maju"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
@@ -129,6 +209,8 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"Apabila benar, jangan bunyikan suara saat aplikasi mengirim karakter escape "
+"untuk bel terminal."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -140,6 +222,9 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Cacah baris gulir balik yang disisakan. Anda dapat menggulung balik dalam "
+"terminal sebanyak cacah baris ini; baris yang tidak cukup akan dibuang. Bila"
+" scrollback_unlimited benar, nilai ini diabaikan."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -167,12 +252,14 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Apakah menggulir ke dasar ketika ada keluaran baru"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"Bila berisi true, ketika ada keluaran baru maka terminal akan menggulir ke "
+"dasar."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -183,6 +270,8 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Warna baku teks pada terminal, sebagai spesifikai warna (bisa gaya HTML "
+"digit heksadesimal, atau nama warna seperti \"red\")."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -193,6 +282,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Warna latar baku terminal, sebagai spesifikai warna (bisa gaya HTML digit "
+"heksadesimal, atau nama warna seperti \"red\")."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -229,6 +320,8 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Nilai yang mungkin adalah \"system\" untuk memakai pengaturan kedipan kursor"
+" global, atau \"on\" atau \"off\" untuk menata mode secara eksplisit."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -239,6 +332,9 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
+"Nilai yang mungkin adalah \"block\" untuk memakai kursor kotak, \"ibeam\" "
+"untuk memakai kursor garis tegak, atau \"underline\" untuk kursor garis "
+"bawah."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -249,6 +345,9 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"Bila berisi true, terminal akan menggunakan fonta standar desktop-global "
+"apabila itu monospace (dan fonta paling mirip yang bisa diperoleh bila "
+"bukan)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -256,15 +355,16 @@ msgstr "Font"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "Sebuah nama fonta Pango. Contohnya \"Sans 12\" atau \"Monospace Bold 14\"."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+#: plugins/terminal/terminal.py:317
 msgid "Terminal"
 msgstr "Terminal"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "Widget terminal sederhana yang dapat diakses dari panel di dasar"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -272,12 +372,36 @@ msgstr "Terminal Tertanam"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Tanamkan suatu terminal pada panel dasar."
 
-#: plugins/terminal/terminal.py:318
-msgid "PlumaTerminalPanel"
-msgstr ""
-
-#: plugins/terminal/terminal.py:339
+#: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "Uba_h Direktori"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
+msgid "Interactive Completion"
+msgstr "Pelengkapan Interaktif"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
+msgid "Whether to enable interactive completion."
+msgstr "Apakah memfungsikan pelengkapan interaktif."
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
+msgid "Minimum Word Size"
+msgstr "Ukuran Kata Minimum"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
+msgid "The minimum word size to complete."
+msgstr "Ukuran kata minimum yang akan dilengkapkan."
+
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+msgid "Document Words"
+msgstr "Kata Dokumen"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Pelengkapan Kata"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Pelengkapan kata memakai framework pelengkapan"

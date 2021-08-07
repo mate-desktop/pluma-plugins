@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pluma-plugins 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
 "Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
@@ -102,6 +102,84 @@ msgstr "Spazi intelligenti"
 msgid "Forget you're not using tabulations."
 msgstr "Dimenticatevi che non state utilizzando le tabulazioni."
 
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+msgid "Source Code Browser"
+msgstr "Browser del codice sorgente"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
+msgid "A source code class and function browser for Pluma."
+msgstr "Una classe codice sorgente e browser delle funzioni per Pluma."
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
+msgid "Show _line numbers in tree"
+msgstr "Mostra i numeri di _linea nell'albero"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
+msgid "Load symbols from _remote files"
+msgstr "Carica i simboli dai file remoti"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
+msgid "Start with rows _expanded"
+msgstr "Avvia con le righe espanse"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
+msgid "_Sort list alphabetically"
+msgstr "Ordina alfabeticamente"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
+msgid "ctags executable"
+msgstr "eseguibile ctags"
+
+#: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
+msgid "ctags"
+msgstr "ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
+msgid "Show Line Numbers"
+msgstr "Mostra i numeri di linea"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
+msgid "Show the line number of each item in the source tree."
+msgstr "Mostra i numeri di linea di ciascun elemento nell'albero sorgente."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
+msgid "Load Remote Files"
+msgstr "Carica i file remoti"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
+msgid "Download remote files into a temporary file for parsing the symbols."
+msgstr "Scarica i file remoti in un file temporaneo per analizzare i simboli."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
+msgid "Expand Rows"
+msgstr "spandi le righe"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
+msgid "Expand the entire source tree when initially loaded."
+msgstr "Espande l'intero albero sorgente quando viene inizialmente caricato."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
+msgid "Sort List"
+msgstr "Ordina elenco"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
+msgid ""
+"Sorts the list of symbols alphabetically rather than by where they occur in "
+"the source file."
+msgstr ""
+"Ordina l'elenco dei simboli alfabeticamente piuttosto che in base al luogo "
+"in cui compaiono nel file sorgente."
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
+msgid "Ctags Executable"
+msgstr "Eseguibile ctags"
+
+#: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
+msgid "Specifies the executable path for Exuberant Ctags."
+msgstr "Specifica il percorso dell'eseguibile per Exuberant Ctags."
+
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
@@ -115,8 +193,8 @@ msgstr "Sincronizza tra LaTeX e PDF con pluma ed atril"
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
 msgstr "Sincronizza tra LaTeX e PDF con pluma ed atril"
 
-#: plugins/synctex/synctex/synctex.py:321
-#: plugins/synctex/synctex/synctex.py:322
+#: plugins/synctex/synctex/synctex.py:316
+#: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
 msgstr "Ricerca in avanti"
 
@@ -287,6 +365,7 @@ msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”.
 msgstr "Un nome di caratter Pango. Esempi sono \"Sans 12\" o \"Monospaced Bold 14\"."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
+#: plugins/terminal/terminal.py:317
 msgid "Terminal"
 msgstr "Terminale"
 
@@ -302,10 +381,34 @@ msgstr "Terminale Integrato"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Incorpora un terminale nel pannello di fondo."
 
-#: plugins/terminal/terminal.py:318
-msgid "PlumaTerminalPanel"
-msgstr "PlumaTerminalPanel"
-
-#: plugins/terminal/terminal.py:339
+#: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
 msgstr "Cambia cartella"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
+msgid "Interactive Completion"
+msgstr "Completamento interattivo"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
+msgid "Whether to enable interactive completion."
+msgstr "Indica se abilitare il completamento interattivo."
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
+msgid "Minimum Word Size"
+msgstr "Dimensione minima della parola"
+
+#: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
+msgid "The minimum word size to complete."
+msgstr "La minima dimensione per la parola da completare."
+
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+msgid "Document Words"
+msgstr "Parole del documento"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Completamento della parola"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Completamento della parola utilizzando il framework di completamento"

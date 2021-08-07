@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2021
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-03-05 16:35+0100\n"
+"POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2021\n"
+"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,23 +38,23 @@ msgid "Use plugins to customize how pluma works for you."
 msgstr ""
 
 #. (itstool) path: credit/name
-#: C/index.page:14 C/bookmarks.page:11 C/bracketcompletion.page:10
-#: C/codecomment.page:11 C/terminal.page:12
+#: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
+#: C/bracketcompletion.page:11 C/codecomment.page:11 C/terminal.page:12
 msgid "Jim Campbell"
 msgstr "Jim Campbell"
 
 #. (itstool) path: credit/name
-#: C/index.page:18
+#: C/index.page:16
 msgid "Robert Buj"
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/index.page:24
-msgid "<_:media-1/> Pluma Plugins"
+#: C/index.page:22
+msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
 msgstr ""
 
 #. (itstool) path: page/p
-#: C/index.page:28
+#: C/index.page:27
 msgid ""
 "You can do more with <app>pluma</app> by using plugins. Several plugins are "
 "installed by default, but a large number of other plugins are available "
@@ -62,8 +62,8 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: section/title
-#: C/index.page:33
-msgid "Additional pluma Plugins"
+#: C/index.page:32
+msgid "Additional Pluma Plugins"
 msgstr ""
 
 #. (itstool) path: p/link
@@ -101,9 +101,8 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/bookmarks.page:25
 msgid ""
-"To enable the bookmark plugin, select <guiseq><gui "
-"style=\"menu\">pluma</gui> <gui "
-"style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
+"To enable the bookmark plugin, select <guiseq><gui style=\"menu\">Edit</gui>"
+" <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
 
@@ -153,35 +152,93 @@ msgstr ""
 #: C/bookmarks.page:53
 msgid ""
 "If you prefer using the mouse, you can click <guiseq><gui "
-"style=\"menu\">pluma</gui><gui style=\"menuitem\">Go to Next "
+"style=\"menu\">Edit</gui><gui style=\"menuitem\">Go to Next "
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
 
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:15
+msgid "Paul Weaver"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/wordcompletion.page:19 C/terminal.page:16
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
 #. (itstool) path: info/desc
-#: C/bracketcompletion.page:14
+#: C/wordcompletion.page:25
+msgid "Autocomplete words or portions of code as you type."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/wordcompletion.page:28
+msgid "Word Completion"
+msgstr "Compleció de paraules"
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:30
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/wordcompletion.page:34 C/bracketcompletion.page:24
+msgid "To enable the plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:36
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/wordcompletion.page:41
+msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:46
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/wordcompletion.page:52
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
 msgstr ""
 
 #. (itstool) path: page/title
-#: C/bracketcompletion.page:17
+#: C/bracketcompletion.page:18
 msgid "Bracket Completion"
 msgstr "Emparellament de parèntesis"
 
 #. (itstool) path: page/p
-#: C/bracketcompletion.page:19
+#: C/bracketcompletion.page:20
 msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
 msgstr ""
 
-#. (itstool) path: steps/title
-#: C/bracketcompletion.page:23
-msgid "To enable the plugin:"
-msgstr ""
-
 #. (itstool) path: item/p
-#: C/bracketcompletion.page:25
+#: C/bracketcompletion.page:26
 msgid ""
 "Go to <guiseq><gui style=\"menuitem\">Edit</gui> <gui "
 "style=\"menuitem\">Preferences</gui> <gui "
@@ -189,14 +246,14 @@ msgid ""
 msgstr ""
 
 #. (itstool) path: item/p
-#: C/bracketcompletion.page:31
+#: C/bracketcompletion.page:32
 msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
 
 #. (itstool) path: note/p
-#: C/bracketcompletion.page:37
+#: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr ""
 
@@ -207,8 +264,8 @@ msgstr ""
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
-msgid "Code comment"
-msgstr ""
+msgid "Code Comment"
+msgstr "Comentaris al codi"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -223,8 +280,8 @@ msgstr ""
 msgid ""
 "The <app>code comment</app> plugin makes it easier to quickly create or "
 "remove code comments. To enable the code comment plugin, select <guiseq><gui"
-" style=\"menu\">pluma</gui><gui style=\"menuitem\">Preferences</gui> "
-"<gui>Plugins</gui><gui>Code comment</gui></guiseq>."
+" style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
+"<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
 
 #. (itstool) path: steps/title
@@ -241,15 +298,14 @@ msgstr "Ressalteu la porció de text on voleu afegir o eliminar un comentari."
 #. (itstool) path: item/p
 #: C/codecomment.page:37
 msgid ""
-"To add a comment, click <guiseq><gui style=\"menu\">pluma</gui> <gui>Comment"
-" Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
-"<key>M</key></keyseq>."
+"To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
+"Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
 msgid ""
-"To remove a comment, click <guiseq><gui style=\"menu\">pluma</gui> "
+"To remove a comment, click <guiseq><gui style=\"menu\">Edit</gui> "
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
@@ -263,10 +319,74 @@ msgid ""
 "bottom <gui>Status bar</gui>."
 msgstr ""
 
-#. (itstool) path: credit/name
-#: C/terminal.page:16
-msgid "Sindhu S"
-msgstr "Sindhu S"
+#. (itstool) path: info/desc
+#: C/synctex.page:17
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in atril."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/synctex.page:21
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#. (itstool) path: page/p
+#: C/synctex.page:23
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>atril</app> and vice versa."
+msgstr ""
+
+#. (itstool) path: steps/title
+#: C/synctex.page:29
+msgid "To enable the <app>SyncTeX</app> plugin:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:31 C/terminal.page:35
+msgid ""
+"Select <guiseq><gui style=\"menu\">Edit</gui> <gui "
+"style=\"menuitem\">Preferences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:36
+msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/synctex.page:42
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>atril</app> must be installed."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:49
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:55
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link "
+"xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
+"documentation</link>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/synctex.page:60
+msgid ""
+"<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
+"specifically designed for writing TeX code."
+msgstr ""
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
@@ -287,48 +407,28 @@ msgid ""
 "needed software, or test your program without leaving <app>pluma</app>."
 msgstr ""
 
-#. (itstool) path: section/title
-#: C/terminal.page:33
-msgid "Enable Embedded Terminal"
-msgstr "Habilita el terminal incrustat"
-
 #. (itstool) path: steps/title
-#: C/terminal.page:36
+#: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
 msgstr "Per habilitar el connector del <app>terminal incrustat</app>:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:38
-msgid ""
-"Select <guiseq><gui style=\"menu\">pluma</gui> <gui "
-"style=\"menuitem\">Preferences</gui> <gui "
-"style=\"tab\">Plugins</gui></guiseq>."
-msgstr ""
-"Seleccioneu <guiseq><gui style=\"menu\">pluma</gui> Preferències <gui "
-"style=\"tab\">Connectors</gui></guiseq>."
-
-#. (itstool) path: item/p
-#: C/terminal.page:43
+#: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
 "Seleccioneu <gui style=\"menuitem\">Terminal incrustat</gui> per habilitar "
 "el connector."
 
-#. (itstool) path: section/title
-#: C/terminal.page:51
-msgid "Using Embedded Terminal"
-msgstr "Ús del terminal incrustat"
-
-#. (itstool) path: section/p
-#: C/terminal.page:53
+#. (itstool) path: page/p
+#: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
 msgstr ""
 "Un cop heu habilitat el connector, per afegir un terminal al plafó inferior:"
 
 #. (itstool) path: item/p
-#: C/terminal.page:58
+#: C/terminal.page:50
 msgid ""
 "Select <guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom"
 " Pane</gui></guiseq>. Alternatively, you can press "
