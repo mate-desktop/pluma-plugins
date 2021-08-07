@@ -1,3 +1,14 @@
+### pluma-plugins 1.26.0
+
+  * update translations
+  * tx: sync with transifex
+  * update copyright to 2021
+  * update help
+  * add synctex help
+  * travis: fix repo name for gh-pages
+  * synctex: remove double import
+  * synctex: use gi.require_version()
+
 ### pluma-plugins 1.25.0
 
   * update translations
