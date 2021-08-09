@@ -21,12 +21,10 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor,
 # Boston, MA  02110-1301  USA
 
-import os
-
 import gi
 gi.require_version('Gtk', '3.0')
 gi.require_version('Vte', '2.91')
-from gi.repository import GObject, GLib, Gio, Pango, Gdk, Gtk, Pluma, Peas, PeasGtk, Vte
+from gi.repository import GObject, GLib, Gio, Pango, Gdk, Gtk, Pluma, Vte
 
 TERMINAL_ICON = 'utilities-terminal'
 
@@ -41,7 +39,7 @@ except:
 class PlumaTerminal(Vte.Terminal):
 
     defaults = {
-        'silent_bell'          : False,
+        'silent_bell': False,
     }
 
     TARGET_URI_LIST = 200
@@ -71,7 +69,7 @@ class PlumaTerminal(Vte.Terminal):
     def do_drag_data_received(self, drag_context, x, y, data, info, time):
         if info == self.TARGET_URI_LIST:
             self.feed_child(' '.join(["'" + Gio.file_new_for_uri(item).get_path() + "'" for item in Pluma.utils_drop_get_uris(data)]).encode('utf-8'))
-            Gtk.drag_finish(drag_context, True, False, time);
+            Gtk.drag_finish(drag_context, True, False, time)
         else:
             Vte.Terminal.do_drag_data_received(self, drag_context, x, y, data, info, time)
 
@@ -183,7 +181,7 @@ class PlumaTerminalPanel(Gtk.Box):
             accel = Gtk.AccelMap.lookup_entry(path)
 
             if not accel[0]:
-                 Gtk.AccelMap.add_entry(path, self._accels[name][0], self._accels[name][1])
+                Gtk.AccelMap.add_entry(path, self._accels[name][0], self._accels[name][1])
 
         self.add_terminal()
 
@@ -271,7 +269,7 @@ class PlumaTerminalPanel(Gtk.Box):
         menu.show_all()
         return menu
 
-    def make_popup(self, event = None):
+    def make_popup(self, event=None):
         menu = self.create_popup_menu()
         menu.attach_to_widget(self, None)
 
