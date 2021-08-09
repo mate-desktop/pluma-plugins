@@ -19,7 +19,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see https://www.gnu.org/licenses/.
 
-import dbus, subprocess, time
+import dbus, time
 
 RUNNING, CLOSED = range(2)
 
@@ -38,7 +38,7 @@ class AtrilWindowProxy:
     daemon = None
     bus = None
 
-    def __init__(self, uri, spawn = False, logger = None):
+    def __init__(self, uri, spawn=False, logger=None):
         self._log = logger
         self.uri = uri
         self.spawn = spawn
@@ -52,11 +52,10 @@ class AtrilWindowProxy:
 
             if AtrilWindowProxy.daemon is None:
                 AtrilWindowProxy.daemon = AtrilWindowProxy.bus.get_object(AT_DAEMON_NAME,
-                                                AT_DAEMON_PATH,
-                                                follow_name_owner_changes=True)
+                                                                          AT_DAEMON_PATH,
+                                                                          follow_name_owner_changes=True)
             AtrilWindowProxy.bus.add_signal_receiver(self._on_doc_loaded, signal_name="DocumentLoaded",
-                                                      dbus_interface = AT_WINDOW_IFACE,
-                                                      sender_keyword='sender')
+                                                     dbus_interface=AT_WINDOW_IFACE, sender_keyword='sender')
             self._get_dbus_name(False)
 
         except dbus.DBusException:
@@ -68,10 +67,10 @@ class AtrilWindowProxy:
             self.handle_find_document_reply(keyargs['sender'])
 
     def _get_dbus_name(self, spawn):
-        AtrilWindowProxy.daemon.FindDocument(self.uri,spawn,
-                     reply_handler=self.handle_find_document_reply,
-                     error_handler=self.handle_find_document_error,
-                     dbus_interface = AT_DAEMON_IFACE)
+        AtrilWindowProxy.daemon.FindDocument(self.uri, spawn,
+                                             reply_handler=self.handle_find_document_reply,
+                                             error_handler=self.handle_find_document_error,
+                                             dbus_interface=AT_DAEMON_IFACE)
 
     def handle_find_document_error(self, error):
         if self._log:
@@ -86,27 +85,27 @@ class AtrilWindowProxy:
             self.dbus_name = atril_name
             self.status = RUNNING
             self.atril = AtrilWindowProxy.bus.get_object(self.dbus_name, ATRIL_PATH)
-            self.atril.GetWindowList(dbus_interface = ATRIL_IFACE,
-                          reply_handler = handler,
-                          error_handler = self.handle_get_window_list_error)
+            self.atril.GetWindowList(dbus_interface=ATRIL_IFACE,
+                                     reply_handler=handler,
+                                     error_handler=self.handle_get_window_list_error)
 
-    def handle_get_window_list_error (self, e):
+    def handle_get_window_list_error(self, e):
         if self._log:
             self._log.debug("GetWindowList DBus call has failed")
 
-    def handle_get_window_list_reply (self, window_list):
+    def handle_get_window_list_reply(self, window_list):
         if len(window_list) > 0:
             window_obj = AtrilWindowProxy.bus.get_object(self.dbus_name, window_list[0])
-            self.window = dbus.Interface(window_obj,AT_WINDOW_IFACE)
+            self.window = dbus.Interface(window_obj, AT_WINDOW_IFACE)
             self.window.connect_to_signal("Closed", self.on_window_close)
             self.window.connect_to_signal("SyncSource", self.on_sync_source)
         else:
-            #That should never happen.
+            # That should never happen.
             if self._log:
                 self._log.debug("GetWindowList returned empty list")
 
 
-    def set_source_handler (self, source_handler):
+    def set_source_handler(self, source_handler):
         self.source_handler = source_handler
 
     def on_window_close(self):
@@ -120,25 +119,25 @@ class AtrilWindowProxy:
     def SyncView(self, input_file, data, time):
         if self.status == CLOSED:
             if self.spawn:
-                self._tmp_syncview = [input_file, data, time];
+                self._tmp_syncview = [input_file, data, time]
                 self._handler = self._syncview_handler
                 self._get_dbus_name(True)
         else:
-            self.window.SyncView(input_file, data, time,  dbus_interface = "org.mate.atril.Window")
+            self.window.SyncView(input_file, data, time,  dbus_interface="org.mate.atril.Window")
 
     def _syncview_handler(self, window_list):
         self.handle_get_window_list_reply(window_list)
 
         if self.status == CLOSED:
             return False
-        self.window.SyncView(self._tmp_syncview[0],self._tmp_syncview[1], self._tmp_syncview[2], dbus_interface="org.mate.atril.Window")
+        self.window.SyncView(self._tmp_syncview[0], self._tmp_syncview[1], self._tmp_syncview[2], dbus_interface="org.mate.atril.Window")
         del self._tmp_syncview
         self._handler = None
         return True
 
-## This file can be used as a script to support forward search and backward search in vim.
-## It should be easy to adapt to other editors.
-##  atril_dbus  pdf_file  line_source input_file
+# This file can be used as a script to support forward search and backward search in vim.
+# It should be easy to adapt to other editors.
+# atril_dbus  pdf_file  line_source input_file
 if __name__ == '__main__':
     import dbus.mainloop.glib, sys, os, logging
     from gi.repository import GObject
@@ -149,7 +148,7 @@ The usage is atril_dbus output_file line_number input_file from the directory of
 ''')
         sys.exit(1)
 
-    if len(sys.argv)!=4:
+    if len(sys.argv) != 4:
         print_usage()
     try:
         line_number = int(sys.argv[2])
@@ -157,9 +156,9 @@ The usage is atril_dbus output_file line_number input_file from the directory of
         print_usage()
 
     output_file = sys.argv[1]
-    input_file  = sys.argv[3]
-    path_output  = os.getcwd() + '/' + output_file
-    path_input   = os.getcwd() + '/' + input_file
+    input_file = sys.argv[3]
+    path_output = os.getcwd() + '/' + output_file
+    path_input = os.getcwd() + '/' + input_file
 
     if not os.path.isfile(path_output):
         print_usage()
@@ -175,10 +174,10 @@ The usage is atril_dbus output_file line_number input_file from the directory of
     ch.setFormatter(formatter)
 
     logger.addHandler(ch)
-    a = AtrilWindowProxy('file://' + path_output, True,logger=logger)
+    a = AtrilWindowProxy('file://' + path_output, True, logger=logger)
 
     def sync_view(ev_window, path_input, line_number):
-        ev_window.SyncView (path_input, (line_number, 1),0)
+        ev_window.SyncView(path_input, (line_number, 1), 0)
 
     GObject.timeout_add(400, sync_view, a, path_input, line_number)
     loop = GObject.MainLoop()

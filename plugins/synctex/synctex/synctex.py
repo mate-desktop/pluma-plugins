@@ -20,7 +20,7 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor,
 #  Boston, MA 02110-1301, USA.
 
-from gi.repository import GObject, Pango, Gtk, Pluma, Peas, PeasGtk, Gio, Gdk
+from gi.repository import GObject, Pango, Gtk, Pluma, Gio, Gdk
 from .atril_dbus import AtrilWindowProxy
 import dbus.mainloop.glib
 import logging
@@ -52,7 +52,7 @@ ui_str = """<ui>
 
 _logger = logging.getLogger("SynctexPlugin")
 
-def apply_style (style, tag):
+def apply_style(style, tag):
     def apply_style_prop(tag, style, prop):
         if style.get_property(prop + "-set"):
             tag.set_property(prop, style.get_property(prop))
@@ -105,7 +105,7 @@ class SynctexViewHelper:
         self.update_location()
 
     def on_notify_style_scheme(self, doc, param_object):
-        apply_style (doc.get_style_scheme().get_style('search-match'), self._highlight_tag)
+        apply_style(doc.get_style_scheme().get_style('search-match'), self._highlight_tag)
 
     def on_button_release(self, view, event):
         modifier_mask = Gtk.accelerator_get_default_mod_mask()
@@ -121,7 +121,7 @@ class SynctexViewHelper:
         file_output = None
         line_count = self._doc.get_line_count()
 
-        for i in list(range(min(3,line_count))) + list(range(max(0,line_count - 3), line_count)):
+        for i in list(range(min(3, line_count))) + list(range(max(0, line_count - 3), line_count)):
             start = self._doc.get_iter_at_line(i)
             end = start.copy()
             end.forward_to_line_end()
@@ -179,7 +179,7 @@ class SynctexViewHelper:
         end_iter.forward_to_line_end()
 
         self._doc.apply_tag(self._highlight_tag, iter, end_iter)
-        self.last_iters = [iter, end_iter];
+        self.last_iters = [iter, end_iter]
 
     def _unhighlight(self):
         if self.last_iters is not None:
@@ -187,20 +187,20 @@ class SynctexViewHelper:
                                  self.last_iters[0], self.last_iters[1])
         self.last_iters = None
 
-    def goto_line (self, line, time):
+    def goto_line(self, line, time):
         self._doc.goto_line(line)
         self._view.scroll_to_cursor()
         self._window.set_active_tab(Pluma.Tab.get_from_document(self._doc))
         self._highlight()
-        self._window.present_with_time (time)
+        self._window.present_with_time(time)
 
     def goto_line_after_load(self, a, line, time):
-        GObject.idle_add (lambda : self.goto_line(line, time))
+        GObject.idle_add(lambda: self.goto_line(line, time))
         self._doc.disconnect(self._goto_handler)
 
     def sync_view(self, time):
         if self.active:
-            cursor_iter =  self._doc.get_iter_at_mark(self._doc.get_insert())
+            cursor_iter = self._doc.get_iter_at_mark(self._doc.get_insert())
             line = cursor_iter.get_line() + 1
             col = cursor_iter.get_line_offset()
             self.window_proxy.SyncView(self.gfile.get_path(), (line, col), time)
@@ -209,7 +209,7 @@ class SynctexViewHelper:
         # Activate the plugin only if the doc is a LaTeX file.
         lang = self._doc.get_language()
         self.active = (lang is not None and lang.get_id() == 'latex' and
-                        self.out_gfile is not None)
+                       self.out_gfile is not None)
 
         if self.active and self.window_proxy is None:
             self._doc_active_handlers = [
@@ -226,7 +226,7 @@ class SynctexViewHelper:
             self.window_proxy = self._plugin.ref_atril_proxy(self.out_gfile, self._window)
 
         elif not self.active and self.window_proxy is not None:
-            #destroy the atril window proxy.
+            # destroy the atril window proxy.
             for handler in self._doc_active_handlers:
                 self._doc.disconnect(handler)
             for handler in self._view_active_handlers:
@@ -335,8 +335,8 @@ class SynctexWindowActivatable(GObject.Object, Pluma.WindowActivatable):
 
             helper = self.get_helper(tab.get_view())
             helper._goto_handler = tab.get_document().connect_object("loaded",
-                                                SynctexViewHelper.goto_line_after_load,
-                                                helper, source_link[0] - 1, time)
+                                                                     SynctexViewHelper.goto_line_after_load,
+                                                                     helper, source_link[0] - 1, time)
         else:
             self.view_dict[uri_input].goto_line(source_link[0] - 1, time)
 
@@ -345,11 +345,11 @@ class SynctexWindowActivatable(GObject.Object, Pluma.WindowActivatable):
         proxy = None
 
         if uri not in self._proxy_dict:
-            proxy = AtrilWindowProxy (uri, True, _logger)
+            proxy = AtrilWindowProxy(uri, True, _logger)
             self._proxy_dict[uri] = [1, proxy, window]
-            proxy.set_source_handler (lambda i, s, time: self.source_view_handler(gfile, i, s, time))
+            proxy.set_source_handler(lambda i, s, time: self.source_view_handler(gfile, i, s, time))
         else:
-            self._proxy_dict[uri][0]+=1
+            self._proxy_dict[uri][0] += 1
             proxy = self._proxy_dict[uri][1]
 
         return proxy
