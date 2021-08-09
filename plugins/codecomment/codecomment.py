@@ -24,8 +24,7 @@
 
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import GObject, Gtk, GtkSource, Pluma, Peas, PeasGtk
-import gettext
+from gi.repository import GObject, Gtk, Pluma
 from gpdefs import *
 
 try:
@@ -92,14 +91,14 @@ class CodeCommentPlugin(GObject.Object, Pluma.WindowActivatable):
                                          _("Co_mment Code"),
                                          "<control>M",
                                          _("Comment the selected code"),
-                                         lambda a, w: self.do_comment (w.get_active_document())),
+                                         lambda a, w: self.do_comment(w.get_active_document())),
                                         ('CodeUncomment',
                                          None,
                                          _('U_ncomment Code'),
                                          "<control><shift>M",
                                          _("Uncomment the selected code"),
-                                         lambda a, w: self.do_comment (w.get_active_document(), True))],
-                                        self.window)
+                                         lambda a, w: self.do_comment(w.get_active_document(), True))],
+                                       self.window)
 
         manager.insert_action_group(self._action_group)
         self._ui_id = manager.add_ui_from_string(ui_str)
@@ -158,7 +157,7 @@ class CodeCommentPlugin(GObject.Object, Pluma.WindowActivatable):
             if not iter.ends_line():
                 document.insert(iter, start_tag)
                 if end_tag is not None:
-                    if i != number_lines -1:
+                    if i != number_lines - 1:
                         iter = document.get_iter_at_mark(imark)
                         iter.forward_to_line_end()
                         document.insert(iter, end_tag)
@@ -259,7 +258,7 @@ class CodeCommentPlugin(GObject.Object, Pluma.WindowActivatable):
 
         if deselect:
             oldPosIter = document.get_iter_at_mark(currentPosMark)
-            document.select_range(oldPosIter,oldPosIter)
+            document.select_range(oldPosIter, oldPosIter)
             document.place_cursor(oldPosIter)
 
 # ex:ts=4:et:
