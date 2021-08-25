@@ -13,6 +13,7 @@ Currently available plugins:
 - **bracketcompletion** - *Automatically adds closing brackets.*
 - **codecomment** - *Comment and uncomment blocks of code.*
 - **smartspaces** - *Forget you’re not using tabulations.*
+- **sourcecodebrowser** - *View and navigate functions, variables and namespaces*
 - **synctex** - *SyncTeX synchronization of TeX files and PDF output.*
 - **terminal** - *Embed a terminal in the bottom pane.*
 - **wordcompletion** - *Word completion using the completion framework.*
@@ -21,6 +22,7 @@ Note:
 
 - The *synctex* plugin requires `dbus-python` (>= 0.82).
 - The *terminal* plugin requires the `VTE` (>= 2.91) library.
+- The *sourcecodebrowser* plugin requires `ctags` at runtime.
 
 See the Pluma [README](https://github.com/mate-desktop/pluma/blob/master/README.md) file for more information.
 
