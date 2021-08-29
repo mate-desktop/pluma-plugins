@@ -86,7 +86,7 @@ GLIB_GSETTINGS
 # ================================================================
 
 # C plugins that don't need special dependencies
-C_PLUGINS="bookmarks sourcecodebrowser wordcompletion"
+C_PLUGINS="bookmarks quickhighlight sourcecodebrowser wordcompletion"
 
 # Python plugins that don't need special dependencies, besides Python
 PYTHON_PLUGINS="bracketcompletion codecomment smartspaces"
@@ -229,6 +229,9 @@ plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in
 plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml
 plugins/wordcompletion/wordcompletion.plugin.desktop.in
 plugins/wordcompletion/Makefile
+plugins/quickhighlight/Makefile
+plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in
+plugins/quickhighlight/quickhighlight.plugin.desktop.in
 po/Makefile.in])
 
 AM_COND_IF([ENABLE_SYNCTEX],[AC_CONFIG_FILES([

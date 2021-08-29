@@ -1,0 +1,9 @@
+[Plugin]
+Module=quickhighlight
+IAge=3
+Name=Quickhighlight
+Description=Highlights every occurrences of selected text
+Authors=Jesse van den Kieboom <jesse@icecrew.nl>
+Copyright=Copyright @ 2009 Jesse van den Kieboom
+Website=@PACKAGE_URL@
+Version=@VERSION@
