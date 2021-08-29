@@ -12,6 +12,7 @@ Currently available plugins:
 - **bookmarks** - *Easy document navigation with bookmarks.*
 - **bracketcompletion** - *Automatically adds closing brackets.*
 - **codecomment** - *Comment and uncomment blocks of code.*
+- **quickhighlight** - *Highlights every occurrences of selected text*
 - **smartspaces** - *Forget you’re not using tabulations.*
 - **synctex** - *SyncTeX synchronization of TeX files and PDF output.*
 - **terminal** - *Embed a terminal in the bottom pane.*

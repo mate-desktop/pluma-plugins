@@ -22,3 +22,5 @@ plugins/terminal/terminal.py
 plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in
 plugins/wordcompletion/pluma-word-completion-plugin.c
 plugins/wordcompletion/wordcompletion.plugin.desktop.in.in
+plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in
+plugins/quickhighlight/quickhighlight.plugin.desktop.in.in
