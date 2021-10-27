@@ -46,7 +46,6 @@ struct _PlumaWordCompletionPluginPrivate
     GtkSourceCompletionProvider *provider;
 };
 
-
 G_DEFINE_DYNAMIC_TYPE_EXTENDED (PlumaWordCompletionPlugin,
                                 pluma_word_completion_plugin,
                                 PEAS_TYPE_EXTENSION_BASE,
