@@ -798,7 +798,6 @@ save_bookmark_metadata (PlumaView *view)
 	if (string->len == 0)
 	{
 		val = g_string_free (string, TRUE);
-		val = NULL;
 	}
 	else
 	{
