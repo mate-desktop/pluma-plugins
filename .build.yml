@@ -97,20 +97,20 @@ variables:
     -enable-checker alpha.unix.cstring.OutOfBounds
     -enable-checker alpha.core.FixedAddr
     -enable-checker security.insecureAPI.strcpy"'
-  - PLUMA_VERSION=1.25.3
+#  - PLUMA_VERSION=1.25.3
 
 before_scripts:
-  - cd ${START_DIR}
-  - '[ -f pluma-${PLUMA_VERSION}.tar.xz ] || curl -Ls -o pluma-${PLUMA_VERSION}.tar.xz https://github.com/mate-desktop/pluma/releases/download/v${PLUMA_VERSION}/pluma-${PLUMA_VERSION}.tar.xz'
-  - tar xf pluma-${PLUMA_VERSION}.tar.xz
-  - cd pluma-${PLUMA_VERSION}
-  - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
-  -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
-  - else
-  -     ./configure --prefix=/usr
-  - fi
-  - make
-  - make install
+#  - cd ${START_DIR}
+#  - '[ -f pluma-${PLUMA_VERSION}.tar.xz ] || curl -Ls -o pluma-${PLUMA_VERSION}.tar.xz https://github.com/mate-desktop/pluma/releases/download/v${PLUMA_VERSION}/pluma-${PLUMA_VERSION}.tar.xz'
+#  - tar xf pluma-${PLUMA_VERSION}.tar.xz
+#  - cd pluma-${PLUMA_VERSION}
+#  - if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
+#  -     ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
+#  - else
+#  -     ./configure --prefix=/usr
+#  - fi
+#  - make
+#  - make install
 
 build_scripts:
   - if [ ${DISTRO_NAME} == "debian" ];then
