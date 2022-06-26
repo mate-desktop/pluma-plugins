@@ -128,24 +128,18 @@ then
 	# ================================================================
 	# Synctex (dbus-python)
 	# ================================================================
-	DBUSPYTHON_REQUIRED=0.82
-	PKG_CHECK_MODULES([DBUSPYTHON],
-		[dbus-python >= $DBUSPYTHON_REQUIRED],
-		[have_synctex=yes],
-		[have_synctex=no])
-
-	AC_SUBST([DBUS_PYTHON_CFLAGS])
-	AC_SUBST([DBUS_PYTHON_LIBS])
-
 	AC_MSG_CHECKING([for synctex dependency dbus-python])
-	AC_MSG_RESULT($have_synctex)
 
-	if test "x$have_synctex" = "xyes"; then
+	if `$PYTHON -c "import dbus" 2>/dev/null`;
+	then
+		have_synctex=yes
 		PLUGINS="$PLUGINS synctex"
 	else
-		AC_MSG_RESULT([yes])
+		have_synctex=no
 		disabled_plugins="$disabled_plugins synctex (dbus-python not found)"
 	fi
+
+	AC_MSG_RESULT($have_synctex)
 
 	# ================================================================
 	# Terminal (vte)
