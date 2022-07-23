@@ -136,11 +136,11 @@ build_scripts:
   - fi
 
 after_scripts:
-  - if [ ${DISTRO_NAME} == "fedora" ];then
-  -   cppcheck --xml --output-file=cppcheck.xml --enable=warning,style,performance,portability,information,missingInclude --force -D__cplusplus .
-  -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
-  -   ./gen-index -l 20 -i https://raw.githubusercontent.com/${OWNER_NAME}/pluma-plugins/master/pluma-plugin.png
-  - fi
+#  - if [ ${DISTRO_NAME} == "fedora" ];then
+#  -   cppcheck --xml --output-file=cppcheck.xml --enable=warning,style,performance,portability,information,missingInclude --force -D__cplusplus .
+#  -   cppcheck-htmlreport --title=${REPO_NAME} --file=cppcheck.xml --report-dir=cppcheck-htmlreport
+#  -   ./gen-index -l 20 -i https://raw.githubusercontent.com/${OWNER_NAME}/pluma-plugins/master/pluma-plugin.png
+#  - fi
   - make distcheck
 
 releases:
