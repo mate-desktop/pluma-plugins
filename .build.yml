@@ -30,7 +30,7 @@ requires:
     - mate-common
     - pluma-dev
     - python3-dev
-    - python-dbus-dev
+    - python3-dbus
     - python3-gi
     - yelp-tools
 # for building pluma
@@ -41,7 +41,8 @@ requires:
     - autoconf-archive
     - clang
     - clang-analyzer
-    - dbus-python-devel
+    - cppcheck-htmlreport
+    - python3-dbus
     - gcc
     - git
     - gtk3-devel
@@ -73,7 +74,7 @@ requires:
     - mate-common
     - pluma-dev
     - python3-dev
-    - python-dbus-dev
+    - python-dbus
     - python3-gi
     - yelp-tools
 # for building pluma
