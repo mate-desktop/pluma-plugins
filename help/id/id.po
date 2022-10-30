@@ -24,24 +24,24 @@ msgstr ""
 "Dirgita <dirgita@gmail.com>\n"
 "Tim MATE Indonesia <http://id.mate.org>\n"
 "Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017.\n"
-"Andika Triwidada <andika@gmail.com>, 2020."
+"Andika Triwidada <andika@gmail.com>, 2020, 2021."
 
 #. (itstool) path: info/title
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Pengaya Pluma"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Pengaya Pluma"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr ""
+msgstr "Gunakan pengaya untuk menyesuaikan bagaimana pluma bekerja bagi Anda."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
@@ -52,12 +52,12 @@ msgstr "Jim Campbell"
 #. (itstool) path: credit/name
 #: C/index.page:16
 msgid "Robert Buj"
-msgstr ""
+msgstr "Robert Buj"
 
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Pengaya Pluma"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -66,11 +66,14 @@ msgid ""
 "installed by default, but a large number of other plugins are available "
 "separately."
 msgstr ""
+"Anda dapat melakukan lebih banyak hal dengan <app>pluma</app> dengan memakai"
+" pengaya. Beberapa pengaya dipasang secara baku, tapi sejumlah besar pengaya"
+" lain tersedia secara terpisah."
 
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Pengaya Pluma Tambahan"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -85,11 +88,15 @@ msgid ""
 "a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
 "California, 94041, USA."
 msgstr ""
+"Karya ini dilisensikan di bawah Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. Untuk melihat salinan lisensi ini, kunjungi <_:link-1/> "
+"atau kirim sebuah surat ke Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
 
 #. (itstool) path: info/desc
 #: C/bookmarks.page:15
 msgid "Record commonly-referenced locations with bookmarks."
-msgstr ""
+msgstr "Merekam lokasi yang biasa diacu memakai markah."
 
 #. (itstool) path: page/title
 #: C/bookmarks.page:18
@@ -103,6 +110,10 @@ msgid ""
 "within your document or program, making them easier to find. You can also "
 "move up or down between bookmarks, making document navigation a bit faster."
 msgstr ""
+"Markah <app>pluma</app> memungkinkan Anda menyorot baris-baris penting teks "
+"dalam dokumen atau program Anda, membuat mereka lebih mudah dicari. Anda "
+"juga dapat berpindah naik atau turun antar markah, membuat navigasi dokumen "
+"sedikit lebih cepat."
 
 #. (itstool) path: page/p
 #: C/bookmarks.page:25
@@ -111,6 +122,10 @@ msgid ""
 " <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
+"Untuk memfungsikan pengaya markah, pilih <guiseq><gui "
+"style=\"menu\">Sunting</gui> <gui "
+"style=\"menuitem\">Preferensi</gui><gui>Pengaya</gui> "
+"<gui>Markah</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
@@ -118,11 +133,14 @@ msgid ""
 "Bookmarks are inserted and removed by completing the same action. To insert "
 "or remove bookmarks:"
 msgstr ""
+"Markah disisipkan dan dihapus dengan menyelesaikan aksi yang sama. Untuk "
+"menyisipkan atau menghapus markah:"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:33
 msgid "Navigate to the line where you want to insert or remove the bookmark."
 msgstr ""
+"Navigasikan ke baris tempat Anda ingin menyisipkan atau menghapus markah."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:37
@@ -131,11 +149,14 @@ msgid ""
 "<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
 "Bookmark</gui></guiseq>."
 msgstr ""
+"Tekan <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, atau klik "
+"<guiseq><gui style=\"menu\">Sunting</gui><gui style=\"menuitem\">Jungkitkan "
+"Markah</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:44
 msgid "To move between bookmarks:"
-msgstr ""
+msgstr "Untuk berpindah antar markah:"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:46
@@ -143,6 +164,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
 msgstr ""
+"Tekan <keyseq><key>Ctrl</key><key>B</key></keyseq> untuk pindah ke markah "
+"berikutnya."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:50
@@ -150,6 +173,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
 msgstr ""
+"Tekan <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> untuk "
+"pindah ke markah sebelumnya."
 
 #. (itstool) path: note/p
 #: C/bookmarks.page:53
@@ -159,11 +184,15 @@ msgid ""
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
+"Bila Anda lebih suka memakai tetikus, Anda dapat mengklik  <guiseq><gui "
+"style=\"menu\">Sunting</gui><gui style=\"menuitem\">Ke Markah "
+"Berikutnya</gui></guiseq> atau <guiseq><gui style=\"menu\">Sunting</gui> "
+"<gui style=\"menuitem\">Ke Markah Sebelumnya</gui></guiseq>."
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
 msgid "Paul Weaver"
-msgstr ""
+msgstr "Paul Weaver"
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:19 C/terminal.page:16
@@ -173,7 +202,7 @@ msgstr "Sindhu S"
 #. (itstool) path: info/desc
 #: C/wordcompletion.page:25
 msgid "Autocomplete words or portions of code as you type."
-msgstr ""
+msgstr "Lengkapi otomatis kata atau bagian kode sambil Anda mengetik."
 
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
@@ -186,11 +215,13 @@ msgid ""
 "The <app>Word Completion</app> plugin can speed up your editing by "
 "suggesting completions of words as you type."
 msgstr ""
+"Pengaya <app>Pelengkapan Kode</app> dapat mempercepat penyuntingan Anda "
+"dengan menyarankan pelengkapan kata saat Anda mengetik."
 
 #. (itstool) path: steps/title
 #: C/wordcompletion.page:34 C/bracketcompletion.page:24
 msgid "To enable the plugin:"
-msgstr ""
+msgstr "Untuk memfungsikan pengaya:"
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:36
@@ -199,11 +230,16 @@ msgid ""
 "<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Tekan tombol menu di pojok kanan atas jendela dan pilih <guiseq><gui "
+"style=\"menuitem\">Preferensi</gui> <gui "
+"style=\"tab\">Pengaya</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:41
 msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
+"Pilih <gui style=\"menuitem\">Pelengkapan Kata</gui> untuk memfungsikan "
+"pengaya."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:46
@@ -214,6 +250,11 @@ msgid ""
 "document and upon pre-defined keywords if your document is of a recognised "
 "format."
 msgstr ""
+"Saat menyunting, pengaya <app>Pelengkapan Kata</app> akan secara otomatis "
+"menampilkan daftar pop-up dari kata yang dimulai dengan huruf-huruf yang "
+"telah Anda ketikkan. Saran kata didasarkan pada kata yang muncul di tempat "
+"lain dalam dokumen Anda dan pada kata kunci terpradefinis bila dokumen Anda "
+"adalah dalam suatu format yang dikenal."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:52
@@ -222,11 +263,15 @@ msgid ""
 "<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
 "number displayed next to your desired word."
 msgstr ""
+"Untuk menyisipkan suatu kata yang disarankan, klik ganda padanya dalam "
+"daftar pop-up atau tekan <keyseq><key>Alt</key><key>Angka</key></keyseq>, "
+"dimana <key>Angka</key> adalah bilangan yang ditampilkan di sebelah kata "
+"yang Anda inginkan."
 
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
-msgstr ""
+msgstr "Melengkapi otomatis kurung tutup."
 
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
@@ -239,6 +284,8 @@ msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
 msgstr ""
+"Pengaya <app>Pelengkapan Kurung</app> akan melengkapi otomatis kurung "
+"penutup bagi kurung kurawal, kurung, dan kurung siku."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:26
@@ -247,6 +294,9 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Pergi ke <guiseq><gui style=\"menuitem\">Sunting</gui> <gui "
+"style=\"menuitem\">Preferensi</gui> <gui "
+"style=\"tab\">Pengaya</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:32
@@ -254,16 +304,19 @@ msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
+"Pilih <gui style=\"menuitem\">Pelengkapan Kurung</gui> untuk memfungsikan "
+"pengaya."
 
 #. (itstool) path: note/p
 #: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr ""
+"Pengaya ini tidak secara otomatis menyisipkan tag penutup HTML atau XML."
 
 #. (itstool) path: info/desc
 #: C/codecomment.page:15
 msgid "Comment-out or uncomment a block of code."
-msgstr ""
+msgstr "Jadikan komentar atau tidak jadikan komentar suatu blok kode."
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
@@ -277,6 +330,10 @@ msgid ""
 "understand a program's code, but they don't affect how a program works. "
 "Comments are separated from other parts of a program by special characters."
 msgstr ""
+"Komentar kode adalah bagian dari teks yang membuat jadi mudah bagi orang "
+"untuk memahami suatu kode program, tapi mereka tidak memengaruhi bagaimana "
+"suatu program bekerja. Komentar dipisahkan dari bagian lain suatu program "
+"dengan karakter khusus."
 
 #. (itstool) path: page/p
 #: C/codecomment.page:25
@@ -286,17 +343,22 @@ msgid ""
 " style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
 "<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
+"Pengaya <app>komentar kode</app> membuat jadi mudah untuk secara cepat "
+"membuat atau menghapus komentar kode. Untuk memfungsikan pengaya komentar "
+"kode, pilih <guiseq><gui style=\"menu\">Sunting</gui><gui "
+"style=\"menuitem\">Preferensi</gui> <gui>Pengaya</gui><gui>Komentar "
+"Kode</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/codecomment.page:31
 msgid "To create or remove a comment:"
-msgstr ""
+msgstr "Untuk membuat atau menghapus suatu komentar:"
 
 #. (itstool) path: item/p
 #: C/codecomment.page:33
 msgid ""
 "Highlight the portion of text where you want to add or remove a comment."
-msgstr ""
+msgstr "Sorot bagian teks yang Anda ingin tambahi atau hapus komentarnya."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:37
@@ -304,6 +366,9 @@ msgid ""
 "To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
 "Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
+"Untuk menambah komentar, klik <guiseq><gui style=\"menu\">Sunting</gui> "
+"<gui>Komentari Kode</gui></guiseq>, atau tekan <keyseq><key>Ctrl</key> "
+"<key>M</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
@@ -312,6 +377,9 @@ msgid ""
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
+"Untuk menghapus komentar, klik <guiseq><gui style=\"menu\">Sunting</gui> "
+"<gui>Hapus Komentar Kode</gui></guiseq>, atau tekan <keyseq><key>Shift</key>"
+" <key>Ctrl</key> <key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/codecomment.page:49
@@ -321,12 +389,18 @@ msgid ""
 "your language or syntax, you can select it from the language list in the "
 "bottom <gui>Status bar</gui>."
 msgstr ""
+"<app>pluma</app> akan secara otomatis memakai gaya komentar yang benar "
+"berbasis pada bahasa atau sintaks berkas. Bila <app>pluma</app> tidak "
+"mengidentifikasi bahasa atau sintaks Anda, Anda dapat memilihnya dari daftar"
+" bahasa dalam <gui>Bilah status</gui> di dasar."
 
 #. (itstool) path: info/desc
 #: C/synctex.page:17
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
 msgstr ""
+"Secara cepat beralih antara berkas sumber TeX dan dokumen PDF yang dirender "
+"dalam atril."
 
 #. (itstool) path: page/title
 #: C/synctex.page:21
@@ -341,11 +415,16 @@ msgid ""
 "use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>atril</app> and vice versa."
 msgstr ""
+"SyncTeX adalah suatu metoda yang memungkinkan penyelarasan antara suatu "
+"berkas sumber TeX dan keluaran PDF yang dibangkitkan oleh kompiler "
+"TeX/LaTeX. Pengaya ini memungkinkan memakai SyncTeX dalam <app>pluma</app> "
+"untuk secara cepat beralih dari suatu berkas sumber TeX yang terbuka ke "
+"suatu dokumen PDF yang dibuka dalam <app>atril</app> dan sebaliknya."
 
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "Untuk memfungsikan pengaya <app>SyncTex</app>:"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -354,11 +433,14 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Pilih <guiseq><gui style=\"menu\">Sunting</gui> <gui "
+"style=\"menuitem\">Preferensi</gui> <gui "
+"style=\"tab\">Pengaya</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
-msgstr ""
+msgstr "Pilih <gui style=\"menuitem\">SyncTex</gui> untuk memfungsikan pengaya."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -367,6 +449,9 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>atril</app> must be installed."
 msgstr ""
+"Agar berguna, pengaya ini memerlukan terpasangnya suatu kompiler TeX/LaTeX "
+"dan SyncTex. Keduanya disediakan oleh distribusi TeX seperti TeX Live. "
+"<app>atril</app> juga harus terpasang."
 
 #. (itstool) path: item/p
 #: C/synctex.page:49
@@ -375,6 +460,9 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"Beberapa informasi dasar tentang menyiapkan SyncTeX dan mengkompail dokumen "
+"LaTeX dapat ditemukan dalam dokumentasi <link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -383,6 +471,8 @@ msgid ""
 "xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
+"Pintasan tombol dan kendali tetikus juga didokumentasikan dalam dokumentasi "
+"<link xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:60
@@ -390,6 +480,8 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> dan <app>Gummi</app> adalah penyunting teks "
+"alternatif yang secara khusus dirancang untuk menulis kode TeX."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
@@ -409,23 +501,32 @@ msgid ""
 "pane of the <app>pluma</app> window. This will let you run scripts, install "
 "needed software, or test your program without leaving <app>pluma</app>."
 msgstr ""
+"<app>pluma</app> membuat jadi mungkin untuk menyertakan suatu versi tertanam"
+" dari <app>Terminal MATE</app>, aplikasi baris perintah MATE, dalam panel "
+"dasar dari jendela <app>pluma</app>. Ini akan memungkinkan Anda menjalankan "
+"skrip, memasang perangkat lunak yang diperlukan, atau menguji program Anda "
+"tanpa meninggalkan <app>pluma</app>."
 
 #. (itstool) path: steps/title
 #: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
-msgstr ""
+msgstr "Untuk memfungsikan pengaya <app>Terminal Tertanam</app>:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
+"Pilih <gui style=\"menuitem\">Terminal Tertanam</gui> untuk memfungsikan "
+"pengaya."
 
 #. (itstool) path: page/p
 #: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
 msgstr ""
+"Sekali Anda memfungsikan pengaya, untuk menambahkan sebuah terminal ke panel"
+" dasar:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:50
@@ -434,3 +535,6 @@ msgid ""
 " Pane</gui></guiseq>. Alternatively, you can press "
 "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
 msgstr ""
+"Pilih <guiseq><gui style=\"menu\">Tampilan</gui> <gui "
+"style=\"menuitem\">Panel Dasar</gui></guiseq>. Sebagai alternatif, Anda "
+"dapat menekan <keyseq><key>Ctrl</key><key>F9</key></keyseq>."

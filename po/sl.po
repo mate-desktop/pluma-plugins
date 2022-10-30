@@ -4,9 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Damir Mevkić <damir.mevkic@gmail.com>, 2021
+# Damir Mevkić 52K <damir.mevkic@gmail.com>, 2021
 # Helena S <ele@tutamail.com>, 2021
 # jetomit <timotej.lazar@araneo.si>, 2021
+# Martin Srebotnjak <miles@filmsi.net>, 2022
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: jetomit <timotej.lazar@araneo.si>, 2021\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>, 2022\n"
 "Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,102 +31,102 @@ msgstr "Zaznamki"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Enostavno krmarjenje po dokumentih z zaznamki"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Preklopi zaznamek"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Preklopi stanje zaznamka za trenutno vrstico"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Pojdi na naslednji zaznamek"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Pojdi na naslednji zaznamek"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Pojdi na prejšnji zaznamek"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Pojdi na naslednji zaznamek"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Zaključevanje oklepajev"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Samodejno doda zaključne oklepaje."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Deaktiviranje kode"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Spremeni kodo v komentar ali obratno"
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "Koda v ko_mentar"
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Izbrano kodo spremenite v komentar"
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "Komentar v ko_do"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Izbrani komentar spremenite v kodo"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Dele kode spremenite v komentar ali nazaj v kodo"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Pametni presledki"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "Pozabite, da ne uporabljate tabulatorjev."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
 #: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
 msgid "Source Code Browser"
-msgstr ""
+msgstr "Brskalnik izvorne kode"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
 msgid "A source code class and function browser for Pluma."
-msgstr ""
+msgstr "Brskalnik izvorne kode po razredih in funkcijah za Plumo."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
 msgid "Show _line numbers in tree"
-msgstr ""
+msgstr "Pokaži _številke vrstic v drevesu"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
 msgid "Load symbols from _remote files"
-msgstr ""
+msgstr "Naloži _simbole iz oddaljenih datotek"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
 msgid "Start with rows _expanded"
-msgstr ""
+msgstr "Začni z razp_ostrtimi vrsticami"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
 msgid "_Sort list alphabetically"
-msgstr ""
+msgstr "_Razvrsti seznam po abecedi"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
 msgid "ctags executable"
@@ -137,37 +138,39 @@ msgstr ""
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "Pokaži številke vrstic"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
-msgstr ""
+msgstr "Pokaži številko vrstice vsakega elementa v drevesu kode."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
 msgid "Load Remote Files"
-msgstr ""
+msgstr "Naloži oddaljene datoteke"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
 msgid "Download remote files into a temporary file for parsing the symbols."
 msgstr ""
+"Prenesite oddaljene datoteke v začasno datoteko za razčlenjevanje simbolov."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
 msgid "Expand Rows"
-msgstr ""
+msgstr "Razpostri vrstice"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
 msgid "Expand the entire source tree when initially loaded."
-msgstr ""
+msgstr "Ob začetnem nalaganju razpostri celotno drevo kode."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
 msgid "Sort List"
-msgstr ""
+msgstr "Razvrsti seznam"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
 msgid ""
 "Sorts the list of symbols alphabetically rather than by where they occur in "
 "the source file."
 msgstr ""
+"Razvrsti seznam simbolov po abecedi namesto po položaju v izvorni kodi."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
 msgid "Ctags Executable"
@@ -180,20 +183,20 @@ msgstr ""
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Uskladi med LaTeX in PDF s plumo in atrilom"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Uskladi med LaTeX in PDF s plumo in atrilom."
 
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Iskanje naprej"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
@@ -204,6 +207,8 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"Izbrana možnost omogoča, da ni piska, kadar programi pošljejo ubežno "
+"zaporedje zvoncu terminala."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -215,6 +220,10 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Število vrstic, ki se ohranijo za prikaz z drsnikom. V terminalu si lahko z "
+"drsnikom ogledate že izpisane vrstice; vrstice, ki so v zgodovini preveč "
+"nazaj pa se izgubijo. V kolikor je izbrana možnost, da je število vrstic "
+"drsnika neomejeno, je ta nastavitev prezrta."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -241,12 +250,14 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Ali naj se ob novem izpisu v terminalu drsnik premakne na dno."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"Izbrana možnost omogoča, da bo terminal ob vsakem novem izpisu zdrsel na "
+"dno."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -257,6 +268,8 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Privzeta barva pisave. Določena je lahko kot HTML, šestnajstiško, ali pa z "
+"imenom (npr. »red« za rdečo)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -267,6 +280,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Privzeta barva ozadja terminala. Določena je lahko kot HTML, šestnajstiško, "
+"ali pa z imenom (npr. »red« za rdečo)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -323,6 +338,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"Izbrana možnost omogoča, da bo terminal uporabil običajno pisavo namizja, če"
+" je ta eno-presledna (sicer bo uporabljena najbolj podobna najdena pisava)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -330,7 +347,7 @@ msgstr "Pisava"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "Ime pisave Pango. Primera: »Sans 12« in »Monospace Bold 14«."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 #: plugins/terminal/terminal.py:317
@@ -339,44 +356,44 @@ msgstr "Terminal"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "Enostaven gradnik terminala, ki je dosegljiv v spodnjem podoknu"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "Vdelani terminal"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Vdelani terminal v spodnjem podoknu."
 
 #: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "Spre_meni mapo"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "Interaktivno dopolnjevanje"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "Ali naj bo omogočeno interaktivno dopolnjevanje."
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "Najmanjša velikost besede"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "Najmanjša velikost besede, da se izvede dopolnjevanje."
 
 #: plugins/wordcompletion/pluma-word-completion-plugin.c:167
 msgid "Document Words"
-msgstr ""
+msgstr "Besede v dokumentu"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr ""
+msgstr "Dopolnjevanje besed"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "Dopolnjevanje besed z uporabo ogrodja za dopolnjevanje"

@@ -1,21 +1,21 @@
 # 
 # Translators:
 # Emiliano Fascetti, 2020
-# Toni Estévez <toni.estevez@gmail.com>, 2020
 # seacat <seacat.linux@gmail.com>, 2021
+# Toni Estévez <toni.estevez@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: seacat <seacat.linux@gmail.com>, 2021\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -42,7 +42,7 @@ msgstr "Complementos de Pluma"
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr "Utilice complementos para personalizar cómo pluma trabaja para Ud."
+msgstr "Use complementos para personalizar cómo pluma trabaja para Ud."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
@@ -199,7 +199,7 @@ msgstr "Autocompletar palabras o partes de código a medida que escribe. "
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
 msgid "Word Completion"
-msgstr ""
+msgstr "Compleción de palabras"
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:30
@@ -252,7 +252,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Completar los paréntesis"
 
 #. (itstool) path: page/p
 #: C/bracketcompletion.page:20
@@ -366,7 +366,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/synctex.page:21
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #. (itstool) path: page/p
 #: C/synctex.page:23

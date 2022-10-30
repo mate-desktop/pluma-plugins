@@ -7,6 +7,7 @@
 # Mingcong Bai <jeffbai@aosc.xyz>, 2021
 # Mingye Wang <arthur200126@gmail.com>, 2021
 # OkayPJ <1535253694@qq.com>, 2021
+# Wenbin Lv <wenbin816@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: OkayPJ <1535253694@qq.com>, 2021\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +35,7 @@ msgstr "带有书签的易用文档导航"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr "切换书签"
+msgstr "开关书签"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
@@ -58,142 +59,142 @@ msgstr "前往上一个书签"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "括号补全"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "自动添加右括号。"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "代码注释"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "注释或取消注释选中的代码块。"
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "注释代码(_M)"
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr ""
+msgstr "注释选中的代码"
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "取消注释代码(_N)"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "取消注释选中的代码"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "注释或取消注释代码块。"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "智能空格"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "忘记您没有使用制表符吧。"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
 #: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
 msgid "Source Code Browser"
-msgstr ""
+msgstr "源代码浏览器"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
 msgid "A source code class and function browser for Pluma."
-msgstr ""
+msgstr "Pluma 的源代码类和函数浏览器。"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
 msgid "Show _line numbers in tree"
-msgstr ""
+msgstr "在树中显示行号(_L)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
 msgid "Load symbols from _remote files"
-msgstr ""
+msgstr "从远程文件载入符号(_R)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
 msgid "Start with rows _expanded"
-msgstr ""
+msgstr "以行展开状态启动(_E)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
 msgid "_Sort list alphabetically"
-msgstr ""
+msgstr "按字母排序列表(_S)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
 msgid "ctags executable"
-msgstr ""
+msgstr "ctags 可执行文件"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
 msgid "ctags"
-msgstr ""
+msgstr "ctags"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "显示行号"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
-msgstr ""
+msgstr "在源码树中显示每个项目的行号。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
 msgid "Load Remote Files"
-msgstr ""
+msgstr "加载远程文件"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
 msgid "Download remote files into a temporary file for parsing the symbols."
-msgstr ""
+msgstr "将远程文件下载至临时文件以分析符号。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
 msgid "Expand Rows"
-msgstr ""
+msgstr "展开行"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
 msgid "Expand the entire source tree when initially loaded."
-msgstr ""
+msgstr "初始加载完成后展开整个源码树。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
 msgid "Sort List"
-msgstr ""
+msgstr "排序列表"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
 msgid ""
 "Sorts the list of symbols alphabetically rather than by where they occur in "
 "the source file."
-msgstr ""
+msgstr "按字母排序符号列表，而不是按照在源代码中的出现顺序。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
 msgid "Ctags Executable"
-msgstr ""
+msgstr "Ctags 可执行文件"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
 msgid "Specifies the executable path for Exuberant Ctags."
-msgstr ""
+msgstr "指定 Exuberant Ctags 可执行文件的路径。"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "使用 pluma 和 atril 同步 LaTeX 和 PDF"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "使用 pluma 和 atril 同步 LaTeX 和 PDF。"
 
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "前向搜索"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
@@ -203,7 +204,7 @@ msgstr "是否禁用终端响铃"
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
-msgstr ""
+msgstr "如果为 true，在应用程序发送表示终端响铃的转义序列时，不要发出声音。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -215,6 +216,7 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"要保留的回滚行数。您可以回滚终端这么多行；不在回滚范围之内的行将被丢弃。如果 scrollback_unlimited 为真，这个值将被忽略。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -233,16 +235,16 @@ msgstr "是否在按键时滚动到底部"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr "如果为真，按键就把滚动条滚动到底部。"
+msgstr "如果为真，按下按键时滚动条就会滚动到底部。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "是否在有新输出时滚动到底部"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
-msgstr ""
+msgstr "如果为真，在终端有新输出时滚动条就会滚动到底部。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -252,7 +254,7 @@ msgstr "终端文字的默认颜色"
 msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
-msgstr ""
+msgstr "终端文字的默认颜色，遵照颜色说明符的格式（可以是 HTML 风格的十六进制数码，也可以是像“red”这样的颜色名称）。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -262,7 +264,7 @@ msgstr "终端背景的默认颜色"
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
-msgstr ""
+msgstr "终端背景的默认颜色，遵照颜色说明符的格式（可以是 HTML 风格的十六进制数码，也可以是像“red”这样的颜色名称）。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -273,7 +275,8 @@ msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
-msgstr "终端使用 16 色的调色板，以供终端中的程序使用。这就是该调色板，格式为冒号分隔的颜色名称。颜色名必须是十六进制格式，即“#FF00FF”"
+msgstr ""
+"终端使用 16 色的调色板，以供终端中的程序使用。这就是该调色板，格式为冒号分隔的颜色名称。颜色名必须是十六进制格式，例如“#FF00FF”"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -283,7 +286,7 @@ msgstr "是否为终端部件使用主题中的颜色"
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
-msgstr "如果为真，终端就会使用文本输入框的主题颜色配对，而不是用户给出的颜色。"
+msgstr "如果为真，终端就会使用主题的文本输入框的颜色方案，而不是用户给出的颜色。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
@@ -293,7 +296,7 @@ msgstr "光标是否闪烁"
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
-msgstr ""
+msgstr "可供选择的值包括“system”可使用全局光标闪烁设置，“on”或“off”可显式设置模式。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -303,7 +306,7 @@ msgstr "光标外观"
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
-msgstr ""
+msgstr "可能值为“block”以使用块状光标，“ibeam”以使用 I 型光标，或者“underline”以使用下划线光标。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -313,7 +316,7 @@ msgstr "是否使用系统字体"
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
-msgstr ""
+msgstr "如果为真，终端就将使用与桌面环境相同的标准字体，假如该字体为等宽字体的话（否则就使用最为接近的字体）。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -321,7 +324,7 @@ msgstr "字体"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "Pango 字体名称。例如“Sans 12”或“Monospace Bold 14”。"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 #: plugins/terminal/terminal.py:317
@@ -330,44 +333,44 @@ msgstr "终端"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "一个简单的终端部件，可以从底部面板访问"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "内嵌终端"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "将终端嵌入底部面板。"
 
 #: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "改变目录(_H)"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "交互式补全"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "是否启用交互式补全。"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "最小单词长度"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "补全的最小单词长度。"
 
 #: plugins/wordcompletion/pluma-word-completion-plugin.c:167
 msgid "Document Words"
-msgstr ""
+msgstr "文档单词"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr ""
+msgstr "单词补全"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "使用补全框架的单词补全"

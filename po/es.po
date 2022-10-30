@@ -5,11 +5,11 @@
 # 
 # Translators:
 # Emiliano Fascetti, 2020
-# Adolfo Jayme Barrientos, 2021
-# Toni Estévez <toni.estevez@gmail.com>, 2021
+# Adolfo Jayme-Barrientos, 2021
 # ebray187 <ebray187@gmail.com>, 2021
 # Miguel de Dios Matias <tres.14159@gmail.com>, 2021
 # seacat <seacat.linux@gmail.com>, 2021
+# Toni Estévez <toni.estevez@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -17,13 +17,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: seacat <seacat.linux@gmail.com>, 2021\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
@@ -33,39 +33,39 @@ msgstr "Marcadores"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Navegación sencilla por los documentos con marcadores"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Activa o desactiva el marcador"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Cambiar el estado del marcador de la línea actual"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Ir al marcador siguiente"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Ir al marcador siguiente"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Ir al marcador anterior"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Ir al marcador anterior"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Completar los paréntesis"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Añadir automáticamente los paréntesis de cierre."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
@@ -74,129 +74,134 @@ msgstr "Comentario del código"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Comentar o descomentar un bloque de código seleccionado."
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "Co_menta el código"
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Comentar el código seleccionado"
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "Decome_ntar el código"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Descomentar el código seleccionado"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Comentar o descomentar bloques de código."
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Espacios inteligentes"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "Olvidarse de que no está usando tabulaciones."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
 #: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
 msgid "Source Code Browser"
-msgstr ""
+msgstr "Navegador de código fuente"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
 msgid "A source code class and function browser for Pluma."
-msgstr ""
+msgstr "Un navegador de clases y funciones en código fuente para Pluma."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
 msgid "Show _line numbers in tree"
-msgstr ""
+msgstr "Mostrar los números de _línea en el árbol"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
 msgid "Load symbols from _remote files"
-msgstr ""
+msgstr "Cargar los símbolos desde archivos _remotos"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
 msgid "Start with rows _expanded"
-msgstr ""
+msgstr "Comenzar con las filas _expandidas"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
 msgid "_Sort list alphabetically"
-msgstr ""
+msgstr "_Ordenar la lista alfabéticamente"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
 msgid "ctags executable"
-msgstr ""
+msgstr "ejecutable de ctags"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
 msgid "ctags"
-msgstr ""
+msgstr "ctags"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "Mostrar los números de línea"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
 msgstr ""
+"Mostar los números de línea de cada elemento en el árbol del código fuente."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
 msgid "Load Remote Files"
-msgstr ""
+msgstr "Cargar archivos remotos"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
 msgid "Download remote files into a temporary file for parsing the symbols."
 msgstr ""
+"Descargar los archivos remotos en un archivo temporal para analizar los "
+"símbolos."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
 msgid "Expand Rows"
-msgstr ""
+msgstr "Expandir las filas"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
 msgid "Expand the entire source tree when initially loaded."
-msgstr ""
+msgstr "Expandir todo el árbol de fuentes cuando se carga inicialmente."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
 msgid "Sort List"
-msgstr ""
+msgstr "Ordenar la lista"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
 msgid ""
 "Sorts the list of symbols alphabetically rather than by where they occur in "
 "the source file."
 msgstr ""
+"Ordenar la lista de símbolos alfabéticamente en vez de por el lugar donde se"
+" encuentran en el archivo fuente."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
 msgid "Ctags Executable"
-msgstr ""
+msgstr "Ejecutable de ctags"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
 msgid "Specifies the executable path for Exuberant Ctags."
-msgstr ""
+msgstr "Especifica la ruta de ejecución de Exuberant Ctags."
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Sincronizar LaTeX y PDF con Pluma y Atril"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Sincronizar LaTeX y PDF con Pluma y Atril."
 
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Búsqueda hacia adelante"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
@@ -207,6 +212,8 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"Si se activa, no emite un sonido cuando las aplicaciones envían la secuencia"
+" de escape para el timbre del terminal."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -218,12 +225,16 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Número de líneas disponibles en  el desplazamiento hacia atrás. Puede "
+"retroceder en el terminal este número de líneas; las líneas que no caben en "
+"el desplazamiento hacia atrás se descartan. Si se activa la opción de "
+"desplazamiento hacia atrás ilimitado, este valor se ignora."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
-"Define si se debe mantener un número ilimitado de líneas en el "
-"desplazamiento hacia atrás."
+"Si se debe permitir un número ilimitado de líneas en el desplazamiento hacia"
+" atrás."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
 msgid ""
@@ -238,7 +249,7 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:47
 msgid "Whether to scroll to the bottom when a key is pressed"
-msgstr "Define si se debe desplazar hasta el final cuando se pulse una tecla"
+msgstr "Si se debe desplazar hasta el final cuando se pulse una tecla"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
@@ -248,12 +259,14 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Si se desplaza hasta el final cuando hay una nueva salida"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"Si se activa, cada vez que haya una salida nueva, el terminal se desplazará "
+"hasta el final."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -264,6 +277,9 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Color predeterminado del texto en el terminal, como una especificación de "
+"color (puede ser en estilo hexadecimal de HTML o el nombre de un color en "
+"inglés como «red»)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -274,6 +290,9 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Color predeterminado del fondo del terminal, como una especificación de "
+"color (puede ser en estilo hexadecimal de HTML o el nombre de un color en "
+"inglés como «red»)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -305,13 +324,15 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
-msgstr "Define si el cursor debe parpadear"
+msgstr "Si el cursor debe parpadear"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:96
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Los valores posibles son «system», para usar los ajustes de parpadeo "
+"globales, o bien «on» u «off», para configurar el modo explícitamente."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -322,6 +343,9 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
+"Los valores posibles son «block» (bloque) para usar un cursor de bloque, "
+"«ibeam» (doble T) para usar una línea de cursor vertical o «underline» "
+"(subrayado) para usar un cursor de subrayado."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -332,6 +356,9 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"Si se activa, el terminal usará la tipografía predeterminada del escritorio "
+"si es monoespaciada (de ancho fijo) y, si no es así, buscará la más parecida"
+" que se pueda encontrar."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -340,6 +367,8 @@ msgstr "Tipografía"
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
+"Un nombre de tipografía de Pango. Algunos ejemplos son «Sans 12» o "
+"«Monospace Bold 14»."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 #: plugins/terminal/terminal.py:317
@@ -348,7 +377,7 @@ msgstr "Terminal"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "Un sencillo componente de terminal accesible desde el panel inferior"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
@@ -356,36 +385,36 @@ msgstr "Terminal empotrado"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Incrustar un terminal en el panel inferior."
 
 #: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "Ca_mbiar de carpeta"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "Compleción interactiva"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "Si se permite la compleción interactiva."
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "Tamaño mínimo de la palabra"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "El tamaño mínimo de la palabra para completar."
 
 #: plugins/wordcompletion/pluma-word-completion-plugin.c:167
 msgid "Document Words"
-msgstr ""
+msgstr "Palabras del documento"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr ""
+msgstr "Compleción de palabras"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "Compleción de palabras mediante el marco de trabajo de compleción"

@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Cédric Valmary <cvalmary@yahoo.fr>, 2021
+# Quentin PAGÈS, 2022
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Cédric Valmary <cvalmary@yahoo.fr>, 2021\n"
+"Last-Translator: Quentin PAGÈS, 2022\n"
 "Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,11 +30,11 @@ msgstr "Favorits"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Navigar aisidament dins vòstres documents amb los marcapaginas"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Activar/desactivar lo marcapagina"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
@@ -41,7 +42,7 @@ msgstr ""
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Anar al marcapagina seguent"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
@@ -49,7 +50,7 @@ msgstr ""
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Anar al marcapagina precedent"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
@@ -57,24 +58,24 @@ msgstr ""
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Complecion de parentèsis"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Apondre automaticament las parentèsis tampantas."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Comentador de còdi"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Comentar o descomentar un blòt de còdi seleccionat."
 
 #: plugins/codecomment/codecomment.py:92
 msgid "Co_mment Code"
-msgstr ""
+msgstr "_Comentar lo còdi"
 
 #: plugins/codecomment/codecomment.py:94
 msgid "Comment the selected code"
@@ -82,7 +83,7 @@ msgstr ""
 
 #: plugins/codecomment/codecomment.py:98
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "_Descomentar lo còdi"
 
 #: plugins/codecomment/codecomment.py:100
 msgid "Uncomment the selected code"
@@ -90,15 +91,15 @@ msgstr ""
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Comenta o descomenta de blòts de còdi"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Espacis intelligents"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "Doblidatz qu'utilizatz pas las tabulacions."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
@@ -136,7 +137,7 @@ msgstr ""
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "Afichar los numèros de linha"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
@@ -179,7 +180,7 @@ msgstr ""
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
@@ -192,11 +193,11 @@ msgstr ""
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Recercar en avant"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
-msgstr ""
+msgstr "Indica se cal rendre mut lo bip del terminal"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
@@ -244,11 +245,14 @@ msgstr "Se verai, quichar una tòca fa desfilar lo terminal fins al bas."
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr ""
+"Indica se cal anar en bas del terminal quand de tèxte novèl es afichat"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"se definit a true, tota novèla sortida afichada farà desfilar lo terminal "
+"fins al bas."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -259,16 +263,22 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Color per defaut del tèxte dins lo terminal. Coma en HTML, aquesta color pòt"
+" èsser indicada per un nom (« red ») o per de valors exadecimalas (« #FF003F"
+" »)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
-msgstr "Color per defaut del rèire plan del terminal"
+msgstr "Color per defaut del rèireplan del terminal"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Color per defaut del rèireplan del terminal. Coma en HTML, aquesta color pòt"
+" èsser indicada per un nom (« red ») o per de valors exadecimalas (« #FF003F"
+" »)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -290,6 +300,9 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
+"se definit a true, lo jòc de colors del tèma utilizat per las bóstias de "
+"sasida de tèxte es utilizat pel terminal, a la plaça de las colors indicadas"
+" per l'utilizaire."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
@@ -300,6 +313,9 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Las valors possiblas son « system » (sistèma) per utilizar las preferéncias "
+"globalas de cluquejament del cursor, o « on » (actiu) e « off » (inactiu) "
+"per definir explicitament lo mòde."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -313,21 +329,25 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
-msgstr "Utilizar la poliça sistèma"
+msgstr "Utilizar la polissa sistèma"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:112
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"se definit a true, lo terminal utiliza la polissa globala estandarda del "
+"burèu se es monospace (e, manca d'aquò, la polissa la mai semblanta que "
+"tròbe)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
-msgstr "Poliça"
+msgstr "Polissa"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 msgstr ""
+"Un nom de police Pango. Per exemple : « Sans 12 » o « Monospace Bold 14 »."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 #: plugins/terminal/terminal.py:317
@@ -337,43 +357,44 @@ msgstr "Terminal"
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
 msgstr ""
+"Un simple element grafic del terminal accessible dins lo panèl del bas"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "Terminal integrat"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Intègra un terminal dins lo panèl del bas."
 
 #: plugins/terminal/terminal.py:338
 msgid "C_hange Directory"
-msgstr ""
+msgstr "C_ambiar de repertòri"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "Complecion Interactiva"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "Indica se cal activar la complecion interactiva."
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "Talha minimum del mot"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "Indica la talha minimum del mot de completar."
 
 #: plugins/wordcompletion/pluma-word-completion-plugin.c:167
 msgid "Document Words"
-msgstr ""
+msgstr "Mots del document"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr ""
+msgstr "Complecion dels mots"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "Complecion de mots, utiliza l'estructura de complecion"

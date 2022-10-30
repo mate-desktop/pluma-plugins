@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Mika Kobayashi, 2020
+# fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2020
 # ABE Tsunehiko, 2021
 # Rockers <sumorock@hotmail.com>, 2021
 # Green, 2021

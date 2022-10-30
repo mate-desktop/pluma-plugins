@@ -2,14 +2,14 @@
 # Translators:
 # Paweł Bandura <gawelx@gmail.com>, 2020
 # Daniel Tokarzewski <bezimo@gmail.com>, 2020
-# No Ne, 2020
+# Marek Adamski, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: No Ne, 2020\n"
+"Last-Translator: Marek Adamski, 2021\n"
 "Language-Team: Polish (https://www.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -201,7 +201,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
 msgid "Word Completion"
-msgstr ""
+msgstr "Uzupełnianie słów"
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:30
@@ -254,7 +254,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Uzupełnianie nawiasów"
 
 #. (itstool) path: page/p
 #: C/bracketcompletion.page:20
@@ -291,7 +291,7 @@ msgstr "Dodawanie lub usuwanie komentarzy z bloku kodu."
 #. (itstool) path: page/title
 #: C/codecomment.page:18
 msgid "Code Comment"
-msgstr ""
+msgstr "Komentarz do kodu"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -361,7 +361,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/synctex.page:21
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #. (itstool) path: page/p
 #: C/synctex.page:23

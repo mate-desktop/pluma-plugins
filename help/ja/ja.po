@@ -1,6 +1,6 @@
 # 
 # Translators:
-# Mika Kobayashi, 2020
+# fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2020
 # Green, 2021
 # 
 msgid ""
@@ -30,7 +30,8 @@ msgstr ""
 "やまね ひでき \n"
 "草野 貴之 \n"
 "松澤 二郎 \n"
-"日本GNOMEユーザー会 http://www.gnome.gr.jp/\n"
+"Green, alias usergreen \n"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp/ \n"
 "MATE 文書化チーム https://www.transifex.com/mate/ "
 
 #. (itstool) path: info/title

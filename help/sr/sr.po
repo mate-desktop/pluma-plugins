@@ -458,8 +458,9 @@ msgid ""
 "xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
-"Пречице и контроле миша су такође документоване у <link xref=\"help:atril"
-"/synctex-search\"> <app>атрил</app>-СинкТеКс документацији</link>."
+"Пречице и контроле миша су такође документоване у <link "
+"xref=\"help:atril/synctex-search\"> <app>атрил</app>-СинкТеКс "
+"документацији</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:60

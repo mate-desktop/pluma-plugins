@@ -1,25 +1,25 @@
 # 
 # Translators:
 # Dario Di Nucci <linkin88mail@gmail.com>, 2020
-# Alessandro Volturno <alelvb@inwind.it>, 2021
+# Alessandro Volturno <alelvb@inwind.it>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr " Alessandro Volturno, 2020, 2021"
+msgstr " Alessandro Volturno, 2020, 2022"
 
 #. (itstool) path: info/title
 #: C/index.page:7
@@ -68,7 +68,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr "Pluma Plugins Aggiuntivi"
+msgstr "Plugins di Pluma Aggiuntivi"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -92,7 +92,8 @@ msgstr ""
 #: C/bookmarks.page:15
 msgid "Record commonly-referenced locations with bookmarks."
 msgstr ""
-"Ricordare luoghi a cui si fa riferimento di frequente con i segnalibri. "
+"Registrare luoghi a cui si fa riferimento di frequente mediante i "
+"segnalibri. "
 
 #. (itstool) path: page/title
 #: C/bookmarks.page:18
@@ -199,7 +200,7 @@ msgstr "Sindhu S"
 #: C/wordcompletion.page:25
 msgid "Autocomplete words or portions of code as you type."
 msgstr ""
-"Completa automaticamente le parole o porzioni di codice mentre si scrive."
+"Completare automaticamente le parole o porzioni di codice mentre si scrive."
 
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
@@ -247,11 +248,11 @@ msgid ""
 "document and upon pre-defined keywords if your document is of a recognised "
 "format."
 msgstr ""
-"Mentre si modifica, il plugin <app>Completamentpo della parola</app> "
-"mostrerà automaticamente un elenco a comparsa di parole che iniziano con le "
-"lettere già digitate. I suggerimenti per le parole sono basati sulle parole "
-"che compaiono in altri punti del documento e su parole chiave predefinite se"
-" il vostro documento è in un formato riconosciuto. "
+"Mentre si modifica, il plugin <app>Completamento della parola</app> mostrerà"
+" automaticamente un elenco a comparsa di parole che iniziano con le lettere "
+"già digitate. I suggerimenti per le parole sono basati sulle parole che "
+"compaiono in altri punti del documento e su parole chiave predefinite se il "
+"vostro documento è in un formato riconosciuto. "
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:52
@@ -267,7 +268,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
-msgstr "Chiusura automatica delle parntesi."
+msgstr "Chiusura automatica delle parentesi."
 
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
@@ -316,7 +317,7 @@ msgstr "Commentare o decommentare un blocco di codice."
 #. (itstool) path: page/title
 #: C/codecomment.page:18
 msgid "Code Comment"
-msgstr "Commenta il codice"
+msgstr "Commentare il codice"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -396,7 +397,7 @@ msgstr ""
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
 msgstr ""
-"Alterna rapidamente la visualizzazione tra un documento sorgente TeX e la "
+"Alternrea rapidamente la visualizzazione tra un documento sorgente TeX e la "
 "sua rappresentazione in atril."
 
 #. (itstool) path: page/title

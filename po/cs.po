@@ -5,7 +5,7 @@
 # 
 # Translators:
 # huskyviking <husky.viking@seznam.cz>, 2020
-# LiberteCzech <liberte.czech@gmail.com>, 2021
+# LiberteCzech <martin.kriz.czech@gmail.com>, 2021
 # 6e833d5535e2fe0dd9dfa7fe5bf473f2_d78f422 <64c38a0ff10419c64e8e03d54c72b3bd_352524>, 2021
 # ToMáš Marný, 2021
 # Lukáš Lommer <drom@kdyne.net>, 2021

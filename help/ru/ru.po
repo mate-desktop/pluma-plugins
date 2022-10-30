@@ -1,14 +1,16 @@
 # 
 # Translators:
-# Alexei Sorokin, 2020
+# XRevan86, 2020
 # Дмитрий Астанков <mornie@basealt.ru>, 2020
+# DrSheppard <georg.b2012@gmail.com>, 2022
+# Ser82, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Дмитрий Астанков <mornie@basealt.ru>, 2020\n"
+"Last-Translator: Ser82, 2022\n"
 "Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -195,7 +197,7 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:19 C/terminal.page:16
 msgid "Sindhu S"
-msgstr ""
+msgstr "Синдху С"
 
 #. (itstool) path: info/desc
 #: C/wordcompletion.page:25
@@ -205,7 +207,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
 msgid "Word Completion"
-msgstr ""
+msgstr "Завершение слов"
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:30
@@ -258,7 +260,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Дополнение скобок"
 
 #. (itstool) path: page/p
 #: C/bracketcompletion.page:20
@@ -295,7 +297,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/codecomment.page:18
 msgid "Code Comment"
-msgstr ""
+msgstr "Комментирование кода"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -358,7 +360,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/synctex.page:21
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #. (itstool) path: page/p
 #: C/synctex.page:23
@@ -426,7 +428,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/terminal.page:25
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "Встроенный терминал"
 
 #. (itstool) path: page/p
 #: C/terminal.page:27

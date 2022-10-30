@@ -20,10 +20,10 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"\"Joe Hansen, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019.\\n\"\n"
-"\"\\n\"\n"
-"\"Dansk-gruppen <dansk@dansk-gruppen.dk>\\n\"\n"
-"\"Mere info: http://www.dansk-gruppen.dk\""
+"Joe Hansen 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021.\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
 
 #. (itstool) path: info/title
 #: C/index.page:7
@@ -56,7 +56,7 @@ msgstr "Robert Buj"
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Plumaudvidelsesmoduler"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -72,7 +72,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Yderligere Plumaudvidelesmoduler"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -121,6 +121,10 @@ msgid ""
 " <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
+"For at aktivere udvidelsesmodulet med bogmærker vælges <guiseq><gui "
+"style=\"menu\">Rediger</gui> <gui "
+"style=\"menuitem\">Pæeferencer</gui><gui>Udvidelsesmoduler</gui> "
+"<gui>Bogmærker</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
@@ -178,6 +182,10 @@ msgid ""
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
+"Hvis du foretrækker at bruge musen, så kan du klikke <guiseq><gui "
+"style=\"menu\">Rediger</gui><gui style=\"menuitem\">Gå til næste "
+"bogmærke</gui></guiseq> eller <guiseq><gui style=\"menu\">Rediger</gui> <gui"
+" style=\"menuitem\">Gå til forrige bogmærke</gui></guiseq>."
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
@@ -332,6 +340,11 @@ msgid ""
 " style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
 "<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
+"Udvidelsesmodulet <app>kodekommentar</app> gør det muligt hurtigt at oprette"
+" eller fjerne kodekommentarer. For at aktivere udvidelsesmodulet for "
+"kodekommentarer vælges <guiseq><gui style=\"menu\">Rediger</gui><gui "
+"style=\"menuitem\">Præferencer</gui> "
+"<gui>Udvidelsesmoduler</gui><gui>Kodekommentar</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/codecomment.page:31
@@ -352,6 +365,9 @@ msgid ""
 "To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
 "Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
+"For at tilføje en kommentar, klik på <guiseq><gui "
+"style=\"menu\">Rediger</gui> <gui>Kommentarkode</gui></guiseq>, eller tryk "
+"på <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
@@ -360,6 +376,9 @@ msgid ""
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
+"For at fjerne en kommentar, klik på <guiseq><gui "
+"style=\"menu\">Rediger</gui> <gui>Kommentarkode</gui></guiseq>, eller tryk "
+"på <keyseq><key>Skift</key><key>Ctrl</key><key> M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/codecomment.page:49
@@ -379,6 +398,7 @@ msgstr ""
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
 msgstr ""
+"Skift hurtigt mellem TeX-kildefiler og optegnede PDF-dokumenter i atril."
 
 #. (itstool) path: page/title
 #: C/synctex.page:21
@@ -393,11 +413,15 @@ msgid ""
 "use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>atril</app> and vice versa."
 msgstr ""
+"SyncTeX er en metode, der aktiverer synkronisering mellem en TeX-kildefil og"
+" PDF-resultatet oprettet af en TeX/LaTeX-kompiler. Dette udvidelsesmodul "
+"gør, at SyncTeX kan bruges i <app>Pluma</app> til hurtigt at skifte fra en "
+"åbnet TeX-kildefil til et PDF-dokument åbnet i <app>Atril</app> og omvendt."
 
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "For at aktivere <app>SyncTeX</app>-udvidelsesmodulet:"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -406,11 +430,16 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Vælg <guiseq><gui style=\"menu\">Rediger</gui> <gui "
+"style=\"menuitem\">Præferencer</gui> <gui "
+"style=\"tab\">Udvidelsesmoduler</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
 msgstr ""
+"Vælg <gui style=\"menuitem\">SyncTeX</gui> for at aktivere "
+"udvidelsesmodulet."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -419,6 +448,9 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>atril</app> must be installed."
 msgstr ""
+"For at være nyttigt, så kræver dette udvidelsesmodul at en TeX/LaTeX-"
+"kompiler og SyncTeX er installeret. Begge tilbydes af TeX-distributioner "
+"såsom TeX Live.  <app>Atril</app> skal også være installeret."
 
 #. (itstool) path: item/p
 #: C/synctex.page:49
@@ -427,6 +459,9 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"Lidt grundlæggende information om opsætning af SyncTeX og kompilering af "
+"LaTeX-dokumenter kan findes <link "
+"xref=\"help:atril#synctex\"><app>Atril</app>-SyncTeX-dokumentationen</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -435,6 +470,9 @@ msgid ""
 "xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
+"Genvejstaster og musekontrol er også dokumenteret i <link "
+"xref=\"help:atril/synctex-search\"> <app>Atril</app>-SyncTeX "
+"dokumentationen</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:60
@@ -442,6 +480,8 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> og <app>Gummi</app> er alternative "
+"tekstredigeringsprogrammer specielt designet for at skrive TeX-kode."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
