@@ -96,7 +96,7 @@ disabled_plugins=""
 
 # Check all plugins are built
 AC_ARG_ENABLE([verify-all],
-              AC_HELP_STRING([--enable-verify-all], [verify that all plugins are enabled]),
+              AS_HELP_STRING([--enable-verify-all], [verify that all plugins are enabled]),
               [enable_verify_all=$enableval],
               [enable_verify_all="no"])
 
