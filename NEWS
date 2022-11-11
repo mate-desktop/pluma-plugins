@@ -1,3 +1,23 @@
+### pluma-plugins 1.27.0
+
+  * configure.ac: The macro 'AC_HELP_STRING' is obsolete (#38)
+  * tx: sync with transifex
+  * tx: migrate config file
+  * travis: disable cppcheck deployment to fix fedora build
+  * travis: fix building broken by previous commit
+  * Fix synctex plugin dependency detection
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * ci: build pluma dependency from debian testing repo
+  * sourcecodebrowser: Add full BSD-3-Clause legal notice
+  * bookmarks: remove an unnecessary assignment g_string_free (string, free_segment) returns NULL if free_segment is TRUE
+  * add quickhighlight plugin
+  * wordcompletion: use a blank line at most
+  * Update Readme
+  * syntex: remove shebang in atril_dbus.py
+  * synctex-plugin: Delete unused imports
+  * codecomment-plugin: Delete unused imports
+  * terminal-plugin: Delete unused imports
+
 ### pluma-plugins 1.26.0
 
   * update translations
