@@ -2,14 +2,15 @@
 # Translators:
 # Dario Di Nucci <linkin88mail@gmail.com>, 2020
 # Alessandro Volturno <alelvb@inwind.it>, 2022
+# Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Language-Team: Italian (https://app.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -183,8 +184,8 @@ msgid ""
 msgstr ""
 "Se si preferisce utilizzare il mouse, è possibile fare clic su <guiseq><gui "
 "style=\"menu\">Modifica</gui><gui style=\"menuitem\">Vai al segnalibro "
-"successivo</gui></guiseq> o <gui style=\"menu\">Modifica</gui> <gui "
-"style=\"menuitem\">Vai al segnalibro precedente</gui><guiseq>."
+"successivo</gui></guiseq> o <guiseq><gui style=\"menu\">Modifica</gui> <gui "
+"style=\"menuitem\">Vai al segnalibro precedente</gui></guiseq>."
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
