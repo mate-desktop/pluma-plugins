@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
+# Andi Chandler <andi@gowling.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Project-Id-Version: pluma-plugins 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-06-26 22:39+0200\n"
+"POT-Creation-Date: 2023-09-10 11:43+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Martin Wimpress <code@flexion.org>, 2021\n"
-"Language-Team: English (United Kingdom) (https://www.transifex.com/mate/teams/13566/en_GB/)\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
+"Language-Team: English (United Kingdom) (https://app.transifex.com/mate/teams/13566/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,170 +29,172 @@ msgstr "Bookmarks"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Easy document navigation with bookmarks"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Toggle Bookmark"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Toggle bookmark status of the current line"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Go to Next Bookmark"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Go to the next bookmark"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Go to Previous Bookmark"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Go to the previous bookmark"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Bracket Completion"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Automatically adds closing brackets."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Code Comment"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "Comment out or uncomment a selected block of code."
 
-#: plugins/codecomment/codecomment.py:92
+#: plugins/codecomment/codecomment.py:91
 msgid "Co_mment Code"
-msgstr ""
+msgstr "Co_mment Code"
 
-#: plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:93
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Comment the selected code"
 
-#: plugins/codecomment/codecomment.py:98
+#: plugins/codecomment/codecomment.py:97
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "U_ncomment Code"
 
-#: plugins/codecomment/codecomment.py:100
+#: plugins/codecomment/codecomment.py:99
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Uncomment the selected code"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Comment or uncomment blocks of code"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Smart Spaces"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "Forget you're not using tabulations."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
-#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:374
 msgid "Source Code Browser"
-msgstr ""
+msgstr "Source Code Browser"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
 msgid "A source code class and function browser for Pluma."
-msgstr ""
+msgstr "A source code class and function browser for Pluma."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
 msgid "Show _line numbers in tree"
-msgstr ""
+msgstr "Show _line numbers in tree"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
 msgid "Load symbols from _remote files"
-msgstr ""
+msgstr "Load symbols from _remote files"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
 msgid "Start with rows _expanded"
-msgstr ""
+msgstr "Start with rows _expanded"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
 msgid "_Sort list alphabetically"
-msgstr ""
+msgstr "_Sort list alphabetically"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
 msgid "ctags executable"
-msgstr ""
+msgstr "ctags executable"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
 msgid "ctags"
-msgstr ""
+msgstr "ctags"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "Show Line Numbers"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
-msgstr ""
+msgstr "Show the line number of each item in the source tree."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
 msgid "Load Remote Files"
-msgstr ""
+msgstr "Load Remote Files"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
 msgid "Download remote files into a temporary file for parsing the symbols."
-msgstr ""
+msgstr "Download remote files into a temporary file for parsing the symbols."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
 msgid "Expand Rows"
-msgstr ""
+msgstr "Expand Rows"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
 msgid "Expand the entire source tree when initially loaded."
-msgstr ""
+msgstr "Expand the entire source tree when initially loaded."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
 msgid "Sort List"
-msgstr ""
+msgstr "Sort List"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
 msgid ""
 "Sorts the list of symbols alphabetically rather than by where they occur in "
 "the source file."
 msgstr ""
+"Sorts the list of symbols alphabetically rather than by where they occur in "
+"the source file."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
 msgid "Ctags Executable"
-msgstr ""
+msgstr "Ctags Executable"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
 msgid "Specifies the executable path for Exuberant Ctags."
-msgstr ""
+msgstr "Specifies the executable path for Exuberant Ctags."
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Synchronize between LaTeX and PDF with pluma and atril"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Synchronise between LaTeX and PDF with pluma and atril."
 
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Forward Search"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
@@ -203,6 +205,8 @@ msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -214,6 +218,9 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are"
+" discarded. If scrollback-unlimited is true, this value is ignored."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -239,12 +246,13 @@ msgstr "If true, pressing a key jumps the scrollbar to the bottom."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Whether to scroll to the bottom when there’s new output"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -255,6 +263,8 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Default colour of text in the terminal, as a colour specification (can be "
+"HTML-style hex digits, or a colour name such as “red”)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -265,6 +275,8 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Default colour of terminal background, as a colour specification (can be "
+"HTML-style hex digits, or a colour name such as “red”)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -301,6 +313,8 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"The possible values are “system” to use the global cursor blinking settings,"
+" or “on” or “off” to set the mode explicitly."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -311,6 +325,8 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -321,6 +337,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -328,53 +346,63 @@ msgstr "Font"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
-#: plugins/terminal/terminal.py:317
+#: plugins/terminal/terminal.py:315
 msgid "Terminal"
 msgstr "Terminal"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "A simple terminal widget accessible from the bottom panel"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "Embedded Terminal"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Embed a terminal in the bottom pane."
 
-#: plugins/terminal/terminal.py:338
+#: plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
-msgstr ""
+msgstr "C_hange Directory"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "Interactive Completion"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "Whether to enable interactive completion."
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "Minimum Word Size"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "The minimum word size to complete."
 
-#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:166
 msgid "Document Words"
-msgstr ""
+msgstr "Document Words"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr ""
+msgstr "Word Completion"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
+msgstr "Word completion using the completion framework"
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
+msgid "Quickhighlight"
+msgstr ""
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
+msgid "Highlights every occurrences of selected text"
 msgstr ""

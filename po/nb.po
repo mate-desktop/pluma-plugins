@@ -10,12 +10,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Project-Id-Version: pluma-plugins 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-06-26 22:39+0200\n"
+"POT-Creation-Date: 2023-09-10 11:43+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
 "Last-Translator: heskjestad <cato@heskjestad.xyz>, 2021\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/mate/teams/13566/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/mate/teams/13566/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -73,19 +73,19 @@ msgstr "Kommenter kode"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Kommentere vekk eller avkommentere en del kode."
 
-#: plugins/codecomment/codecomment.py:92
+#: plugins/codecomment/codecomment.py:91
 msgid "Co_mment Code"
 msgstr "Ko_mmenter kode"
 
-#: plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:93
 msgid "Comment the selected code"
 msgstr "Kommenter valgt kode"
 
-#: plugins/codecomment/codecomment.py:98
+#: plugins/codecomment/codecomment.py:97
 msgid "U_ncomment Code"
 msgstr "Avkomme_nter kode"
 
-#: plugins/codecomment/codecomment.py:100
+#: plugins/codecomment/codecomment.py:99
 msgid "Uncomment the selected code"
 msgstr "Avkommenter valgt kode"
 
@@ -103,7 +103,7 @@ msgstr "Glem at du ikke bruker tabulator."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
-#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:374
 msgid "Source Code Browser"
 msgstr "Utforsk kildekode"
 
@@ -350,7 +350,7 @@ msgstr ""
 "Et Pango-skriftnavn. For eksempel «Sans 12» eller «Monospace Bold 14»."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
-#: plugins/terminal/terminal.py:317
+#: plugins/terminal/terminal.py:315
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -366,7 +366,7 @@ msgstr "Innebygd terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Bygg inn en terminal i nederste rute. "
 
-#: plugins/terminal/terminal.py:338
+#: plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
 msgstr "Endre ma_ppe"
 
@@ -386,7 +386,7 @@ msgstr "Minste ordlengde"
 msgid "The minimum word size to complete."
 msgstr "Minste ordlengde som skal fullføres."
 
-#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:166
 msgid "Document Words"
 msgstr "Ord i dokument"
 
@@ -397,3 +397,13 @@ msgstr "Fullføring av ord"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Fullføring av ord med rammeverk for fullføring"
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
+msgid "Quickhighlight"
+msgstr ""
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
+msgid "Highlights every occurrences of selected text"
+msgstr ""

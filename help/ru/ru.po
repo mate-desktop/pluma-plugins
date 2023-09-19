@@ -3,15 +3,15 @@
 # XRevan86, 2020
 # Дмитрий Астанков <mornie@basealt.ru>, 2020
 # DrSheppard <georg.b2012@gmail.com>, 2022
-# Ser82, 2022
+# Sergej A. <Ser82-png@yandex.ru>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Ser82, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"Last-Translator: Sergej A. <Ser82-png@yandex.ru>, 2022\n"
+"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -59,34 +59,34 @@ msgstr ""
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Модули Pluma"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Модули Pluma"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr ""
+msgstr "Использование модулей для настройки pluma под себя."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
 #: C/bracketcompletion.page:11 C/codecomment.page:11 C/terminal.page:12
 msgid "Jim Campbell"
-msgstr ""
+msgstr "Джим Кэмпбелл (Jim Campbell)"
 
 #. (itstool) path: credit/name
 #: C/index.page:16
 msgid "Robert Buj"
-msgstr ""
+msgstr "Роберт Буй (Robert Buj)"
 
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Модули Pluma"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -95,16 +95,18 @@ msgid ""
 "installed by default, but a large number of other plugins are available "
 "separately."
 msgstr ""
+"Расширить функционал <app>pluma</app> можно с помощью модулей. Некоторые "
+"модули установлены по умолчанию, но большее количество доступно отдельно."
 
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Дополнительные модули Pluma"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
-msgstr ""
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
 #. (itstool) path: license/p
 #: C/legal-plugins.xml:5
@@ -114,11 +116,15 @@ msgid ""
 "a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
 "California, 94041, USA."
 msgstr ""
+"Эта работа находится под лицензией Creative Commons Attribution-ShareAlike "
+"3.0 Unported License. Чтобы просмотреть копию этой лицензии, посетите "
+"<_:link-1/> или отправьте письмо в Creative Commons, 444 Castro Street, "
+"Suite 900, Mountain View, California, 94041, USA."
 
 #. (itstool) path: info/desc
 #: C/bookmarks.page:15
 msgid "Record commonly-referenced locations with bookmarks."
-msgstr ""
+msgstr "Обозначение часто посещаемых мест с помощью закладок."
 
 #. (itstool) path: page/title
 #: C/bookmarks.page:18
@@ -132,6 +138,10 @@ msgid ""
 "within your document or program, making them easier to find. You can also "
 "move up or down between bookmarks, making document navigation a bit faster."
 msgstr ""
+"Закладки <app>pluma</app> позволяют выделить важные строки текста в "
+"документе или программе, что позволяет легче их находить. Также можно "
+"перемещаться вверх и вниз между закладками, что делает навигацию по "
+"документу немного быстрее."
 
 #. (itstool) path: page/p
 #: C/bookmarks.page:25
@@ -140,6 +150,10 @@ msgid ""
 " <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
+"Чтобы включить модуль «Закладки», выберите <guiseq><gui "
+"style=\"menu\">Правка</gui> <gui "
+"style=\"menuitem\">Параметры</gui><gui>Модули</gui> "
+"<gui>Закладки</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
@@ -147,11 +161,15 @@ msgid ""
 "Bookmarks are inserted and removed by completing the same action. To insert "
 "or remove bookmarks:"
 msgstr ""
+"Добавление и удаление закладок выполняется одним и тем же способом. Чтобы "
+"вставить или удалить закладки:"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:33
 msgid "Navigate to the line where you want to insert or remove the bookmark."
 msgstr ""
+"Перейдите на строку, для которой нужно добавить закладку или с которой надо "
+"удалить закладку."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:37
@@ -160,11 +178,15 @@ msgid ""
 "<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
 "Bookmark</gui></guiseq>."
 msgstr ""
+"Нажмите комбинацию клавиш "
+"<keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, или щёлкните "
+"<guiseq><gui style=\"menu\">Правка</gui><gui style=\"menuitem\">Переключить "
+"закладку</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:44
 msgid "To move between bookmarks:"
-msgstr ""
+msgstr "Для перемещения между закладками:"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:46
@@ -172,6 +194,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
 msgstr ""
+"Нажмите <keyseq><key>Ctrl</key><key>B</key></keyseq>, чтобы перейти к "
+"следующей закладке. "
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:50
@@ -179,6 +203,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
 msgstr ""
+"Нажмите <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq>, чтобы "
+"перейти к предыдущей закладке."
 
 #. (itstool) path: note/p
 #: C/bookmarks.page:53
@@ -188,11 +214,16 @@ msgid ""
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
+"Если вы предпочитаете пользоваться мышью, то можете использовать пункты меню"
+" <guiseq><gui style=\"menu\">Правка</gui><gui style=\"menuitem\">Перейти к "
+"следующей закладке</gui></guiseq> или <guiseq><gui "
+"style=\"menu\">Правка</gui> <gui style=\"menuitem\">Перейти к предыдущей "
+"закладке</gui></guiseq>."
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
 msgid "Paul Weaver"
-msgstr ""
+msgstr "Пол Вивер (Paul Weaver)"
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:19 C/terminal.page:16
@@ -202,7 +233,7 @@ msgstr "Синдху С"
 #. (itstool) path: info/desc
 #: C/wordcompletion.page:25
 msgid "Autocomplete words or portions of code as you type."
-msgstr ""
+msgstr "Автодополнение слов или частей кода при вводе."
 
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
@@ -215,11 +246,13 @@ msgid ""
 "The <app>Word Completion</app> plugin can speed up your editing by "
 "suggesting completions of words as you type."
 msgstr ""
+"Модуль <app>Завершение слов</app> может ускорить ваше редактирование, "
+"предлагая варианты завершения слов по мере их ввода."
 
 #. (itstool) path: steps/title
 #: C/wordcompletion.page:34 C/bracketcompletion.page:24
 msgid "To enable the plugin:"
-msgstr ""
+msgstr "Включение модуля:"
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:36
@@ -228,11 +261,15 @@ msgid ""
 "<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Нажмите кнопку меню в правом верхнем углу окна и выберите <guiseq><gui "
+"style=\"menuitem\">Параметры</gui> <gui style=\"tab\">Модули</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:41
 msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
+"Чтобы включить модуль, выберите <gui style=\"menuitem\">Завершение "
+"слов</gui> ."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:46
@@ -243,6 +280,11 @@ msgid ""
 "document and upon pre-defined keywords if your document is of a recognised "
 "format."
 msgstr ""
+"В процессе редактирования подключаемый модуль <app>Завершение слов</app> "
+"автоматически показывает во всплывающем списке слова, начинающиеся с уже "
+"введённых вами букв. Предлагаемые варианты основываются на словах, "
+"встречающихся в других частях документа, и на предопределённых ключевых "
+"словах, если ваш документ имеет распознаваемый формат."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:52
@@ -251,11 +293,15 @@ msgid ""
 "<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
 "number displayed next to your desired word."
 msgstr ""
+"Чтобы вставить слово из предложенных вариантов, дважды щёлкните его во "
+"всплывающем списке или нажмите "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, где <key>Num</key>  — это "
+"цифра, показанная рядом с нужным словом."
 
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
-msgstr ""
+msgstr "Автоматическое добавление закрывающих скобок."
 
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
@@ -268,6 +314,8 @@ msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
 msgstr ""
+"Модуль <app>Дополнение скобок</app> будет автоматически добавлять "
+"закрывающую скобку для фигурных, круглых и квадратных скобок."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:26
@@ -276,6 +324,8 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Перейдите в раздел <guiseq><gui style=\"menuitem\">Правка</gui> <gui "
+"style=\"menuitem\">Параметры</gui> <gui style=\"tab\">Модули</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:32
@@ -283,16 +333,18 @@ msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
+"Чтобы включить модуль, выберите  <gui style=\"menuitem\">Дополнение "
+"скобок</gui>."
 
 #. (itstool) path: note/p
 #: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
-msgstr ""
+msgstr "Этот модуль не вставляет автоматически закрывающие тэги HTML и XML."
 
 #. (itstool) path: info/desc
 #: C/codecomment.page:15
 msgid "Comment-out or uncomment a block of code."
-msgstr ""
+msgstr "Комментирование или раскомментирование выбранного блока кода."
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
@@ -306,6 +358,9 @@ msgid ""
 "understand a program's code, but they don't affect how a program works. "
 "Comments are separated from other parts of a program by special characters."
 msgstr ""
+"Комментарии кода – части текста, которые помогают проще понять код "
+"программы, но не влияют на её работу. Комментарии отделяются от других "
+"частей программы специальными символами."
 
 #. (itstool) path: page/p
 #: C/codecomment.page:25
@@ -315,17 +370,22 @@ msgid ""
 " style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
 "<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
+"Модуль <app>комментирование кода</app> упрощает быстрое создание или "
+"удаление комментариев к коду. Чтобы включить модуль, выберите <guiseq><gui "
+"style=\"menu\">Правка</gui><gui style=\"menuitem\">Параметры</gui> "
+"<gui>Модули</gui><gui>Комментирование кода</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/codecomment.page:31
 msgid "To create or remove a comment:"
-msgstr ""
+msgstr "Чтобы создать или удалить комментарий:"
 
 #. (itstool) path: item/p
 #: C/codecomment.page:33
 msgid ""
 "Highlight the portion of text where you want to add or remove a comment."
 msgstr ""
+"Выделите часть текста, который нужно закомментировать или раскомментировать."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:37
@@ -333,6 +393,9 @@ msgid ""
 "To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
 "Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
+"Для добавления комментария выберите пункт меню <guiseq><gui "
+"style=\"menu\">Правка</gui> <gui>Комментировать код</gui></guiseq>, или "
+"нажмите <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
@@ -341,6 +404,9 @@ msgid ""
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
+"Для удаления комментария выберите пункт меню <guiseq><gui "
+"style=\"menu\">Правка</gui> <gui>Раскомментировать код</gui></guiseq>, или "
+"нажмите <keyseq><key>Shift</key> <key>Ctrl</key><key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/codecomment.page:49
@@ -350,12 +416,18 @@ msgid ""
 "your language or syntax, you can select it from the language list in the "
 "bottom <gui>Status bar</gui>."
 msgstr ""
+"<app>pluma</app> автоматически использует стиль комментариев в зависимости "
+"от языка программирования или синтаксиса файла. Если <app>pluma</app> не "
+"распознает язык или синтаксис, вы можете выбрать его из списка в <gui>сроке "
+"состояния</gui>."
 
 #. (itstool) path: info/desc
 #: C/synctex.page:17
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
 msgstr ""
+"Быстрое переключение между исходными файлами TeX и визуализированными в "
+"«Atril» PDF-документами."
 
 #. (itstool) path: page/title
 #: C/synctex.page:21
@@ -370,11 +442,16 @@ msgid ""
 "use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>atril</app> and vice versa."
 msgstr ""
+"SyncTeX — это метод, обеспечивающий синхронизацию между исходным файлом TeX "
+"и выходным файлом формата PDF, созданным компилятором TeX/LaTeX. Этот модуль"
+" позволяет использовать SyncTeX в <app>pluma</app> для быстрого переключения"
+" с открытого исходного файла TeX на PDF-документ, открытый в "
+"<app>atril</app> и наоборот."
 
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "Включение модуля <app>SyncTeX</app>:"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -383,11 +460,13 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Перейдите в раздел <guiseq><gui style=\"menu\">Правка</gui> <gui "
+"style=\"menuitem\">Параметры</gui> <gui style=\"tab\">Модули</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
-msgstr ""
+msgstr "Чтобы включить модуль, выберите  <gui style=\"menuitem\">SyncTeX</gui>."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -396,6 +475,10 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>atril</app> must be installed."
 msgstr ""
+"Чтобы можно было пользоваться данным модулем, необходима установка "
+"компилятора TeX/LaTeX и SyncTeX. Оба предоставляются дистрибутивами TeX, "
+"такими как TeX Live. Кроме этого, должно быть установлено приложение "
+"<app>atril</app>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:49
@@ -404,6 +487,9 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"Некоторую базовую информацию о настройке SyncTeX и компиляции документов "
+"LaTeX можно найти в документации  <link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -412,6 +498,8 @@ msgid ""
 "xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
+"Комбинации клавиш и управление мышью также описаны в документации <link "
+"xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:60
@@ -419,11 +507,13 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> и <app>Gummi</app> — это альтернативные текстовые "
+"редакторы, специально предназначенные для написания кода TeX."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
 msgid "Add a terminal console to the bottom pane."
-msgstr ""
+msgstr "Добавление терминала в нижнюю панель."
 
 #. (itstool) path: page/title
 #: C/terminal.page:25
@@ -438,23 +528,32 @@ msgid ""
 "pane of the <app>pluma</app> window. This will let you run scripts, install "
 "needed software, or test your program without leaving <app>pluma</app>."
 msgstr ""
+"<app>pluma</app> позволяет включить встроенную версию <app>MATE "
+"Terminal</app>, приложения командной строки MATE, в нижнюю панель окна "
+"<app>pluma</app>. Это позволит вам запускать сценарии, устанавливать "
+"необходимое программное обеспечение или тестировать свою программу, не "
+"выходя из <app>pluma</app>."
 
 #. (itstool) path: steps/title
 #: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
-msgstr ""
+msgstr "Включение модуля <app>Встроенный терминал</app>:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
+"Чтобы включить модуль, выберите <gui style=\"menuitem\">Встроенный "
+"терминал</gui>."
 
 #. (itstool) path: page/p
 #: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
 msgstr ""
+"После того, как вы включили модуль, необходимо добавить терминал на нижнюю "
+"панель следующим способом:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:50
@@ -463,3 +562,6 @@ msgid ""
 " Pane</gui></guiseq>. Alternatively, you can press "
 "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
 msgstr ""
+"Выберите <guiseq><gui style=\"menu\">Вид</gui> <gui "
+"style=\"menuitem\">Нижняя панель</gui></guiseq>. Или можете нажать "
+"<keyseq><key>Ctrl</key><key>F9</key></keyseq>."

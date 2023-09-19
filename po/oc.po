@@ -6,16 +6,16 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2020
 # Cédric Valmary <cvalmary@yahoo.fr>, 2021
-# Quentin PAGÈS, 2022
+# Quentin PAGÈS, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Project-Id-Version: pluma-plugins 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-06-26 22:39+0200\n"
+"POT-Creation-Date: 2023-09-10 11:43+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Quentin PAGÈS, 2022\n"
-"Language-Team: Occitan (post 1500) (https://www.transifex.com/mate/teams/13566/oc/)\n"
+"Last-Translator: Quentin PAGÈS, 2023\n"
+"Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -73,19 +73,19 @@ msgstr "Comentador de còdi"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Comentar o descomentar un blòt de còdi seleccionat."
 
-#: plugins/codecomment/codecomment.py:92
+#: plugins/codecomment/codecomment.py:91
 msgid "Co_mment Code"
 msgstr "_Comentar lo còdi"
 
-#: plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:93
 msgid "Comment the selected code"
 msgstr ""
 
-#: plugins/codecomment/codecomment.py:98
+#: plugins/codecomment/codecomment.py:97
 msgid "U_ncomment Code"
 msgstr "_Descomentar lo còdi"
 
-#: plugins/codecomment/codecomment.py:100
+#: plugins/codecomment/codecomment.py:99
 msgid "Uncomment the selected code"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr "Doblidatz qu'utilizatz pas las tabulacions."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
-#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:374
 msgid "Source Code Browser"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
-msgstr "Nombre de linhas de gardar en memòria pel desfilament"
+msgstr "Nombre de linhas de gardar en memòria pel defilament"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:26
 msgid ""
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
 "Indica se un nombre illimitat de linhas deu èsser gardat en memòria pel "
-"desfilament"
+"defilament"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:38
 msgid ""
@@ -228,8 +228,8 @@ msgid ""
 " stored on disk temporarily, so this may cause the system to run out of disk"
 " space if there is a lot of output to the terminal."
 msgstr ""
-"Se verai, las linhas pel desfilament son totjorn conservadas. Coma l'istoric"
-" de desfilament es emmagazinat temporàriament sul disc, es possible que lo "
+"Se verai, las linhas pel defilament son totjorn conservadas. Coma l'istoric "
+"de defilament es emmagazinat temporàriament sul disc, es possible que lo "
 "sistèma se retròbe a cort d'espaci de disc se lo terminal produsís fòrça "
 "sortidas."
 
@@ -240,7 +240,7 @@ msgstr ""
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:48
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
-msgstr "Se verai, quichar una tòca fa desfilar lo terminal fins al bas."
+msgstr "Se verai, quichar una tòca fa defilar lo terminal fins al bas."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
@@ -251,7 +251,7 @@ msgstr ""
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
-"se definit a true, tota novèla sortida afichada farà desfilar lo terminal "
+"se definit a true, tota novèla sortida afichada farà defilar lo terminal "
 "fins al bas."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
@@ -350,7 +350,7 @@ msgstr ""
 "Un nom de police Pango. Per exemple : « Sans 12 » o « Monospace Bold 14 »."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
-#: plugins/terminal/terminal.py:317
+#: plugins/terminal/terminal.py:315
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -367,7 +367,7 @@ msgstr "Terminal integrat"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Intègra un terminal dins lo panèl del bas."
 
-#: plugins/terminal/terminal.py:338
+#: plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
 msgstr "C_ambiar de repertòri"
 
@@ -387,7 +387,7 @@ msgstr "Talha minimum del mot"
 msgid "The minimum word size to complete."
 msgstr "Indica la talha minimum del mot de completar."
 
-#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:166
 msgid "Document Words"
 msgstr "Mots del document"
 
@@ -398,3 +398,13 @@ msgstr "Complecion dels mots"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Complecion de mots, utiliza l'estructura de complecion"
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
+msgid "Quickhighlight"
+msgstr ""
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
+msgid "Highlights every occurrences of selected text"
+msgstr ""

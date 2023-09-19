@@ -3,14 +3,16 @@
 # Emiliano Fascetti, 2020
 # seacat <seacat.linux@gmail.com>, 2021
 # Toni Estévez <toni.estevez@gmail.com>, 2021
+# Francisco Serrador, 2023
+# Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -58,7 +60,7 @@ msgstr "Robert Buj"
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Complementos Pluma"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -74,7 +76,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Complementos de pluma adicionales"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -123,6 +125,9 @@ msgid ""
 " <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
+"Para activar el complemento de marcadores, seleccione <guiseq><gui "
+"style=\"menu\">Editar</gui><gui "
+"style=\"menuitem\">Preferencias</gui><gui>Complementos</gui><gui>Marcadores</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
@@ -180,6 +185,10 @@ msgid ""
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
+"Si prefiere usar el ratón, puede pulsar en <guiseq><gui "
+"style=\"menu\">Editar</gui><gui style=\"menuitem\">Ir al marcador "
+"siguiente</gui></guiseq> o <guiseq><gui style=\"menu\">Editar</gui> <gui "
+"style=\"menuitem\">Ir al marcador anterior</gui></guiseq>."
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
@@ -207,6 +216,8 @@ msgid ""
 "The <app>Word Completion</app> plugin can speed up your editing by "
 "suggesting completions of words as you type."
 msgstr ""
+"El complemento <app>Rellenado de Palabras</app> puede acelerar su edición "
+"sugiriendo completados de palabras al teclear."
 
 #. (itstool) path: steps/title
 #: C/wordcompletion.page:34 C/bracketcompletion.page:24
@@ -225,6 +236,8 @@ msgstr ""
 #: C/wordcompletion.page:41
 msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
+"Select <gui style=\"menuitem\">Completado de Palabra</gui> para activar el "
+"complemento."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:46
@@ -247,7 +260,7 @@ msgstr ""
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
-msgstr ""
+msgstr "Auto-completar cierre de corchetes."
 
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
@@ -278,6 +291,8 @@ msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
+"Selecciona <gui style=\"menuitem\">Completado de Corchete</gui> al activar "
+"el complemento."
 
 #. (itstool) path: note/p
 #: C/bracketcompletion.page:38
@@ -380,7 +395,7 @@ msgstr ""
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "Para activar el complemento <app>SyncTeX</app>:"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -389,11 +404,16 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Seleccione <guiseq><gui style=\"menu\">Editar</gui> <gui "
+"style=\"menuitem\">Preferencias</gui> <gui "
+"style=\"tab\">Complementos</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
 msgstr ""
+"Seleccione <gui style=\"menuitem\">SyncTeX</gui> para activar el "
+"complemento."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -410,6 +430,9 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"Alguna información básica en la configuración de SyncTeX y compilando "
+"documentos de LaTeX puede ser encontrado en la documentación de <link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -425,6 +448,8 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> y <app>Gummi</app> son editores de texto alternativos"
+" diseñados específicamente diseñado para escritura de código TeX."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22

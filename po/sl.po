@@ -11,12 +11,12 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: pluma-plugins 1.25.0\n"
+"Project-Id-Version: pluma-plugins 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2021-06-26 22:39+0200\n"
+"POT-Creation-Date: 2023-09-10 11:43+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>, 2022\n"
-"Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
+"Language-Team: Slovenian (https://app.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -74,19 +74,19 @@ msgstr "Deaktiviranje kode"
 msgid "Comment out or uncomment a selected block of code."
 msgstr "Spremeni kodo v komentar ali obratno"
 
-#: plugins/codecomment/codecomment.py:92
+#: plugins/codecomment/codecomment.py:91
 msgid "Co_mment Code"
 msgstr "Koda v ko_mentar"
 
-#: plugins/codecomment/codecomment.py:94
+#: plugins/codecomment/codecomment.py:93
 msgid "Comment the selected code"
 msgstr "Izbrano kodo spremenite v komentar"
 
-#: plugins/codecomment/codecomment.py:98
+#: plugins/codecomment/codecomment.py:97
 msgid "U_ncomment Code"
 msgstr "Komentar v ko_do"
 
-#: plugins/codecomment/codecomment.py:100
+#: plugins/codecomment/codecomment.py:99
 msgid "Uncomment the selected code"
 msgstr "Izbrani komentar spremenite v kodo"
 
@@ -104,7 +104,7 @@ msgstr "Pozabite, da ne uporabljate tabulatorjev."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
-#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:359
+#: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:374
 msgid "Source Code Browser"
 msgstr "Brskalnik izvorne kode"
 
@@ -350,7 +350,7 @@ msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”.
 msgstr "Ime pisave Pango. Primera: »Sans 12« in »Monospace Bold 14«."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
-#: plugins/terminal/terminal.py:317
+#: plugins/terminal/terminal.py:315
 msgid "Terminal"
 msgstr "Terminal"
 
@@ -366,7 +366,7 @@ msgstr "Vdelani terminal"
 msgid "Embed a terminal in the bottom pane."
 msgstr "Vdelani terminal v spodnjem podoknu."
 
-#: plugins/terminal/terminal.py:338
+#: plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
 msgstr "Spre_meni mapo"
 
@@ -386,7 +386,7 @@ msgstr "Najmanjša velikost besede"
 msgid "The minimum word size to complete."
 msgstr "Najmanjša velikost besede, da se izvede dopolnjevanje."
 
-#: plugins/wordcompletion/pluma-word-completion-plugin.c:167
+#: plugins/wordcompletion/pluma-word-completion-plugin.c:166
 msgid "Document Words"
 msgstr "Besede v dokumentu"
 
@@ -397,3 +397,13 @@ msgstr "Dopolnjevanje besed"
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
 msgstr "Dopolnjevanje besed z uporabo ogrodja za dopolnjevanje"
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
+msgid "Quickhighlight"
+msgstr ""
+
+#: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
+msgid "Highlights every occurrences of selected text"
+msgstr ""
