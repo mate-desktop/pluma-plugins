@@ -1,0 +1,16 @@
+option('plugin_bookmarks', type: 'boolean')
+option('plugin_bracketcompletion', type: 'boolean')
+option('plugin_codecomment', type: 'boolean')
+option('plugin_quickhighlight', type: 'boolean')
+option('plugin_smartspaces', type: 'boolean')
+option('plugin_sourcecodebrowser', type: 'boolean')
+option('plugin_synctex', type: 'feature', value: 'auto')
+option('plugin_terminal', type: 'feature', value: 'auto')
+option('plugin_wordcompletion', type: 'boolean')
+
+# For developers. Disabling the option speeds up the install.
+option(
+  'user_documentation',
+  type: 'boolean', value: true,
+  description: 'Build user documentation'
+)
