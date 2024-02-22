@@ -1,7 +1,11 @@
+### pluma-plugins 1.28.0
+
+  * update translations
+
 ### pluma-plugins 1.27.0
 
   * configure.ac: The macro 'AC_HELP_STRING' is obsolete (#38)
-  * tx: sync with transifex
+  * update translations
   * tx: migrate config file
   * travis: disable cppcheck deployment to fix fedora build
   * travis: fix building broken by previous commit
