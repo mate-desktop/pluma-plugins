@@ -1,14 +1,14 @@
 # 
 # Translators:
 # fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2020
-# Green <usergreen@users.osdn.me>, 2021
+# Green <usergreen@users.osdn.me>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2021\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +49,7 @@ msgstr "Pluma プラグイン"
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr "プラグインを利用すると、Pluma の操作方法をユーザー向けにカスタマイズできます。"
+msgstr "プラグインを利用すると、Pluma の操作方法をユーザ向けにカスタマイズできます。"
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
@@ -75,7 +75,7 @@ msgid ""
 "separately."
 msgstr ""
 "プラグインを使用すると Pluma "
-"でより多くのことができます。デフォルトではいくつかのプラグインがインストールされますが、他にも多数のプラグインが個別に使用可能です。"
+"でより多くのことができます。既定では複数のプラグインがインストールされますが、他にも多数のプラグインが個別に使用可能です。"
 
 #. (itstool) path: section/title
 #: C/index.page:32
@@ -310,7 +310,7 @@ msgid ""
 "understand a program's code, but they don't affect how a program works. "
 "Comments are separated from other parts of a program by special characters."
 msgstr ""
-"コードコメントはテキストの一部で、ユーザーがプログラムコードを理解しやすくするためのものですが、プログラムの動作には影響しません。コメントは、特殊文字によってプログラムの他の部分と区別されます。"
+"コードコメントはテキストの一部で、ユーザがプログラムコードを理解しやすくするためのものですが、プログラムの動作には影響しません。コメントは、特殊文字によってプログラムの他の部分と区別されます。"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:25
@@ -341,6 +341,9 @@ msgid ""
 "To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
 "Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
+"コメントを追加するには、<guiseq><gui style=\"menu\">編集</gui> <gui>Comment "
+"Code</gui></guiseq>をクリックするか、<keyseq><key>Ctrl</key> "
+"<key>M</key></keyseq>を押してください。"
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
@@ -349,6 +352,9 @@ msgid ""
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
+"コメントを削除するには、<guiseq><gui style=\"menu\">編集</gui> <gui>Uncomment "
+"Code</gui></guiseq>をクリックするか、<keyseq><key>Ctrl</key> "
+"<key>M</key></keyseq>を押してください。"
 
 #. (itstool) path: note/p
 #: C/codecomment.page:49
@@ -358,12 +364,14 @@ msgid ""
 "your language or syntax, you can select it from the language list in the "
 "bottom <gui>Status bar</gui>."
 msgstr ""
+"<app>Pluma</app> はファイルの言語または構文に基づいて、自動的に正しいスタイルのコメントを使用します。もし "
+"<app>pluma</app> がお使いの言語や構文を識別しない場合は、一番下の<gui>ステータスバー</gui>にある言語一覧から選択できます。"
 
 #. (itstool) path: info/desc
 #: C/synctex.page:17
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
-msgstr ""
+msgstr "Atril で TeX ソースファイルと描画された PDF 文書を素早く切り替える"
 
 #. (itstool) path: page/title
 #: C/synctex.page:21
@@ -378,11 +386,14 @@ msgid ""
 "use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>atril</app> and vice versa."
 msgstr ""
+"SyncTeX は、TeX ソースファイルとTeX/LaTeX コンパイラが生成した PDF "
+"出力との同期を可能にする手段です。このプラグインを使うことで、<app>pluma</app> でもとで開いた TeX ソースファイルを "
+"<app>Atril</app> で開く PDF 文書へ、またその逆へ素早く切り替えることができます。"
 
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "<app>SyncTeX</app> プラグインを有効にするには"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -391,11 +402,13 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"<guiseq><gui style=\"menu\">編集</gui><gui style=\"menuitem\">設定</gui><gui "
+"style=\"tab\">プラグイン</gui></guiseq>を選択します。"
 
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
-msgstr ""
+msgstr "<gui style=\"menuitem\">SyncTeX</gui> を選択して、プラグインを有効にします。"
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -404,6 +417,8 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>atril</app> must be installed."
 msgstr ""
+"このプラグインを使用するには、TeX/LaTeX コンパイラと SyncTeX がインストールされている必要があります。どちらも、TeX Live "
+"などの TeX ディストリビューションで提供されています。さらに、<app>Atril</app> もインストールされている必要があります。"
 
 #. (itstool) path: item/p
 #: C/synctex.page:49
@@ -412,6 +427,8 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"SyncTeX のセットアップと LaTeX 文書のコンパイルに関する基本的な情報は、<link "
+"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX</link> 文書に存在します。"
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -420,6 +437,8 @@ msgid ""
 "xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
+"キーのショートカットとマウスのコントロールについては、<link xref=\"help:atril/synctex-"
+"search\"><app>Atril</app>-SyncTeX 文書</link>にも記載されています。"
 
 #. (itstool) path: item/p
 #: C/synctex.page:60
@@ -427,16 +446,18 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> と <app>Gummi</app> は、TeX "
+"コードを作成する目的で特別に設計された代替テキストエディタです。"
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
 msgid "Add a terminal console to the bottom pane."
-msgstr ""
+msgstr "下端のペインに端末コンソールを追加します。"
 
 #. (itstool) path: page/title
 #: C/terminal.page:25
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "組み込み型の端末"
 
 #. (itstool) path: page/p
 #: C/terminal.page:27
@@ -446,23 +467,26 @@ msgid ""
 "pane of the <app>pluma</app> window. This will let you run scripts, install "
 "needed software, or test your program without leaving <app>pluma</app>."
 msgstr ""
+"<app>Pluma</app> では、MATE のコマンドラインアプリケーションである <app>MATE 端末</app>を "
+"<app>Pluma</app> ウィンドウの下端ペインに組み込むことができます。これによって、<app>Pluma</app> "
+"から手を離さないでスクリプトを実行したり、必要なソフトウェアをインストールしたり、プログラムをテストしたりすることが可能になります。"
 
 #. (itstool) path: steps/title
 #: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
-msgstr ""
+msgstr "<app>組み込み端末</app>を有効にするには"
 
 #. (itstool) path: item/p
 #: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
-msgstr ""
+msgstr "<gui style=\"menuitem\">組み込み端末</gui>を選択して、プラグインを有効にします。"
 
 #. (itstool) path: page/p
 #: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
-msgstr ""
+msgstr "一度プラグインを有効にしたら、下端のペインに端末を追加します："
 
 #. (itstool) path: item/p
 #: C/terminal.page:50
@@ -471,3 +495,6 @@ msgid ""
 " Pane</gui></guiseq>. Alternatively, you can press "
 "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
 msgstr ""
+"<guiseq><gui style=\"menu\">表示</gui><gui "
+"style=\"menuitem\">ボトムペイン</gui></guiseq>を選択します。または <keyseq><key>Ctrl</key> "
+"<key>F9</key></keyseq> を押下してください。"

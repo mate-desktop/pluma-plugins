@@ -7,7 +7,7 @@
 # fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2020
 # ABE Tsunehiko, 2021
 # Rockers <sumorock@hotmail.com>, 2021
-# Green <usergreen@users.osdn.me>, 2021
+# Green <usergreen@users.osdn.me>, 2024
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
 "POT-Creation-Date: 2023-09-10 11:43+0200\n"
 "PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Green <usergreen@users.osdn.me>, 2021\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,31 +31,31 @@ msgstr "ブックマーク"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "ブックマークを使う簡単な文書ナビゲーション"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "ブックマークの切り替え"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "現在の行のブックマーク状態を切り替える"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "次のブックマークへ進む"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "次のブックマークへ進む"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "前のブックマークへ戻る"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "前のブックマークへ戻る"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
@@ -63,7 +63,7 @@ msgstr "括弧補完"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "閉じ括弧を自動的に追加します。"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
@@ -72,111 +72,111 @@ msgstr "コードコメント"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
-msgstr ""
+msgstr "選択したコードブロックをコメントまたはコメント解除します。"
 
 #: plugins/codecomment/codecomment.py:91
 msgid "Co_mment Code"
-msgstr ""
+msgstr "コードのコメント(_M)"
 
 #: plugins/codecomment/codecomment.py:93
 msgid "Comment the selected code"
-msgstr ""
+msgstr "選択したコードをコメントします"
 
 #: plugins/codecomment/codecomment.py:97
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "コードのコメント解除(_N)"
 
 #: plugins/codecomment/codecomment.py:99
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "選択したコードのコメントを外します"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "コードブロックのコメントまたはコメント解除"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "スマートスペース"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "作表を使っていないことを忘れてください。"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
 #: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:374
 msgid "Source Code Browser"
-msgstr ""
+msgstr "ソースコード・ブラウザ"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
 msgid "A source code class and function browser for Pluma."
-msgstr ""
+msgstr "Pluma 用のソースコード・クラスおよび関数ブラウザです。"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
 msgid "Show _line numbers in tree"
-msgstr ""
+msgstr "ツリーに行番号を表示(_L)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
 msgid "Load symbols from _remote files"
-msgstr ""
+msgstr "リモートファイルからシンボルを読み込む(_R)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
 msgid "Start with rows _expanded"
-msgstr ""
+msgstr "行を拡大して開始(_E)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
 msgid "_Sort list alphabetically"
-msgstr ""
+msgstr "リストをアルファベット順に並べ替え(_S)"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
 msgid "ctags executable"
-msgstr ""
+msgstr "ctags を実行可能にする"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
 msgid "ctags"
-msgstr ""
+msgstr "ctags"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "行番号を表示する"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
-msgstr ""
+msgstr "ソースツリー内の各項目の行番号を表示します。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
 msgid "Load Remote Files"
-msgstr ""
+msgstr "リモートファイルの読み込み"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
 msgid "Download remote files into a temporary file for parsing the symbols."
-msgstr ""
+msgstr "シンボルを解析するために、リモートファイルを一時ファイルへダウンロードします。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
 msgid "Expand Rows"
-msgstr ""
+msgstr "行の拡張"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
 msgid "Expand the entire source tree when initially loaded."
-msgstr ""
+msgstr "最初の読み込み時にソースツリー全体を展開します。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
 msgid "Sort List"
-msgstr ""
+msgstr "並び替えリスト"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
 msgid ""
 "Sorts the list of symbols alphabetically rather than by where they occur in "
 "the source file."
-msgstr ""
+msgstr "シンボルのリストを、ソースファイル内の出現箇所順ではなく、アルファベット順に並べ替えます。"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
 msgid "Ctags Executable"
-msgstr ""
+msgstr "ctags を実行可能にする"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
 msgid "Specifies the executable path for Exuberant Ctags."
-msgstr ""
+msgstr "Exuberant Ctags の実行パスを指定します。"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
@@ -185,26 +185,26 @@ msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Pluma と Atril で LaTeX と PDF を同期させる"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Pluma と Atril において、LaTeX と PDF との同期を取ります。"
 
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "前方検索"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
-msgstr "端末ベルを消すかどうか"
+msgstr "終端ベルを消すかどうか"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
-msgstr ""
+msgstr "true の場合、アプリケーションが終端ベル用のエスケープシーケンスを送信するときに音を鳴らしません。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -216,6 +216,8 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"スクロール時に維持する行数を指定します。この行数だけ端末をスクロールして戻ることが可能になり、古い行は破棄されます。scrollback_unlimited"
+" が有効になっている場合、この値は無視されます。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -240,32 +242,32 @@ msgstr "TRUE にすると、キー入力のたびにスクロールバーが下�
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "新しい出力があるたびに下までスクロールするかどうか"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
-msgstr ""
+msgstr "TRUE にすると、新しい出力が表示されるたびに下までスクロールします。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
-msgstr "端末のテキストのデフォルト色"
+msgstr "端末のテキストの既定色"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:63
 msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
-msgstr ""
+msgstr "端末のテキストの既定色を、色指定子 (HTML スタイルの 16 進数もしくは \"red\" のような色の名前) で設定します。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
-msgstr "端末の背景のデフォルト色"
+msgstr "端末の背景の既定色"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:72
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
-msgstr ""
+msgstr "端末の背景の既定色を、色指定子 (HTML スタイルの 16 進数もしくは \"red\" のような色の名前) で設定します。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -299,6 +301,8 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"指定可能な値: \"system\" (カーソルの点滅でシステム規模の設定を使う)、\"on\" (カーソルを点滅させる)、\"off\" "
+"(カーソルを点滅させない)"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -308,7 +312,7 @@ msgstr "端末に表示するカーソルの形状"
 msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
-msgstr ""
+msgstr "指定可能な値は次のとおりです： \"block\" (矩形)、\"ibeam\" (縦棒)、\"underline\" (下線)"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -319,6 +323,8 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"TRUE にすると、デスクトップ全体で使用している標準フォントが等幅フォントなら、端末はそのフォントを使用します "
+"(もしそうでない場合には、最もよく似たフォントを使用します)。"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -326,7 +332,7 @@ msgstr "フォント"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "Pango フォント名を指定します。例えば \"Sans 12\" や \"Monospace Bold 14\" などです。"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 #: plugins/terminal/terminal.py:315
@@ -335,39 +341,39 @@ msgstr "端末"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "ボトムパネルからアクセス可能な、シンプルな端末ウィジェット"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "組み込み端末"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "ボトムペインに端末コンソールを追加します。"
 
 #: plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
-msgstr ""
+msgstr "Change ディレクトリ(_H)"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "インタラクティブな補完"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "対話型補完機能を有効にするかどうかです。"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "最小の単語サイズ"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "補完することが可能な最小の単語サイズです。"
 
 #: plugins/wordcompletion/pluma-word-completion-plugin.c:166
 msgid "Document Words"
-msgstr ""
+msgstr "文書の単語"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
@@ -375,14 +381,14 @@ msgstr "単語補完"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "補完フレームワークを使った単語補完"
 
 #: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
 msgid "Quickhighlight"
-msgstr ""
+msgstr "クイック強調表示"
 
 #: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
 msgid "Highlights every occurrences of selected text"
-msgstr ""
+msgstr "選択したテキストのすべての出現箇所を強調表示します"

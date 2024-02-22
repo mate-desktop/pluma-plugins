@@ -400,9 +400,9 @@ msgstr "Word completion using the completion framework"
 #: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
 msgid "Quickhighlight"
-msgstr ""
+msgstr "Quickhighlight"
 
 #: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
 msgid "Highlights every occurrences of selected text"
-msgstr ""
+msgstr "Highlights every occurrences of selected text"
