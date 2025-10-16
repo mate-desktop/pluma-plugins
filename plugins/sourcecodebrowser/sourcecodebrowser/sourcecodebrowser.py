@@ -341,7 +341,7 @@ class SourceCodeBrowserPlugin(GObject.Object, Pluma.WindowActivatable, PeasGtk.C
     """
     Source Browser Plugin for Pluma
 
-    Adds a tree view to the side panel of a Pluma window which provides a list
+    Adds a tree view to the right panel of a Pluma window which provides a list
     of programming symbols (functions, classes, variables, etc.).
     """
     __gtype_name__ = "SourceCodeBrowserPlugin"
@@ -370,7 +370,7 @@ class SourceCodeBrowserPlugin(GObject.Object, Pluma.WindowActivatable, PeasGtk.C
         self._sourcetree.sort_list = self.sort_list
         icon_dir = os.path.join(datadir, 'icons')
         icon = Gtk.Image.new_from_file(os.path.join(icon_dir, "source-code-browser.png"))
-        panel = self.window.get_side_panel()
+        panel = self.window.get_right_panel()
         panel.add_item(self._sourcetree, _("Source Code Browser"), icon)
         self._handlers = []
         hid = self._sourcetree.connect("draw", self.on_sourcetree_draw)
@@ -393,7 +393,7 @@ class SourceCodeBrowserPlugin(GObject.Object, Pluma.WindowActivatable, PeasGtk.C
         for obj, hid in self._handlers:
             obj.disconnect(hid)
         self._handlers = None
-        panel = self.window.get_side_panel()
+        panel = self.window.get_right_panel()
         panel.remove_item(self._sourcetree)
         self._sourcetree = None
 
@@ -432,8 +432,8 @@ class SourceCodeBrowserPlugin(GObject.Object, Pluma.WindowActivatable, PeasGtk.C
         """ Load the symbols for the given URI. """
         self._sourcetree.clear()
         self._is_loaded = False
-        # only load the sourcecodebrowser if it is the active tab in the side panel
-        panel = self.window.get_side_panel()
+        # only load the sourcecodebrowser if it is the active tab in the right panel
+        panel = self.window.get_right_panel()
         if not panel.item_is_active(self._sourcetree):
             return
 
