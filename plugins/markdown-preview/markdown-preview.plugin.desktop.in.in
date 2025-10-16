@@ -1,0 +1,12 @@
+[Plugin]
+Loader=python3
+Module=markdown_preview
+IAge=2
+Name=Markdown Preview
+Description=Live preview of Markdown files in the right panel
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=text-x-markdown
+Authors=MATE Development Team
+Copyright=Copyright @ 2025 MATE Development Team
+Website=@PACKAGE_URL@
+Version=@VERSION@

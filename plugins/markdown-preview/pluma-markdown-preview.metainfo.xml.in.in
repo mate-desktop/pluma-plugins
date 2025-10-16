@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2025 MATE Development Team -->
+<component type="addon">
+  <id>pluma-markdown-preview</id>
+  <extends>org.mate.pluma.desktop</extends>
+  <name>Markdown Preview</name>
+  <summary>Live preview of Markdown files in Pluma</summary>
+  <url type="homepage">@PACKAGE_URL@</url>
+  <url type="bugtracker">@PACKAGE_BUGREPORT@</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+</component>
