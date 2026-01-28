@@ -15,12 +15,14 @@ requires=(
 
 requires+=(
 	autoconf-archive
+	clang
 	gcc
 	git
 	gtksourceview4
 	make
 	mate-common
 	yelp-tools
+	which
 )
 
 infobegin "Update system"
