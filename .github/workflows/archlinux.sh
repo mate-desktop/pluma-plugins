@@ -25,6 +25,9 @@ requires+=(
 	make
 	mate-common
 	pluma
+	python-dbus
+	python-gobject
+	vte3
 	yelp-tools
 	which
 )
