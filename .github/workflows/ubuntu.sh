@@ -27,7 +27,7 @@ requires+=(
 	mate-common
 	pluma-dev
 	python3-dev
-	python-dbus
+	python3-dbus
 	python3-gi
 	yelp-tools
 	libenchant-2-dev

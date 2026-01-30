@@ -21,8 +21,10 @@ requires+=(
 	gcc
 	git
 	gtksourceview4
+	libpeas
 	make
 	mate-common
+	pluma
 	yelp-tools
 	which
 )
