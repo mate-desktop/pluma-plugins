@@ -16,7 +16,6 @@ AC_INIT([pluma-plugins],
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_SRCDIR([plugins])
-AC_CONFIG_MACRO_DIR([m4])
 
 AC_PREFIX_PROGRAM([pluma])
 
