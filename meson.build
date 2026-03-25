@@ -47,6 +47,7 @@ all_plugins = {
   'bookmarks': {'language': 'c'},
   'bracketcompletion': {'language': 'python'},
   'codecomment': {'language': 'python'},
+  'gpgcrypt': {'language': 'python'},
   'quickhighlight': {'language': 'c'},
   'smartspaces': {'language': 'python'},
   'sourcecodebrowser': {'language': 'python'},

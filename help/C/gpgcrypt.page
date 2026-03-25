@@ -1,0 +1,65 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-gpg-encryption">
+
+  <info>
+    <link type="guide" xref="index#pluma-additional-plugins"/>
+    <revision version="1.29" date="2026-03-25" status="review"/>
+
+    <credit type="author">
+      <name>MATE Developers</name>
+      <email its:translate="no">vkareh@redhat.com</email>
+    </credit>
+
+    <desc>Open and save GPG-encrypted files.</desc>
+  </info>
+
+  <title>GPG Encryption</title>
+
+  <p>The <app>GPG Encryption</app> plugin allows you to open and save
+  GPG-encrypted files (<file>.gpg</file> and <file>.pgp</file>)
+  transparently. When you open an encrypted file, the plugin decrypts it
+  and displays the plaintext. When you save, the file is re-encrypted
+  using the same method it was originally encrypted with.</p>
+
+  <p>To enable the GPG Encryption plugin, select
+  <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Preferences</gui>
+  <gui>Plugins</gui><gui>GPG Encryption</gui></guiseq>.</p>
+
+  <note style="important">
+    <p>This plugin requires the <cmd>gpg</cmd> command to be installed on
+    your system. It delegates all authentication to <cmd>gpg-agent</cmd>,
+    so smartcards (such as YubiKey) and pinentry dialogs are fully
+    supported.</p>
+  </note>
+
+  <section id="opening-files">
+    <title>Opening encrypted files</title>
+    <p>Simply open a <file>.gpg</file> or <file>.pgp</file> file as you
+    would any other file. The plugin will invoke <cmd>gpg</cmd> to decrypt
+    it. You may be prompted for a passphrase or smartcard PIN through your
+    configured pinentry program.</p>
+  </section>
+
+  <section id="saving-files">
+    <title>Saving encrypted files</title>
+    <p>When you save a file that was decrypted by the plugin, it is
+    automatically re-encrypted using the original method:</p>
+    <list>
+      <item><p><em>Symmetric encryption</em> (passphrase-based): the file
+      is re-encrypted with a passphrase.</p></item>
+      <item><p><em>Asymmetric encryption</em> (public-key): the file is
+      re-encrypted to the same recipients as before.</p></item>
+    </list>
+  </section>
+
+  <section id="new-encrypted-files">
+    <title>Creating new encrypted files</title>
+    <p>To create a new encrypted file, use <guiseq><gui style="menu">File</gui>
+    <gui>Save As</gui></guiseq> and choose a filename ending in
+    <file>.gpg</file> or <file>.pgp</file>. The file will be encrypted
+    using symmetric (passphrase) encryption by default.</p>
+  </section>
+
+</page>
