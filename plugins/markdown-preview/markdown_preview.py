@@ -34,6 +34,8 @@ class PlumaMarkdownPreviewPlugin(GObject.Object, Pluma.WindowActivatable):
         self._webview = None
         self._update_timer = None
         self._available_extensions = None  # Cache for detected extensions
+        self._connected_doc = None
+        self._changed_handler = None
 
     def do_activate(self):
         if not MARKDOWN_AVAILABLE:
@@ -46,17 +48,40 @@ class PlumaMarkdownPreviewPlugin(GObject.Object, Pluma.WindowActivatable):
         if not MARKDOWN_AVAILABLE:
             return
 
+        self._disconnect_document()
         self._remove_preview_widget()
         self._remove_menu_items()
 
     def do_update_state(self):
         """Update plugin state when document changes"""
         doc = self.window.get_active_document()
+        self._connect_document(doc)
         if doc and self._is_markdown_file(doc):
             self._show_preview()
             self._schedule_update()
         else:
             self._load_welcome_content()
+
+    def _connect_document(self, doc):
+        """Connect to the document's changed signal for live updates"""
+        if self._connected_doc == doc:
+            return
+        self._disconnect_document()
+        if doc:
+            self._connected_doc = doc
+            self._changed_handler = doc.connect("changed", self._on_document_changed)
+
+    def _disconnect_document(self):
+        """Disconnect from the current document's changed signal"""
+        if self._connected_doc and self._changed_handler:
+            self._connected_doc.disconnect(self._changed_handler)
+        self._connected_doc = None
+        self._changed_handler = None
+
+    def _on_document_changed(self, doc):
+        """Called on every text change in the active document"""
+        if self._is_markdown_file(doc):
+            self._schedule_update()
 
     def _create_preview_widget(self):
         """Create the preview widget with WebKit2"""
@@ -206,11 +231,22 @@ class PlumaMarkdownPreviewPlugin(GObject.Object, Pluma.WindowActivatable):
             self._load_welcome_content()
             return False
 
-        # Convert markdown to HTML
-        html = self._markdown_to_html(text)
+        location = doc.get_location()
+        base_uri = location.get_uri() if location else None
 
-        # Load in webview
-        self._webview.load_html(html, None)
+        def on_scroll_saved(webview, result, user_data):
+            try:
+                js_result = webview.run_javascript_finish(result)
+                scroll_y = js_result.get_js_value().to_int32()
+            except Exception:
+                scroll_y = 0
+            self._webview.load_html(self._markdown_to_html(text, scroll_y), base_uri)
+
+        # Save scroll position before reloading, then render in callback
+        self._webview.run_javascript(
+            "document.documentElement.scrollTop || document.body.scrollTop",
+            None, on_scroll_saved, None
+        )
 
         self._update_timer = None
         return False
@@ -241,7 +277,7 @@ class PlumaMarkdownPreviewPlugin(GObject.Object, Pluma.WindowActivatable):
         return available
 
 
-    def _markdown_to_html(self, text):
+    def _markdown_to_html(self, text, scroll_y=0):
         try:
             # Detect available extensions (cached after first run)
             if self._available_extensions is None:
@@ -316,6 +352,7 @@ class PlumaMarkdownPreviewPlugin(GObject.Object, Pluma.WindowActivatable):
 </head>
 <body>
     {html_content}
+    <script>document.addEventListener('DOMContentLoaded', function() {{ window.scrollTo(0, {scroll_y}); }});</script>
 </body>
 </html>
 """
