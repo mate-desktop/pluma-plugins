@@ -84,6 +84,13 @@ else
   disabled_plugins += 'synctex'
 endif
 
+if get_option('plugin_markdown_preview')
+  enabled_plugins += 'markdown-preview'
+  extra_languages += 'python'
+else
+  disabled_plugins += 'markdown-preview'
+endif
+
 if 'python' in extra_languages
   python3 = python.find_installation('python3')
 endif
