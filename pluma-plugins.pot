@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pluma-plugins 1.27.0\n"
+"Project-Id-Version: pluma-plugins 1.28.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
-"POT-Creation-Date: 2023-09-10 11:43+0200\n"
+"POT-Creation-Date: 2026-04-02 22:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,27 +26,27 @@ msgstr ""
 msgid "Easy document navigation with bookmarks"
 msgstr ""
 
-#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:196
 msgid "Toggle Bookmark"
 msgstr ""
 
-#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:197
 msgid "Toggle bookmark status of the current line"
 msgstr ""
 
-#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Go to Next Bookmark"
 msgstr ""
 
-#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Go to the next bookmark"
 msgstr ""
 
-#: plugins/bookmarks/pluma-bookmarks-plugin.c:205
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Previous Bookmark"
 msgstr ""
 
-#: plugins/bookmarks/pluma-bookmarks-plugin.c:206
+#: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the previous bookmark"
 msgstr ""
 
