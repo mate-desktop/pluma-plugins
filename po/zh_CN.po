@@ -6,7 +6,7 @@
 # Translators:
 # Mingcong Bai <jeffbai@aosc.xyz>, 2021
 # Mingye Wang <arthur200126@gmail.com>, 2021
-# OkayPJ <1535253694@qq.com>, 2021
+# OkayPJ <okaypjkk@outlook.com>, 2021
 # Wenbin Lv <wenbin816@gmail.com>, 2023
 # 
 msgid ""

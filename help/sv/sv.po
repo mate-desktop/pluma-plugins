@@ -1,15 +1,15 @@
-# 
 # Translators:
 # eckeman <eckeman@zoho.com>, 2020
 # Hilding Kåstad <hilding.kastad@gmail.com>, 2020
 # Luna Jernberg <droidbittin@gmail.com>, 2021
+# Daniel Nylander <po@danielnylander.se>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>, 2021\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
 "Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,18 +28,18 @@ msgstr ""
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Pluma insticksmoduler"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Pluma insticksmoduler"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
-msgstr ""
+msgstr "Använd plugins för att anpassa hur pluma fungerar för dig."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
@@ -55,7 +55,7 @@ msgstr "Robert Buj"
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Pluma-tillägg"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -64,11 +64,14 @@ msgid ""
 "installed by default, but a large number of other plugins are available "
 "separately."
 msgstr ""
+"Du kan göra mer med <app>pluma</app> genom att använda plugins. Flera "
+"plugins är installerade som standard, men ett stort antal andra plugins "
+"finns tillgängliga separat."
 
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Ytterligare tillägg för Pluma"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -83,11 +86,15 @@ msgid ""
 "a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
 "California, 94041, USA."
 msgstr ""
+"Detta arbete är licensierat under Creative Commons Attribution-ShareAlike "
+"3.0 Unported License. För att se en kopia av denna licens, besök <_:link-1/>"
+" eller skicka ett brev till Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
 
 #. (itstool) path: info/desc
 #: C/bookmarks.page:15
 msgid "Record commonly-referenced locations with bookmarks."
-msgstr ""
+msgstr "Registrera vanliga platser med bokmärken."
 
 #. (itstool) path: page/title
 #: C/bookmarks.page:18
@@ -101,6 +108,10 @@ msgid ""
 "within your document or program, making them easier to find. You can also "
 "move up or down between bookmarks, making document navigation a bit faster."
 msgstr ""
+"med <app>pluma-bokmärken</app> kan du markera viktiga textrader i ditt "
+"dokument eller program, så att de blir lättare att hitta. Du kan också "
+"flytta upp eller ner mellan bokmärkena, vilket gör det lite snabbare att "
+"navigera i dokumentet."
 
 #. (itstool) path: page/p
 #: C/bookmarks.page:25
@@ -109,6 +120,10 @@ msgid ""
 " <gui style=\"menuitem\">Preferences</gui><gui>Plugins</gui> "
 "<gui>Bookmarks</gui></guiseq>."
 msgstr ""
+"För att aktivera bokmärkesplugin, välj <guiseq><gui "
+"style=\"menu\">Redigera</gui> <gui "
+"style=\"menuitem\">Inställningar</gui><gui>Plugins</gui> "
+"<gui>Bokmärken</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:30
@@ -116,11 +131,13 @@ msgid ""
 "Bookmarks are inserted and removed by completing the same action. To insert "
 "or remove bookmarks:"
 msgstr ""
+"Bokmärken sätts in och tas bort genom att utföra samma åtgärd. För att "
+"infoga eller ta bort bokmärken:"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:33
 msgid "Navigate to the line where you want to insert or remove the bookmark."
-msgstr ""
+msgstr "Navigera till den rad där du vill infoga eller ta bort bokmärket."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:37
@@ -129,11 +146,14 @@ msgid ""
 "<guiseq><gui style=\"menu\">Edit</gui><gui style=\"menuitem\">Toggle "
 "Bookmark</gui></guiseq>."
 msgstr ""
+"Tryck på <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>eller "
+"klicka på <guiseq><gui style=\"menu\">Redigera</gui><gui "
+"style=\"menuitem\">Växla bokmärke</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/bookmarks.page:44
 msgid "To move between bookmarks:"
-msgstr ""
+msgstr "För att flytta mellan bokmärken:"
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:46
@@ -141,6 +161,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
 "bookmark."
 msgstr ""
+"Tryck på <keyseq><key>Ctrl</key><key>B</key></keyseq> för att gå till nästa "
+"bokmärke."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:50
@@ -148,6 +170,8 @@ msgid ""
 "Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
 "to the previous bookmark."
 msgstr ""
+"Tryck på <keyseq><key>Ctrl</key><key>Skift</key><key>B</key></keyseq> för "
+"att flytta till föregående bokmärke."
 
 #. (itstool) path: note/p
 #: C/bookmarks.page:53
@@ -157,6 +181,10 @@ msgid ""
 "Bookmark</gui></guiseq> or <guiseq><gui style=\"menu\">Edit</gui> <gui "
 "style=\"menuitem\">Go to Previous Bookmark</gui></guiseq>."
 msgstr ""
+"Om du föredrar att använda musen kan du klicka på <guiseq><gui "
+"style=\"menu\">Redigera</gui><gui style=\"menuitem\">Gå till nästa "
+"bokmärke</gui></guiseq> eller <guiseq><gui style=\"menu\">Redigera</gui> "
+"<gui style=\"menuitem\">Gå till föregående bokmärke</gui></guiseq>."
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
@@ -171,12 +199,12 @@ msgstr "Sindhu S"
 #. (itstool) path: info/desc
 #: C/wordcompletion.page:25
 msgid "Autocomplete words or portions of code as you type."
-msgstr ""
+msgstr "Autokomplettera ord eller delar av kod medan du skriver."
 
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
 msgid "Word Completion"
-msgstr ""
+msgstr "Ordkomplettering"
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:30
@@ -184,11 +212,13 @@ msgid ""
 "The <app>Word Completion</app> plugin can speed up your editing by "
 "suggesting completions of words as you type."
 msgstr ""
+"Pluginet <app>Word Completion</app> kan snabba upp din redigering genom att "
+"föreslå kompletteringar av ord medan du skriver."
 
 #. (itstool) path: steps/title
 #: C/wordcompletion.page:34 C/bracketcompletion.page:24
 msgid "To enable the plugin:"
-msgstr ""
+msgstr "För att aktivera insticksprogrammet:"
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:36
@@ -197,11 +227,16 @@ msgid ""
 "<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Tryck på menyknappen i det övre högra hörnet av fönstret och välj "
+"<guiseq><gui style=\"menuitem\">Inställningar</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:41
 msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
+"Välj <gui style=\"menuitem\">Word Completion</gui> för att aktivera "
+"insticksprogrammet."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:46
@@ -212,6 +247,10 @@ msgid ""
 "document and upon pre-defined keywords if your document is of a recognised "
 "format."
 msgstr ""
+"Tillägget <app>Ordkomplettering</app> visar automatiskt en popup-lista med "
+"ord som börjar med de bokstäver som du redan har skrivit. Ordförslagen "
+"baseras på ord som förekommer på andra ställen i dokumentet och på "
+"fördefinierade nyckelord om dokumentet är i ett erkänt format."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:52
@@ -220,16 +259,19 @@ msgid ""
 "<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
 "number displayed next to your desired word."
 msgstr ""
+"Om du vill infoga ett föreslaget ord dubbelklickar du på det i popup-listan "
+"eller trycker på <keyseq><key>Alt</key><key>Num</key></keyseq>där "
+"<key>Num</key> är den siffra som visas bredvid det önskade ordet."
 
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
-msgstr ""
+msgstr "Automatisk komplettering av slutna parenteser."
 
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Klammerkomplettering"
 
 #. (itstool) path: page/p
 #: C/bracketcompletion.page:20
@@ -237,6 +279,8 @@ msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
 msgstr ""
+"Pluginet <app>Bracket Completion kompletter</app> ar automatiskt stängande "
+"parenteser för krullparenteser, parenteser och hakparenteser."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:26
@@ -245,6 +289,9 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Gå till <guiseq><gui style=\"menuitem\">Redigera</gui> <gui "
+"style=\"menuitem\">Inställningar</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:32
@@ -252,16 +299,19 @@ msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
+"Välj <gui style=\"menuitem\">Bracket Completion</gui> för att aktivera "
+"insticksprogrammet."
 
 #. (itstool) path: note/p
 #: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr ""
+"Detta plugin infogar inte automatiskt avslutande HTML- eller XML-taggar."
 
 #. (itstool) path: info/desc
 #: C/codecomment.page:15
 msgid "Comment-out or uncomment a block of code."
-msgstr ""
+msgstr "Kommentera ut eller kommentera bort ett kodblock."
 
 #. (itstool) path: page/title
 #: C/codecomment.page:18
@@ -275,6 +325,9 @@ msgid ""
 "understand a program's code, but they don't affect how a program works. "
 "Comments are separated from other parts of a program by special characters."
 msgstr ""
+"Kodkommentarer är textavsnitt som gör det lättare att förstå programkoden, "
+"men de påverkar inte hur programmet fungerar. Kommentarer separeras från "
+"andra delar av ett program med hjälp av specialtecken."
 
 #. (itstool) path: page/p
 #: C/codecomment.page:25
@@ -284,6 +337,11 @@ msgid ""
 " style=\"menu\">Edit</gui><gui style=\"menuitem\">Preferences</gui> "
 "<gui>Plugins</gui><gui>Code Comment</gui></guiseq>."
 msgstr ""
+"Plugin-programmet för <app>kodkommentarer</app> gör det enklare att snabbt "
+"skapa eller ta bort kodkommentarer. För att aktivera plugin för "
+"kodkommentarer väljer du <guiseq><gui style=\"menu\">Redigera</gui><gui "
+"style=\"menuitem\">Inställningar</gui> "
+"<gui>Plugins</gui><gui>Kodkommentar</gui></guiseq>."
 
 #. (itstool) path: steps/title
 #: C/codecomment.page:31
@@ -295,6 +353,7 @@ msgstr "Skapa eller ta bort en kommentar"
 msgid ""
 "Highlight the portion of text where you want to add or remove a comment."
 msgstr ""
+"Markera den del av texten där du vill lägga till eller ta bort en kommentar."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:37
@@ -302,6 +361,9 @@ msgid ""
 "To add a comment, click <guiseq><gui style=\"menu\">Edit</gui> <gui>Comment "
 "Code</gui></guiseq>, or press <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 msgstr ""
+"Om du vill lägga till en kommentar klickar du på <guiseq><gui "
+"style=\"menu\">Redigera</gui> <gui>Kod för kommentar</gui></guiseq>eller "
+"tryck på <keyseq><key>Ctrl</key> <key>M</key></keyseq>."
 
 #. (itstool) path: item/p
 #: C/codecomment.page:42
@@ -310,6 +372,9 @@ msgid ""
 "<gui>Uncomment Code</gui></guiseq>, or press <keyseq><key>Shift</key> "
 "<key>Ctrl</key><key>M</key></keyseq>."
 msgstr ""
+"Om du vill ta bort en kommentar klickar du på <guiseq><gui "
+"style=\"menu\">Redigera</gui> <gui>Avkommentera kod</gui></guiseq>eller "
+"tryck på <keyseq><key>Skift</key> <key>Ctrl</key><key>M</key></keyseq>."
 
 #. (itstool) path: note/p
 #: C/codecomment.page:49
@@ -319,12 +384,16 @@ msgid ""
 "your language or syntax, you can select it from the language list in the "
 "bottom <gui>Status bar</gui>."
 msgstr ""
+"<app>pluma</app> kommer automatiskt att använda rätt typ av kommentar "
+"baserat på filens språk eller syntax. Om <app>pluma</app> inte identifierar "
+"ditt språk eller din syntax kan du välja det från språklistan i den nedre "
+"<gui>statusraden</gui>."
 
 #. (itstool) path: info/desc
 #: C/synctex.page:17
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
-msgstr ""
+msgstr "Växla snabbt mellan TeX-källfiler och renderade PDF-dokument i atril."
 
 #. (itstool) path: page/title
 #: C/synctex.page:21
@@ -339,11 +408,16 @@ msgid ""
 "use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>atril</app> and vice versa."
 msgstr ""
+"SyncTeX är en metod som möjliggör synkronisering mellan en TeX-källfil och "
+"PDF-utdata som genereras av en TeX/LaTeX-kompilator. Med detta "
+"insticksprogram kan du använda SyncTeX i <app>pluma</app> för att snabbt "
+"växla från en öppnad TeX-källfil till ett PDF-dokument som öppnats i "
+"<app>atril</app> och vice versa."
 
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "För att aktivera insticksprogrammet <app>SyncTeX</app>:"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -352,11 +426,16 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Välj <guiseq><gui style=\"menu\">Redigera</gui> <gui "
+"style=\"menuitem\">Inställningar</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
 msgstr ""
+"Välj <gui style=\"menuitem\">SyncTeX</gui> för att aktivera "
+"insticksprogrammet."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -365,6 +444,10 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>atril</app> must be installed."
 msgstr ""
+"För att det här insticksprogrammet ska vara användbart krävs att en "
+"TeX/LaTeX-kompilator och SyncTeX är installerade. Båda tillhandahålls av "
+"TeX-distributioner som TeX Live. Även <app>atril</app> måste vara "
+"installerat."
 
 #. (itstool) path: item/p
 #: C/synctex.page:49
@@ -373,6 +456,9 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"En del grundläggande information om hur du konfigurerar SyncTeX och "
+"sammanställer LaTeX-dokument finns i <link "
+"xref=\"help:atril#synctex\"><app>atril-SyncTeX-dokumentationen</app></link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -381,6 +467,9 @@ msgid ""
 "xref=\"help:atril/synctex-search\"> <app>atril</app>-SyncTeX "
 "documentation</link>."
 msgstr ""
+"Kortkommandon och muskontroller finns också dokumenterade i <link "
+"xref=\"help:atril/synctex-search\"> <app>atril-SyncTeX-"
+"dokumentationen</app></link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:60
@@ -388,11 +477,13 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> och <app>Gummi</app> är alternativa textredigerare "
+"som är särskilt utformade för att skriva TeX-kod."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22
 msgid "Add a terminal console to the bottom pane."
-msgstr ""
+msgstr "Lägg till en terminalkonsol i den nedre rutan."
 
 #. (itstool) path: page/title
 #: C/terminal.page:25
@@ -407,23 +498,32 @@ msgid ""
 "pane of the <app>pluma</app> window. This will let you run scripts, install "
 "needed software, or test your program without leaving <app>pluma</app>."
 msgstr ""
+"<app>pluma</app> gör det möjligt att inkludera en inbäddad version av MATE "
+"<app>Terminal</app>, MATE:s kommandoradsapplikation, i den nedre rutan i "
+"<app>pluma-fönstret</app>. Detta gör att du kan köra skript, installera "
+"nödvändig programvara eller testa ditt program utan att lämna "
+"<app>pluma</app>."
 
 #. (itstool) path: steps/title
 #: C/terminal.page:33
 msgid "To enable the <app>Embedded Terminal</app> plugin:"
-msgstr ""
+msgstr "För att aktivera insticksprogrammet <app>Embedded Terminal</app>:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:40
 msgid ""
 "Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
 msgstr ""
+"Välj <gui style=\"menuitem\">Embedded Terminal</gui> för att aktivera "
+"insticksprogrammet."
 
 #. (itstool) path: page/p
 #: C/terminal.page:45
 msgid ""
 "Once you have enabled the plugin, to add a terminal to the bottom pane:"
 msgstr ""
+"När du har aktiverat plugin-programmet lägger du till en terminal i den "
+"nedre rutan:"
 
 #. (itstool) path: item/p
 #: C/terminal.page:50
@@ -432,3 +532,6 @@ msgid ""
 " Pane</gui></guiseq>. Alternatively, you can press "
 "<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
 msgstr ""
+"Välj <guiseq><gui style=\"menu\">Visa</gui> <gui style=\"menuitem\">Nedre "
+"rutan</gui></guiseq>. Alternativt kan du trycka på "
+"<keyseq><key>Ctrl</key><key>F9</key></keyseq>."
