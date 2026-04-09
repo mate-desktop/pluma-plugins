@@ -1,16 +1,17 @@
-# 
 # Translators:
 # clefebvre <clement.lefebvre@linuxmint.com>, 2020
 # Laurent Napias, 2020
 # Yoshida Shouyou, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
+# David D, 2025
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2021\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,18 +42,20 @@ msgstr ""
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Plugins Pluma"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Plugins Pluma"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
 msgid "Use plugins to customize how pluma works for you."
 msgstr ""
+"Utiliser des plugins pour personnaliser la façon dont pluma fonctionne pour "
+"vous."
 
 #. (itstool) path: credit/name
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
@@ -63,12 +66,12 @@ msgstr "Jim Campbell"
 #. (itstool) path: credit/name
 #: C/index.page:16
 msgid "Robert Buj"
-msgstr ""
+msgstr "Robert Buj"
 
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Plugins Pluma"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -77,11 +80,14 @@ msgid ""
 "installed by default, but a large number of other plugins are available "
 "separately."
 msgstr ""
+"Vous pouvez faire davantage avec <app>Pluma</app> en utilisant des plugins "
+"(greffons). Plusieurs plugins sont installés par défaut, mais un grand "
+"nombre d’autres plugins sont disponibles séparément."
 
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Plugins Pluma supplémentaires"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
@@ -193,7 +199,7 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:15
 msgid "Paul Weaver"
-msgstr ""
+msgstr "Paul Weaver"
 
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:19 C/terminal.page:16
@@ -204,11 +210,13 @@ msgstr "Sindhu S"
 #: C/wordcompletion.page:25
 msgid "Autocomplete words or portions of code as you type."
 msgstr ""
+"Complétez automatiquement des mots ou des parties de code au fur et à mesure"
+" que vous tapez."
 
 #. (itstool) path: page/title
 #: C/wordcompletion.page:28
 msgid "Word Completion"
-msgstr ""
+msgstr "Word Completion"
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:30
@@ -216,11 +224,13 @@ msgid ""
 "The <app>Word Completion</app> plugin can speed up your editing by "
 "suggesting completions of words as you type."
 msgstr ""
+"Le plugin <app>Word Completion</app> peut accélérer votre édition en "
+"suggérant des complétions de mots au fur et à mesure que vous tapez."
 
 #. (itstool) path: steps/title
 #: C/wordcompletion.page:34 C/bracketcompletion.page:24
 msgid "To enable the plugin:"
-msgstr ""
+msgstr "Pour activer le plugin :"
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:36
@@ -229,11 +239,16 @@ msgid ""
 "<guiseq><gui style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Appuyez sur le bouton de menu dans le coin supérieur droit de la fenêtre "
+"puis sélectionnez <guiseq><gui style=\"menuitem\">Préférences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/wordcompletion.page:41
 msgid "Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
 msgstr ""
+"Sélectionnez <gui style=\"menuitem\">Word Completion</gui> (ou complétion "
+"mots) pour activer le plugin."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:46
@@ -244,6 +259,11 @@ msgid ""
 "document and upon pre-defined keywords if your document is of a recognised "
 "format."
 msgstr ""
+"Lors de l’édition, le <app>plugin de complétion</app> de mots affichera "
+"automatiquement une liste contextuelle de mots qui commencent par les "
+"lettres que vous avez déjà tapées. Les suggestions de mots sont basées sur "
+"des mots qui apparaissent ailleurs dans votre document et sur des mots-clés "
+"prédéfinis si votre document est d’un format reconnu."
 
 #. (itstool) path: page/p
 #: C/wordcompletion.page:52
@@ -252,16 +272,19 @@ msgid ""
 "<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
 "number displayed next to your desired word."
 msgstr ""
+"Pour insérer un mot suggéré, double-cliquez dessus dans la liste "
+"contextuelle ou appuyez sur <keyseq><key>Alt</key> <key>Num</key></keyseq>, "
+"où <key>Num</key> est le nombre affiché à côté du mot souhaité."
 
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
 msgid "Auto-complete closing brackets."
-msgstr ""
+msgstr "Auto-complétion des parenthèses de fermeture."
 
 #. (itstool) path: page/title
 #: C/bracketcompletion.page:18
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Complétion des parenthèses de fermeture"
 
 #. (itstool) path: page/p
 #: C/bracketcompletion.page:20
@@ -269,6 +292,8 @@ msgid ""
 "The <app>Bracket Completion</app> plugin will auto-complete closing brackets"
 " for curly braces, parentheses and square brackets."
 msgstr ""
+"Le plugin <app>Bracket Completion</app> complétera automatiquement les "
+"crochets de fermeture pour les accolades, parenthèses et crochets."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:26
@@ -277,6 +302,9 @@ msgid ""
 "style=\"menuitem\">Preferences</gui> <gui "
 "style=\"tab\">Plugins</gui></guiseq>."
 msgstr ""
+"Allez dans<guiseq><gui style=\"menuitem\">Modifier</gui> <gui "
+"style=\"menuitem\">Préférences</gui> <gui "
+"style=\"tab\">Plugins</gui></guiseq>."
 
 #. (itstool) path: item/p
 #: C/bracketcompletion.page:32
@@ -284,11 +312,14 @@ msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
+"Sélectionner <gui style=\"menuitem\">Completion crochets ou  pour activer le"
+" plugin."
 
 #. (itstool) path: note/p
 #: C/bracketcompletion.page:38
 msgid "This plugin does not automatically insert closing HTML or XML tags."
 msgstr ""
+"Ce plugin n’insère pas automatiquement les balises HTML ou XML de fermeture."
 
 #. (itstool) path: info/desc
 #: C/codecomment.page:15
@@ -298,7 +329,7 @@ msgstr "Commenter ou décommenter un bloc de code."
 #. (itstool) path: page/title
 #: C/codecomment.page:18
 msgid "Code Comment"
-msgstr ""
+msgstr "Commentaire de code"
 
 #. (itstool) path: page/p
 #: C/codecomment.page:20
@@ -367,11 +398,13 @@ msgstr ""
 msgid ""
 "Quickly switch between TeX source files and rendered PDF documents in atril."
 msgstr ""
+"Basculer rapidement entre les fichiers source TeX et les documents PDF "
+"rendus dans Atril."
 
 #. (itstool) path: page/title
 #: C/synctex.page:21
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #. (itstool) path: page/p
 #: C/synctex.page:23
@@ -381,11 +414,16 @@ msgid ""
 "use SyncTeX in <app>pluma</app> to quickly switch from an opened TeX source "
 "file to a PDF document opened in <app>atril</app> and vice versa."
 msgstr ""
+"SyncTeX est une méthode qui permet la synchronisation entre un fichier "
+"source TeX et le PDF généré par un compilateur TeX/LaTeX. Ce plugin permet "
+"d’utiliser SyncTeX dans <app>Pluma</app> afin de passer rapidement d’un "
+"fichier source TeX ouvert à un document PDF ouvert dans <app>Atril</app> et "
+"vice versa."
 
 #. (itstool) path: steps/title
 #: C/synctex.page:29
 msgid "To enable the <app>SyncTeX</app> plugin:"
-msgstr ""
+msgstr "Pour activer le greffon <app>SyncTeX</app> :"
 
 #. (itstool) path: item/p
 #: C/synctex.page:31 C/terminal.page:35
@@ -399,6 +437,7 @@ msgstr ""
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
 msgstr ""
+"Sélectionnez <gui style=\"menuitem\">SyncTeX</gui> pour activer le plugin."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -407,6 +446,9 @@ msgid ""
 "installed. Both are provided by TeX distributions such as TeX Live. Also "
 "<app>atril</app> must be installed."
 msgstr ""
+"Pour être utile, ce plugin nécessite un compilateur TeX/LaTeX et SyncTeX à "
+"installer. Les deux sont fournis par des distributions TeX telles que TeX "
+"Live. Aussi, <app>Atril</app> doit être installé."
 
 #. (itstool) path: item/p
 #: C/synctex.page:49
@@ -415,6 +457,9 @@ msgid ""
 "can be found in the <link "
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
+"Quelques informations de base sur la configuration de SyncTeX et la "
+"compilation des documents LaTeX peuvent être trouvées dans la<link "
+"xref=\"help:atril#synctex\">documentation <app>Atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
@@ -430,6 +475,8 @@ msgid ""
 "<app>Gnome-LaTeX</app> and <app>Gummi</app> are alternative text editors "
 "specifically designed for writing TeX code."
 msgstr ""
+"<app>Gnome-LaTeX</app> et <app>Gummi</app> sont des éditeurs de texte "
+"alternatifs spécialement conçus pour écrire du code TeX."
 
 #. (itstool) path: info/desc
 #: C/terminal.page:22

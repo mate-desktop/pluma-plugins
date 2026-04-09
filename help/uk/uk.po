@@ -1,15 +1,16 @@
-# 
 # Translators:
 # Юрій Яновський <lytvyn349@ukr.net>, 2020
 # Микола Ткач <chistomov@gmail.com>, 2021
 # Taras Panchenko <top39@ukr.net>, 2021
+# dsafsadf <heneral@gmail.com>, 2025
+# Transifex Bot <>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
 "PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Taras Panchenko <top39@ukr.net>, 2021\n"
+"Last-Translator: Transifex Bot <>, 2026\n"
 "Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -168,7 +169,7 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:19 C/terminal.page:16
 msgid "Sindhu S"
-msgstr ""
+msgstr "Сіндху С"
 
 #. (itstool) path: info/desc
 #: C/wordcompletion.page:25
