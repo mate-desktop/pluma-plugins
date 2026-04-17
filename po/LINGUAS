@@ -1,7 +1,3 @@
-# gedit plugins translations
-#
-# please keep this list sorted alphabetically
-#
 af
 am
 ar
@@ -25,13 +21,14 @@ da
 de
 dz
 el
+en@shaw
 en_AU
 en_CA
 en_GB
-en@shaw
 eo
 es
 es_AR
+es_CL
 es_CO
 et
 eu
@@ -40,9 +37,11 @@ fi
 fr
 frp
 fur
+fy
 ga
 gl
 gu
+ha
 he
 hi
 hr
@@ -50,17 +49,22 @@ hu
 hy
 id
 ie
+ig
 is
 it
 ja
+jv
 ka
+kab
 kk
 kn
 ko
+ks
 ku
 ku_IQ
 ky
 la
+li
 lt
 lv
 mai
@@ -71,16 +75,19 @@ ml
 mn
 mr
 ms
+nan
 nb
 nds
 ne
 nl
 nn
+nqo
 nso
 oc
 or
 pa
 pl
+pms
 ps
 pt
 pt_BR
@@ -99,6 +106,7 @@ te
 th
 tk
 tr
+tt
 ug
 uk
 ur
@@ -106,6 +114,8 @@ uz
 vi
 wa
 xh
+yi
+yo
 zh_CN
 zh_HK
 zh_TW
