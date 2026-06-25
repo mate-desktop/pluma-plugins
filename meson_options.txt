@@ -1,6 +1,7 @@
 option('plugin_bookmarks', type: 'boolean')
 option('plugin_bracketcompletion', type: 'boolean')
 option('plugin_codecomment', type: 'boolean')
+option('plugin_gpgcrypt', type: 'boolean')
 option('plugin_markdown_preview', type: 'boolean')
 option('plugin_quickhighlight', type: 'boolean')
 option('plugin_smartspaces', type: 'boolean')

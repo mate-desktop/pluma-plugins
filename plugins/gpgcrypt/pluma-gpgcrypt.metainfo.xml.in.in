@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>pluma-gpgcrypt</id>
+  <extends>org.mate.pluma.desktop</extends>
+  <name>GPG Encryption</name>
+  <summary>Open and save GPG-encrypted files</summary>
+  <url type="homepage">@PACKAGE_URL@</url>
+  <url type="bugtracker">@PACKAGE_BUGREPORT@</url>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+</component>

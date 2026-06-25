@@ -2,6 +2,7 @@ pluma_help_sources = [
   'bookmarks.page',
   'bracketcompletion.page',
   'codecomment.page',
+  'gpgcrypt.page',
   'synctex.page',
   'terminal.page',
   'wordcompletion.page',

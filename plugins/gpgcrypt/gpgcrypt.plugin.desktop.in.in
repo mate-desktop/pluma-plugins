@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=gpgcrypt
+IAge=3
+Name=GPG Encryption
+Description=Open and save GPG-encrypted files.
+Authors=MATE Developers
+Copyright=Copyright © 2026 MATE Developers
+Website=@PACKAGE_URL@
+Version=@VERSION@

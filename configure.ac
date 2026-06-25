@@ -89,7 +89,7 @@ GLIB_GSETTINGS
 C_PLUGINS="bookmarks quickhighlight sourcecodebrowser wordcompletion"
 
 # Python plugins that don't need special dependencies, besides Python
-PYTHON_PLUGINS="bracketcompletion codecomment markdown-preview smartspaces"
+PYTHON_PLUGINS="bracketcompletion codecomment gpgcrypt markdown-preview smartspaces"
 
 PLUGINS="$C_PLUGINS"
 disabled_plugins=""
@@ -213,6 +213,10 @@ plugins/Makefile
 plugins/codecomment/codecomment.plugin.desktop.in
 plugins/codecomment/Makefile
 plugins/codecomment/pluma-codecomment.metainfo.xml.in
+plugins/gpgcrypt/Makefile
+plugins/gpgcrypt/pluma-gpgcrypt.metainfo.xml.in
+plugins/gpgcrypt/gpgcrypt.plugin.desktop.in
+plugins/gpgcrypt/gpgcrypt/Makefile
 plugins/markdown-preview/markdown-preview.plugin.desktop.in
 plugins/markdown-preview/Makefile
 plugins/markdown-preview/pluma-markdown-preview.metainfo.xml.in
