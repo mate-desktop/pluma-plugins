@@ -1,31 +1,30 @@
-# 
+#
 # Translators:
 # Walter Cheuk <wwycheuk@gmail.com>, 2020
 # 黃柏諺 <s8321414@gmail.com>, 2021
-# 
+# Alang Hsu <alang.hsu@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
-"PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://app.transifex.com/mate/teams/13566/zh_TW/)\n"
+"PO-Revision-Date: 2026-08-03 07:17+0000\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/mate-desktop/help-documentation/pluma-plugins-help/zh_TW/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"黃柏諺 <s8321414@yahoo.com.tw>,2013-14\n"
-"Launchpad 貢獻者：\n"
-"  Jose Sun https://launchpad.net/~josesun\n"
-"  Toomore https://launchpad.net/~toomore\n"
-"  fetag https://launchpad.net/~coolfire\n"
-"Walter Cheuk <wwycheuk@gmail.com>, 2016."
+"黃柏諺 <s8321414@gmail.com>, 2013-2019\n"
+"Walter Cheuk <wwycheuk@gmail.com>, 2016\n"
+"Alang Hsu <alang.hsu@gmail.com>, 2026"
 
 #. (itstool) path: info/title
 #: C/index.page:7
@@ -169,7 +168,7 @@ msgstr ""
 #. (itstool) path: credit/name
 #: C/wordcompletion.page:19 C/terminal.page:16
 msgid "Sindhu S"
-msgstr ""
+msgstr "Sindhu S"
 
 #. (itstool) path: info/desc
 #: C/wordcompletion.page:25
