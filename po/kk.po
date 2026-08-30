@@ -1,24 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the pluma-plugins package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021, 2026.
+#
 # Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pluma-plugins 1.27.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/pluma-plugins/issues\n"
 "POT-Creation-Date: 2023-09-10 11:43+0200\n"
-"PO-Revision-Date: 2020-12-08 11:22+0000\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-30 03:19+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/pluma-plugins/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:6
@@ -28,180 +29,185 @@ msgstr "Бетбелгілер"
 #: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
 #: plugins/bookmarks/pluma-bookmarks.metainfo.xml.in.in:7
 msgid "Easy document navigation with bookmarks"
-msgstr ""
+msgstr "Бетбелгілер арқылы құжат бойынша оңай навигация"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:199
 msgid "Toggle Bookmark"
-msgstr ""
+msgstr "Бетбелгіні ауыстыру"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:200
 msgid "Toggle bookmark status of the current line"
-msgstr ""
+msgstr "Ағымдағы жолдың бетбелгі күйін ауыстыру"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:202
 msgid "Go to Next Bookmark"
-msgstr ""
+msgstr "Келесі бетбелгіге өту"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:203
 msgid "Go to the next bookmark"
-msgstr ""
+msgstr "Келесі бетбелгіге өту"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:205
 msgid "Go to Previous Bookmark"
-msgstr ""
+msgstr "Алдыңғы бетбелгіге өту"
 
 #: plugins/bookmarks/pluma-bookmarks-plugin.c:206
 msgid "Go to the previous bookmark"
-msgstr ""
+msgstr "Алдыңғы бетбелгіге өту"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
 msgid "Bracket Completion"
-msgstr ""
+msgstr "Жақшаларды автоаяқтау"
 
 #: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
 msgid "Automatically adds closing brackets."
-msgstr ""
+msgstr "Жабатын жақшаларды автоматты түрде қосады."
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:6
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:6
 msgid "Code Comment"
-msgstr ""
+msgstr "Код түсініктемесі"
 
 #: plugins/codecomment/codecomment.plugin.desktop.in.in:7
 msgid "Comment out or uncomment a selected block of code."
 msgstr ""
+"Таңдалған код блогына түсініктеме беру немесе түсініктемені алып тастау."
 
 #: plugins/codecomment/codecomment.py:91
 msgid "Co_mment Code"
-msgstr ""
+msgstr "Кодқа түсінікте_ме беру"
 
 #: plugins/codecomment/codecomment.py:93
 msgid "Comment the selected code"
-msgstr ""
+msgstr "Таңдалған кодқа түсініктеме беру"
 
 #: plugins/codecomment/codecomment.py:97
 msgid "U_ncomment Code"
-msgstr ""
+msgstr "Кодтан түсініктемені а_лу"
 
 #: plugins/codecomment/codecomment.py:99
 msgid "Uncomment the selected code"
-msgstr ""
+msgstr "Таңдалған кодтың түсініктемесін алып тастау"
 
 #: plugins/codecomment/pluma-codecomment.metainfo.xml.in.in:7
 msgid "Comment or uncomment blocks of code"
-msgstr ""
+msgstr "Код блоктарына түсініктеме беру немесе оларды алып тастау"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
 msgid "Smart Spaces"
-msgstr ""
+msgstr "Ақылды бос орындар"
 
 #: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
 msgid "Forget you're not using tabulations."
-msgstr ""
+msgstr "Табуляцияны пайдаланбайтыныңызды ұмытыңыз."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:6
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:13
 #: plugins/sourcecodebrowser/sourcecodebrowser/sourcecodebrowser.py:374
 msgid "Source Code Browser"
-msgstr ""
+msgstr "Бастапқы код браузері"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser.plugin.desktop.in.in:7
 msgid "A source code class and function browser for Pluma."
-msgstr ""
+msgstr "Pluma үшін бастапқы код кластары мен функцияларының браузері."
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:57
 msgid "Show _line numbers in tree"
-msgstr ""
+msgstr "Ағашта _жол нөмірлерін көрсету"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:76
 msgid "Load symbols from _remote files"
-msgstr ""
+msgstr "Таңбаларды қ_ашықтағы файлдардан жүктеу"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:95
 msgid "Start with rows _expanded"
-msgstr ""
+msgstr "Жолдарды _жазылған күйде бастау"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:114
 msgid "_Sort list alphabetically"
-msgstr ""
+msgstr "Тізімді әліпби бойынша _сұрыптау"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:139
 msgid "ctags executable"
-msgstr ""
+msgstr "ctags орындалатын файлы"
 
 #: plugins/sourcecodebrowser/sourcecodebrowser/configure_dialog.ui:152
 msgid "ctags"
-msgstr ""
+msgstr "ctags"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:6
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "Жол нөмірлерін көрсету"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:7
 msgid "Show the line number of each item in the source tree."
-msgstr ""
+msgstr "Бастапқы код ағашындағы әрбір элементтің жол нөмірін көрсету."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:11
 msgid "Load Remote Files"
-msgstr ""
+msgstr "Қашықтағы файлдарды жүктеу"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:12
 msgid "Download remote files into a temporary file for parsing the symbols."
-msgstr ""
+msgstr "Таңбаларды талдау үшін қашықтағы файлдарды уақытша файлға жүктеп алу."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:16
 msgid "Expand Rows"
-msgstr ""
+msgstr "Жолдарды жазу"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:17
 msgid "Expand the entire source tree when initially loaded."
-msgstr ""
+msgstr "Бастапқы жүктелген кезде бүкіл бастапқы код ағашын жазу."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:21
 msgid "Sort List"
-msgstr ""
+msgstr "Тізімді сұрыптау"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:22
 msgid ""
 "Sorts the list of symbols alphabetically rather than by where they occur in "
 "the source file."
 msgstr ""
+"Таңбалар тізімін бастапқы файлдағы орналасу ретімен емес, әліпби бойынша "
+"сұрыптайды."
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:26
 msgid "Ctags Executable"
-msgstr ""
+msgstr "Ctags орындалатын файлы"
 
 #: plugins/sourcecodebrowser/org.mate.pluma.plugins.sourcecodebrowser.gschema.xml.in:27
 msgid "Specifies the executable path for Exuberant Ctags."
-msgstr ""
+msgstr "Exuberant Ctags үшін орындалатын файлдың жолын көрсетеді."
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:6
 #: plugins/synctex/synctex.plugin.desktop.in.in:6
 msgid "SyncTeX"
-msgstr ""
+msgstr "SyncTeX"
 
 #: plugins/synctex/pluma-synctex.metainfo.xml.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril"
-msgstr ""
+msgstr "Pluma және Atril арқылы LaTeX пен PDF арасында синхрондау"
 
 #: plugins/synctex/synctex.plugin.desktop.in.in:7
 msgid "Synchronize between LaTeX and PDF with pluma and atril."
-msgstr ""
+msgstr "Pluma және Atril арқылы LaTeX пен PDF арасында синхрондау."
 
 #: plugins/synctex/synctex/synctex.py:316
 #: plugins/synctex/synctex/synctex.py:317
 msgid "Forward Search"
-msgstr ""
+msgstr "Алға іздеу"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:17
 msgid "Whether to silence terminal bell"
-msgstr ""
+msgstr "Терминал қоңырауының дыбысын сөндіру керек пе"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:18
 msgid ""
 "If true, don’t make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr ""
+"Егер мәні ақиқат болса, қолданбалар терминал қоңырауы үшін экрандау тізбегін "
+"жібергенде дыбыс шығармайды."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:25
 msgid "Number of lines to keep in scrollback"
@@ -213,6 +219,9 @@ msgid ""
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
 " discarded. If scrollback-unlimited is true, this value is ignored."
 msgstr ""
+"Сақталатын кері айналдыру жолдарының саны. Терминалда осы жолдар саны "
+"бойынша артқа айналдыруға болады; кері айналдыру буферіне сыймайтын жолдар "
+"еленбейді. Егер scrollback-unlimited мәні ақиқат болса, бұл мән ескерілмейді."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:35
 msgid "Whether an unlimited number of lines should be kept in scrollback"
@@ -238,12 +247,14 @@ msgstr "Ақиқат болса, перне басылған кезде айна
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:54
 msgid "Whether to scroll to the bottom when there’s new output"
-msgstr ""
+msgstr "Жаңа шығыс болған кезде ең астына айналдыру керек пе"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:55
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
+"Егер мәні ақиқат болса, жаңа шығыс пайда болған сайын терминал ең астына "
+"айналдырылады."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:62
 msgid "Default color of text in the terminal"
@@ -254,6 +265,9 @@ msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
 msgstr ""
+"Түс спецификациясы ретіндегі терминалдағы мәтіннің үнсіз келісім бойынша "
+"түсі (HTML стиліндегі он алтылық цифрлар немесе «red» сияқты түс атауы болуы "
+"мүмкін)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:71
 msgid "Default color of terminal background"
@@ -264,6 +278,9 @@ msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
 msgstr ""
+"Түс спецификациясы ретіндегі терминал фонының үнсіз келісім бойынша түсі "
+"(HTML стиліндегі он алтылық цифрлар немесе «red» сияқты түс атауы болуы "
+"мүмкін)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:80
 msgid "Palette for terminal applications"
@@ -275,6 +292,9 @@ msgid ""
 "use. This is that palette, in the form of a colon-separated list of color "
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr ""
+"Терминалдарда терминал ішіндегі қолданбалар пайдалана алатын 16 түсті "
+"палитра бар. Бұл — қос нүктемен бөлінген түс атауларының тізімі түріндегі "
+"сол палитра. Түс атаулары оналтылық пішімде болуы керек, мысалы «#FF00FF»"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:85
 msgid "Whether to use the colors from the theme for the terminal widget"
@@ -285,6 +305,8 @@ msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
 msgstr ""
+"Егер ақиқат болса, пайдаланушы көрсеткен түстердің орнына терминал үшін "
+"мәтін енгізу өрістерінде қолданылатын тема түстерінің сұлбасы пайдаланылады."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:95
 msgid "Whether to blink the cursor"
@@ -295,6 +317,8 @@ msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
 msgstr ""
+"Мүмкін мәндер: курсордың жыпылықтауының глобалды баптауларын пайдалану үшін «"
+"system», немесе режимді анық түрде орнату үшін «on» не «off»."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:103
 msgid "The cursor appearance"
@@ -305,6 +329,9 @@ msgid ""
 "The possible values are “block” to use a block cursor, “ibeam” to use a "
 "vertical line cursor, or “underline” to use an underline cursor."
 msgstr ""
+"Мүмкін мәндер: блок тәрізді курсорды пайдалану үшін «block», вертикалды "
+"сызықты курсорды пайдалану үшін «ibeam», немесе асты сызылған курсорды "
+"пайдалану үшін «underline»."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:111
 msgid "Whether to use the system font"
@@ -315,6 +342,9 @@ msgid ""
 "If true, the terminal will use the desktop-global standard font if it’s "
 "monospace (and the most similar font it can come up with otherwise)."
 msgstr ""
+"Егер мәні ақиқат болса, терминал жұмыс үстелінің глобалды стандартты қарпін "
+"пайдаланады (егер ол ені біркелкі қаріп болса, әйтпесе мүмкіндігінше ұқсас "
+"қаріп таңдалады)."
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:120
 msgid "Font"
@@ -322,7 +352,7 @@ msgstr "Қаріп"
 
 #: plugins/terminal/org.mate.pluma.plugins.terminal.gschema.xml.in:121
 msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-msgstr ""
+msgstr "Pango қарпінің атауы. Мысалдар: «Sans 12» немесе «Monospace Bold 14»."
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:6
 #: plugins/terminal/terminal.py:315
@@ -331,54 +361,54 @@ msgstr "Терминал"
 
 #: plugins/terminal/pluma-terminal.metainfo.xml.in.in:7
 msgid "A simple terminal widget accessible from the bottom panel"
-msgstr ""
+msgstr "Төменгі панельден қолжетімді қарапайым терминал виджеті"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:6
 msgid "Embedded Terminal"
-msgstr ""
+msgstr "Ендірілген терминал"
 
 #: plugins/terminal/terminal.plugin.desktop.in.in:7
 msgid "Embed a terminal in the bottom pane."
-msgstr ""
+msgstr "Терминалды төменгі панельге ендіру."
 
 #: plugins/terminal/terminal.py:336
 msgid "C_hange Directory"
-msgstr ""
+msgstr "Бу_маны өзгерту"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:5
 msgid "Interactive Completion"
-msgstr ""
+msgstr "Интерактивті толықтыру"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:6
 msgid "Whether to enable interactive completion."
-msgstr ""
+msgstr "Интерактивті толықтыруды іске қосу керек пе."
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:11
 msgid "Minimum Word Size"
-msgstr ""
+msgstr "Сөздің минималды өлшемі"
 
 #: plugins/wordcompletion/org.mate.pluma.plugins.wordcompletion.gschema.xml.in:12
 msgid "The minimum word size to complete."
-msgstr ""
+msgstr "Толықтырылатын сөздің минималды өлшемі."
 
 #: plugins/wordcompletion/pluma-word-completion-plugin.c:166
 msgid "Document Words"
-msgstr ""
+msgstr "Құжат сөздері"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
 msgid "Word Completion"
-msgstr ""
+msgstr "Сөздерді толықтыру"
 
 #: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
 msgid "Word completion using the completion framework"
-msgstr ""
+msgstr "Толықтыру фреймворкін пайдаланатын сөздерді аяқтау"
 
 #: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:6
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:5
 msgid "Quickhighlight"
-msgstr ""
+msgstr "Quickhighlight"
 
 #: plugins/quickhighlight/pluma-quickhighlight.metainfo.xml.in.in:7
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in.in:6
 msgid "Highlights every occurrences of selected text"
-msgstr ""
+msgstr "Таңдалған мәтіннің әрбір кездесуін түспен ерекшелейді"
