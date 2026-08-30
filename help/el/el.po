@@ -2,19 +2,21 @@
 # Alexandros Kapetanios <alexandros@gnugr.org>, 2020
 # Efstathios Iosifidis <eiosifidis@gmail.com>, 2021
 # Transifex Bot <>, 2026
-# 
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
-"PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Transifex Bot <>, 2026\n"
-"Language-Team: Greek (https://app.transifex.com/mate/teams/13566/el/)\n"
+"PO-Revision-Date: 2026-07-28 23:18+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/pluma-plugins-help/el/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -29,13 +31,13 @@ msgstr ""
 #: C/index.page:7
 msgctxt "link"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Πρόσθετα Pluma"
 
 #. (itstool) path: info/title
 #: C/index.page:8
 msgctxt "text"
 msgid "Pluma Plugins"
-msgstr ""
+msgstr "Πρόσθετα Pluma"
 
 #. (itstool) path: info/desc
 #: C/index.page:10
@@ -46,17 +48,17 @@ msgstr ""
 #: C/index.page:12 C/bookmarks.page:11 C/wordcompletion.page:11
 #: C/bracketcompletion.page:11 C/codecomment.page:11 C/terminal.page:12
 msgid "Jim Campbell"
-msgstr ""
+msgstr "Jim Campbell"
 
 #. (itstool) path: credit/name
 #: C/index.page:16
 msgid "Robert Buj"
-msgstr ""
+msgstr "Robert Buj"
 
 #. (itstool) path: page/title
 #: C/index.page:22
 msgid "<_:media-1/> <_:media-2/> Pluma Plugins"
-msgstr ""
+msgstr "<_:media-1/> <_:media-2/> Πρόσθετα Pluma"
 
 #. (itstool) path: page/p
 #: C/index.page:27
@@ -69,12 +71,12 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:32
 msgid "Additional Pluma Plugins"
-msgstr ""
+msgstr "Περισσότερα πρόσθετα Pluma"
 
 #. (itstool) path: p/link
 #: C/legal-plugins.xml:7
 msgid "http://creativecommons.org/licenses/by-sa/3.0/"
-msgstr ""
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
 
 #. (itstool) path: license/p
 #: C/legal-plugins.xml:5
