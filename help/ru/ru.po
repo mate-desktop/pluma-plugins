@@ -1,22 +1,26 @@
-# 
+#
 # Translators:
 # XRevan86, 2020
 # Дмитрий Астанков <mornie@basealt.ru>, 2020
 # DrSheppard <georg.b2012@gmail.com>, 2022
 # Sergej A. <Ser82-png@yandex.ru>, 2022
-# 
+# "Sergey A." <Ser82-png@yandex.ru>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-26 22:39+0200\n"
-"PO-Revision-Date: 2020-12-08 11:27+0000\n"
-"Last-Translator: Sergej A. <Ser82-png@yandex.ru>, 2022\n"
-"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
+"PO-Revision-Date: 2026-06-20 09:11+0000\n"
+"Last-Translator: \"Sergey A.\" <Ser82-png@yandex.ru>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/pluma-plugins-help/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -195,7 +199,7 @@ msgid ""
 "bookmark."
 msgstr ""
 "Нажмите <keyseq><key>Ctrl</key><key>B</key></keyseq>, чтобы перейти к "
-"следующей закладке. "
+"следующей закладке."
 
 #. (itstool) path: item/p
 #: C/bookmarks.page:50
@@ -294,9 +298,8 @@ msgid ""
 "number displayed next to your desired word."
 msgstr ""
 "Чтобы вставить слово из предложенных вариантов, дважды щёлкните его во "
-"всплывающем списке или нажмите "
-"<keyseq><key>Alt</key><key>Num</key></keyseq>, где <key>Num</key>  — это "
-"цифра, показанная рядом с нужным словом."
+"всплывающем списке или нажмите <keyseq><key>Alt</key><key>Num</key></keyseq>"
+", где <key>Num</key> — это цифра, показанная рядом с нужным словом."
 
 #. (itstool) path: info/desc
 #: C/bracketcompletion.page:15
@@ -333,8 +336,8 @@ msgid ""
 "Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the "
 "plugin."
 msgstr ""
-"Чтобы включить модуль, выберите  <gui style=\"menuitem\">Дополнение "
-"скобок</gui>."
+"Чтобы включить модуль, выберите <gui style=\"menuitem\">Дополнение скобок</"
+"gui>."
 
 #. (itstool) path: note/p
 #: C/bracketcompletion.page:38
@@ -466,7 +469,7 @@ msgstr ""
 #. (itstool) path: item/p
 #: C/synctex.page:36
 msgid "Select <gui style=\"menuitem\">SyncTeX</gui> to enable the plugin."
-msgstr "Чтобы включить модуль, выберите  <gui style=\"menuitem\">SyncTeX</gui>."
+msgstr "Чтобы включить модуль, выберите <gui style=\"menuitem\">SyncTeX</gui>."
 
 #. (itstool) path: note/p
 #: C/synctex.page:42
@@ -488,8 +491,8 @@ msgid ""
 "xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX documentation</link>."
 msgstr ""
 "Некоторую базовую информацию о настройке SyncTeX и компиляции документов "
-"LaTeX можно найти в документации  <link "
-"xref=\"help:atril#synctex\"><app>atril</app>-SyncTeX</link>."
+"LaTeX можно найти в документации <link xref=\"help:atril#synctex\"><app>"
+"atril</app>-SyncTeX</link>."
 
 #. (itstool) path: item/p
 #: C/synctex.page:55
